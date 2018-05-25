@@ -15,9 +15,13 @@ export default (props) => {
     caption: props.widgetsFor('primaryImage').getIn(['data', 'caption']),
     alt: props.widgetsFor('primaryImage').getIn(['data', 'alt']),
   };
-  // const secondaryImg = props.getAsset(props.widgetsFor('secondaryImage').getIn(['data', 'image']));
+  const secondaryImg = {
+    image: props.getAsset(props.widgetsFor('secondaryImage').getIn(['data', 'image'])).toString(),
+    caption: props.widgetsFor('secondaryImage').getIn(['data', 'caption']),
+    alt: props.widgetsFor('secondaryImage').getIn(['data', 'alt']),
+  }
   const infoObject = props.widgetsFor('infoObject');
-  // const projectGallery = props.widgetsFor('projectGallery');
+  const projectGallery = props.widgetsFor('projectGallery');
 
   return (
     <div>
@@ -60,30 +64,35 @@ export default (props) => {
           </div>
         </div>
       </div>
-      {/* <div> */}
-      {/* <div className="grid-12col">
-          <ProjectImage className="colSpan-6" key='secondary-image' image={secondaryImg.toString()} />
+      <div>
+      <div className="grid-12col">
+          <ProjectImage className="colSpan-6" key='secondary-image' image={secondaryImg} />
         </div>
         {projectGallery &&
           <div className="project-images grid-12col">
-            {projectGallery.map((item, i) => {
-              return (
-                projectGallery.getIn(['data', 'type']) } === 'image' ? 
-                  <ProjectImage key={i} image={item} />
-                :
+            {fields.projectGallery.map((item, i) => {
+              if (item.getIn(['data', 'type']) === 'image') {
+                const image = {
+                  image: props.getAsset(item.getIn(['data', 'image'])).toString(),
+                  caption: item.getIn(['data', 'caption']),
+                  alt: item.getIn(['data', 'alt']),
+                  offsetWidth: item.getIn(['data', 'offsetWidth']),
+                  colWidth: item.getIn(['data', 'colWidth']),
+                }
+                return <ProjectImage key={i} image={image} />
+              } else {
+                return (
                   <blockquote key={i} className="colSpan-12 t-center f-headline-b 
                                         marginBottom-11 bp-1_marginBottom-13 bp-2_marginBottom-28
                                         marginTop-5 bp-1_marginTop-8 bp-2_marginTop-14">
-                    {item.pullQuote}
+                    {item.getIn(['data', 'pullQuote'])}
                   </blockquote>
-              )
+                )
+              }
             })}
           </div>
         }
-      </div> */}
-        
-        {/* <img src={primaryImg.toString()} alt="primary image" /> */}
-        {/* <img src={secondaryImg.toString()} alt="secondary image" /> */}
+      </div>
     </div>
   )
 };

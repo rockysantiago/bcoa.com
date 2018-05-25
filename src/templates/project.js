@@ -30,7 +30,7 @@ export default ({ data }) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
 
-            {fields.infoObject && (
+            {fields.infoObject && fields.infoObject.length (
               <div className="infoObjects">
                 <dl className='grid-2col marginBottom-12 bp-1_marginBottom-16 bp-2_marginBottom-24'>
                   {fields.infoObject.map((item, i) => (

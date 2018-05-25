@@ -8,6 +8,8 @@
   justify-content: flex-end;
   pointer-events: none;
   z-index: 1;
+  will-change: transform;
+  
   svg {
     width:   49px;
     height: 188px;

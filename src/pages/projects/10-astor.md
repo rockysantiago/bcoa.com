@@ -12,6 +12,10 @@ infoObject:
     title: Client
   - description: Full renovation of 275 sf Commercial Lobby
     title: Scope
+  - description: Completed Spring 2015
+    title: Status
+  - description: Raquel Perez-Puig
+    title: Photographs
 primaryImage:
   image: /images/uploads/03-12.jpg
 secondaryImage:

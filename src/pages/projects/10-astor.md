@@ -17,11 +17,11 @@ infoObject:
   - description: Raquel Perez-Puig
     title: Photographs
 primaryImage:
-  image: /images/uploads/03-12.jpg
+  image: /images/uploads/10 Astor_ (8)_1820.jpg
 secondaryImage:
-  image: /images/uploads/03-12.jpg
+  image: /images/uploads/10 Astor_ (10)_1820.jpg
 projectGallery:
-  - image: /images/uploads/03-12.jpg
+  - image: ''
     type: image
 ---
 

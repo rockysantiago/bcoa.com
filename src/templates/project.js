@@ -56,7 +56,7 @@ export default ({ data }) => {
               <ProjectImage className="colSpan-6" key='secondary-image' image={fields.secondaryImage} />
             </div>
           }
-          {fields.projectGallery.length &&
+          {fields.projectGallery && fields.projectGallery.length &&
             <div className="project-images grid-12col">
               {fields.projectGallery.map((item, i) => {
                 return (

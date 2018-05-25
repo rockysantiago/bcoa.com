@@ -15,7 +15,10 @@ export default ({ data }) => {
     <div>
       <Slider slides={data.page.frontmatter.carouselImages} />
       <div className="container">
-        <h2 className="f-page-title">{data.page.frontmatter.title}</h2>
+        <h2 className=" f-page-title
+                        marginTop-8 marginBottom-9
+                        bp-1_marginTop-10 bp-1_marginBottom-7
+                        bp-2_marginTop-17 bp-2_marginBottom-13">{data.page.frontmatter.title}</h2>
         <ul>
           {projects &&
             projects.map(({ node: project }, i) => (
@@ -25,15 +28,32 @@ export default ({ data }) => {
                     <img
                       src={project.frontmatter.previewImage.url}
                       alt={project.frontmatter.previewImage.alt}
+                      className=" marginBottom-5
+                                  bp-1_marginBottom-6
+                                  bp-2_marginBottom-9"
                     />
-                    <h1 className="f-headline-d">{project.frontmatter.title}</h1>
-                    {/* we need descriptor text below and "Read More" filler */}
+                    <h1 className=" f-headline-d
+                                    marginBottom-5
+                                    bp-2_marginBottom-10">
+                      {project.frontmatter.title}
+                    </h1>
+                    {/* we need descriptor text below and "Read More" filler with link */}
+                    <div className="f-subhead
+                                    marginBottom-12
+                                    bp-1_marginBottom-14
+                                    bp-2_marginBottom-30">
+                      <p>
+                        Clear and descriptive two line subhead with limited wordcount to come soon. Here is more text to fill a bit more space...
+                      </p>
+                      <p>Read More</p>
+                    </div>
                   </Link>
                 </article>
               </li>
             ))}
         </ul>
       </div>
+      <hr className="marginBottom-10" />
     </div>
   );
 };

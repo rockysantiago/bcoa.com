@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "MessinaSansCondensedWeb";
+  src: url("../../static/assets/fonts/MessinaSansCondensedWeb-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../../static/assets/fonts/MessinaSansCondensedWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../../static/assets/fonts/MessinaSansCondensedWeb-Bold.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../../static/assets/fonts/MessinaSansCondensedWeb-Bold.woff")
+      format("woff"); /* Pretty Modern Browsers */
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB04;
+}
+
+@font-face {
+  font-family: "MessinaSansBoldWeb";
+  src: url("../../static/assets/fonts/MessinaSansWeb-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../../static/assets/fonts/MessinaSansWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../../static/assets/fonts/MessinaSansWeb-Bold.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../../static/assets/fonts/MessinaSansWeb-Bold.woff") format("woff"); /* Pretty Modern Browsers */
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB04;
+}
+
+@font-face {
+  font-family: "MessinaSansSemiBoldWeb";
+  src: url("../../static/assets/fonts/MessinaSansWeb-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("../../static/assets/fonts/MessinaSansWeb-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../../static/assets/fonts/MessinaSansWeb-SemiBold.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../../static/assets/fonts/MessinaSansWeb-SemiBold.woff")
+      format("woff"); /* Pretty Modern Browsers */
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB04;
+}
+
+@font-face {
+  font-family: "MessinaSansBookWeb";
+  src: url("../../static/assets/fonts/MessinaSansWeb-Book.eot"); /* IE9 Compat Modes */
+  src: url("../../static/assets/fonts/MessinaSansWeb-Book.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../../static/assets/fonts/MessinaSansWeb-Book.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../../static/assets/fonts/MessinaSansWeb-Book.woff") format("woff"); /* Pretty Modern Browsers */
+  font-display: swap;
+    font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB04;
+}
+
+$messina-bold: "MessinaSansBoldWeb", "helvetica neue", "sans-serif";
+$messina-semiBold: "MessinaSansSemiBoldWeb", "helvetica neue", "sans-serif";
+$messina-condensedBold: "MessinaSansCondensedWeb", "helvetica neue",
+  "sans-serif";
+$messina-book: "MessinaSansBookWeb", "helvetica neue", "sans-serif";
+
+// Font Classess
+
+.f-navigation {
+  font-family: $messina-condensedBold;
+  font-size:   51px;
+  line-height: 56px;
+
+  @include bp-1 {
+    font-size:   94px;
+    line-height: 100px;
+  }
+
+  @include bp-2 {
+    font-size:   102px;
+    line-height: 112px;
+  }
+}
+
+.f-headline-a {
+  font-family: $messina-condensedBold;
+  font-size:   32px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  @include bp-1 {
+    font-size:   35px;
+    line-height: 32px;
+  }
+
+  @include bp-2 {
+    font-size:   48px;
+    line-height: 40px;
+  }
+}
+
+.f-headline-b {
+  font-family: $messina-condensedBold;
+  font-size:   32px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  @include bp-1 {
+    font-size:   30px;
+    line-height: 32px;
+  }
+
+  @include bp-2 {
+    font-size:   60px;
+    line-height: 69px;
+  }
+}
+
+.f-headline-c {
+  font-family: $messina-condensedBold;
+  font-size:   28px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  @include bp-1 {
+    font-size:   30px;
+    line-height: 32px;
+  }
+
+  @include bp-2 {
+    font-size:   37px;
+    line-height: 36px;
+  }
+}
+
+.f-headline-d {
+  font-family: $messina-condensedBold;
+  font-size:   32px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  @include bp-1 {
+    font-size:   35px;
+    line-height: 32px;
+  }
+
+  @include bp-2 {
+    font-size:   52px;
+    line-height: 44px;
+  }
+}
+
+.f-page-title {
+  font-family: $messina-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:   16px;
+  line-height: 16px;
+  text-decoration: underline;
+
+  @include bp-1 {
+    font-size:   20px;
+    line-height: 24px;
+  }
+
+  @include bp-2 {
+    font-size:   26px;
+    line-height: 28px;
+  }
+}
+
+.f-subhead {
+  font-family: $messina-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:   15px;
+  line-height: 16px;
+
+  @include bp-1 {
+    font-size:   16px;
+    line-height: 16px;
+  }
+
+  @include bp-2 {
+    font-size:   20px;
+    line-height: 24px;
+  }
+}
+
+.f-display-copy {
+  font-family: $messina-semiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:   21px;
+  line-height: 24px;
+
+  @include bp-1 {
+    font-size:   31px;
+    line-height: 36px;
+  }
+
+  @include bp-2 {
+    font-size:   48px;
+    line-height: 52px;
+  }
+}
+
+@mixin f-copy {
+  font-family: $messina-book, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:   16px;
+  line-height: 20px;
+
+  @include bp-1 {
+    font-size:   16px;
+    line-height: 20px;
+  }
+
+  @include bp-2 {
+    font-size:   22px;
+    line-height: 28px;
+  }
+}
+
+.f-copy {
+  @include f-copy;
+}
+
+.f-copy-bold {
+  @include f-copy;
+  font-family: $messina-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+@mixin f-copy-book {
+  font-family: $messina-book, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:   16px;
+  line-height: 20px;
+
+  @include bp-1 {
+    font-size:   16px;
+    line-height: 20px;
+  }
+
+  @include bp-2 {
+    font-size:   20px;
+    line-height: 24px;
+  }
+}
+
+.f-copy-book {
+  @include f-copy-book;
+}
+
+.f-credit {
+  font-family: $messina-condensedBold;
+  font-size:   16px;
+  line-height: 20px;
+
+  @include bp-1 {
+    font-size:   16px;
+    line-height: 20px;
+  }
+
+  @include bp-2 {
+    font-size:   20px;
+    line-height: 24px;
+  }
+}
+
+.f-caption {
+  font-family: $messina-book;
+  font-size:   16px;
+  line-height: 20px;
+
+  @include bp-1 {
+    font-size:   16px;
+    line-height: 20px;
+  }
+
+  @include bp-2 {
+    font-size:   20px;
+    line-height: 24px;
+  }
+}
+
+.f-slideshow-text {
+  font-family: $messina-book;
+  font-size:   16px;
+  line-height: 16px;
+
+  @include bp-1 {
+    font-size:   21px;
+    line-height: 24px;
+  }
+
+  @include bp-2 {
+    font-size:   26px;
+    line-height: 28px;
+  }
+}
+
+.f-footer-a {
+  font-family: $messina-condensedBold;
+  font-size:   14px;
+  line-height: 17px;
+
+  @include bp-1 {
+    font-size:   14px;
+    line-height: 17px;
+  }
+
+  @include bp-2 {
+    font-size:   18px;
+    line-height: 24px;
+  }
+}
+
+.f-footer-b {
+  font-family: $messina-book;
+  font-size:   14px;
+  line-height: 17px;
+
+  @include bp-1 {
+    font-size:   14px;
+    line-height: 17px;
+  }
+
+  @include bp-2 {
+    font-size:   18px;
+    line-height: 24px;
+  }
+}
+
+.f-news-numbers {
+  font-family: $messina-book;
+  font-size:   11px;
+  line-height: 12px;
+
+  @include bp-1 {
+    font-size:   11px;
+    line-height: 12px;
+  }
+
+  @include bp-2 {
+    font-size:   14px;
+    line-height: 16px;
+  }
+}
+
+.md {
+  p {
+    margin-bottom: var(--unit-7);
+  }
+}

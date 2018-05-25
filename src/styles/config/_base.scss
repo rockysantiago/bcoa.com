@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  // height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale; /* optimize font rendering */
+  -webkit-font-smoothing: antialiased; /* apply font anti-aliasing */
+  text-rendering: optimizeLegibility; /* emphasizes in legibility over rendering speed */
+  -moz-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  -ms-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  -o-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  -webkit-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  font-kerning: normal; /* turn on kerning, highly recomened */
+
+  font-feature-settings: "liga" on; /* ligatures: on or off */
+  font-feature-settings: "dlig" off; /* discretionary-ligatures: on or off */
+  font-feature-settings: "onum" off; /* old-style-figures: on or off */
+  font-feature-settings: "lnum" off; /* lining-figures: on or off */
+  font-feature-settings: "ss01" off; /* alternate glyphs: on or off */
+
+  
+  @include f-copy;
+  font-display: swap;
+}
+
+#___gatsby {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  & > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+footer {
+  background: var(--lightgrey);
+  flex-shrink: 0;
+}
+
+// base
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+dt {
+  font-weight: 600;
+}
+
+dd {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid currentColor;
+}
+
+blockquote {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0;
+
+  &:before {
+    content: '"';
+  }
+  &:after {
+    content: '"';
+  }
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  &:active{ color: currentColor }
+}

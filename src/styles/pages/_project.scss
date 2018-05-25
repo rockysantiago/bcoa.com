@@ -1,0 +1,17 @@
+.project-name {
+  height: var(--unit-12);
+  display: flex;
+  align-items: center;
+}
+
+.project-primaryImage {
+  position: relative;
+
+  > figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,151 @@
+//
+// Colors
+//
+
+:root {
+  // enter colors
+  --red:         #F0503C;
+  --black:       #000000;
+  --yellow:      #FFDE40;
+  --gray:        #929292;
+  --lightRed:    #FFD2C0;
+  --white:       #FFFFFF;
+  --lightYellow: #FFF0C8;
+  --lightGray:   #E6E7E8;
+}
+
+.bg-lightRed {
+  background-color: var(--lightRed);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.c-red {
+  color: var(--red);
+}
+
+.c-gray {
+  color: var(--gray);
+}
+
+//
+// Units
+//
+
+:root {
+  --unit: 4px;
+  @for $i from 0 through 50 {
+    --unit-#{$i}: calc(var(--unit) * #{$i});
+  }
+}
+
+// Component values
+
+:root {
+  --header-height: var(--unit-10);
+  --project-title-height: var(--unit-24);
+  --heroHeight: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-45));
+}
+
+//
+// breakpoints
+//
+
+$breakpoints: '', bp-1, bp-2;
+$bp-1-width: 768px;
+$bp-2-width: 1024px;
+
+@mixin bp-1 {
+  @media (min-width: #{$bp-1-width}) {
+    @content;
+  }
+}
+
+@mixin bp-2 {
+  @media (min-width: #{$bp-2-width}) {
+    @content;
+  }
+}
+
+// Functions
+
+@function uncapitalize($string) {
+  @return to-lower-case(str-slice($string, 1, 1)) + str-slice($string, 2);
+}
+
+// Spacing Helpers
+
+$props: 'margin' 'padding';
+$propsAdj: "", "Vertical", "Horizontal", "Left", "Bottom", "Right", "Top";
+
+@for $h from 1 through length($breakpoints) {
+  @for $i from 1 through length($props) {
+    @for $j from 1 through length($propsAdj) {
+      @for $k from 0 through 50 {
+        @if nth($propsAdj, $j) == 'Vertical' {
+          @if nth($breakpoints, $h) == 'bp-1' {
+            .#{nth($breakpoints, $h)}_#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              @include bp-1 {
+                #{nth($props, $i)}: var(--unit-#{$k}) 0 !important;
+              }
+            }
+          } @else if nth($breakpoints, $h) == 'bp-2' {
+            .#{nth($breakpoints, $h)}_#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              @include bp-2 {
+                #{nth($props, $i)}: var(--unit-#{$k}) 0 !important;
+              }
+            }
+          }
+          @else {
+            .#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              #{nth($props, $i)}: var(--unit-#{$k}) 0 !important;
+            }
+          }
+        } 
+        @else if nth($propsAdj, $j) == 'Horizontal' {
+          @if nth($breakpoints, $h) == 'bp-1' {
+            .#{nth($breakpoints, $h)}_#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              @include bp-1 {
+                #{nth($props, $i)}: 0 var(--unit-#{$k}) !important;
+              }
+            }
+          } @else if nth($breakpoints, $h) == 'bp-2' {
+            .#{nth($breakpoints, $h)}_#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              @include bp-2 {
+                #{nth($props, $i)}: 0 var(--unit-#{$k}) !important;
+              }
+            }
+          } @else {
+            .#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              #{nth($props, $i)}: 0 var(--unit-#{$k}) !important;
+            }
+          }
+        } @else if nth($propsAdj, $j) == '' {
+          .#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+            #{nth($props, $i)}: var(--unit-#{$k}) !important;
+          }
+        } @else {
+          @if nth($breakpoints, $h) == 'bp-1' {
+            .#{nth($breakpoints, $h)}_#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              @include bp-1 {
+                #{nth($props, $i)}-#{uncapitalize(nth($propsAdj, $j))}: var(--unit-#{$k}) !important;
+              }
+            }
+          } @else if nth($breakpoints, $h) == 'bp-2' {
+            .#{nth($breakpoints, $h)}_#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              @include bp-2 {
+                #{nth($props, $i)}-#{uncapitalize(nth($propsAdj, $j))}: var(--unit-#{$k}) !important;
+              }
+            }
+          } @else {
+            .#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {
+              #{nth($props, $i)}-#{uncapitalize(nth($propsAdj, $j))}: var(--unit-#{$k}) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

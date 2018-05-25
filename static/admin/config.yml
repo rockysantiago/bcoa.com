@@ -1,0 +1,268 @@
+backend:
+  name: git-gateway
+  branch: staging
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      
+      - name: "aboutPage"
+        label: "About Page"
+        file: "src/pages/about.md"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "body", widget: "markdown" }
+          - label: Studio Members
+            name: studioMembers
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Principal", name: "principal", widget: "boolean" }
+              - label: Image
+                required: false
+                name: image
+                widget: object
+                fields:
+                  - { label: "Image", name: "url", widget: "image" }
+                  - { label: "Alt", name: "alt", widget: "string" }
+              - { label: "Job Title", name: "jobTitle", widget: "string" }
+              - { label: "Principal Info", name: "principalInfo", widget: "string", required: "false" }
+              - { label: "Member Description", name: "description", widget: "text", required: "false" }
+          - label: Publications
+            name: publications
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Publisher", name: "publisher", widget: "string" }
+              - { label: "Date", name: "date", widget: "date", format: "MMMM D, YYYY" }
+              - { label: "URL", name: "url", widget: "string" }
+          - label: Awards
+            name: awards
+            widget: list
+            fields:
+              - { label: "Award Title", name: "title", widget: "string" }
+              - { label: "Organization Name", name: "orgName", widget: "string" }
+              - { label: "Date", name: "date", widget: "date", format: "MMMM D, YYYY" }
+              - { label: "URL", name: "url", widget: "string" }
+          - label: Collaborators
+            name: collaborators
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Job title", name: "jobTitle", widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: 'false' }
+              - { label: "URL", name: "url", widget: "string", required: 'false' }
+
+      - name: "contactPage"
+        label: "Contact Page"
+        file: "src/pages/contact.md"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - label: Hero Image
+            name: heroImage
+            widget: object
+            fields:
+              - { label: "Image", name: "url", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string" }
+          - { label: "Message", name: "message", widget: "text" }
+      
+      - name: "newsPage"
+        label: "News Page"
+        file: "src/pages/news.md"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "news-page" }
+          - { label: "Title", name: "title", widget: "string" }
+
+      - name: "indexPage"
+        label: "Index / Work Page"
+        file: "src/pages/work.md"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "work-page" }
+          - { label: "Title", name: "title", widget: "string" }
+
+      - name: "featuredPage"
+        label: "Featured / Home Page"
+        file: "src/pages/index.md"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "featured-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - label: "Carousel Images"
+            name: "carouselImages"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "url", widget: "image", default: "/images/uploads/placeholder.jpg" }
+              - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
+              - { label: "Description", name: "description", widget: "markdown" }
+              - label: "Related Project"
+                name: "project"
+                widget: "relation"
+                collection: "projects"
+                searchFields: ["title"]
+                valueField: "title"
+          
+  - name: "projects"
+    label: "Projects"
+    folder: "src/pages/projects"
+    create: true
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page" }
+      - { label: "Project Name", name: "title", widget: "string" }
+      - label: Hero Image
+        name: heroImage
+        widget: object
+        required: 'false'
+        fields:
+          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Alt", name: "alt", widget: "string" }
+      - { label: "Headline", name: "headline", widget: "string", required: 'false' }
+      - { label: "Featured", name: "featured", widget: "boolean", required: 'false' }
+      - label: Preview Image
+        name: previewImage
+        widget: object
+        required: 'false'
+        fields:
+          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Alt", name: "alt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", required: 'false' }
+      - label: Info Object
+        name: infoObject
+        widget: list
+        required: 'false'
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+
+      - label: Primary Image
+        name: primaryImage
+        widget: object
+        required: 'false'
+        fields:
+          - { label: "Image", name: "image", widget: "image", default: "/images/uploads/placeholder.jpg" }
+          - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
+          - { label: "Caption", name: "caption", widget: "string", default: "project image caption" }
+
+      - label: Secondary Image
+        name: secondaryImage
+        required: 'false'
+        widget: object
+        fields:
+          - { label: "Image", name: "image", widget: "image", default: "/images/uploads/placeholder.jpg" }
+          - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
+          - { label: "Caption", name: "caption", widget: "string", default: "project image caption" }
+
+      - label: "Project Gallery Items"
+        name: "projectGallery"
+        widget: "list"
+        required: 'false'
+        fields:
+          - label: Type
+            name: type
+            widget: select
+            options:
+              - label: Image
+                value: image
+              - label: Quote
+                value: quote
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            default: "/images/uploads/placeholder.jpg"
+            condition: 
+              field: type
+              value: image
+          - label: "Column Width"
+            name: "colWidth"
+            widget: "select"
+            options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+            default: "12"
+            condition: 
+              field: type
+              value: image
+          - label: "Offset width"
+            name: "offsetWidth"
+            widget: "select"
+            options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
+            default: "0"
+            condition: 
+              field: type
+              value: image
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+            default: "project image alt"
+            condition: 
+              field: type
+              value: image
+          - label: "Caption"
+            name: "caption"
+            widget: "string"
+            default: "project image caption"
+            condition: 
+              field: type
+              value: image
+          - label: "Pull Quote"
+            name: "pullQuote"
+            widget: "string"
+            condition: 
+              field: type
+              value: quote
+
+  - name: "articles"
+    label: "Articles"
+    folder: "src/pages/articles"
+    create: true
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "article-page" }
+      - { label: "Headline", name: "title", widget: "string" }
+      - label: Image
+        name: image
+        widget: object
+        fields:
+          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Alt", name: "alt", widget: "string" }
+      - { label: "Date", name: "date", widget: "date", format: "M.D.YYYY" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    
+  - name: 'settings'
+    label: 'Settings'
+    delete: false
+    editor: 
+      preview: false
+    files:
+      - name: "general"
+        label: "General"
+        file: 'src/_data/settings/settings.json'
+        description: 'General Site Settings'
+        fields: 
+          - { label: "Site Title", name: "siteTitle", widget: "string" }
+          - { label: "Site Description", name: "siteDescription", widget: "text" }
+          - { label: 'OG Image', name: 'ogImage', widget: 'image' }
+          - { label: 'Twitter Image', name: 'twitterImage', widget: 'image' }
+          - { label: 'Faivcon', name: 'favicon', widget: 'image' } 
+      
+      - name: "contact"
+        label: "Contact"
+        file: 'src/_data/contact/contact.json'
+        description: 'Contact Information'
+        fields: 
+          - label: Address
+            name: address 
+            widget: object
+            fields:
+              - { label: "Street", name: "street", widget: "string" }
+              - { label: "Street2", name: "street2", widget: "string" }
+              - { label: "City", name: "city", widget: "string" }
+              - { label: "State", name: "state", widget: "string" }
+              - { label: "Zip", name: "zip", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }
+          - { label: "Facebook", name: "facebook", widget: "string" }

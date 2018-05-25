@@ -46,8 +46,8 @@ export default (props) => {
                 <dl className='grid-2col marginBottom-12 bp-1_marginBottom-16 bp-2_marginBottom-24'>
                   {infoObject.map((item, i) => (
                     <div key={`infoObject-${i}`} className='marginBottom-4 bp-2_marginBottom-6'>
-                      <dt className="f-credit">{infoObject.getIn(['data', 'title'])}</dt>
-                      <dd className="f-caption">{infoObject.getIn(['data', 'description'])}</dd>
+                      <dt className="f-credit">{item.getIn(['data', 'title'])}</dt>
+                      <dd className="f-caption">{item.getIn(['data', 'description'])}</dd>
                     </div>
                   ))}
                 </dl>

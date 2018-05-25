@@ -70,7 +70,7 @@ export default (props) => {
         </div>
         {projectGallery &&
           <div className="project-images grid-12col">
-            {fields.projectGallery.map((item, i) => {
+            {projectGallery.map((item, i) => {
               if (item.getIn(['data', 'type']) === 'image') {
                 const image = {
                   image: props.getAsset(item.getIn(['data', 'image'])).toString(),

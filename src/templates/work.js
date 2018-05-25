@@ -13,10 +13,12 @@ export default ({ data }) => {
             <li key={i}>
               <article>
                 <Link to={project.fields.slug}>
-                  <img
-                    src={project.frontmatter.previewImage.url}
-                    alt={project.frontmatter.previewImage.alt}
-                  />
+                  {project.frontmatter.previewImage &&
+                    <img
+                      src={project.frontmatter.previewImage.url}
+                      alt={project.frontmatter.previewImage.alt}
+                    />
+                  }
                   {/* project location name should go here with same style as "title" below */}
                   <h1 className="f-subhead">{project.frontmatter.title}</h1>
                 </Link>

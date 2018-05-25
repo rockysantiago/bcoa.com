@@ -16,7 +16,9 @@ export default ({ data }) => {
         </div>
       </div>
 
-      <Hero image={fields.heroImage.url} alt={fields.heroImage.alt} />
+      {fields.heroImage && 
+        <Hero image={fields.heroImage.url} alt={fields.heroImage.alt} />
+      }
       <div className="container marginTop-5 bp-1_marginTop-9 bp-2_marginTop-31">
       {/* Always will be 2 lines of text, even on large resolution as the first image of the proj img array will float over on the right side */}
         <div className="grid-12col">
@@ -42,32 +44,35 @@ export default ({ data }) => {
             )}
           </div>
           <div className="colSpan-1"></div>
-          <div className="project-primaryImage colSpan-6">
-            <ProjectImage key='primary-image' image={fields.primaryImage} />
-          </div>
+          {fields.primaryImage && 
+            <div className="project-primaryImage colSpan-6">
+              <ProjectImage key='primary-image' image={fields.primaryImage} />
+            </div>
+          }
         </div>
-
-          <div>
+        <div>
+          {fields.secondaryImage && 
             <div className="grid-12col">
               <ProjectImage className="colSpan-6" key='secondary-image' image={fields.secondaryImage} />
             </div>
-            {fields.projectGallery &&
-              <div className="project-images grid-12col">
-                {fields.projectGallery.map((item, i) => {
-                  return (
-                    item.type === 'image' ? 
-                      <ProjectImage key={i} image={item} />
-                    :
-                      <blockquote key={i} className="colSpan-12 t-center f-headline-b 
-                                            marginBottom-11 bp-1_marginBottom-13 bp-2_marginBottom-28
-                                            marginTop-5 bp-1_marginTop-8 bp-2_marginTop-14">
-                        {item.pullQuote}
-                      </blockquote>
-                  )
-                })}
-              </div>
-            }
-          </div>
+          }
+          {fields.projectGallery.length &&
+            <div className="project-images grid-12col">
+              {fields.projectGallery.map((item, i) => {
+                return (
+                  item.type === 'image' ? 
+                    <ProjectImage key={i} image={item} />
+                  :
+                    <blockquote key={i} className="colSpan-12 t-center f-headline-b 
+                                          marginBottom-11 bp-1_marginBottom-13 bp-2_marginBottom-28
+                                          marginTop-5 bp-1_marginTop-8 bp-2_marginTop-14">
+                      {item.pullQuote}
+                    </blockquote>
+                )
+              })}
+            </div>
+          }
+        </div>
         
       </div>
     </div>

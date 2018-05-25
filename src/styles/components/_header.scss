@@ -1,10 +1,18 @@
 .headroom-wrapper {
   position: relative;
   z-index: 1000;
+
+}
+
+.headroom {
+  background-color: var(--white);
+  .bg-lightRed & {
+    background-color: var(--lightRed);
+  }
 }
 
 header {
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid currentColor;
   position: relative;
   z-index: 2001;
 }
@@ -21,6 +29,7 @@ header > .container {
   height: var(--unit-9);
   width: var(--unit-9);
   outline: none;
+  color: currentColor;
   
   svg {
     flex: 1;

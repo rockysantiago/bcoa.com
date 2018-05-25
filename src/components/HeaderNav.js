@@ -4,7 +4,7 @@ import { icons } from "./Icons";
 
 export default ({ visible, toggleMenu }) => {
   return (
-    <div className="bg-white">
+    <div>
       <header>
         <div className="container">
           <p style={{ flex: "1" }}>

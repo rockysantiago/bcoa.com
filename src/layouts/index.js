@@ -21,11 +21,11 @@ export default class TemplateWrapper extends Component {
   }
 
   render() {
+    console.log(this.props);
     const homeClasses = classnames(this.props.className, {
-      'bg-lightRed c-red': (this.props.location.pathname === '/about' || '/contact')
+      'bg-lightRed c-red': (this.props.location.pathname === '/about' || this.props.location.pathname === '/contact')
     })
 
-    console.log(this.props);
 
     const {
       children,

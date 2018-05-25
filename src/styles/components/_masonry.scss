@@ -1,0 +1,19 @@
+.masonry {
+  @include bp-1 {
+    width: calc(100% + 4.21%);
+  }
+}
+
+.bp-1_masonry-child-2col {
+  @include bp-1 {
+    width: 50%; 
+    padding-right: 4.21%;
+  }
+}
+
+.bp-2_masonry-child-3col {
+  @include bp-2 {
+    width: 33.333334%; 
+    padding-right: 4.21%;
+  }
+}

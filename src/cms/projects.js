@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Hero from "../components/Hero";
+
 export default (props) => {
   console.log(props);
   const entry = props.entry;
@@ -8,8 +10,17 @@ export default (props) => {
   const primaryImg = props.getAsset(props.widgetsFor('primaryImage').getIn(['data', 'image']));
   const secondaryImg = props.getAsset(props.widgetsFor('secondaryImage').getIn(['data', 'image']));
   const infoObjects = props.widgetsFor('infoObject');
+
   return (
     <div>
+      <div className="container
+                      bp-1_paddingTop-2 bp-2_paddingTop-5
+                      bp-1_marginBottom-3 bp-2_marginBottom-6">
+        <div className="project-name">
+          <h2 className='f-page-title'>{title}</h2>
+        </div>
+      </div>
+      
       <div>{title}</div>
       <img src={heroImg.toString()} alt="hero image" />
       <div>{entry.getIn(['data', 'headline'])}</div>

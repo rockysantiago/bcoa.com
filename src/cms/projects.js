@@ -9,14 +9,14 @@ export default (props) => {
   const title = entry.getIn(['data', 'title']);
   const headline = entry.getIn(['data', 'headline']);
   const body = entry.getIn(['data', 'body']);
-  const heroImg = props.getAsset(props.widgetsFor('heroImage').getIn(['data', 'url']));
+  const heroImg = props.widgetsFor('heroImage').getIn(['data', 'url']) && props.getAsset(props.widgetsFor('heroImage').getIn(['data', 'url'])).toString();
   const primaryImg = {
-    image: props.getAsset(props.widgetsFor('primaryImage').getIn(['data', 'image'])).toString(),
+    image: props.widgetsFor('primaryImage').getIn(['data', 'image']) && props.getAsset(props.widgetsFor('primaryImage').getIn(['data', 'image'])).toString(),
     caption: props.widgetsFor('primaryImage').getIn(['data', 'caption']),
     alt: props.widgetsFor('primaryImage').getIn(['data', 'alt']),
   };
   const secondaryImg = {
-    image: props.getAsset(props.widgetsFor('secondaryImage').getIn(['data', 'image'])).toString(),
+    image: props.widgetsFor('secondaryImage').getIn(['data', 'image']) && props.getAsset(props.widgetsFor('secondaryImage').getIn(['data', 'image'])).toString(),
     caption: props.widgetsFor('secondaryImage').getIn(['data', 'caption']),
     alt: props.widgetsFor('secondaryImage').getIn(['data', 'alt']),
   }
@@ -33,7 +33,7 @@ export default (props) => {
         </div>
       </div>
 
-      <Hero image={heroImg.toString()} alt={'hero image'} />
+      <Hero image={heroImg} alt={'hero image'} />
 
       <div className="container marginTop-5 bp-1_marginTop-9 bp-2_marginTop-31">
         <div className="grid-12col">
@@ -72,7 +72,7 @@ export default (props) => {
               {projectGallery.map((item, i) => {
                 if (item.getIn(['data', 'type']) === 'image') {
                   const image = {
-                    image: props.getAsset(item.getIn(['data', 'image'])).toString(),
+                    image: item.getIn(['data', 'image']) && props.getAsset(item.getIn(['data', 'image'])).toString(),
                     caption: item.getIn(['data', 'caption']),
                     alt: item.getIn(['data', 'alt']),
                     offsetWidth: item.getIn(['data', 'offsetWidth']),

@@ -63,35 +63,35 @@ export default (props) => {
             <ProjectImage key='primary-image' image={primaryImg} />
           </div>
         </div>
-      </div>
-      <div>
-      <div className="grid-12col">
-          <ProjectImage className="colSpan-6" key='secondary-image' image={secondaryImg} />
-        </div>
-        {projectGallery &&
-          <div className="project-images grid-12col">
-            {projectGallery.map((item, i) => {
-              if (item.getIn(['data', 'type']) === 'image') {
-                const image = {
-                  image: props.getAsset(item.getIn(['data', 'image'])).toString(),
-                  caption: item.getIn(['data', 'caption']),
-                  alt: item.getIn(['data', 'alt']),
-                  offsetWidth: item.getIn(['data', 'offsetWidth']),
-                  colWidth: item.getIn(['data', 'colWidth']),
-                }
-                return <ProjectImage key={i} image={image} />
-              } else {
-                return (
-                  <blockquote key={i} className="colSpan-12 t-center f-headline-b 
-                                        marginBottom-11 bp-1_marginBottom-13 bp-2_marginBottom-28
-                                        marginTop-5 bp-1_marginTop-8 bp-2_marginTop-14">
-                    {item.getIn(['data', 'pullQuote'])}
-                  </blockquote>
-                )
-              }
-            })}
+        <div>
+          <div className="grid-12col">
+            <ProjectImage className="colSpan-6" key='secondary-image' image={secondaryImg} />
           </div>
-        }
+          {projectGallery &&
+            <div className="project-images grid-12col">
+              {projectGallery.map((item, i) => {
+                if (item.getIn(['data', 'type']) === 'image') {
+                  const image = {
+                    image: props.getAsset(item.getIn(['data', 'image'])).toString(),
+                    caption: item.getIn(['data', 'caption']),
+                    alt: item.getIn(['data', 'alt']),
+                    offsetWidth: item.getIn(['data', 'offsetWidth']),
+                    colWidth: item.getIn(['data', 'colWidth']),
+                  }
+                  return <ProjectImage key={i} image={image} />
+                } else {
+                  return (
+                    <blockquote key={i} className="colSpan-12 t-center f-headline-b 
+                                          marginBottom-11 bp-1_marginBottom-13 bp-2_marginBottom-28
+                                          marginTop-5 bp-1_marginTop-8 bp-2_marginTop-14">
+                      {item.getIn(['data', 'pullQuote'])}
+                    </blockquote>
+                  )
+                }
+              })}
+            </div>
+          }   
+        </div>
       </div>
     </div>
   )

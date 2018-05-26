@@ -11,7 +11,7 @@ const Member = ({ member }) => (
       alt={ member.image.alt } /> }
     <h3 className=" f-copy-bold">{ member.name }</h3>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }` }>{ member.jobTitle }</p>
-    <p className={ `${ member.principal ? "f-copy-bold" : "" }  marginBottom-5 bp-1_marginBottom-5` }>{ member.principalInfo }</p>
+    <p className={ `${ member.principal ? "f-copy-bold" : "" }  marginBottom-5` }>{ member.principalInfo }</p>
     { member.principal && <p className=" marginBottom-13">{ member.description }</p> }
   </div>
 );
@@ -21,8 +21,7 @@ const Publication = ({ publication }) => (
     <hr className=" marginBottom-2" />
     <h4 className=" f-copy-bold">{ publication.title } -- { publication.publisher }</h4>
     <p className="  f-copy 
-                    marginBottom-7
-                    bp-2_marginBottom-7">
+                    marginBottom-7">
       { publication.date }
     </p>
   </div>
@@ -32,8 +31,7 @@ const Award = ({ award }) => (
   <div>
     <hr className=" marginBottom-2" />
     <h3 className=" f-copy-bold">{ award.title } -- { award.orgName }</h3>
-    <p className="  marginBottom-7
-                    bp-2_marginBottom-7">
+    <p className="  marginBottom-7">
       { award.date }
     </p>
     {/* <a href={ award.url } target="_blank">
@@ -83,7 +81,7 @@ export default ({ data }) => {
         <div
           className=" f-display-copy
                       marginBottom-15
-                      bp-1_marginBottom-15 bp-1_colSpan-10
+                      bp-1_colSpan-10
                       bp-2_marginBottom-26 bp-2_colSpan-9"
           dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         />
@@ -102,7 +100,7 @@ export default ({ data }) => {
             </h2>
             <ul className="nestedGrid-8-2">
               { principals.map((member, i) => (
-                <li className="f-copy" key={`principalMember-${i}`}>
+                <li className="f-copy-bold" key={`principalMember-${i}`}>
                   <Member member={ member } />
                 </li>
               ))}

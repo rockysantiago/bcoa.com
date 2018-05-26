@@ -1,18 +1,17 @@
 import React from "react";
 import Link from "gatsby-link";
 import Masonry from 'react-masonry-component';
-
 import Slider from '../components/Slider';
 
 const renderFeaturedProjects = (projects) => {
   return (
     projects.map(({ node: project }, i) => (
-      <li className='bp-1_masonry-child-2col bp-2_masonry-child-3col' key={i}>
+      <li className='bp-1_masonry-child-2col' key={i}>
         <article>
-          <Link to={project.fields.slug}>
+          <Link to={ project.fields.slug }>
             <img
-              src={project.frontmatter.previewImage.url}
-              alt={project.frontmatter.previewImage.alt}
+              src={ project.frontmatter.previewImage.url }
+              alt={ project.frontmatter.previewImage.alt }
               className=" marginBottom-5
                           bp-1_marginBottom-6
                           bp-2_marginBottom-9"
@@ -20,7 +19,7 @@ const renderFeaturedProjects = (projects) => {
             <h1 className=" f-headline-d
                             marginBottom-5
                             bp-2_marginBottom-10">
-              {project.frontmatter.title}
+              { project.frontmatter.title }
             </h1>
             {/* we need descriptor text below and "Read More" filler with link */}
             <div className="f-subhead
@@ -49,21 +48,21 @@ export default ({ data }) => {
 
   return (
     <div>
-      <Slider slides={data.page.frontmatter.carouselImages} />
+      <Slider slides={ data.page.frontmatter.carouselImages } />
       <div className="container">
         <h2 className=" f-page-title
                         marginTop-8 marginBottom-9
                         bp-1_marginTop-10 bp-1_marginBottom-7
-                        bp-2_marginTop-17 bp-2_marginBottom-13">{data.page.frontmatter.title}</h2>
+                        bp-2_marginTop-17 bp-2_marginBottom-13">
+          { data.page.frontmatter.title }
+        </h2>
         {projects &&                        
           <Masonry
             className={'masonry'}
             elementType={'ul'}
-            options={{
-              transitionDuration: 0
-            }} 
+            options={{ transitionDuration: 0 }}
           >
-            {renderFeaturedProjects(projects)}
+            { renderFeaturedProjects(projects) }
           </Masonry>
         }
       </div>

@@ -97,8 +97,7 @@ export default ({ data }) => {
                             bp-1_marginBottom-3" />
             <h2 className=" f-headline-c 
                             marginBottom-7
-                            bp-1_marginBottom-15              
-                            bp-2_marginBottom-15">
+                            bp-1_marginBottom-15">
               Principals
             </h2>
             <ul className="nestedGrid-8-2">

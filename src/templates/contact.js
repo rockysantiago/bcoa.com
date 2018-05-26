@@ -23,14 +23,15 @@ export default ({ data }) => {
                         bp-1_marginBottom-8
                         bp-2_marginBottom-15"
             dangerouslySetInnerHTML={{ __html: page.html }} />
-        <div className="bp-1_grid-12col
+        {/* more column space --> offsetting strategy needed(padding on the right) */}
+        <div className="bp-2_grid-12col
                         bp-2_marginBottom-50">
           <p className="f-display-copy
                         marginBottom-7
-                        bp-1_colSpan-6">
+                        bp-2_colSpan-6">
             { pageFields.message }
           </p>
-        <div className="bp-1_colSpan-6">
+        <div className="bp-2_colSpan-6">
             <p className="f-display-copy">{ contact.address.street }</p>
             <p className="f-display-copy">{ contact.address.street2 }</p>
             <p className="f-display-copy">

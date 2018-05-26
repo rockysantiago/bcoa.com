@@ -10,29 +10,29 @@ export default ({ visible, toggleMenu }) => {
           <p style={{ flex: "1" }}>
             <a href="/">Breitner Ciaccia–Office of Architecture</a>
           </p>
-          <button className="header-menuButton" onClick={toggleMenu}>
+          <button className="header-menuButton" onClick={ toggleMenu }>
             <span className="hide">{visible ? "Close Menu" : "Open Menu"}</span>
-            {visible ? icons["x-mark"] : icons.hamburger}
+            { visible ? icons["x-mark"] : icons.hamburger }
           </button>
         </div>
       </header>
-      {visible &&
+      { visible &&
         <nav className="menu f-navigation">
           <ul>
             <li>
-              <Link to="/" onClick={toggleMenu}>Featured</Link>
+              <Link to="/" onClick={ toggleMenu }>Featured</Link>
             </li>
             <li>
-              <Link to="/work" onClick={toggleMenu}>Index</Link>
+              <Link to="/work" onClick={ toggleMenu }>Index</Link>
             </li>
             <li>
-              <Link to="/news" onClick={toggleMenu}>News</Link>
+              <Link to="/news" onClick={ toggleMenu }>News</Link>
             </li>
             <li>
-              <Link to="/about" onClick={toggleMenu}>About</Link>
+              <Link to="/about" onClick={ toggleMenu }>About</Link>
             </li>
             <li>
-              <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+              <Link to="/contact" onClick={ toggleMenu }>Contact</Link>
             </li>
           </ul>
         </nav>

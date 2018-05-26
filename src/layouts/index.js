@@ -33,10 +33,10 @@ export default class TemplateWrapper extends Component {
     } = this.props;
 
     return (
-      <div className={homeClasses}>
+      <div className={ homeClasses }>
         <Helmet title="Home | BC–OA" />
         <Headroom>
-          <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} />
+          <HeaderNav visible={ this.state.menuOpen } toggleMenu={ this.toggleMenu } />
         </Headroom>
         <FixedLogo />
         <main>{children()}</main>
@@ -50,35 +50,35 @@ export default class TemplateWrapper extends Component {
             <div className="f-footer-b" style={{ flex: 1, padding: "0 1rem" }}>
               <b>Contact</b>
               <address className="f-footer-b">
-                {data.contactJson.address.street}
+                { data.contactJson.address.street }
                 <br />
-                {data.contactJson.address.street2}
+                { data.contactJson.address.street2 }
                 <br />
-                {data.contactJson.address.city}, {data.contactJson.address.state}{" "}
-                {data.contactJson.address.zip}
+                { data.contactJson.address.city }, { data.contactJson.address.state }{" "}
+                { data.contactJson.address.zip }
                 <br />
               </address>
               –
               <div>
-                <a href={`mailto:${data.contactJson.email}`}>
-                  {data.contactJson.email}
+                <a href={ `mailto:${ data.contactJson.email } ` }>
+                  { data.contactJson.email }
                 </a>
               </div>
               <div>
-                <a href={`tel:${data.contactJson.phone}`}>
-                  {data.contactJson.phone}
+                <a href={ `tel:${ data.contactJson.phone } ` }>
+                  { data.contactJson.phone }
                 </a>
               </div>
             </div>
             <div className="f-footer-b" style={{ flex: 1, padding: "0 1rem" }}>
               <b>Social</b>
               <div>
-                <a href={`http://instagram.com/${data.contactJson.instagram}`}>
+                <a href={`http://instagram.com/${ data.contactJson.instagram }`}>
                   Instagram
                 </a>
               </div>
               <div>
-                <a href={`http://facebook.com/${data.contactJson.facebook}`}>
+                <a href={ `http://facebook.com/${ data.contactJson.facebook } ` }>
                   Facebook
                 </a>
               </div>

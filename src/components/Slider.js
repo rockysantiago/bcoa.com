@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
+import slugify from "slugify";
 
 const PrevArrow = ({ onClick }) => (
   <div className="slick-arrow" onClick={onClick}>
@@ -27,15 +28,18 @@ export default ({ slides }) => {
 
   return (
     <Slider className="hero" {...settings}>
-      {slides.map((slide, i) => (
-        <div className="slide" key={`slide-${i}`}>
-          <div className="slide-info">
-            <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
-            <span>{i + 1}/{slides.length}</span>
+      {slides.map((slide, i) => {
+        slide.project ?
+          <a href={slugify(slide.project)}>Link</a>
+          :
+          <div className="slide" key={`slide-${i}`}>
+            <div className="slide-info">
+              <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
+              <span>{i + 1}/{slides.length}</span>
+            </div>
+            <img src={slide.url} alt={slide.alt} />
           </div>
-          <img src={slide.url} alt={slide.alt} />
-        </div>
-      ))}
+      })}
     </Slider>
   )
 }

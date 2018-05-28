@@ -106,7 +106,7 @@ collections:
                 widget: "relation"
                 collection: "projects"
                 searchFields: ["title"]
-                valueField: "slud"
+                valueField: "title"
           
   - name: "projects"
     label: "Projects"

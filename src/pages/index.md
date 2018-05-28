@@ -5,9 +5,9 @@ carouselImages:
   - alt: Home Page Hero image alt 1
     description: |-
       This is supposed to be two lines
-      
+
       Is this two lines?
-    project: Micro Cabin
+    project: Object Loft
     url: /images/uploads/20greene_c.jpg
   - url: /images/uploads/53rd_c1.jpg
   - url: /images/uploads/740bway_lobby_c1.jpg

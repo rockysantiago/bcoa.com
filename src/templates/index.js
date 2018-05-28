@@ -81,6 +81,7 @@ export const query = graphql`
           url
           alt
           description
+          project
         }
       }
     }

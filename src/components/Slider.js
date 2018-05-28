@@ -23,6 +23,8 @@ export default ({ slides }) => {
     prevArrow: <PrevArrow />
   };
 
+  console.log(slides);
+
   return (
     <Slider className="hero" {...settings}>
       {slides.map((slide, i) => (

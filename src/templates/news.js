@@ -32,7 +32,7 @@ class Article extends Component {
         <h2 className="f-headline-a">{ article.frontmatter.title }</h2>
         <time className="c-gray f-headline-a">{ article.frontmatter.date }</time>
         <div className="f-copy-book
-                        marginTop-2
+                        marginTop-3
                         bp-1_marginTop-4 
                         bp-2_marginTop-5
                         marginBottom-5"
@@ -61,7 +61,7 @@ export default ({ data }) => {
   const articles = data.articles.edges;
 
   return (
-    <div className="container">
+    <div className="container bp-2_marginBottom-8">
       <h1 className="f-page-title
                      marginTop-8 marginBottom-7
                      bp-1_marginTop-10
@@ -78,7 +78,6 @@ export default ({ data }) => {
           {renderArticles(articles)}
         </Masonry>
       }
-      <hr className="marginBottom-4" />
     </div>
   );
 };

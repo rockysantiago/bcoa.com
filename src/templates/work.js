@@ -13,8 +13,8 @@ export default class Work extends Component {
   }
 
   filterProjects(project) {
-    if(this.state.filter === 'all') {return true;}
-    return project.type === this.state.filterValue;
+    if(this.state.filterValue === 'all') {return true;}
+    return project.frontmatter.type === this.state.filterValue;
   }
 
   render() {
@@ -22,17 +22,19 @@ export default class Work extends Component {
     const projects = this.props.data.projects.edges;
     return (
       <div className="container">
-        <h1 className=" f-page-title
-                        marginTop-7 marginBottom-7
-                        bp-1_marginTop-10
-                        bp-2_marginTop-17 bp-2_marginBottom-12"
-        >
-          { page.title }
-        </h1>
-        <ProjectFilter onChange={(val) => this.setState({filterValue: val})}/>
+        <div className="  flex
+                          justifySpaceBetween
+                          marginTop-7 marginBottom-7
+                          bp-1_marginTop-10
+                          bp-2_marginTop-17 bp-2_marginBottom-12">
+          <h1 className="f-page-title">
+            { page.title }
+          </h1>
+          <ProjectFilter onChange={(val) => this.setState({filterValue: val})}/>
+        </div>
         <ul className="bp-1_grid-3col bp-2_grid-4col">
           { projects &&
-            projects.filter(({ node: project }) => this.filterProjects(project)).map((project, i) => {
+            projects.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
               return (
                 <li key={i}>
                   <article>
@@ -49,7 +51,7 @@ export default class Work extends Component {
                                       marginBottom-9
                                       bp-2_marginBottom-21"
                       >
-                        Project Description
+                        {/* Project Description */}
                       </h1>
                     </Link>
                   </article>
@@ -57,7 +59,6 @@ export default class Work extends Component {
               )
             })
           }
-          ))}
         </ul>
       </div>
     );

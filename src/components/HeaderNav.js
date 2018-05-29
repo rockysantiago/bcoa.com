@@ -3,14 +3,14 @@ import Link from "gatsby-link";
 import { icons } from "./Icons";
 import { consolidateStreamedStyles } from 'styled-components';
 
-export default ({ visible, toggleMenu }) => {
+export default ({ visible, toggleMenu, isWindowLarge }) => {
   return (
     <div>
       <header className={visible ? 'c-white' : ''}>
         <div className="container">
-          <p style={{ flex: "1" }}>
-            <a href="/">Breitner Ciaccia–Office of Architecture</a>
-          </p>
+          <div className="flex-1">
+            <Link className="headerLogo" to="/">{ isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall }</Link>
+          </div>
           <button className="header-menuButton" onClick={toggleMenu}>
             <span className="hide">{visible ? "Close Menu" : "Open Menu"}</span>
             {visible ? icons["x-mark"] : icons.hamburger}

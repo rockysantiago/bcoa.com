@@ -19,9 +19,26 @@ header {
 
 header > .container {
   flex-shrink: 0;
-  height: var(--unit-12);
-  display: flex;
   align-items: center;
+  display: flex;
+  height: var(--unit-12);
+  @include bp-1 {
+    height: calc(var(--unit-12) + 20px);
+  }
+  @include bp-2 {
+    height: calc(var(--unit-12) + 44px);
+  }
+}
+
+.headerLogo {
+  display: inline-block;
+  width: 200px;
+  @include bp-1 {
+    width: 372px;
+  }
+  @include bp-2 {
+    width: 480px;
+  }
 }
 
 .header-menuButton {

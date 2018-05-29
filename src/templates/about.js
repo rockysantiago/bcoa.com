@@ -12,7 +12,7 @@ const Member = ({ member }) => (
     <h3 className=" f-copy-bold">{ member.name }</h3>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }` }>{ member.jobTitle }</p>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }  marginBottom-5` }>{ member.principalInfo }</p>
-    { member.principal && <p className=" marginBottom-13">{ member.description }</p> }
+    { member.principal && <p className="f-copy marginBottom-13">{ member.description }</p> }
   </div>
 );
 
@@ -56,7 +56,7 @@ const Collaborator = ({ collaborator }) => (
         <h3 className="f-copy-bold">
         { collaborator.name } - { collaborator.jobTitle }
       </h3>
-        { collaborator.description && <p>{ collaborator.description }</p> }
+        { collaborator.description && <p className="marginBottom-7">{ collaborator.description }</p> }
       </div>
     )}
   </div>
@@ -70,7 +70,10 @@ export default ({ data }) => {
     member => !member.principal
   );
   return (
-    <div className="  container">
+    <div className="container
+                    marginBottom-10
+                    bp-1_marginBottom-11
+                    bp-2_marginBottom-22">
       <h1 className=" f-page-title 
                       marginTop-7 marginBottom-5
                       bp-1_marginTop-10 bp-1_marginBottom-9
@@ -90,6 +93,7 @@ export default ({ data }) => {
       <div className="bp-2_grid-12col">
         { principals && (
           <div className="  marginBottom-2
+                            bp-1_marginBottom-11
                             bp-2_colSpan-8">
             <hr className=" marginBottom-2
                             bp-1_marginBottom-3" />
@@ -129,7 +133,7 @@ export default ({ data }) => {
         )}
       </div>
       
-      <div className="bp-2_grid-12col">
+      <div className="bp-2_grid-12col bp-2_marginBottom-3">
         { fields.publications && (
           <div className="  bp-2_colSpan-6
                             bp-2_marginBottom-20">
@@ -150,8 +154,7 @@ export default ({ data }) => {
           </div>
         )}
         { fields.awards && (
-          <div className="colSpan-6
-                          bp-2_marginBottom-20">
+          <div className="colSpan-6">
           <hr className=" marginBottom-2" />
           <h2 className=" f-headline-c
                           marginBottom-7
@@ -178,9 +181,7 @@ export default ({ data }) => {
                           bp-2_marginBottom-15">
             Collaborators
           </h2>
-          <ul className=" marginBottom-15
-                          bp-1_marginBottom-24
-                          bp-2_grid-2col">
+          <ul className="bp-2_grid-2col">
             { fields.collaborators.map((collaborator, i) => (
               <li key={`award-${i}`}>
                 <Collaborator collaborator={ collaborator } />
@@ -189,7 +190,6 @@ export default ({ data }) => {
           </ul>
         </div>
       )}
-      <hr className="marginBottom-2" />
     </div>
   );
 };

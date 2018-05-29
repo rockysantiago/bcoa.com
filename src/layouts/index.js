@@ -16,8 +16,16 @@ export default class TemplateWrapper extends Component {
     };
   }
 
+  componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions);
+  }
+
   toggleMenu = () => {
     this.state.menuOpen ? this.setState({ menuOpen: false }) : this.setState({ menuOpen: true });
+  }
+
+  updateDimensions = () => {
+    document.body.clientWidth >= 768 ? this.setState({ isWindowLarge: true }) : this.setState({ isWindowLarge: false });
   }
 
   render() {
@@ -36,7 +44,7 @@ export default class TemplateWrapper extends Component {
       <div className={homeClasses}>
         <Helmet title="Home | BC–OA" />
         <Headroom>
-          <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} />
+          <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} isWindowLarge={ this.state.isWindowLarge } />
         </Headroom>
         <FixedLogo />
         <main>{children()}</main>

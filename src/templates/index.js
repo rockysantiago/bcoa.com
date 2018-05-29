@@ -51,8 +51,8 @@ export default ({ data }) => {
       <Slider slides={ data.page.frontmatter.carouselImages } />
       <div className="container">
         <h2 className=" f-page-title
-                        marginTop-8 marginBottom-9
-                        bp-1_marginTop-10 bp-1_marginBottom-7
+                        marginTop-8 marginBottom-7
+                        bp-1_marginTop-10
                         bp-2_marginTop-17 bp-2_marginBottom-13">
           { data.page.frontmatter.title }
         </h2>
@@ -66,7 +66,6 @@ export default ({ data }) => {
           </Masonry>
         }
       </div>
-      <hr className="marginBottom-10" />
     </div>
   );
 };

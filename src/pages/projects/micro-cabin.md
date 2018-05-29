@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: Micro Cabin
+type: residential
 heroImage:
   alt: Micro Cabin - residential forest reclaimed materials
   url: /images/uploads/hero.jpg

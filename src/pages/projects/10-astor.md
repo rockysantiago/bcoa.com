@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 10 Astor
+type: residential
 heroImage:
   url: /images/uploads/10-astor_ph.jpg
 headline: lobby

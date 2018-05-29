@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: Lift Brooklyn
+type: residential
 heroImage:
   url: /images/uploads/lift_brooklyn_ph.jpg
 featured: true

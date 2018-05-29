@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 58th Street
+type: residential
 heroImage:
   url: /images/uploads/58TH ST_ PH.jpg
 headline: 'Collector''s Apartment '

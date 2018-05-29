@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 45 Crosby 5N
+type: residential
 heroImage:
   url: /images/uploads/45_crosbyy_5n_ph.jpg
 headline: A Less Selective Loft

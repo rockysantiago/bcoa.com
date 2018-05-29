@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 'Newline Cinema '
+type: commercial
 heroImage:
   url: /images/uploads/newline-cinema_ph_2.jpg
 previewImage:

@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 568 Grand Street
+type: residential
 heroImage:
   url: /images/uploads/568 GRAND ST_PH.jpg
 previewImage:

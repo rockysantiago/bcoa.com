@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: Jungle House
+type: residential
 headline: Lake View
 previewImage:
   url: /images/uploads/JUNGLE HOUSE_index.jpg

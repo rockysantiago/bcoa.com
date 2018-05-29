@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 740 Broadway
+type: residential
 heroImage:
   url: /images/uploads/740-broadway_lobby_ph.jpg
 headline: Light Folds

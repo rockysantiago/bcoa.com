@@ -115,6 +115,15 @@ collections:
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page" }
       - { label: "Project Name", name: "title", widget: "string" }
+      - label: Type
+        name: type
+        widget: select
+        default: residential
+        options:
+          - label: Residential
+            value: residential
+          - label: Commercial
+            value: commercial
       - label: Hero Image
         name: heroImage
         widget: object

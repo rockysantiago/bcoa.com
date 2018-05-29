@@ -6,7 +6,7 @@ import { consolidateStreamedStyles } from 'styled-components';
 export default ({ visible, toggleMenu }) => {
   return (
     <div>
-      <header className={visible && 'c-white'}>
+      <header className={visible ? 'c-white' : ''}>
         <div className="container">
           <p style={{ flex: "1" }}>
             <a href="/">Breitner Ciaccia–Office of Architecture</a>

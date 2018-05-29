@@ -1,0 +1,11 @@
+.copyInput {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
+
+.copyButton {
+  cursor: pointer;
+  text-decoration: underline;
+}

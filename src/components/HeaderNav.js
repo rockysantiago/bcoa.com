@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Link from "gatsby-link";
 import { icons } from "./Icons";
+import { consolidateStreamedStyles } from 'styled-components';
 
 export default ({ visible, toggleMenu }) => {
   return (

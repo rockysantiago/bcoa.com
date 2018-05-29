@@ -41,23 +41,25 @@ export default class TemplateWrapper extends Component {
         <FixedLogo />
         <main>{children()}</main>
         <footer>
-          <div className="container">
-            <div className="f-footer-a" style={{ flex: 4 }}>
+          <div className="container grid-12col" style={{ outline: "1px solid red" }}>
+            <div className="f-footer-b colSpan-6" style={{ flex: 4 }}>
               <h2>
                 Breitner<br />Ciaccia–<br />Office of<br />Architecture
               </h2>
             </div>
-            <div className="f-footer-b" style={{ flex: 1, padding: "0 1rem" }}>
+            <div className="f-footer-b colSpan-3" style={{ flex: 1, padding: "0 1rem", outline: "1px solid red" }}>
               <b>Contact</b>
-              <address className="f-footer-b">
-                { data.contactJson.address.street }
-                <br />
-                { data.contactJson.address.street2 }
-                <br />
-                { data.contactJson.address.city }, { data.contactJson.address.state }{" "}
-                { data.contactJson.address.zip }
-                <br />
-              </address>
+              <a href="https://goo.gl/maps/cxWiP9aLg6v">
+                <address className="f-footer-b">
+                  { data.contactJson.address.street },
+                  {" "}
+                  { data.contactJson.address.street2 }
+                  <br />
+                  { data.contactJson.address.city }, { data.contactJson.address.state }{" "}
+                  { data.contactJson.address.zip }
+                  <br />
+                </address>
+              </a>
               –
               <div>
                 <a href={ `mailto:${ data.contactJson.email } ` }>
@@ -70,7 +72,7 @@ export default class TemplateWrapper extends Component {
                 </a>
               </div>
             </div>
-            <div className="f-footer-b" style={{ flex: 1, padding: "0 1rem" }}>
+            <div className="f-footer-b colSpan-3" style={{ flex: 1, padding: "0 1rem", outline: "1px solid red" }}>
               <b>Social</b>
               <div>
                 <a href={`http://instagram.com/${ data.contactJson.instagram }`}>

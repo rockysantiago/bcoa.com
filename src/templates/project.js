@@ -63,9 +63,11 @@ export default ({ data }) => {
                   item.type === 'image' ? 
                     <ProjectImage key={i} image={item} />
                   :
-                    <blockquote key={i} className="colSpan-12 t-center f-headline-b 
-                                          marginBottom-11 bp-1_marginBottom-13 bp-2_marginBottom-28
-                                          marginTop-5 bp-1_marginTop-8 bp-2_marginTop-14">
+                    <blockquote key={i} className=" colSpan-10 t-center f-headline-b 
+                                                    marginTop-5 marginBottom-11
+                                                    bp-1_marginTop-8 bp-1_marginBottom-13
+                                                    bp-2_marginTop-14 bp-2_marginBottom-28"
+                    >
                       {item.pullQuote}
                     </blockquote>
                 )

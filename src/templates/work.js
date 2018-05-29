@@ -53,6 +53,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            headline
             previewImage {
               url
               alt

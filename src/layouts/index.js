@@ -33,16 +33,16 @@ export default class TemplateWrapper extends Component {
     } = this.props;
 
     return (
-      <div className={ homeClasses }>
+      <div className={homeClasses}>
         <Helmet title="Home | BC–OA" />
         <Headroom>
-          <HeaderNav visible={ this.state.menuOpen } toggleMenu={ this.toggleMenu } />
+          <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} />
         </Headroom>
         <FixedLogo />
         <main>{children()}</main>
         <footer>
           <div className="container">
-          <hr className="marginBottom-5" />
+            <hr className="marginBottom-5" />
             <div className="bp-1_grid-12col marginBottom-9 bp-1_marginBottom-11 bp-2_marginBottom-41">
               <div className="f-footer-b colSpan-6 marginBottom-7">
                 <h2>
@@ -53,24 +53,24 @@ export default class TemplateWrapper extends Component {
                 <b>Contact</b>
                 <a href="https://goo.gl/maps/cxWiP9aLg6v">
                   <address className="f-footer-b">
-                    { data.contactJson.address.street },
+                    {data.contactJson.address.street},
                     {" "}
-                    { data.contactJson.address.street2 }
+                    {data.contactJson.address.street2}
                     <br />
-                    { data.contactJson.address.city }, { data.contactJson.address.state }{" "}
-                    { data.contactJson.address.zip }
+                    {data.contactJson.address.city}, {data.contactJson.address.state}{" "}
+                    {data.contactJson.address.zip}
                     <br />
                   </address>
                 </a>
                 –
                 <div>
-                  <a href={ `mailto:${ data.contactJson.email } ` }>
-                    { data.contactJson.email }
+                  <a href={`mailto:${data.contactJson.email} `}>
+                    {data.contactJson.email}
                   </a>
                 </div>
                 <div>
-                  <a href={ `tel:${ data.contactJson.phone } ` }>
-                    { data.contactJson.phone }
+                  <a href={`tel:${data.contactJson.phone} `}>
+                    {data.contactJson.phone}
                   </a>
                 </div>
               </div>
@@ -78,12 +78,12 @@ export default class TemplateWrapper extends Component {
               >
                 <b>Social</b>
                 <div>
-                  <a href={`http://instagram.com/${ data.contactJson.instagram }`}>
+                  <a href={`http://instagram.com/${data.contactJson.instagram}`} target="_blank">
                     Instagram
                   </a>
                 </div>
                 <div style={{ flex: 1 }}>
-                  <a href={ `http://facebook.com/${ data.contactJson.facebook } ` }>
+                  <a href={`http://facebook.com/${data.contactJson.facebook} `} target="_blank">
                     Facebook
                   </a>
                 </div>

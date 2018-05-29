@@ -14,7 +14,7 @@ export default class Work extends Component {
 
   filterProjects(project) {
     if(this.state.filter === 'all') {return true;}
-    return type === this.state.filter;
+    return project.type === this.state.filterValue;
   }
 
   render() {

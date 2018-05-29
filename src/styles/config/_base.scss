@@ -118,6 +118,12 @@ blockquote {
   }
 }
 
+article{
+  &:target {
+    // outline: 1px solid red;
+  }
+}
+
 address {
   font-style: normal;
 }

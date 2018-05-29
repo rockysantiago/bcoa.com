@@ -31,7 +31,7 @@ export default ({ data }) => {
                                   marginBottom-9
                                   bp-2_marginBottom-21"
                   >
-                    Project Description
+                    {/* { project.frontmatter.headline && }Project Description */}
                   </h1>
                 </Link>
               </article>

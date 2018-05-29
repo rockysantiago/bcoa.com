@@ -41,50 +41,54 @@ export default class TemplateWrapper extends Component {
         <FixedLogo />
         <main>{children()}</main>
         <footer>
-          <div className="container grid-12col" style={{ outline: "1px solid red" }}>
-            <div className="f-footer-b colSpan-6" style={{ flex: 4 }}>
-              <h2>
-                Breitner<br />Ciaccia–<br />Office of<br />Architecture
-              </h2>
-            </div>
-            <div className="f-footer-b colSpan-3" style={{ flex: 1, padding: "0 1rem", outline: "1px solid red" }}>
-              <b>Contact</b>
-              <a href="https://goo.gl/maps/cxWiP9aLg6v">
-                <address className="f-footer-b">
-                  { data.contactJson.address.street },
-                  {" "}
-                  { data.contactJson.address.street2 }
-                  <br />
-                  { data.contactJson.address.city }, { data.contactJson.address.state }{" "}
-                  { data.contactJson.address.zip }
-                  <br />
-                </address>
-              </a>
-              –
-              <div>
-                <a href={ `mailto:${ data.contactJson.email } ` }>
-                  { data.contactJson.email }
-                </a>
+          <div className="container">
+          <hr className="marginBottom-5" />
+            <div className="bp-1_grid-12col marginBottom-9 bp-1_marginBottom-11 bp-2_marginBottom-41">
+              <div className="f-footer-b colSpan-6 marginBottom-7">
+                <h2>
+                  Breitner<br />Ciaccia–<br />Office of<br />Architecture
+                </h2>
               </div>
-              <div>
-                <a href={ `tel:${ data.contactJson.phone } ` }>
-                  { data.contactJson.phone }
+              <div className="f-footer-b colSpan-3 marginBottom-5 bp-1_marginBottom-0">
+                <b>Contact</b>
+                <a href="https://goo.gl/maps/cxWiP9aLg6v">
+                  <address className="f-footer-b">
+                    { data.contactJson.address.street },
+                    {" "}
+                    { data.contactJson.address.street2 }
+                    <br />
+                    { data.contactJson.address.city }, { data.contactJson.address.state }{" "}
+                    { data.contactJson.address.zip }
+                    <br />
+                  </address>
                 </a>
+                –
+                <div>
+                  <a href={ `mailto:${ data.contactJson.email } ` }>
+                    { data.contactJson.email }
+                  </a>
+                </div>
+                <div>
+                  <a href={ `tel:${ data.contactJson.phone } ` }>
+                    { data.contactJson.phone }
+                  </a>
+                </div>
               </div>
-            </div>
-            <div className="f-footer-b colSpan-3" style={{ flex: 1, padding: "0 1rem", outline: "1px solid red" }}>
-              <b>Social</b>
-              <div>
-                <a href={`http://instagram.com/${ data.contactJson.instagram }`}>
-                  Instagram
-                </a>
+              <div className="f-footer-b colSpan-3" style={{ display: "flex", flexDirection: "column" }}
+              >
+                <b>Social</b>
+                <div>
+                  <a href={`http://instagram.com/${ data.contactJson.instagram }`}>
+                    Instagram
+                  </a>
+                </div>
+                <div style={{ flex: 1 }}>
+                  <a href={ `http://facebook.com/${ data.contactJson.facebook } ` }>
+                    Facebook
+                  </a>
+                </div>
+                <p className="marginTop-4 bp-1_marginTop-0">@ BC–OA {new Date().getFullYear()}</p>
               </div>
-              <div>
-                <a href={ `http://facebook.com/${ data.contactJson.facebook } ` }>
-                  Facebook
-                </a>
-              </div>
-              <p>@ BC–OA {new Date().getFullYear()}</p>
             </div>
           </div>
         </footer>

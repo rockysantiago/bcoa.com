@@ -128,5 +128,7 @@ button {
   border: none;
   font-family: inherit;
   font-size: inherit;
+  outline: none;
   &:active{ color: currentColor }
+
 }

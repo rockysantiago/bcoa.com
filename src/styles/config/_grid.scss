@@ -88,5 +88,11 @@ $gutter: 4.21%;
 //   }
 // }
 
+.bp-2_offset-right-1 {
+  @include bp-2 {
+    margin-right: 18.1%;
+  }
+}
+
 
 

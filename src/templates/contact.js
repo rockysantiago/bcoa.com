@@ -28,7 +28,8 @@ export default ({ data }) => {
                         bp-2_marginBottom-50">
           <p className="f-display-copy
                         marginBottom-7
-                        bp-2_colSpan-6">
+                        bp-2_colSpan-6
+                        bp-2_offset-right-1">
             { pageFields.message }
           </p>
         <div className="bp-2_colSpan-6">

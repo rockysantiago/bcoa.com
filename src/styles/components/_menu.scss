@@ -6,10 +6,12 @@
   top: 0;
   left: 0;
   padding-top: var(--header-height);
-  background-color: var(--red);
   color: var(--black);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

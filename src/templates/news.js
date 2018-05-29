@@ -11,7 +11,7 @@ const renderArticles = (articles) => {
           key={i}
       >
         <article>
-          <Link to={ article.fields.slug }>
+          {/* <Link to={ article.fields.slug }> */}
             <img
               src={ article.frontmatter.image.url }
               alt={ article.frontmatter.image.alt }
@@ -26,7 +26,7 @@ const renderArticles = (articles) => {
                             bp-2_marginTop-5 bp-2_marginBottom-21"
                 dangerouslySetInnerHTML={{ __html: article.html }}
             />
-          </Link>
+          {/* </Link> */}
         </article>
       </li>
     ))

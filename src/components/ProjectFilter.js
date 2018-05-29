@@ -2,7 +2,7 @@ import React from 'react'
 
 export default (props) => {
   return (
-    <div className="marginBottom-12">
+    <div>
       <label className="f-subhead marginRight-4" htmlFor="all">
         <input name="filter" type="radio" id="all" defaultChecked="true" onChange={(el) => props.onChange(el.target.id)} />
         All

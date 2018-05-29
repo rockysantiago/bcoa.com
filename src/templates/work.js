@@ -21,12 +21,17 @@ export default class Work extends Component {
     const page = this.props.data.page.frontmatter;
     const projects = this.props.data.projects.edges;
     return (
-      <div className="container">
+      <div className="container
+                      marginBottom-11
+                      bp-1_marginBottom-3
+                      bp-2_marginBottom-9"
+      >
         <div className="  flex
                           justifySpaceBetween
-                          marginTop-7 marginBottom-7
+                          marginTop-7 marginBottom-6
                           bp-1_marginTop-10
-                          bp-2_marginTop-17 bp-2_marginBottom-12">
+                          bp-2_marginTop-17 bp-2_marginBottom-12"
+        >
           <h1 className="f-page-title">
             { page.title }
           </h1>
@@ -51,7 +56,7 @@ export default class Work extends Component {
                                       marginBottom-9
                                       bp-2_marginBottom-21"
                       >
-                        {/* Project Description */}
+{/* Project Description , may need to change marginBottom if don't use Project Description */}
                       </h1>
                     </Link>
                   </article>

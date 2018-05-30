@@ -255,7 +255,8 @@ collections:
           - { label: "Site Description", name: "siteDescription", widget: "text" }
           - { label: 'OG Image', name: 'ogImage', widget: 'image' }
           - { label: 'Twitter Image', name: 'twitterImage', widget: 'image' }
-          - { label: 'Faivcon', name: 'favicon', widget: 'image' } 
+          - { label: 'Faivcon', name: 'favicon', widget: 'image' }
+          - { label: 'Menu Background', name: 'menuBackground', widget: 'image' }
       
       - name: "contact"
         label: "Contact"

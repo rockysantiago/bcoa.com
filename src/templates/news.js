@@ -73,7 +73,7 @@ export default ({ data }) => {
         <Masonry
           className={'masonry'}
           elementType={'ul'}
-          options={{ transitionDuration: 0 }}
+          options={{ transitionDuration: 0, horizontalOrder: true }}
         >
           {renderArticles(articles)}
         </Masonry>
@@ -85,7 +85,8 @@ export default ({ data }) => {
 export const query = graphql`
   query NewsPageQuery($slug: String!) {
     articles: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { regex: "/article-page/" } } }
+      filter: { frontmatter: { templateKey: { regex: "/article-page/" } } },
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {

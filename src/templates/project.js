@@ -7,7 +7,7 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   const fields = post.frontmatter;
   return (
-    <div>
+    <div className="bp-2_marginBottom-15">
       <div className="container
                       bp-1_paddingTop-2 bp-2_paddingTop-5
                       bp-1_marginBottom-3 bp-2_marginBottom-6">
@@ -19,20 +19,20 @@ export default ({ data }) => {
       {fields.heroImage && 
         <Hero image={fields.heroImage.url} alt={fields.heroImage.alt} />
       }
-      <div className="container marginTop-5 bp-1_marginTop-9 bp-2_marginTop-31">
+      <div className="container marginTop-5 bp-1_marginTop-10 bp-2_marginTop-31">
       {/* Always will be 2 lines of text, even on large resolution as the first image of the proj img array will float over on the right side */}
-        <div className="grid-12col">
+        <div className="bp-1_grid-12col">
           <div className="colSpan-5">
-            <h1 className='f-headline-b marginBottom-4 bp-1_marginBottom-13 bp-2_marginBottom-11'>
+            <h1 className='f-headline-b marginBottom-4 bp-1_marginBottom-13 bp-2_marginBottom-9'>
               {fields.headline}-
             </h1>
-            <div className="md marginBottom-5 bp-1_marginBottom-5 bp-2_marginBottom-10"
+            <div className="marginBottom-5 bp-2_marginBottom-10"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
 
             {fields.infoObject && fields.infoObject.length && (
               <div className="infoObjects">
-                <dl className='grid-2col marginBottom-12 bp-1_marginBottom-16 bp-2_marginBottom-24'>
+                <dl className='bp-1_grid-2col marginBottom-8 bp-1_marginBottom-13 bp-2_marginBottom-24'>
                   {fields.infoObject.map((item, i) => (
                     <div key={`infoObject-${i}`} className='marginBottom-4 bp-2_marginBottom-6'>
                       <dt className="f-credit">{item.title}</dt>
@@ -45,28 +45,28 @@ export default ({ data }) => {
           </div>
           <div className="colSpan-1"></div>
           {fields.primaryImage && 
-            <div className="project-primaryImage colSpan-6">
+            <div className="project-primaryImage bp-1_marginTop-1 colSpan-6">
               <ProjectImage key='primary-image' image={fields.primaryImage} />
             </div>
           }
         </div>
         <div>
           {fields.secondaryImage && 
-            <div className="grid-12col">
+            <div className="bp-1_grid-12col">
               <ProjectImage className="colSpan-6" key='secondary-image' image={fields.secondaryImage} />
             </div>
           }
           {fields.projectGallery && fields.projectGallery.length &&
-            <div className="project-images grid-12col">
+            <div className="project-images bp-1_grid-12col">
               {fields.projectGallery.map((item, i) => {
                 return (
                   item.type === 'image' ? 
                     <ProjectImage key={i} image={item} />
                   :
                   <blockquote key={i} className=" project-blockquote colSpan-12 bp-1_colSpan-11 t-center f-headline-b 
-                                                  marginTop-5 marginBottom-11
-                                                  bp-1_marginTop-8 bp-1_marginBottom-13
-                                                  bp-2_marginTop-14 bp-2_marginBottom-28"
+                                                  marginTop-12 marginBottom-12
+                                                  bp-1_marginTop-7 bp-1_marginBottom-14
+                                                  bp-2_marginTop-14 bp-2_marginBottom-30"
                   >
                     {item.pullQuote}
                   </blockquote>

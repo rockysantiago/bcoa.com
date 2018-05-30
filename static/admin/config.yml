@@ -256,7 +256,7 @@ collections:
           - { label: 'OG Image', name: 'ogImage', widget: 'image' }
           - { label: 'Twitter Image', name: 'twitterImage', widget: 'image' }
           - { label: 'Faivcon', name: 'favicon', widget: 'image' }
-          - { label: 'Menu Background', name: 'menuBackground', widget: 'image' }
+          - { label: 'Menu Background', name: 'menuBG', widget: 'image' }
       
       - name: "contact"
         label: "Contact"

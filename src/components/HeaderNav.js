@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import Link from "gatsby-link";
 import { icons } from "./Icons";
-import { consolidateStreamedStyles } from 'styled-components';
 
-export default ({ visible, toggleMenu, isWindowLarge }) => {
+export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
+  console.log(menuBackground);
   return (
     <div>
       <header className={visible ? 'c-white' : ''}>
@@ -18,7 +18,7 @@ export default ({ visible, toggleMenu, isWindowLarge }) => {
         </div>
       </header>
       {visible &&
-        <nav className="menu f-navigation" style={{ backgroundImage: `url(http://placehold.it/1920/1080)` }}>
+        <nav className="menu f-navigation" style={{ backgroundImage: `url("${menuBackground}")` }}>
           <ul className="c-white">
             <li>
               <Link to="/" onClick={toggleMenu}>Featured</Link>

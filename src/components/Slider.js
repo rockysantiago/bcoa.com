@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 import slugify from "slugify";
+import { icons } from "./Icons";
 
 const PrevArrow = ({ onClick }) => (
   <div className="slick-arrow" onClick={onClick}>

@@ -29,7 +29,7 @@ const renderFeaturedProjects = (projects) => {
               <p>
                 Clear and descriptive two line subhead with limited wordcount to come soon. Here is more text to fill a bit more space...
               </p>
-              <p>Read More</p>
+              <p className="underline">Read More</p>
             </div>
           </Link>
         </article>
@@ -97,7 +97,7 @@ export const query = graphql`
               url
               alt
             }
-            title
+            headline
             date
             featured
           }

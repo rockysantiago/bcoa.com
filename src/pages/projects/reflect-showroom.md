@@ -20,5 +20,22 @@ infoObject:
 primaryImage:
   alt: ''
   image: /images/uploads/REFLECT SHOWROOM_ (7)_1820.jpg
+secondaryImage:
+  image: /images/uploads/REFLECT SHOWROOM_index_2.jpg
+projectGallery:
+  - colWidth: '8'
+    image: /images/uploads/REFLECT SHOWROOM_ (6)_1820.jpg
+    offsetWidth: '0'
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/REFLECT SHOWROOM_ (1)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/REFLECT SHOWROOM_ (2)_1820.jpg
+    offsetWidth: '0'
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/REFLECT SHOWROOM_PROMOPLAN_1820.jpg
+    type: image
 ---
 BC-OA was asked to design a showroom in Soho to present a new architectural surfaces product. The showroom is meant to demonstrate the versatility of a lightweight modular glass panel system containing static graphics, LED illumination and active displays. The space is divided into two zones - a simulated entry lobby with elevator both clad with the modular product followed by an open convention area for rotating exhibits, meetings, demonstrations and educational workshops.

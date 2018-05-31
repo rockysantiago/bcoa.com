@@ -10,12 +10,21 @@
   }
 }
 
+.slick-arrow-container {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
 .slick-next {
   right: var(--unit-10);
 }
 
 .slick-previous {
-  left: var(--unit-10);
+  outline: solid 1px yellow;
 }
 
 .slick-list, .slick-track {

@@ -4,19 +4,19 @@ import slugify from "slugify";
 import { icons } from "./Icons";
 
 const PrevArrow = ({ onClick }) => (
-  <div className="container">
-    <div className="slick-arrow slick-previous" onClick={onClick}>
-      {icons.carouselArrowLeft}
+  <div className="container slick-arrow-container">
+    <div className="slick-arrow" onClick={ onClick }>
+      { icons.carouselArrowLeft }
     </div>
   </div>
 )
 
 const NextArrow = ({ onClick }) => (
-  <div className="container">
-    <div className="slick-arrow slick-next" onClick={onClick} >
-      {icons.carouselArrowRight}
+  // <div className="container">
+    <div className="slick-arrow slick-next" onClick={ onClick } >
+      { icons.carouselArrowRight }
     </div>
-  </div>
+  // </div>
 )
 
 export default ({ slides }) => {
@@ -28,8 +28,6 @@ export default ({ slides }) => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />
   };
-
-  console.log(slides);
 
   return (
     <Slider className="hero" {...settings}>

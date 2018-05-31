@@ -46,7 +46,6 @@ const Menu = ({ in: inProp, menuBG,toggleMenu }) => (
 );
 
 export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
-  console.log(menuBackground);
   return (
     <div>
       <header className={visible ? 'c-white bg-transparent' : ''}>
@@ -60,7 +59,9 @@ export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
           </button>
         </div>
       </header>
-      <Menu in={ visible } menuBG={ menuBackground } toggleMenu={ toggleMenu } />
+      {visible &&
+        <Menu in={ visible } menuBG={ menuBackground } toggleMenu={ toggleMenu } />
+      }
     </div>
   )
 }

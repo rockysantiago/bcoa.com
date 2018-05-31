@@ -2,10 +2,20 @@
   position: absolute;
   top: 50%;
   z-index: 1;
+  width: 28px;
+  height: 28px;
+  > svg {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .slick-next {
-  right: 100;
+  right: var(--unit-10);
+}
+
+.slick-previous {
+  left: var(--unit-10);
 }
 
 .slick-list, .slick-track {

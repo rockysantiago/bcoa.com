@@ -132,9 +132,9 @@ collections:
           - { label: "Image", name: "url", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Headline", name: "headline", widget: "string", required: false }
-      - label: Featured, 
-        name: featured, 
-        widget: object, 
+      - label: Featured
+        name: featured 
+        widget: object
         required: false
         fields:
           - label: Set Featured
@@ -155,6 +155,7 @@ collections:
             name: featuredDescription
             widget: text
             required: false
+            patter: ['^(.{0,280})$', 'Must have less than 280 characters']
             condition: 
               field: isFeatured
               value: true

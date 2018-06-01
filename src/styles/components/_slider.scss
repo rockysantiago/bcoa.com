@@ -47,4 +47,8 @@
   position: absolute;
   bottom: var(--unit-10);
   left: var(--unit-10);
+
+  a:hover {
+    text-decoration: underline;
+  }
 }

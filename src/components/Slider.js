@@ -31,13 +31,15 @@ export default ({ slides }) => {
     <Slider className="hero" {...settings}>
       {slides.map((slide, i) => {
         return slide.project ?
-          <a href={`projects/${slugify(slide.project, { lower: true })}`} className="slide" key={`slide-${i}`}>
+          <div className="slide" key={`slide-${i}`}>
             <div className="slide-info">
-              <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
+              <a href={`projects/${slugify(slide.project, { lower: true })}`}>
+                <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
+              </a>
               <span>{i + 1}/{slides.length}</span>
             </div>
             <img src={slide.url} alt={slide.alt} />
-          </a>
+          </div>
           :
           <div className="slide" key={`slide-${i}`}>
             <div className="slide-info">

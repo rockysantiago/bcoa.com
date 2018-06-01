@@ -8,26 +8,26 @@ import classnames from "classnames";
 import Headroom from 'react-headroom'
 
 export default class TemplateWrapper extends Component {
-  
+
   constructor(props) {
     super(props);
     this.state = {
       menuOpen: false
     };
   }
-  
+
   componentDidMount() {
     window.addEventListener("resize", this.updateDimensions);
   }
-  
+
   toggleMenu = () => {
     this.state.menuOpen ? this.setState({ menuOpen: false }) : this.setState({ menuOpen: true });
   }
-  
+
   updateDimensions = () => {
     document.body.clientWidth >= 768 ? this.setState({ isWindowLarge: true }) : this.setState({ isWindowLarge: false });
   }
-  
+
   render() {
     console.log(this.props.data.settingsJson);
     const homeClasses = classnames(this.props.className, {
@@ -42,10 +42,10 @@ export default class TemplateWrapper extends Component {
     } = this.props;
 
     return (
-      <div className={ homeClasses }>
+      <div className={homeClasses}>
         <Helmet title="Home | BC–OA" />
         <Headroom>
-          <HeaderNav visible={ this.state.menuOpen } toggleMenu={ this.toggleMenu } isWindowLarge={ this.state.isWindowLarge } menuBackground={ menuBackground } />
+          <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} isWindowLarge={this.state.isWindowLarge} menuBackground={menuBackground} />
         </Headroom>
         <FixedLogo />
         <main>{children()}</main>

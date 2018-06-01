@@ -132,31 +132,40 @@ collections:
           - { label: "Image", name: "url", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Headline", name: "headline", widget: "string", required: false }
-      - { label: "Featured", name: "featured", widget: "boolean", required: false }
-      - label: Featured Image
-        name: featuredImage
-        widget: object
-        required: false
-        condition: 
-          field: featured
-          value: true
-        fields:
-          - { label: "Image", name: "url", widget: "image" }
-          - { label: "Alt", name: "alt", widget: "string" }
-      - label: Featured Description
-        name: featuredDescription
-        widget: text
-        required: false
-        condition: 
-          field: featured
-          value: true
-      - label: Preview Image
-        name: previewImage
-        widget: object
+      - label: Featured, 
+        name: featured, 
+        widget: object, 
         required: false
         fields:
-          - { label: "Image", name: "url", widget: "image" }
-          - { label: "Alt", name: "alt", widget: "string" }
+          - label: Set Featured
+            name: isFeatured
+            widget: boolean
+            required: false
+          - label: Featured Image
+            name: featuredImage
+            widget: object
+            required: false
+            condition: 
+              field: isFeatured
+              value: true
+            fields:
+              - { label: "Image", name: "url", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string" }
+          - label: Featured Description
+            name: featuredDescription
+            widget: text
+            required: false
+            condition: 
+              field: isFeatured
+              value: true
+          - label: Preview Image
+            name: previewImage
+            widget: object
+            required: false
+            fields:
+              - { label: "Image", name: "url", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string" }
+      
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - label: Info Object
         name: infoObject

@@ -10,8 +10,8 @@ const renderFeaturedProjects = (projects) => {
         <article>
           <Link to={ project.fields.slug }>
             <img
-              src={ project.frontmatter.previewImage.url }
-              alt={ project.frontmatter.previewImage.alt }
+              src={ project.frontmatter.featured.featuredImage.url }
+              alt={ project.frontmatter.featured.featuredImage.alt }
               className=" marginBottom-5
                           bp-1_marginBottom-6
                           bp-2_marginBottom-9"
@@ -27,7 +27,7 @@ const renderFeaturedProjects = (projects) => {
                             bp-1_marginBottom-14
                             bp-2_marginBottom-30">
               <p>
-                Clear and descriptive two line subhead with limited wordcount to come soon. Here is more text to fill a bit more space...
+                {project.frontmatter.featured.featuredDescription}
               </p>
               <p className="underline">Read More</p>
             </div>
@@ -92,14 +92,16 @@ export const query = graphql`
           id
           frontmatter {
             templateKey
-            featured
-            previewImage {
-              url
-              alt
+            featured {
+              isFeatured
+              featuredImage {
+                url
+                alt
+              }
+              featuredDescription
             }
             title
             date
-            featured
           }
           fields {
             slug

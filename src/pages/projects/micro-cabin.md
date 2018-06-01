@@ -6,7 +6,12 @@ heroImage:
   alt: Micro Cabin - residential forest reclaimed materials
   url: /images/uploads/hero.jpg
 headline: 'A jewel box, packed with functionality'
-featured: true
+featured: 
+  isFeatured: true
+  featuredImage:
+    url: /images/uploads/10-astor_-index.jpg
+    alt: 'this is the alt text'
+  featuredDescription: this is the text of the featured description
 previewImage:
   alt: Micro Cabin - residential living room with cast iron stove
   url: /images/uploads/preview.jpg

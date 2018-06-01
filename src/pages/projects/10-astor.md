@@ -5,7 +5,12 @@ type: residential
 heroImage:
   url: /images/uploads/10-astor_ph.jpg
 headline: lobby
-featured: true
+featured: 
+  isFeatured: true
+  featuredImage:
+    url: /images/uploads/10-astor_-index.jpg
+    alt: 'this is the alt text'
+  featuredDescription: this is the text of the featured description
 previewImage:
   url: /images/uploads/10-astor_-index.jpg
 infoObject:

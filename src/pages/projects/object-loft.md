@@ -5,7 +5,12 @@ type: residential
 heroImage:
   url: /images/uploads/20green_ph.jpg
 headline: 'objects, functional by design'
-featured: true
+featured: 
+  isFeatured: true
+  featuredImage:
+    url: /images/uploads/10-astor_-index.jpg
+    alt: 'this is the alt text'
+  featuredDescription: this is the text of the featured description
 previewImage:
   url: /images/uploads/index_copyright_barkow_photo_6363.jpg
 infoObject:

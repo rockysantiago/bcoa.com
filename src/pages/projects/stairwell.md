@@ -6,6 +6,13 @@ heroImage:
   url: /images/uploads/STAIRWELL_PH_1.jpg
 previewImage:
   url: /images/uploads/STAIR-WELL_index.jpg
+infoObject:
+  - description: Competition entry
+    title: CLIENT
+  - description: 'Modular, ground up aff ordable housing'
+    title: SCOPE
+  - description: Submitted Fall 2017
+    title: STATUS
 primaryImage:
   image: /images/uploads/STAIR-WELL_ (4)_1820.jpg
 secondaryImage:

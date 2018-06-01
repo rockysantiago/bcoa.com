@@ -159,13 +159,14 @@ collections:
             condition: 
               field: isFeatured
               value: true
-          - label: Preview Image
-            name: previewImage
-            widget: object
-            required: false
-            fields:
-              - { label: "Image", name: "url", widget: "image" }
-              - { label: "Alt", name: "alt", widget: "string" }
+              
+      - label: Preview Image
+        name: previewImage
+        widget: object
+        required: false
+        fields:
+          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Alt", name: "alt", widget: "string" }
       
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - label: Info Object

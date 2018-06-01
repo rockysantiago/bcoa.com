@@ -5,14 +5,15 @@
 
 .headroom {
   will-change: transform;
-  background-color: var(--white);
-  .bg-lightRed & {
-    background-color: var(--lightRed);
-  }
 }
 
 header {
   border-bottom: 1px solid currentColor;
+  background-color: var(--white);
+  .bg-lightRed & {
+    background-color: var(--lightRed);
+  }
+  transition: background-color 300ms, color 300ms;
   position: relative;
   z-index: 2001;
 }

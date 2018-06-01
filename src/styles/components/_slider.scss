@@ -2,10 +2,29 @@
   position: absolute;
   top: 50%;
   z-index: 1;
+  width: 28px;
+  height: 28px;
+  > svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.slick-arrow-container {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 .slick-next {
-  right: 100;
+  right: var(--unit-10);
+}
+
+.slick-previous {
+  outline: solid 1px yellow;
 }
 
 .slick-list, .slick-track {

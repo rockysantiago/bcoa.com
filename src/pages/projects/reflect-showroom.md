@@ -23,18 +23,18 @@ primaryImage:
 secondaryImage:
   image: /images/uploads/REFLECT SHOWROOM_index_2.jpg
 projectGallery:
-  - colWidth: '8'
+  - colWidth: '12'
     image: /images/uploads/REFLECT SHOWROOM_ (6)_1820.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '4'
     image: /images/uploads/REFLECT SHOWROOM_ (1)_1820.jpg
     type: image
-  - colWidth: '6'
+  - colWidth: '8'
     image: /images/uploads/REFLECT SHOWROOM_ (2)_1820.jpg
     offsetWidth: '0'
     type: image
-  - colWidth: '6'
+  - colWidth: '8'
     image: /images/uploads/REFLECT SHOWROOM_PROMOPLAN_1820.jpg
     type: image
 ---

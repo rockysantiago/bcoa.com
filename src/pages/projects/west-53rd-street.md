@@ -32,10 +32,14 @@ projectGallery:
     type: image
   - colWidth: '8'
     image: /images/uploads/W 53RD ST_ (4)_1820.jpg
+    offsetWidth: '4'
     type: image
   - colWidth: '6'
     image: /images/uploads/W 53RD ST_ (8)_1820.jpg
-    offsetWidth: '6'
+    offsetWidth: '0'
+    type: image
+  - colWidth: '5'
+    image: /images/uploads/W 53RD ST_ (3)_1820.jpg
     type: image
 ---
 Created while working at Smith-miller + Hawkinson Architects, 405 West 53rd Street, aka The Dillon, achieves an interlocking puzzle of urban living. The south-facing animated, folding glass curtain wall of this 87 Unit apartment building in hell’s kitchen participates in the revitalization of the area. A key feature in all units has been coined the “parallel projected window” (seen on following page), which allows the city to subtly enter the unit’s space. The diversity of dwelling type, ranging from duplex floor-throughs to triplex maisonette units with garage parking and private entrances, to familiar simplex units, offers a rare range of options for both buyer and seller. Bronwyn Breitner was a key person on this job while employed with SMH+.

@@ -14,4 +14,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
 }

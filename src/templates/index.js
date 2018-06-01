@@ -16,20 +16,21 @@ const renderFeaturedProjects = (projects) => {
                           bp-1_marginBottom-6
                           bp-2_marginBottom-9"
             />
-            <h1 className=" f-headline-d
-                            marginBottom-5
-                            bp-2_marginBottom-10">
-              { project.frontmatter.title }
-            </h1>
-            {/* we need descriptor text below and "Read More" filler with link */}
-            <div className="f-subhead
-                            marginBottom-12
-                            bp-1_marginBottom-14
-                            bp-2_marginBottom-30">
-              <p>
-                {project.frontmatter.featured.featuredDescription}
-              </p>
-              <p className="underline">Read More</p>
+            <div className="featured-info">
+              <h1 className=" f-headline-d
+                              marginBottom-5
+                              bp-2_marginBottom-10">
+                { project.frontmatter.title }
+              </h1>
+              <div className="f-subhead
+                              marginBottom-12
+                              bp-1_marginBottom-14
+                              bp-2_marginBottom-30">
+                <p>
+                  {project.frontmatter.featured.featuredDescription}
+                </p>
+                <p className="underline">Read More</p>
+            </div>
             </div>
           </Link>
         </article>

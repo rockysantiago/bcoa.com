@@ -69,7 +69,7 @@ export default class TemplateWrapper extends Component {
           <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} isWindowLarge={this.state.isWindowLarge} menuBackground={menuBackground} />
         </Headroom>
         <FixedLogo fixedNavPast={this.state.fixedNavPast} />
-        <main ref={(el) => { if (el) { this.main = el; this.createObserver(); } }}>{children()}</main>
+        <main ref={(el) => { if (el) { this.main = el } }}>{children()}</main>
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />

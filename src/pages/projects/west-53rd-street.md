@@ -38,7 +38,7 @@ projectGallery:
     image: /images/uploads/W 53RD ST_ (8)_1820.jpg
     offsetWidth: '0'
     type: image
-  - colWidth: '5'
+  - colWidth: '6'
     image: /images/uploads/W 53RD ST_ (3)_1820.jpg
     type: image
 ---

@@ -4,19 +4,19 @@ import slugify from "slugify";
 import { icons } from "./Icons";
 
 const PrevArrow = ({ onClick }) => (
-  <div className="container slick-arrow-container">
-    <div className="slick-arrow" onClick={ onClick }>
-      { icons.carouselArrowLeft }
+  <div className="container slick-container">
+    <div className="slick-arrow slick-previous c-white" onClick={onClick}>
+      {icons.carouselArrowLeft}
     </div>
   </div>
 )
 
 const NextArrow = ({ onClick }) => (
-  // <div className="container">
-    <div className="slick-arrow slick-next" onClick={ onClick } >
-      { icons.carouselArrowRight }
+  <div className="container slick-container">
+    <div className="slick-arrow slick-next c-white" onClick={onClick} >
+      {icons.carouselArrowRight}
     </div>
-  // </div>
+  </div>
 )
 
 export default ({ slides }) => {
@@ -33,12 +33,14 @@ export default ({ slides }) => {
     <Slider className="hero" {...settings}>
       {slides.map((slide, i) => {
         return slide.project ?
-          <div className="slide" key={`slide-${i}`}>
-            <div className="slide-info">
-              <a href={`projects/${slugify(slide.project, { lower: true })}`}>
-                <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
-              </a>
-              <span>{i + 1}/{slides.length}</span>
+          <div className="slide c-white" key={`slide-${i}`}>
+            <div className="container slick-container">
+              <div className="slide-info ">
+                <a className="marginBottom-4 block" href={`projects/${slugify(slide.project, { lower: true })}`}>
+                  <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
+                </a>
+                <span>{i + 1}/{slides.length}</span>
+              </div>
             </div>
             <img src={slide.url} alt={slide.alt} />
           </div>

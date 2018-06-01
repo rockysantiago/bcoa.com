@@ -12,8 +12,30 @@ export default class TemplateWrapper extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuOpen: false
+      menuOpen: false,
     };
+
+    this.fixedLogo = React.createRef();
+  }
+
+  handleIntersect = (e) => {
+    // if (e[0].isIntersecting) {
+    //   this.setState({ fixedNavPast: false })
+    // } else {
+    //   this.setState({ fixedNavPast: true })
+    // }
+  }
+
+  createObserver = () => {
+    this.observer = null;
+
+    const options = {
+      root: null,
+      rootMargin: "-50%",
+    };
+
+    this.observer = new IntersectionObserver(this.handleIntersect, options);
+    this.observer.observe(this.main.querySelector('.hero'));
   }
 
   componentDidMount() {
@@ -29,7 +51,6 @@ export default class TemplateWrapper extends Component {
   }
 
   render() {
-    console.log(this.props.data.settingsJson);
     const homeClasses = classnames(this.props.className, {
       'bg-lightRed c-red': (this.props.location.pathname === '/about' || this.props.location.pathname === '/contact')
     })
@@ -47,8 +68,8 @@ export default class TemplateWrapper extends Component {
         <Headroom>
           <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} isWindowLarge={this.state.isWindowLarge} menuBackground={menuBackground} />
         </Headroom>
-        <FixedLogo />
-        <main>{children()}</main>
+        <FixedLogo fixedNavPast={this.state.fixedNavPast} />
+        <main ref={(el) => { if (el) { this.main = el; this.createObserver(); } }}>{children()}</main>
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />

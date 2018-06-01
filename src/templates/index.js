@@ -48,7 +48,7 @@ export default ({ data }) => {
 
   return (
     <div>
-      <Slider slides={ data.page.frontmatter.carouselImages } />
+      <Slider className="hero" slides={ data.page.frontmatter.carouselImages } />
       <div className="container">
         <h2 className=" f-page-title
                         marginTop-8 marginBottom-7

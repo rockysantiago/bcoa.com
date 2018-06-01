@@ -3,11 +3,11 @@
   display: flex;
 
   @include bp-1 {
-    height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-45));
+    height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-24));
   }
 
   @include bp-2 {
-    height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-45));
+    height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-30));
   }
 
   img {

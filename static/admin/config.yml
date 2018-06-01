@@ -133,6 +133,23 @@ collections:
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Headline", name: "headline", widget: "string", required: false }
       - { label: "Featured", name: "featured", widget: "boolean", required: false }
+      - label: Featured Image
+        name: featuredImage
+        widget: object
+        required: false
+        condition: 
+          field: featured
+          value: true
+        fields:
+          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Alt", name: "alt", widget: "string" }
+      - label: Featured Description
+        name: featuredDescription
+        widget: text
+        required: false
+        condition: 
+          field: featured
+          value: true
       - label: Preview Image
         name: previewImage
         widget: object

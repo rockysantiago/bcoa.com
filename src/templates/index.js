@@ -97,7 +97,7 @@ export const query = graphql`
               url
               alt
             }
-            headline
+            title
             date
             featured
           }

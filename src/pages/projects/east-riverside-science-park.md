@@ -6,6 +6,19 @@ heroImage:
   url: /images/uploads/east-riverside-science-park_ph.jpg
 previewImage:
   url: /images/uploads/east-riverside-science-park_index_2.jpg
+infoObject:
+  - description: Alexandria Real Estate Equities
+    title: CLIENT
+  - description: '29th Street, New York City'
+    title: LOCATION
+  - description: 1150 Event and Cafe Space
+    title: SCOPE
+  - description: Completed 2011
+    title: STATUS
+  - description: RMJM Hillier
+    title: CREDITS
+  - description: Luigi Ciaccia
+    title: KEY PERSONNEL
 primaryImage:
   image: ''
 ---

@@ -24,16 +24,16 @@ projectGallery:
   - colWidth: '10'
     image: /images/uploads/44 MONROE_ (23)_1820.jpg
     type: image
-  - colWidth: '6'
+  - colWidth: '7'
     image: /images/uploads/44 MONROE_ (11)_1820.jpg
     type: image
-  - colWidth: '6'
+  - colWidth: '5'
     image: /images/uploads/44 MONROE_ (14)_1820.jpg
     type: image
-  - colWidth: '6'
+  - colWidth: '5'
     image: /images/uploads/44 MONROE_ (15)_1820.jpg
     type: image
-  - colWidth: '6'
+  - colWidth: '7'
     image: /images/uploads/44 MONROE_ (3)_1820.jpg
     type: image
 ---

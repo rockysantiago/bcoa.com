@@ -39,6 +39,10 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/STAIR-WELL_ (3)_1820.jpg
     type: image
+  - pullQuote: >-
+      Architecture is in space, in extent, in depth, in height: it is volumes
+      and circulation.
+    type: quote
   - colWidth: '9'
     image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
     offsetWidth: '3'

@@ -14,7 +14,9 @@ infoObject:
   - description: Ongoing
     title: STATUS
 primaryImage:
-  image: ''
+  image: /images/uploads/elevator_index.jpg
+secondaryImage:
+  image: /images/uploads/ELEVATORS_PH_2.jpg
 projectGallery:
   - colWidth: '9'
     image: /images/uploads/ELEVATORS_ (3)_1820.jpg

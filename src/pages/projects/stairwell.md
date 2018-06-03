@@ -16,11 +16,8 @@ infoObject:
 primaryImage:
   image: /images/uploads/STAIR-WELL_ (4)_1820.jpg
 secondaryImage:
-  image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
+  image: /images/uploads/STAIR-WELL_ (7)_1820.jpg
 projectGallery:
-  - colWidth: '12'
-    image: /images/uploads/STAIR-WELL_ (12)_1820.jpg
-    type: image
   - colWidth: '10'
     image: /images/uploads/STAIR-WELL_ (11)_1820.jpg
     type: image
@@ -28,19 +25,26 @@ projectGallery:
     image: /images/uploads/STAIR-WELL_ (13)_1820.jpg
     type: image
   - alt: ''
-    caption: concept description for each schema?
+    caption: ''
     colWidth: '10'
     image: /images/uploads/STAIR-WELL_ (14)_1820.jpg
     type: image
-  - colWidth: '12'
+  - caption: concept description for each schema?
+    colWidth: '10'
+    image: /images/uploads/STAIR-WELL_ (2)_1820.jpg
+    type: image
+  - colWidth: '10'
     image: /images/uploads/STAIR-WELL_ (15)_1820.jpg
     type: image
-  - colWidth: '8'
+  - colWidth: '12'
     image: /images/uploads/STAIR-WELL_ (3)_1820.jpg
     type: image
+  - colWidth: '9'
+    image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
+    offsetWidth: '3'
+    type: image
   - colWidth: '8'
-    image: /images/uploads/STAIR-WELL_ (7)_1820.jpg
-    offsetWidth: '4'
+    image: /images/uploads/STAIR-WELL_ (6)_1820.jpg
     type: image
 ---
 Stair-Well Housing represents a concept for modular housing design intended to address NYCs dire need to bring low cost, eff icient aff ordable housing to the fi ve boroughs. The flexible, stacking design is conceived to take advantage of the many vacant infi ll lots located in developing, low-rise neighborhoods in the 5 boroughs. The invention is in the single stair run integrated into each module which, when stacked, provides continuous access to the unit above and integrates egress pathways.

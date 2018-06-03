@@ -23,6 +23,27 @@ infoObject:
     title: CREDITS
   - description: Luigi Ciaccia
     title: KEY PERSONEL
+primaryImage:
+  image: /images/uploads/ANKARA HOTEL_ (10)_1820.jpg
+secondaryImage:
+  image: /images/uploads/ANKARA HOTEL_ (22)_1820.jpg
+projectGallery:
+  - colWidth: '12'
+    image: /images/uploads/ANKARA HOTEL_ (3)_1820.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/ANKARA HOTEL_ (4)_1820.jpg
+    offsetWidth: '2'
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/ANKARA HOTEL_ (1)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/ANKARA HOTEL_ (2)_1820.jpg
+    type: image
+  - colWidth: '12'
+    image: /images/uploads/ANKARA HOTEL_index_1.jpg
+    type: image
 ---
 The guest tower has been developed as an iconic form at the preeminent south-east corner of the property. The tower anchors the podium development and creates a strong monolithic element at the highway intersection with long distance visibility.
 

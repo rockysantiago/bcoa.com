@@ -16,5 +16,14 @@ infoObject:
     title: Status
   - description: Christian Harder Photography
     title: Photography
+primaryImage:
+  image: /images/uploads/dusk-extention.png
+secondaryImage:
+  image: /images/uploads/44 MONROE_ (18)_1820.jpg
+projectGallery:
+  - colWidth: '10'
+    image: /images/uploads/44 MONROE_ (23)_1820.jpg
+    type: image
+  - {}
 ---
 The renovation to this 19th Century historic townhouse included the gut renovation of an owner's triplex apartment as well as two rental units on the upper floors.

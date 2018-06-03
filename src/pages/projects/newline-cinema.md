@@ -15,6 +15,21 @@ infoObject:
     title: STATUS
   - description: SMH w. Bronwyn Breitner
     title: ARCHITECT
+primaryImage:
+  image: /images/uploads/NEW LINE CINEMA_ (2)_1820.jpg
+secondaryImage:
+  image: /images/uploads/NEW LINE CINEMA_ (4)_1820.jpg
+projectGallery:
+  - colWidth: '12'
+    image: /images/uploads/NEW LINE CINEMA_ (6)_1820.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
+    offsetWidth: '4'
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/NEW LINE CINEMA_ (5)_1820.jpg
+    type: image
 ---
 The building at 116 North Robertson Boulevard, designed in the 1950’s in Los Angeles, prefi gured Caesar Pelli’s “Blue Whale” as a Design Center for Architects and Decorators. Its thick, buff brick and stone exterior and narrow slit windows permit only a minimum of daylight in the interest of material preservation and protection. SM+H was challenged to introduce daylight throughout a space both unsuitable for fi lm production and undesirable for occupation.
 

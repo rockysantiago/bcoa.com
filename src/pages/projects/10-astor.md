@@ -5,12 +5,12 @@ type: residential
 heroImage:
   url: /images/uploads/10-astor_ph.jpg
 headline: lobby
-featured: 
-  isFeatured: true
-  featuredImage:
-    url: /images/uploads/10-astor_-index.jpg
-    alt: 'this is the alt text'
+featured:
   featuredDescription: this is the text of the featured description
+  featuredImage:
+    alt: this is the alt text
+    url: /images/uploads/10-astor_-index.jpg
+  isFeatured: true
 previewImage:
   url: /images/uploads/10-astor_-index.jpg
 infoObject:
@@ -27,7 +27,18 @@ primaryImage:
 secondaryImage:
   image: /images/uploads/10 Astor_ (10)_1820.jpg
 projectGallery:
-  - image: ''
+  - colWidth: '12'
+    image: /images/uploads/10 Astor_ (7)_1820.jpg
+    type: image
+  - colWidth: '3'
+    image: /images/uploads/10 Astor_ (9)_1820.jpg
+    type: image
+  - colWidth: '9'
+    image: /images/uploads/10 Astor_ (5)_1820.jpg
+    type: image
+  - colWidth: '12'
+    image: /images/uploads/10 Astor_PROMO PLAN_1820.jpg
+    offsetWidth: '0'
     type: image
 ---
 

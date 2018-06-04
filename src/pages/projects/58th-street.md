@@ -16,6 +16,24 @@ infoObject:
     title: Status
   - description: Raquel Perez Puig
     title: Photography
+primaryImage:
+  image: /images/uploads/58TH ST_ (14)_1820.jpg
+secondaryImage:
+  image: /images/uploads/58TH ST_ (4)_1820.jpg
+projectGallery:
+  - colWidth: '12'
+    image: /images/uploads/58TH ST_ (10)_1820.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/58TH ST_ (8)_1820.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/58TH ST_ (13)_1820.jpg
+    offsetWidth: '4'
+    type: image
+  - colWidth: '12'
+    image: /images/uploads/58TH ST_PROMO PLAN_1820.jpg
+    type: image
 ---
 
 

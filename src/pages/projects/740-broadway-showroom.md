@@ -27,7 +27,5 @@ projectGallery:
     image: /images/uploads/740 BROADWAY_SHOWROOM_ (4)_1820.jpg
     offsetWidth: '4'
     type: image
-  - image: ''
-    type: image
 ---
 Objective — to design a think tank showroom for exhibiting the latest technology integrating Gorilla Glass, LED lighting and digital displays seamlessly into the built environment.

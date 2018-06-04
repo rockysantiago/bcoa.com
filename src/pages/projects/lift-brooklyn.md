@@ -4,12 +4,12 @@ title: Lift Brooklyn
 type: commercial
 heroImage:
   url: /images/uploads/lift_brooklyn_ph.jpg
-featured: 
-  isFeatured: true
-  featuredImage:
-    url: /images/uploads/10-astor_-index.jpg
-    alt: 'this is the alt text'
+featured:
   featuredDescription: this is the text of the featured description
+  featuredImage:
+    alt: this is the alt text
+    url: /images/uploads/10-astor_-index.jpg
+  isFeatured: true
 previewImage:
   url: /images/uploads/lift_brooklyn_index_1.jpg
 infoObject:
@@ -41,7 +41,7 @@ projectGallery:
   - colWidth: '4'
     image: /images/uploads/LIFT_BROOKLYN_ (4)_1820.jpg
     type: image
-  - colWidth: '10'
+  - colWidth: '12'
     image: /images/uploads/LIFT_BROOKLYN_PROMO PLAN_1820.jpg
     offsetWidth: '2'
     type: image

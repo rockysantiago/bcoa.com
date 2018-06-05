@@ -37,8 +37,9 @@ projectGallery:
     image: /images/uploads/10 Astor_PROMO PLAN_1820.jpg
     offsetWidth: '0'
     type: image
-  - colWidth: '12'
+  - colWidth: '10'
     image: /images/uploads/10 Astor_ (10)_1820.jpg
+    offsetWidth: '1'
     type: image
 ---
 

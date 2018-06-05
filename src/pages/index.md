@@ -4,9 +4,8 @@ title: Featured
 carouselImages:
   - alt: Home Page Hero image alt 1
     description: |-
-      This is supposed to be two lines
-
-      Is this two lines?
+      Description for the Object Loft  
+      Completed in '17
     project: Object Loft
     url: /images/uploads/20greene_c.jpg
   - url: /images/uploads/53rd_c1.jpg

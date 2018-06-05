@@ -52,7 +52,8 @@ export default class TemplateWrapper extends Component {
 
   render() {
     const homeClasses = classnames(this.props.className, {
-      'bg-lightRed c-red': (this.props.location.pathname === '/about' || this.props.location.pathname === '/contact')
+      'bg-lightRed c-red': (this.props.location.pathname.replace(/\//g, '') === 'about' || this.props.location.pathname.replace(/\//g, '') === 'contact'),
+      'menuVisible': this.state.menuOpen,
     })
 
     const menuBackground = this.props.data.settingsJson.menuBackground;
@@ -63,13 +64,17 @@ export default class TemplateWrapper extends Component {
     } = this.props;
 
     return (
-      <div className={ homeClasses }>
-        <Helmet title="Home | BC–OA" />
+      <div className={homeClasses}>
+        <Helmet title="Home | BC–OA"
+          bodyAttributes={{
+            class: this.state.menuOpen && 'scrollingIsDisabled'
+          }}
+        />
         <Headroom>
-          <HeaderNav visible={ this.state.menuOpen } toggleMenu={ this.toggleMenu } isWindowLarge={ this.state.isWindowLarge } menuBackground={ menuBackground } />
+          <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} isWindowLarge={this.state.isWindowLarge} menuBackground={menuBackground} />
         </Headroom>
-        <FixedLogo fixedNavPast={ this.state.fixedNavPast } />
-        <main ref={(el) => { if (el) { this.main = el } } }>{children()}</main>
+        <FixedLogo fixedNavPast={this.state.fixedNavPast} />
+        <main ref={(el) => { if (el) { this.main = el } }}>{children()}</main>
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />
@@ -83,24 +88,24 @@ export default class TemplateWrapper extends Component {
                 <b>Contact</b>
                 <a href="https://goo.gl/maps/cxWiP9aLg6v">
                   <address className="f-footer-b">
-                    { data.contactJson.address.street },
+                    {data.contactJson.address.street},
                     {" "}
-                    { data.contactJson.address.street2 }
+                    {data.contactJson.address.street2}
                     <br />
-                    { data.contactJson.address.city }, { data.contactJson.address.state }{" "}
-                    { data.contactJson.address.zip }
+                    {data.contactJson.address.city}, {data.contactJson.address.state}{" "}
+                    {data.contactJson.address.zip}
                     <br />
                   </address>
                 </a>
                 –
                 <div>
-                  <a href={`mailto:${ data.contactJson.email } `}>
-                    { data.contactJson.email }
+                  <a href={`mailto:${data.contactJson.email} `}>
+                    {data.contactJson.email}
                   </a>
                 </div>
                 <div>
-                  <a href={`tel:${ data.contactJson.phone } `}>
-                    { data.contactJson.phone }
+                  <a href={`tel:${data.contactJson.phone} `}>
+                    {data.contactJson.phone}
                   </a>
                 </div>
               </div>
@@ -108,12 +113,12 @@ export default class TemplateWrapper extends Component {
               >
                 <b>Social</b>
                 <div>
-                  <a href={`http://instagram.com/${ data.contactJson.instagram }`} target="_blank">
+                  <a href={`http://instagram.com/${data.contactJson.instagram}`} target="_blank">
                     Instagram
                   </a>
                 </div>
                 <div style={{ flex: 1 }}>
-                  <a href={`http://facebook.com/${ data.contactJson.facebook } `} target="_blank">
+                  <a href={`http://facebook.com/${data.contactJson.facebook} `} target="_blank">
                     Facebook
                   </a>
                 </div>

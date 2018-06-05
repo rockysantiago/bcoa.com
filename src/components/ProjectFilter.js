@@ -30,14 +30,14 @@ export default class ProjectFilter extends Component {
     })
     return (
       <div className="f-subhead c-gray">
-        { !this.state.isWindowLarge && 
-          <div className={ filterButtonClasses }>
-            <button className="margin-0" onClick={ this.toggleFilter }>
-              Project Categories <span style={{ display: "inline-block", width: "10px", textAlign: "center" }}>{ this.state.filterOpen ? "-" : "+" }</span>
+        {!this.state.isWindowLarge &&
+          <div className={filterButtonClasses}>
+            <button className="margin-0" onClick={this.toggleFilter}>
+              Project Categories <span style={{ display: "inline-block", width: "10px", textAlign: "center" }}>{this.state.filterOpen ? "-" : "+"}</span>
             </button>
           </div>
         }
-        { (this.state.filterOpen || this.state.isWindowLarge) &&
+        {(this.state.filterOpen || this.state.isWindowLarge) &&
           <Fragment>
             <div className="radio marginBottom-4 bp-1_marginBottom-0">
               <input name="filter" type="radio" id="all" defaultChecked="true" onChange={(el) => this.props.onChange(el.target.id)} />
@@ -60,6 +60,6 @@ export default class ProjectFilter extends Component {
           </Fragment>
         }
       </div>
-    );
+    )
   }
 }

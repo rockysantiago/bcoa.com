@@ -3,18 +3,18 @@ templateKey: project-page
 title: 10 Astor
 type: residential
 heroImage:
-  url: /images/uploads/10-astor_ph.jpg
+  url: /images/uploads/10-astor_ph_2.jpg
 headline: lobby
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    url: /images/uploads/20 GREENE ST_ (9)_1820.jpg
+    url: /images/uploads/10 Astor_ index.jpg
   isFeatured: true
 previewImage:
   url: /images/uploads/10-astor_-index.jpg
 infoObject:
-  - description: Private Owner
+  - description: Newmark Holdings
     title: Client
   - description: Full renovation of 275 sf Commercial Lobby
     title: Scope
@@ -23,9 +23,9 @@ infoObject:
   - description: Raquel Perez-Puig
     title: Photographs
 primaryImage:
-  image: /images/uploads/10 Astor_ (8)_1820.jpg
+  image: /images/uploads/10 Astor_ (2)_1820.jpg
 secondaryImage:
-  image: /images/uploads/10 Astor_ (10)_1820.jpg
+  image: /images/uploads/10 Astor_ (8)_1820.jpg
 projectGallery:
   - colWidth: '12'
     image: /images/uploads/10 Astor_ (7)_1820.jpg

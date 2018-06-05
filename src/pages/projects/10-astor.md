@@ -27,9 +27,6 @@ primaryImage:
 secondaryImage:
   image: /images/uploads/10 Astor_ (8)_1820.jpg
 projectGallery:
-  - colWidth: '12'
-    image: /images/uploads/10 Astor_ (7)_1820.jpg
-    type: image
   - colWidth: '3'
     image: /images/uploads/10 Astor_ (9)_1820.jpg
     type: image
@@ -39,6 +36,9 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/10 Astor_PROMO PLAN_1820.jpg
     offsetWidth: '0'
+    type: image
+  - colWidth: '12'
+    image: /images/uploads/10 Astor_ (10)_1820.jpg
     type: image
 ---
 

@@ -9,7 +9,7 @@ featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    url: /images/uploads/10-astor_-index.jpg
+    url: /images/uploads/20 GREENE ST_ (10)_1820.jpg
   isFeatured: true
 previewImage:
   url: /images/uploads/740-broadway_lobby_index.jpg

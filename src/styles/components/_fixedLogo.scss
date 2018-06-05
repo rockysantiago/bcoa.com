@@ -2,19 +2,20 @@
   position: fixed;
   width: 100%;
   bottom: calc(var(--project-title-height) + var(--unit-45));
-  left: calc(50% - 2px);
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: flex-end;
   pointer-events: none;
   z-index: 1;
   will-change: transform;
+
+  .c-red & {
+    color: var(--red);
+  }
   
   svg {
     width:   49px;
     height: 188px;
   }
 }
-
-//size
-//position

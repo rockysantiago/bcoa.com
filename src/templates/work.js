@@ -2,31 +2,6 @@ import React, {Component} from "react";
 import Link from "gatsby-link";
 import ProjectFilter from '../components/ProjectFilter';
 
-// ******** Unselected Filters Rollover to black ******** \\
-
-const Filter = ({ toggleFilter }) => (
-  <div className="f-subhead c-gray">
-    <div className="radio">
-      <input name="filter" type="radio" id="all" defaultChecked="true" onChange={(el) => props.onChange(el.target.id)} />
-      <label className="marginRight-4" htmlFor="all">
-        All Projects
-      </label>
-    </div>
-    <div className="radio">
-      <input name="filter" type="radio" id="residential" onChange={(el) => props.onChange(el.target.id)} />
-      <label className="marginRight-4" htmlFor="residential">
-        Residential
-      </label>
-    </div>
-    <div className="radio">
-      <input name="filter" type="radio" id="commercial" onChange={(el) => props.onChange(el.target.id)} />
-      <label className="" htmlFor="commercial">
-        Commercial
-      </label>
-    </div>
-  </div>
-);
-
 export default class Work extends Component {
   constructor(props) {
     super(props);

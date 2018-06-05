@@ -1,0 +1,51 @@
+.radio {
+  position: relative;
+  display: block;
+
+  @include bp-1 {
+    display: inline-block;
+  }
+  
+  input {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    
+    &:checked ~ label {
+      &:before {
+        background-color: var(--black);
+        border-color: var(--black);
+      }
+      color: var(--black);
+    }
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  
+  label:before {
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width:  12px;
+    margin-right: 8px;
+    border: solid 1px var(--gray);
+
+    @include bp-1 {
+      height: 14px;
+      width: 14px;
+    }
+    
+    @include bp-2 {
+      width:  16px;
+      height: 16px;
+    }
+  }
+}

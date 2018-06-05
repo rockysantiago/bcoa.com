@@ -60,11 +60,11 @@ awards:
   - date: 'April 30, 2018'
     orgName: The Best Organization Inc
     title: 'Award #2'
-    url: google.com
+    url: 'http://www.google.com'
   - date: 'May 1, 2018'
     orgName: The Mediocre Organization
     title: 3rd Award
-    url: test.com
+    url: 'http://www.test.com'
 collaborators:
   - description: 'Helped us build our site. :)'
     jobTitle: Web Developer

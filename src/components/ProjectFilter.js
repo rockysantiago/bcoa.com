@@ -1,26 +1,32 @@
 import React from 'react';
 
-export default (props) => {
-  return (
-    <div className="f-subhead c-gray">
-      <div className="radio">
-        <input name="filter" type="radio" id="all" defaultChecked="true" onChange={(el) => props.onChange(el.target.id)} />
-        <label className="marginRight-4" htmlFor="all">
-          All Projects
-        </label>
+export default class ProjectFilter extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      filterOpen: false,
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions);
+  }
+
+  toggleFilter = () => {
+    this.state.filterOpen ? this.setState({ filterOpen: false }) : this.setState({ filterOpen: true });
+  }
+
+  updateDimensions = () => {
+    document.body.clientWidth <= 768 ? this.setState({ isWindowLarge: false }) : this.setState({ isWindowLarge: true });
+  }
+
+  render() {
+  
+    return (
+      <div>
+        <ProjectFilter toggleFilter={ this.toggleFilter } />
       </div>
-      <div className="radio">
-        <input name="filter" type="radio" id="residential" onChange={(el) => props.onChange(el.target.id)} />
-        <label className="marginRight-4" htmlFor="residential">
-          Residential
-        </label>
-      </div>
-      <div className="radio">
-        <input name="filter" type="radio" id="commercial" onChange={(el) => props.onChange(el.target.id)} />
-        <label className="" htmlFor="commercial">
-          Commercial
-        </label>
-      </div>
-    </div>
-  )
+    );
+  }
 }

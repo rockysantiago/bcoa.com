@@ -14,6 +14,27 @@
   justify-content: space-between;
 }
 
+.textDecorationNone {
+  text-decoration: none;
+}
+
 .underline {
   text-decoration: underline;
+}
+
+@mixin underlineHover {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@mixin underlineActive {
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+.defaultLink {
+  @include underlineHover;
+  @include underlineActive;
 }

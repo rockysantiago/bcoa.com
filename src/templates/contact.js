@@ -23,28 +23,28 @@ export default ({ data }) => {
                       bp-1_marginBottom-8
                       bp-2_marginBottom-15"
           dangerouslySetInnerHTML={{ __html: page.html }} />
-      {/* more column space --> offsetting strategy needed(padding on the right) */}
-      <div className="bp-1_grid-12col
+      <div className="f-display-copy
+                      bp-1_grid-12col
                       bp-2_marginBottom-50">
-        <p className="f-display-copy
-                      marginBottom-7
+        <p className="marginBottom-7
                       bp-1_colSpan-6
                       bp-2_offset-right-1">
           { pageFields.message }
         </p>
         <div className="bp-1_colSpan-6 bp-1_offset-left-1">
-          <p className="f-display-copy">{ contact.address.street }</p>
-          <p className="f-display-copy">{ contact.address.street2 }</p>
-          <p className="f-display-copy">
+          <p>{ contact.address.street }</p>
+          <p>{ contact.address.street2 }</p>
+          <p>
             { contact.address.city }, { contact.address.state } { contact.address.zip }
           </p>
-          <p className="f-display-copy">--</p>
-          <p>
-            <a className="f-display-copy" href={`mailto:${ contact.email }`}>email</a>
-          </p>
-          <a className="f-display-copy" href={`tel:${ contact.phone }`}>phone</a>
-          <p className="f-display-copy">--</p>
-          <p className="f-display-copy">Instagram</p>
+          <p>--</p>
+          <a className="defaultLink" href={`mailto:${ contact.email }`}>email</a>
+          <br/>
+          <a className="defaultLink" href={`tel:${ contact.phone }`}>phone</a>
+          <p>--</p>
+          <a href="http://instagram.com/590bc" className="defaultLink">
+            Instagram
+          </a>
         </div>
       </div>
     </div>

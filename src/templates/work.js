@@ -3,6 +3,8 @@ import Link from "gatsby-link";
 
 import ProjectFilter from '../components/ProjectFilter';
 
+// ******** Unselected Filters Rollover to black ******** \\
+
 export default class Work extends Component {
   constructor(props) {
     super(props);
@@ -41,7 +43,7 @@ export default class Work extends Component {
           { projects &&
             projects.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
               return (
-                <li key={i}>
+                <li key={i} className="defaultLink">
                   <article>
                     <Link to={ project.fields.slug }>
                       { project.frontmatter.previewImage &&

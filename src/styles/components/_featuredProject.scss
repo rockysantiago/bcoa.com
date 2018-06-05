@@ -3,3 +3,50 @@
     width: 66.666%
   }
 }
+
+.featuredProject:hover .f-headline-d {
+  text-decoration: underline;
+}
+
+.radio {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+label:before {
+  content: "";
+  display: inline-block;
+  height: 14px;
+  width:  14px;
+  margin-right: 8px;
+  border: solid 1px var(--gray);
+  @include bp-2 {
+    width:  16px;
+    height: 16px;
+  }
+}
+
+.radio input:checked ~ label {
+  &:before {
+    background-color: black;
+    border: none;
+  }
+  color: black;
+}
+

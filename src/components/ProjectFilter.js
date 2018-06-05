@@ -1,20 +1,26 @@
-import React from 'react'
+import React from 'react';
 
 export default (props) => {
   return (
-    <div>
-      <label className="f-subhead marginRight-4" htmlFor="all">
+    <div className="f-subhead c-gray">
+      <div className="radio">
         <input name="filter" type="radio" id="all" defaultChecked="true" onChange={(el) => props.onChange(el.target.id)} />
-        All
-      </label>
-      <label className="f-subhead marginRight-4" htmlFor="residential">
+        <label className="marginRight-4" htmlFor="all">
+          All Projects
+        </label>
+      </div>
+      <div className="radio">
         <input name="filter" type="radio" id="residential" onChange={(el) => props.onChange(el.target.id)} />
-        Residential
-      </label>
-      <label className="f-subhead" htmlFor="commercial">
+        <label className="marginRight-4" htmlFor="residential">
+          Residential
+        </label>
+      </div>
+      <div className="radio">
         <input name="filter" type="radio" id="commercial" onChange={(el) => props.onChange(el.target.id)} />
-        Commerical
-      </label>
+        <label className="" htmlFor="commercial">
+          Commercial
+        </label>
+      </div>
     </div>
   )
 }

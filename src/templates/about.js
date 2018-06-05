@@ -19,24 +19,18 @@ const Member = ({ member }) => (
 const Publication = ({ publication }) => (
   <div>
     <hr className=" marginBottom-2" />
-    <h4 className=" f-copy-bold">{ publication.title } -- { publication.publisher }</h4>
-    <p className="  f-copy 
-                    marginBottom-7">
-      { publication.date }
-    </p>
+    <a className="f-copy-bold defaultLink" href={ publication.url }>{ publication.title } -- { publication.publisher }</a>
+    <p className="f-copy marginBottom-7">{ publication.date }</p>
   </div>
 );
 
 const Award = ({ award }) => (
   <div>
     <hr className=" marginBottom-2" />
-    <h3 className=" f-copy-bold">{ award.title } -- { award.orgName }</h3>
+    <a className="f-copy-bold defaultLink" href={ award.url }>{ award.title } -- { award.orgName }</a>
     <p className="  marginBottom-7">
       { award.date }
     </p>
-    {/* <a href={ award.url } target="_blank">
-      -->View Award
-    </a> */}
   </div>
 );
 
@@ -45,7 +39,7 @@ const Collaborator = ({ collaborator }) => (
   <hr className="marginBottom-2" />  
     {collaborator.url ? (
       <a href={ collaborator.url }>
-        <h3 className="f-copy-bold">
+        <h3 className="f-copy-bold defaultLink">
           { collaborator.name } - { collaborator.jobTitle }
         </h3>
         { collaborator.description && <p className="marginBottom-7">{ collaborator.description }</p> }

@@ -1,20 +1,32 @@
-import React from 'react'
+import React from 'react';
 
-export default (props) => {
-  return (
-    <div>
-      <label className="f-subhead marginRight-4" htmlFor="all">
-        <input name="filter" type="radio" id="all" defaultChecked="true" onChange={(el) => props.onChange(el.target.id)} />
-        All
-      </label>
-      <label className="f-subhead marginRight-4" htmlFor="residential">
-        <input name="filter" type="radio" id="residential" onChange={(el) => props.onChange(el.target.id)} />
-        Residential
-      </label>
-      <label className="f-subhead" htmlFor="commercial">
-        <input name="filter" type="radio" id="commercial" onChange={(el) => props.onChange(el.target.id)} />
-        Commerical
-      </label>
-    </div>
-  )
+export default class ProjectFilter extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      filterOpen: false,
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions);
+  }
+
+  toggleFilter = () => {
+    this.state.filterOpen ? this.setState({ filterOpen: false }) : this.setState({ filterOpen: true });
+  }
+
+  updateDimensions = () => {
+    document.body.clientWidth <= 768 ? this.setState({ isWindowLarge: false }) : this.setState({ isWindowLarge: true });
+  }
+
+  render() {
+  
+    return (
+      <div>
+        <ProjectFilter toggleFilter={ this.toggleFilter } />
+      </div>
+    );
+  }
 }

@@ -3,11 +3,13 @@ import Link from "gatsby-link";
 import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
 
+// **** Rollover on image creates underline on corresponding Headline D, and links to project page **** \\
+
 const renderFeaturedProjects = (projects) => {
   return (
     projects.map(({ node: project }, i) => (
       <li className='bp-1_masonry-child-2col' key={i}>
-        <article>
+        <article className="featuredProject">
           <Link to={ project.fields.slug }>
             <img
               src={ project.frontmatter.featured.featuredImage.url }

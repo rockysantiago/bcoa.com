@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 export default class ProjectFilter extends Component {
 
@@ -22,10 +22,10 @@ export default class ProjectFilter extends Component {
   }
 
   render() {
-  
+
     return (
       <div>
-        <ProjectFilter toggleFilter={ this.toggleFilter } />
+        <ProjectFilter toggleFilter={this.toggleFilter} />
       </div>
     );
   }

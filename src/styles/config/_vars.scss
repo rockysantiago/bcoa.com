@@ -15,14 +15,14 @@
 }
 
 .bg-lightRed {
-  background-color: var(--lightRed);
+  background-color: var(--lightRed) !important;
 }
 .bg-white {
-  background-color: var(--white);
+  background-color: var(--white) !important;
 }
 
 .bg-transparent {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 .c-red {
   color: var(--red);

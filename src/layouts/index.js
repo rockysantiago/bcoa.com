@@ -40,6 +40,7 @@ export default class TemplateWrapper extends Component {
 
   componentDidMount() {
     window.addEventListener("resize", this.updateDimensions);
+    this.updateDimensions();
   }
 
   toggleMenu = () => {

@@ -14,9 +14,9 @@ previewImage:
   url: /images/uploads/20-greene-st_-index.jpg
 primaryImage:
   image: /images/uploads/20 GREENE ST_ (15)_1820.jpg
+secondaryImage:
+  image: /images/uploads/20 GREENE ST_ (22)_1820.jpg
 projectGallery:
-  - image: /images/uploads/20 GREENE ST_ (22)_1820.jpg
-    type: image
   - colWidth: '8'
     image: /images/uploads/20 GREENE ST_ (8)_1820.jpg
     offsetWidth: '4'

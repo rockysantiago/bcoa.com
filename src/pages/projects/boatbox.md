@@ -17,9 +17,10 @@ infoObject:
     title: CREDITS
 primaryImage:
   image: /images/uploads/BOATBOX_ (2)_1820.jpg
-secondaryImage:
-  image: /images/uploads/BOATBOX_ (3)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/BOATBOX_ (3)_1820.jpg
+    type: image
   - colWidth: '10'
     image: /images/uploads/BOATBOX_ (1)_1820.jpg
     type: image

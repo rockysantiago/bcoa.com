@@ -18,9 +18,10 @@ infoObject:
     title: Photography
 primaryImage:
   image: /images/uploads/17 W 71st St_ (1)_1820.jpg
-secondaryImage:
-  image: /images/uploads/17 W 71st St_ (15)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/17 W 71st St_ (15)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/17 W 71st St_ (3)_1820.jpg
     type: image

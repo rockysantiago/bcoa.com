@@ -28,10 +28,11 @@ primaryImage:
   alt: Micro Cabin - residential living space
   caption: 'Caption Text, Lorem Ipsum Dolor Sit Amet'
   image: /images/uploads/primary.jpg
-secondaryImage:
-  alt: Micro Cabin - residential bedroom
-  image: /images/uploads/secondary.jpg
 projectGallery:
+  - alt: Micro Cabin - Outdoors retreat
+    colWidth: '6'
+    image: /images/uploads/secondary.jpg
+    type: image
   - alt: Micro Cabin - Outdoors retreat
     caption: >-
       Caption Text, phase hendrerit eros a hendrerit venenatis lorem ipsum dolor

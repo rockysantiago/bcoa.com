@@ -16,9 +16,10 @@ infoObject:
     title: Status
 primaryImage:
   image: /images/uploads/BARMAN_ (6)_1820.jpg
-secondaryImage:
-  image: /images/uploads/BARMAN_PH_2.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/BARMAN_PH_2.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/Barman_PH.jpg
     type: image

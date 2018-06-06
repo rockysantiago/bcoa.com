@@ -15,9 +15,10 @@ infoObject:
     title: STATUS
 primaryImage:
   image: /images/uploads/83 WAVERLY_ (8)_1820.jpg
-secondaryImage:
-  image: /images/uploads/83 WAVERLY_ (1)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/83 WAVERLY_ (1)_1820.jpg
+    type: image
   - colWidth: '6'
     image: /images/uploads/83 WAVERLY_ ELEVATION1_1820.jpg
     type: image

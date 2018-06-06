@@ -40,7 +40,7 @@ export default (props) => {
     'colOffset-10': (props.image.offsetWidth === '10'),
     'colOffset-11': (props.image.offsetWidth === '11'),
     'marginBottom-6 bp-1_marginBottom-7 bp-2_marginBottom-16 project-image-wrapper': true,
-  // 'project-image-wrapper': true
+    // 'project-image-wrapper': true
   })
 
   console.log(props);
@@ -52,7 +52,12 @@ export default (props) => {
         <ProjectImage {...props} classes={classes} />
       </div>
       :
-      <ProjectImage {...props} classes={classes} />
+      props.index == 0 ?
+        <div className={`colSpan-12 grid-12col`}>
+          <ProjectImage {...props} classes={classes} />
+        </div>
+        :
+        <ProjectImage {...props} classes={classes} />
   )
 }
 

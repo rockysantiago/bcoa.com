@@ -15,9 +15,10 @@ infoObject:
     title: STATUS
 primaryImage:
   image: /images/uploads/ELEVATORS_ (2)_1820.jpg
-secondaryImage:
-  image: /images/uploads/ELEVATORS_PH_2.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/ELEVATORS_PH_2.jpg
+    type: image
   - colWidth: '9'
     image: /images/uploads/ELEVATORS_ (3)_1820.jpg
     type: image

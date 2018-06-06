@@ -15,9 +15,10 @@ infoObject:
     title: STATUS
 primaryImage:
   image: /images/uploads/RIVERSIDE_index.jpg
-secondaryImage:
-  image: /images/uploads/RIVERSIDE_ (9)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/RIVERSIDE_ (9)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/RIVERSIDE_ (4)_1820.jpg
     type: image
@@ -32,6 +33,17 @@ projectGallery:
     offsetWidth: '4'
     type: image
 ---
-The 151st street Kiosk is a free-standing, open-air kiosk and bar at the existing circular lookout point at Riverside Drive, the site of a masonry pagoda demolished in the 60’s.
+The 151st street Kiosk is a free-standing, open-air kiosk and
+ bar at the existing circular lookout point at Riverside Drive,
+ the site of a masonry pagoda demolished in the 60’s.
 
-Views from this unique urban vantage point span from the Jersey skyline to landmark views of the George Washington Bridge. The kiosk’s V-shaped columns and double-chord roof with triangulated truss structure take their cues from the two triangulated steel towers that represent that NYC icon. The kiosk structure, however is built from cross-laminated timbers treated to withstand the elements. The material warmth together with the open views through the kiosk are intended to reflect a structure that is welcoming and inclusive of all.
+Views from this unique urban vantage point span from the
+ Jersey skyline to landmark views of the George Washington
+ Bridge. The kiosk’s V-shaped columns and double-chord roof
+ with triangulated truss structure take their cues from the two
+ triangulated steel towers that represent that NYC icon.
+ The kiosk structure, however is built from cross-laminated
+ timbers treated to withstand the elements. The material
+ warmth together with the open views through the kiosk are
+ intended to reflect a structure that is welcoming and inclusive
+ of all.

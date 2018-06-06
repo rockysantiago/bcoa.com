@@ -16,9 +16,10 @@ infoObject:
     title: Status
 primaryImage:
   image: /images/uploads/JUNGLE HOUSE_ (12)_1820.jpg
-secondaryImage:
-  image: /images/uploads/JUNGLE HOUSE_ (4)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/JUNGLE HOUSE_ (4)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/JUNGLE HOUSE_ (6)_1820.jpg
     type: image

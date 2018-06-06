@@ -21,9 +21,10 @@ infoObject:
     title: KEY PERSONNEL
 primaryImage:
   image: /images/uploads/p1230779.jpg
-secondaryImage:
-  image: /images/uploads/EAST RIVER SCIENCE PARK_ (17)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/EAST RIVER SCIENCE PARK_ (17)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/img_6345.jpg
     type: image

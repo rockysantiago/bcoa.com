@@ -17,9 +17,10 @@ infoObject:
     title: PHOTOGRAPHY
 primaryImage:
   image: /images/uploads/45 CROSBY_LOBBY_ (12)_1820.jpg
-secondaryImage:
-  image: /images/uploads/45CROSBY_LOBBY_PH_1.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/45CROSBY_LOBBY_PH_1.jpg
+    type: image
   - colWidth: '6'
     image: /images/uploads/45 CROSBY_LOBBY_ (10)_1820.jpg
     type: image

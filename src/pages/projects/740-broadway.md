@@ -22,9 +22,10 @@ infoObject:
     title: Status
 primaryImage:
   image: /images/uploads/740-broadway_lobby_-6.1-_1820.jpg
-secondaryImage:
-  image: /images/uploads/740-broadway_lobby_-3-_2480.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/740-broadway_lobby_-3-_2480.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/740-broadway_lobby_-1-_3800.jpg
     type: image

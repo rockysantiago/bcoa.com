@@ -20,9 +20,10 @@ infoObject:
 primaryImage:
   alt: ''
   image: /images/uploads/REFLECT SHOWROOM_ (7)_1820.jpg
-secondaryImage:
-  image: /images/uploads/REFLECT SHOWROOM_index_2.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/REFLECT SHOWROOM_index_2.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/REFLECT SHOWROOM_ (6)_1820.jpg
     offsetWidth: '0'

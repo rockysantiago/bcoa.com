@@ -27,10 +27,10 @@ infoObject:
 primaryImage:
   caption: Test this change.
   image: /images/uploads/ward-road_-16-.jpg
-secondaryImage:
-  caption: Test this change
-  image: /images/uploads/ward-road_-15-_.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/ward-road_-15-_.jpg
+    type: image
   - colWidth: '10'
     image: /images/uploads/ward-road_-9-_3140.jpg
     offsetWidth: '2'

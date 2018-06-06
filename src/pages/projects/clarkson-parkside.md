@@ -16,9 +16,10 @@ infoObject:
     title: Status
 primaryImage:
   image: /images/uploads/CLARKSON PARKSIDE_ (14)_1820.jpg
-secondaryImage:
-  image: /images/uploads/CLARKSON PARKSIDE_ (16)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/CLARKSON PARKSIDE_ (16)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/CLARKSON PARKSIDE_ (8)_1820.jpg
     type: image

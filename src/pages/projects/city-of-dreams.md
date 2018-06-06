@@ -15,9 +15,10 @@ infoObject:
     title: STATUS
 primaryImage:
   image: /images/uploads/CITY OF DREAMS_ (11)_1820.jpg
-secondaryImage:
-  image: /images/uploads/CITY OF DREAMS_ (111)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/CITY OF DREAMS_ (111)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/CITY OF DREAMS_ (7)_1820.jpg
     type: image

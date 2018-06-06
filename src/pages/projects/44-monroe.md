@@ -18,9 +18,10 @@ infoObject:
     title: Photography
 primaryImage:
   image: /images/uploads/dusk-extention.png
-secondaryImage:
-  image: /images/uploads/44 MONROE_ (18)_1820.jpg
 projectGallery:
+  - colWidth: ''
+    image: /images/uploads/44 MONROE_ (18)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/44 MONROE_ (23)_1820.jpg
     type: image

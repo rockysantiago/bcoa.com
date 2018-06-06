@@ -21,9 +21,10 @@ infoObject:
     title: DESIGNERS
 primaryImage:
   image: /images/uploads/W 53RD ST_ (13)_1820.jpg
-secondaryImage:
-  image: /images/uploads/W 53RD ST_ (7)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/W 53RD ST_ (7)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/W 53RD ST_ (11)_1820.jpg
     type: image

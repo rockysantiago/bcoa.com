@@ -24,9 +24,10 @@ infoObject:
     title: Photographs
 primaryImage:
   image: /images/uploads/10 Astor_ (2)_1820.jpg
-secondaryImage:
-  image: /images/uploads/10 Astor_ (8)_1820.jpg
 projectGallery:
+  - colWidth: '9'
+    image: /images/uploads/10 Astor_ (8)_1820.jpg
+    type: image
   - colWidth: '3'
     image: /images/uploads/10 Astor_ (9)_1820.jpg
     type: image

@@ -18,9 +18,10 @@ infoObject:
     title: Photography
 primaryImage:
   image: /images/uploads/58TH ST_ (14)_1820.jpg
-secondaryImage:
-  image: /images/uploads/58TH ST_ (4)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/58TH ST_ (4)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/58TH ST_ (10)_1820.jpg
     type: image

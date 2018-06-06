@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.absolute {
+  position: absolute !important;
+}
+
 .flex-1 { flex: 1 }
 
 .justifySpaceBetween {

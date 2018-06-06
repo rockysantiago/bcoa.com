@@ -25,9 +25,10 @@ infoObject:
     title: KEY PERSONEL
 primaryImage:
   image: /images/uploads/ANKARA HOTEL_ (10)_1820.jpg
-secondaryImage:
-  image: /images/uploads/ANKARA HOTEL_ (22)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/ANKARA HOTEL_ (22)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/ANKARA HOTEL_ (3)_1820.jpg
     type: image

@@ -25,9 +25,10 @@ infoObject:
     title: Awards
 primaryImage:
   image: /images/uploads/LIFT_BROOKLYN_ (5)_1820.jpg
-secondaryImage:
-  image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/LIFT_BROOKLYN_ (8)_1820.jpg
     type: image

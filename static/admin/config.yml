@@ -186,15 +186,6 @@ collections:
           - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
           - { label: "Caption", name: "caption", widget: "string", default: "project image caption" }
 
-      - label: Secondary Image
-        name: secondaryImage
-        required: false
-        widget: object
-        fields:
-          - { label: "Image", name: "image", widget: "image", default: "/images/uploads/placeholder.jpg" }
-          - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
-          - { label: "Caption", name: "caption", widget: "string", default: "project image caption" }
-
       - label: "Project Gallery Items"
         name: "projectGallery"
         widget: "list"

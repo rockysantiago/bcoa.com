@@ -24,9 +24,11 @@ infoObject:
     title: Photography
 primaryImage:
   image: /images/uploads/copyright_barkow_photo_6o2a6552.jpg
-secondaryImage:
-  image: /images/uploads/copyright_barkow_photo_6225.jpg
 projectGallery:
+  - caption: Object kitchen
+    colWidth: '6'
+    image: /images/uploads/copyright_barkow_photo_6225.jpg
+    type: image
   - caption: Object kitchen
     colWidth: '8'
     image: /images/uploads/copyright_barkow_photo_6283.jpg

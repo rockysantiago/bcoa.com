@@ -45,23 +45,18 @@ export default ({ data }) => {
           </div>
           <div className="colSpan-1"></div>
           {fields.primaryImage && 
-            <div className="project-primaryImage bp-1_marginTop-1 colSpan-6">
-              <ProjectImage key='primary-image' image={fields.primaryImage} />
+            <div className={`project-primaryImage bp-1_marginTop-1 colSpan-6`}>
+              <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' image={fields.primaryImage} />
             </div>
           }
         </div>
         <div>
-          {fields.secondaryImage && 
-            <div className="bp-1_grid-12col">
-              <ProjectImage className="colSpan-6" key='secondary-image' image={fields.secondaryImage} />
-            </div>
-          }
           {fields.projectGallery && fields.projectGallery.length &&
             <div className="project-images bp-1_grid-12col">
               {fields.projectGallery.map((item, i) => {
                 return (
                   item.type === 'image' ? 
-                    <ProjectImage key={i} image={item} />
+                    <ProjectImage key={i} index={i} image={item} />
                   :
                   <blockquote key={i} className=" project-blockquote colSpan-12 bp-1_colSpan-11 t-center f-headline-b 
                                                   marginTop-12 marginBottom-12
@@ -98,11 +93,6 @@ export const query = graphql`
           alt
         }
         primaryImage {
-          image
-          alt
-          caption
-        }
-        secondaryImage {
           image
           alt
           caption

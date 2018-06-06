@@ -21,9 +21,10 @@ infoObject:
     title: STATUS
 primaryImage:
   image: /images/uploads/LIFT_HUNTINGTON_ (1)_1820.jpg
-secondaryImage:
-  image: /images/uploads/LIFT_HUNTINGTON_ (16)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/LIFT_HUNTINGTON_ (16)_1820.jpg
+    type: image
   - colWidth: '10'
     image: /images/uploads/LIFT_HUNTINGTON_ (12)_1820.jpg
     type: image

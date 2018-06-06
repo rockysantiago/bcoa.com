@@ -17,9 +17,10 @@ infoObject:
     title: SHOWROOM IDENTITY
 primaryImage:
   image: /images/uploads/740 BROADWAY_SHOWROOM_ (3)_1820.jpg
-secondaryImage:
-  image: /images/uploads/740 BROADWAY_SHOWROOM_ (2)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/740 BROADWAY_SHOWROOM_ (2)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/740 BROADWAY_SHOWROOM_ (1)_1820.jpg
     type: image
@@ -28,4 +29,6 @@ projectGallery:
     offsetWidth: '4'
     type: image
 ---
-Objective — to design a think tank showroom for exhibiting the latest technology integrating Gorilla Glass, LED lighting and digital displays seamlessly into the built environment.
+Objective — to design a think tank showroom for exhibiting the
+ latest technology integrating Gorilla Glass, LED lighting and digital
+ displays seamlessly into the built environment.

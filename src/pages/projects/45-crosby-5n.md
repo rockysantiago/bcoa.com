@@ -18,9 +18,10 @@ infoObject:
     title: Photography
 primaryImage:
   image: /images/uploads/45 CROSBY_5N_ (23)_1820.jpg
-secondaryImage:
-  image: /images/uploads/45 CROSBY_5N_ (8)_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/45 CROSBY_5N_ (8)_1820.jpg
+    type: image
   - colWidth: '12'
     image: /images/uploads/45 CROSBY_5N_ (11)_1820.jpg
     type: image

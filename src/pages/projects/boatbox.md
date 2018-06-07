@@ -1,15 +1,11 @@
 ---
 templateKey: project-page
 title: Boatbox
-seo: 
-  title: Test title
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-type: residential
+type: commercial
 heroImage:
-  image: /images/uploads/BOATBOX_PH_1.jpg
+  url: /images/uploads/BOATBOX_PH_1.jpg
 previewImage:
-  image: /images/uploads/BOATBOX_index.jpg
+  url: /images/uploads/BOATBOX_index.jpg
 infoObject:
   - description: PortSide New York via DesigNYC
     title: CLIENT

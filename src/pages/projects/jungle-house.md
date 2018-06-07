@@ -1,6 +1,6 @@
 ---
 templateKey: project-page
-title: Jungle House
+title: Jungle House Updated
 type: residential
 heroImage:
   url: /images/uploads/JUNGLE HOUSE_ (5)_1820.jpg

@@ -43,12 +43,47 @@ header > .container {
 }
 
 .header-menuButton {
-  display: flex;
   height: var(--unit-9);
-  width: var(--unit-9);
-  color: currentColor;
-  
-  svg {
-    flex: 1;
-  }
+  width:  var(--unit-9);
+  position: relative;
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    background-color: currentColor;
+    width: 100%;
+    left: 0;
+    transform-origin: center;
+    transition: transform .25s cubic-bezier(.215,.61,.355,1), background-color .25s;
+    will-change: transform, background-color;
+}
+
+.lineInterior {
+    top: 50%;
+    margin-top: -1px;
+    
+    .isActive & {
+        transform: rotate(45deg);
+    }
+}
+
+.lineInterior-2 {
+    .isActive & {
+        transform: rotate(-45deg);
+    }
+}
+
+.lineExterior {
+    .isActive & {
+        transform: scaleX(0)
+    }
+}
+
+.line:nth-child(1) {
+    top: 0;
+}
+
+.line:nth-child(4) {
+    bottom: 0;
 }

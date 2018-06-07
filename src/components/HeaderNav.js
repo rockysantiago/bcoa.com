@@ -34,10 +34,12 @@ export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
           <div className="flex-1">
             <Link className="headerLogo" to="/">{isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall}</Link>
           </div>
-          <button className="header-menuButton" onClick={toggleMenu}>
-            <span className="hide">{visible ? "Close Menu" : "Open Menu"}</span>
-            {visible ? icons["x-mark"] : icons.hamburger}
-          </button>
+          <div className={`header-menuButton ${visible ? 'isActive' : ''}`} onClick={toggleMenu}>
+            <div class="line lineExterior"></div>
+            <div class="line lineInterior lineInterior-1"></div>
+            <div class="line lineInterior lineInterior-2"></div>
+            <div class="line lineExterior"></div>
+          </div>
         </div>
       </header>
       <Menu visible={visible} menuBG={menuBackground} toggleMenu={toggleMenu} />

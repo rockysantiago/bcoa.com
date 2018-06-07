@@ -28,7 +28,7 @@ export default (props) => {
         </div>
       </div>
 
-      {heroImage && 
+      {heroImg && 
         <Hero image={heroImg} alt={'hero image'} />
       }
 

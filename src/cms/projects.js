@@ -15,11 +15,6 @@ export default (props) => {
     caption: props.widgetsFor('primaryImage').getIn(['data', 'caption']),
     alt: props.widgetsFor('primaryImage').getIn(['data', 'alt']),
   };
-  const secondaryImg = {
-    image: props.widgetsFor('secondaryImage').getIn(['data', 'image']) && props.getAsset(props.widgetsFor('secondaryImage').getIn(['data', 'image'])).toString(),
-    caption: props.widgetsFor('secondaryImage').getIn(['data', 'caption']),
-    alt: props.widgetsFor('secondaryImage').getIn(['data', 'alt']),
-  }
   const infoObject = props.widgetsFor('infoObject');
   const projectGallery = props.widgetsFor('projectGallery');
 
@@ -33,7 +28,9 @@ export default (props) => {
         </div>
       </div>
 
-      <Hero image={heroImg} alt={'hero image'} />
+      {heroImg && 
+        <Hero image={heroImg} alt={'hero image'} />
+      }
 
       <div className="container marginTop-5 bp-1_marginTop-9 bp-2_marginTop-31">
         <div className="grid-12col">
@@ -69,9 +66,6 @@ export default (props) => {
           </div>
         </div>
         <div>
-          <div className="grid-12col">
-            <ProjectImage className="colSpan-6" key='secondary-image' image={secondaryImg} />
-          </div>
           {projectGallery &&
             <div className="project-images grid-12col">
               {projectGallery.map((item, i) => {
@@ -84,7 +78,7 @@ export default (props) => {
                       offsetWidth: item.getIn(['data', 'offsetWidth']),
                       colWidth: item.getIn(['data', 'colWidth']),
                     }
-                    return <ProjectImage key={i} image={image} />
+                    return <ProjectImage key={i} index={i} image={image} />
                   } else {
                     return (
                       <blockquote key={i} className="colSpan-12 t-center f-headline-b 

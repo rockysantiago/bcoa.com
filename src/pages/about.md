@@ -48,10 +48,19 @@ publications:
     publisher: The NYTimes
     title: Pre-War is So Last Year
     url: ''
-  - date: 'May 1, 2018'
-    publisher: Publisher 2
-    title: Second Publication 2
-    url: 'http://www.google.com'
+  - date: 'January 1, 2014'
+    publisher: Dwell Magazine
+    title: Dwell on Design NY
+    url: ''
+  - date: 'January 1, 2013'
+    publisher: 'Dwell Magazine OnLine, Dianna Budds'
+    title: A Renovated Loft in Soho
+  - date: 'January 1, 2012'
+    publisher: Satellite Magazine
+    title: Brooklyn / BC—OA
+  - date: 'January 1, 2011'
+    publisher: Architect’s Newspaper
+    title: Recharging Communities
 awards:
   - date: 'April 29, 2018'
     orgName: Awesome Organization

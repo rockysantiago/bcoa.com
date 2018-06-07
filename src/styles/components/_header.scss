@@ -43,14 +43,14 @@ header > .container {
 }
 
 .header-menuButton {
-  height: var(--unit-9);
-  width:  var(--unit-9);
+  width: var(--unit-9);
+  height:  var(--unit-6);
   position: relative;
 }
 
 .line {
     position: absolute;
-    height: 2px;
+    height: 1px;
     background-color: currentColor;
     width: 100%;
     left: 0;

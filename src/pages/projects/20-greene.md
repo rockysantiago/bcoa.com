@@ -1,7 +1,7 @@
 ---
 templateKey: project-page
 title: Object Loft
-type: residential
+type: commercial
 heroImage:
   url: /images/uploads/20-greene_ph.jpg
 headline: Interrupt the grid

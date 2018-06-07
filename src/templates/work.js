@@ -25,11 +25,11 @@ export default class Work extends Component {
                       bp-1_marginBottom-3
                       bp-2_marginBottom-9"
       >
-        <div className="  flex
-                          justifySpaceBetween
-                          marginTop-7 marginBottom-6
-                          bp-1_marginTop-10
-                          bp-2_marginTop-17 bp-2_marginBottom-12"
+        <div className="flex
+                        justifySpaceBetween
+                        marginTop-7 marginBottom-6
+                        bp-1_marginTop-10
+                        bp-2_marginTop-17 bp-2_marginBottom-12"
         >
           <h1 className="f-page-title">
             { page.title }

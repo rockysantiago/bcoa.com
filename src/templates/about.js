@@ -18,7 +18,7 @@ const Member = ({ member }) => (
 
 const Publication = ({ publication }) => (
   <div>
-    <hr className=" marginBottom-2" />
+    <hr className="marginBottom-2" />
     <a className="f-copy-bold defaultLink" href={ publication.url }>{ publication.title } -- { publication.publisher }</a>
     <p className="f-copy marginBottom-7">{ publication.date }</p>
   </div>
@@ -28,7 +28,7 @@ const Award = ({ award }) => (
   <div>
     <hr className=" marginBottom-2" />
     <a className="f-copy-bold defaultLink" href={ award.url }>{ award.title } -- { award.orgName }</a>
-    <p className="  marginBottom-7">
+    <p className="marginBottom-7">
       { award.date }
     </p>
   </div>

@@ -19,7 +19,7 @@ export default ({ data }) => {
       {fields.heroImage && 
         <Hero image={fields.heroImage.url} alt={fields.heroImage.alt} />
       }
-      <div className="container marginTop-5 bp-1_marginTop-10 bp-2_marginTop-31">
+      <div className="container marginTop-5 bp-1_marginTop-10 bp-2_marginTop-30">
       {/* Always will be 2 lines of text, even on large resolution as the first image of the proj img array will float over on the right side */}
         <div className="bp-1_grid-12col">
           <div className="colSpan-5">
@@ -45,7 +45,7 @@ export default ({ data }) => {
           </div>
           <div className="colSpan-1"></div>
           {fields.primaryImage && 
-            <div className={`project-primaryImage bp-1_marginTop-1 colSpan-6`}>
+            <div className={`project-primaryImage colSpan-6 bp-1_marginTop-1 bp-2_marginTop-3`}>
               <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' image={fields.primaryImage} />
             </div>
           }

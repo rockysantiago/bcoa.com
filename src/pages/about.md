@@ -44,10 +44,10 @@ studioMembers:
     jobTitle: Worker bee
     name: John Smith
 publications:
-  - date: 'April 30, 2018'
-    publisher: Publisher 1
-    title: First Publication 1
-    url: 'http://www.google.com'
+  - date: 'January 1, 2017'
+    publisher: The NYTimes
+    title: Pre-War is So Last Year
+    url: ''
   - date: 'May 1, 2018'
     publisher: Publisher 2
     title: Second Publication 2

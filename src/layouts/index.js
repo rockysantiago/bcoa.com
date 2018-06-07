@@ -5,7 +5,8 @@ import "../styles/app.scss";
 import HeaderNav from "../components/HeaderNav";
 import FixedLogo from "../components/FixedLogo";
 import classnames from "classnames";
-import Headroom from 'react-headroom'
+import Headroom from "react-headroom";
+import { icons } from "../components/Icons";
 
 export default class TemplateWrapper extends Component {
 
@@ -80,10 +81,8 @@ export default class TemplateWrapper extends Component {
           <div className="container">
             <hr className="marginBottom-5" />
             <div className="bp-1_grid-12col marginBottom-9 bp-1_marginBottom-11 bp-2_marginBottom-41">
-              <div className="f-footer-b colSpan-6 marginBottom-7">
-                <h2>
-                  Breitner<br />Ciaccia–<br />Office of<br />Architecture
-                </h2>
+              <div className="colSpan-6 marginBottom-7">
+                { icons.footerGIF }
               </div>
               <div className="f-footer-b colSpan-3 marginBottom-5 bp-1_marginBottom-0">
                 <b>Contact</b>

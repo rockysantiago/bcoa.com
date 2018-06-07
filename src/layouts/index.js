@@ -50,7 +50,3 @@ export const query = graphql`
     }
   }
 `;
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};

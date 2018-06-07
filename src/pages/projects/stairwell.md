@@ -1,7 +1,7 @@
 ---
 templateKey: project-page
 title: Stairwell
-type: residential
+type: commercial
 heroImage:
   url: /images/uploads/STAIRWELL_PH_1.jpg
 previewImage:

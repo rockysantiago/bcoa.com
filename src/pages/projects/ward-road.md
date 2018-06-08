@@ -4,7 +4,7 @@ title: Ward Road
 type: residential
 heroImage:
   url: /images/uploads/ward-road_ph.jpg
-headline: DESIGN IN DUALS— SHARED HOLIDAY HOUSE
+headline: DESIGN IN DUALS - SHARED HOLIDAY HOUSE
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:

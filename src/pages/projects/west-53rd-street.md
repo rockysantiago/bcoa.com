@@ -4,6 +4,7 @@ title: West 53rd Street
 type: residential
 heroImage:
   url: /images/uploads/W 53RD ST_PH_3.jpg
+headline: INVITE THE CITY IN
 previewImage:
   url: /images/uploads/W 53ST_index.jpg
 infoObject:

@@ -4,7 +4,7 @@ title: 45 Crosby 5N
 type: residential
 heroImage:
   url: /images/uploads/45_crosbyy_5n_ph.jpg
-headline: A Less Selective Loft
+headline: EXPOSE AND CONCEAL THE LOFT
 previewImage:
   url: /images/uploads/45 CROSBY_5N_index.jpg
 infoObject:

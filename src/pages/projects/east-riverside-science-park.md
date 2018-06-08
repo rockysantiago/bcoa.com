@@ -4,6 +4,7 @@ title: 'East Riverside Science Park '
 type: residential
 heroImage:
   url: /images/uploads/east-riverside-science-park_ph.jpg
+headline: DESIGN A HUB FOR NYC’s EXPANDING LIFE SCIENCES SECTOR
 previewImage:
   url: /images/uploads/east-riverside-science-park_index_2.jpg
 infoObject:

@@ -4,6 +4,7 @@ title: 'Riverside '
 type: residential
 heroImage:
   url: /images/uploads/RIVERSIDE_PH.jpg
+headline: BUILD COMMUNITY WITH A KIOSK REVISITED
 previewImage:
   url: /images/uploads/RIVERSIDE_index.jpg
 infoObject:

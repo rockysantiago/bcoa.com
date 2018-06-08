@@ -62,14 +62,14 @@ publications:
     publisher: Architect’s Newspaper
     title: Recharging Communities
 awards:
-  - date: 'April 29, 2018'
-    orgName: Awesome Organization
-    title: Award Title 1
-    url: 'http://www.ikea.com'
-  - date: 'April 30, 2018'
-    orgName: The Best Organization Inc
-    title: 'Award #2'
-    url: 'http://www.google.com'
+  - date: 'January 1, 2018'
+    orgName: AIA BQDA
+    title: Design Excellence Award for Riverside Kiosk
+    url: ''
+  - date: 'January 1, 2016'
+    orgName: AIA BQDA
+    title: Merit Award for Lift Next Level Floats
+    url: ''
   - date: 'May 1, 2018'
     orgName: The Mediocre Organization
     title: 3rd Award

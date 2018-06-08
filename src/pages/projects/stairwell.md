@@ -1,9 +1,10 @@
 ---
 templateKey: project-page
 title: Stairwell
-type: residential
+type: commercial
 heroImage:
   url: /images/uploads/STAIRWELL_PH_1.jpg
+headline: 'STAIR-WELL HOUSING: EMBRACE THE CORE'
 previewImage:
   url: /images/uploads/STAIR-WELL_index.jpg
 infoObject:

@@ -4,6 +4,7 @@ title: Lift Brooklyn
 type: commercial
 heroImage:
   url: /images/uploads/lift_brooklyn_ph.jpg
+headline: ENGAGE THE SENSES
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:

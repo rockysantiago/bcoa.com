@@ -67,7 +67,7 @@ export default ({ data }) => {
                      bp-1_marginTop-10
                      bp-2_marginTop-17 bp-2_marginBottom-12"
       >
-        { news.title }
+        { news.title } Test
       </h1>
       { articles &&
         <Masonry

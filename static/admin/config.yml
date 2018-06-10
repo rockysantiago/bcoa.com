@@ -256,7 +256,7 @@ collections:
         name: image
         widget: object
         fields:
-          - { label: "Image", name: "url", widget: "custompathimage", customMediaPath: "../images/uploads/", rawMediaPath: "https://raw.githubusercontent.com/BCOA/bcoa.com/staging/images/uploads"}
+          - { label: "Image", name: "url", widget: "custompathimage", customMediaPath: "../images/uploads/", rawMediaPath: "https://raw.githubusercontent.com/BCOA/bcoa.com/staging/static/images/uploads/"}
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Date", name: "date", widget: "date", format: "M.D.YYYY" }
       - { label: "Body", name: "body", widget: "markdown" }

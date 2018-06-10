@@ -201,7 +201,9 @@ collections:
                 value: quote
           - label: "Image"
             name: "image"
-            widget: "image"
+            widget: "custompathimage"
+            customMediaPath: "../images/uploads/"
+            rawMediaPath: "https://raw.githubusercontent.com/BCOA/bcoa.com/staging/images/uploads"
             default: "/images/uploads/placeholder.jpg"
             condition: 
               field: type
@@ -254,7 +256,7 @@ collections:
         name: image
         widget: object
         fields:
-          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Image", name: "url", widget: "custompathimage", customMediaPath: "../images/uploads/", rawMediaPath: "https://raw.githubusercontent.com/BCOA/bcoa.com/staging/images/uploads"}
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Date", name: "date", widget: "date", format: "M.D.YYYY" }
       - { label: "Body", name: "body", widget: "markdown" }

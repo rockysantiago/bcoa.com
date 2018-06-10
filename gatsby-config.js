@@ -5,7 +5,6 @@ module.exports = {
     `gatsby-plugin-netlify`,
     "gatsby-link",
     `gatsby-transformer-remark`,
-    `gatsby-plugin-styled-components`,
     "gatsby-transformer-json",
     'gatsby-plugin-react-next',
     {
@@ -36,6 +35,15 @@ module.exports = {
         path: `${__dirname}/src/_data/settings`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/images/uploads`,
+        name: "images",
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {

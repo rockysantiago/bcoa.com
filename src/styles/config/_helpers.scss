@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.alignItems-flexEnd {
+  align-items: flex-end;
+}
+
 .absolute {
   position: absolute !important;
 }

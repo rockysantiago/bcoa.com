@@ -14,9 +14,15 @@ export default class TemplateWrapper extends Component {
     super(props);
     this.state = {
       menuOpen: false,
+      layerIncrement: 0,
     };
-
+    this.animationInterval = setInterval(this.animateFooterLogo, 2000);
     this.fixedLogo = React.createRef();
+  }
+
+  animateFooterLogo = () => {
+    let currentIncrement = this.state.layerIncrement < 6 ? this.state.layerIncrement + 1 : 0;
+    this.setState({ layerIncrement: currentIncrement });
   }
 
   handleIntersect = (e) => {
@@ -42,6 +48,10 @@ export default class TemplateWrapper extends Component {
   componentDidMount() {
     window.addEventListener("resize", this.updateDimensions);
     this.updateDimensions();
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.animationInterval);
   }
 
   toggleMenu = () => {
@@ -81,8 +91,8 @@ export default class TemplateWrapper extends Component {
           <div className="container">
             <hr className="marginBottom-5" />
             <div className="bp-1_grid-12col marginBottom-9 bp-1_marginBottom-11 bp-2_marginBottom-41">
-              <div className="colSpan-6 marginBottom-7">
-                { icons.footerGIF }
+              <div className={`flex alignItems-flexEnd colSpan-6 marginBottom-7 bp-2_marginBottom-0 layer-${this.state.layerIncrement}`}>
+                { icons.footerGIFs }
               </div>
               <div className="f-footer-b colSpan-3 marginBottom-5 bp-1_marginBottom-0">
                 <b>Contact</b>

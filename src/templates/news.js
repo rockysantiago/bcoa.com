@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Masonry from 'react-masonry-component';
 import slugify from 'slugify'
+import Img from 'gatsby-image'
 
 class Article extends Component {
   constructor(props) {
@@ -23,9 +24,10 @@ class Article extends Component {
 
     return (
       <article id={slugify(article.frontmatter.title, { lower: true })} className="marginBottom-12 bp-1_marginBottom-14 bp-2_marginBottom-21">
-        <img
-          src={ article.frontmatter.image.url }
-          alt={ article.frontmatter.image.alt }
+        <Img
+          resolutions={article.frontmatter.image.url.childImageSharp.resolutions}
+          // src={ article.frontmatter.image.url }
+          // alt={ article.frontmatter.image.alt }
           className=" marginBottom-5
                       bp-2_marginBottom-6"
         />
@@ -96,7 +98,13 @@ export const query = graphql`
             templateKey
             title
             image {
-              url
+              url {
+                childImageSharp {
+                  resolutions(width: 125, height: 125) {
+                    ...GatsbyImageSharpResolutions
+                  }
+                }
+              }
               alt
             }
             date

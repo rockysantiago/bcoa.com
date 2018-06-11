@@ -4,31 +4,23 @@
 
 .t-center { text-align: center; }
 
-.flex {
-  display: flex;
-}
+.absolute { position: absolute !important; }
 
-.alignItems-flexEnd {
-  align-items: flex-end;
-}
+//////////    FLEX    \\\\\\\\\\
 
-.absolute {
-  position: absolute !important;
-}
+.flex { display: flex; }
 
 .flex-1 { flex: 1 }
 
-.justifySpaceBetween {
-  justify-content: space-between;
-}
+.alignItems-flexEnd { align-items: flex-end; }
 
-.textDecorationNone {
-  text-decoration: none;
-}
+.justifySpaceBetween { justify-content: space-between; }
 
-.underline {
-  text-decoration: underline;
-}
+////////    HOVER STATES    \\\\\\\\\\
+
+.textDecorationNone { text-decoration: none; }
+
+.underline { text-decoration: underline; }
 
 @mixin underlineHover {
   &:hover {

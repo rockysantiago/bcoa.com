@@ -35,10 +35,10 @@ export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
             <Link className="headerLogo" to="/">{isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall}</Link>
           </div>
           <div className={`header-menuButton ${visible ? 'isActive' : ''}`} onClick={toggleMenu}>
-            <div class="line lineExterior"></div>
-            <div class="line lineInterior lineInterior-1"></div>
-            <div class="line lineInterior lineInterior-2"></div>
-            <div class="line lineExterior"></div>
+            <div className="line lineExterior"></div>
+            <div className="line lineInterior lineInterior-1"></div>
+            <div className="line lineInterior lineInterior-2"></div>
+            <div className="line lineExterior"></div>
           </div>
         </div>
       </header>

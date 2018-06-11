@@ -149,6 +149,10 @@ collections:
               field: isFeatured
               value: true
             fields:
+              - label: Set Portrait
+                name: isPortrait
+                widget: boolean
+                required: false
               - { label: "Image", name: "url", widget: "image" }
               - { label: "Alt", name: "alt", widget: "string" }
           - label: Featured Description

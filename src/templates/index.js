@@ -7,7 +7,7 @@ const renderFeaturedProjects = (projects) => {
   return (
     projects.map(({ node: project }, i) => (
       <li className='bp-1_masonry-child-2col' key={i}>
-        <article className="featuredProject">
+        <article className="featuredProjectHover">
           <Link to={ project.fields.slug }>
             <img
               src={ project.frontmatter.featured.featuredImage.url }
@@ -94,6 +94,7 @@ export const query = graphql`
             featured {
               isFeatured
               featuredImage {
+                isPortrait
                 url
                 alt
               }

@@ -9,6 +9,7 @@ headline: CRAFT A JEWEL BOX
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     url: /images/uploads/10-astor_-index.jpg
   isFeatured: true

@@ -3,7 +3,7 @@ templateKey: project-page
 title: 45 Crosby 5N
 type: residential
 heroImage:
-  url: /images/uploads/45_crosbyy_5n_ph.jpg
+  url: /images/uploads/45 CROSBY_5N_ (13)_1820.jpg
 headline: EXPOSE AND CONCEAL THE LOFT
 previewImage:
   url: /images/uploads/45 CROSBY_5N_index.jpg

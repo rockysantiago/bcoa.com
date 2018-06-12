@@ -26,11 +26,12 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/W 53RD ST_ (13)_1820.jpg
     type: image
-  - colWidth: '12'
-    image: /images/uploads/W 53RD ST_ (11)_1820.jpg
-    type: image
   - colWidth: '10'
     image: /images/uploads/W 53RD ST_ (17)_1820.jpg
+    offsetWidth: '2'
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/w-53rd-st_-24-_1820.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/W 53RD ST_ (4)_1820.jpg

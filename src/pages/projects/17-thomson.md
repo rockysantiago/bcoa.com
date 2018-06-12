@@ -25,5 +25,14 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/17 THOMPSON_PROMO PLAN_1820.jpg
     type: image
+  - colWidth: '4'
+    image: /images/uploads/17 THOMPSON_ (6)_1820.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/17-thompson_-16.1-_1820.jpg
+    type: image
+  - colWidth: '10'
+    image: /images/uploads/17 THOMPSON_ (11)_1820.jpg
+    type: image
 ---
 

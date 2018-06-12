@@ -37,6 +37,9 @@ projectGallery:
     offsetWidth: '0'
     type: image
   - colWidth: '6'
+    image: /images/uploads/45 CROSBY_5N_ (17)_1820.jpg
+    type: image
+  - colWidth: '6'
     image: /images/uploads/45 CROSBY_5N_ (22)_1820.jpg
     offsetWidth: '0'
     type: image

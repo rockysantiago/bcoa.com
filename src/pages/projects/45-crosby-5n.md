@@ -40,11 +40,11 @@ projectGallery:
     image: /images/uploads/45 CROSBY_5N_ (17)_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_5N_ (22)_1820.jpg
-    offsetWidth: '0'
+    image: /images/uploads/45 CROSBY_5N_ (16)_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_5N_ (16)_1820.jpg
+    image: /images/uploads/45 CROSBY_5N_ (15)_1820.jpg
+    offsetWidth: '0'
     type: image
   - colWidth: '10'
     image: /images/uploads/45 CROSBY_5N_ (8)_1820.jpg

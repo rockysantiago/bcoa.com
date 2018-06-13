@@ -3,7 +3,7 @@ templateKey: project-page
 title: Ankara
 type: residential
 heroImage:
-  url: /images/uploads/ANKARA_PH_1-1.jpg
+  url: /images/uploads/ANKARA HOTEL_ (13)_1820.jpg
 previewImage:
   url: /images/uploads/ANKARA HOTEL_index_2.jpg
 infoObject:
@@ -24,7 +24,7 @@ infoObject:
   - description: Luigi Ciaccia
     title: KEY PERSONEL
 primaryImage:
-  image: /images/uploads/ANKARA HOTEL_ (10)_1820.jpg
+  image: /images/uploads/ANKARA HOTEL_ (15)_1820.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/ANKARA HOTEL_ (22)_1820.jpg

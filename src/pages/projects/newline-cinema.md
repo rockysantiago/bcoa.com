@@ -35,7 +35,12 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/new-line-cinema_-8-_1820.jpg
     type: image
-  - {}
+  - colWidth: '6'
+    image: /images/uploads/new-line-cinema_-9-_1820.jpg
+    type: image
+  - colWidth: '12'
+    image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
+    type: image
 ---
 The building at 116 North Robertson Boulevard, designed
  in the 1950’s in Los Angeles, prefi gured Caesar Pelli’s “Blue

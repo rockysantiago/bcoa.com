@@ -20,13 +20,14 @@ primaryImage:
   image: /images/uploads/17 W 71st St_ (1)_1820.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/17 W 71st St_ (15)_1820.jpg
+    image: /images/uploads/17 W 71st St_ (2)_1820.jpg
     type: image
-  - colWidth: '12'
-    image: /images/uploads/17 W 71st St_ (3)_1820.jpg
+  - colWidth: '10'
+    image: /images/uploads/17 W 71st St_ (12)_1820.jpg
+    offsetWidth: '2'
     type: image
   - colWidth: '6'
-    image: /images/uploads/17 W 71st St_ (4)_1820.jpg
+    image: /images/uploads/17 W 71st St_ (10)_1820.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/17 W 71st St_ (5)_1820.jpg

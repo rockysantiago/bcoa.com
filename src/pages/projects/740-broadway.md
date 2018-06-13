@@ -3,13 +3,13 @@ templateKey: project-page
 title: 740 Broadway
 type: residential
 heroImage:
-  url: /images/uploads/740-broadway_lobby_ph.jpg
+  url: /images/uploads/740-broadway_lobby_-10-.jpg
 headline: Light Folds
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
-    isPortrait: true
     alt: this is the alt text
+    isPortrait: true
     url: /images/uploads/20 GREENE ST_ (10)_1820.jpg
   isFeatured: true
 previewImage:

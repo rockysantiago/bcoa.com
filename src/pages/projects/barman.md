@@ -3,7 +3,7 @@ templateKey: project-page
 title: Barman
 type: residential
 heroImage:
-  url: /images/uploads/BARMAN_PH_1.jpg
+  url: /images/uploads/BARMAN_SECTION PERSPECTIVE_1820.jpg
 headline: California Modern
 previewImage:
   url: /images/uploads/BARMAN_index_2.jpg

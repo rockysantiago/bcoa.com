@@ -17,20 +17,20 @@ infoObject:
   - description: SMH w. Bronwyn Breitner
     title: ARCHITECT
 primaryImage:
-  image: /images/uploads/NEW LINE CINEMA_ (2)_1820.jpg
+  image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/NEW LINE CINEMA_ (4)_1820.jpg
     type: image
-  - colWidth: '12'
-    image: /images/uploads/NEW LINE CINEMA_ (6)_1820.jpg
-    type: image
   - colWidth: '8'
-    image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
+    image: /images/uploads/NEW LINE CINEMA_ (7)_1820.jpg
     offsetWidth: '4'
     type: image
-  - colWidth: '8'
-    image: /images/uploads/NEW LINE CINEMA_ (5)_1820.jpg
+  - colWidth: '4'
+    image: /images/uploads/NEW LINE CINEMA_ (3)_1820.jpg
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/NEW LINE CINEMA_ (2)_1820.jpg
     type: image
 ---
 The building at 116 North Robertson Boulevard, designed

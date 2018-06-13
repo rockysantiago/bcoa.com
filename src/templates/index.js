@@ -3,19 +3,34 @@ import Link from "gatsby-link";
 import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
 
+const FeaturedProjectImage = ({ image }) => {
+  return (
+    <img
+      src={ image.url }
+      alt={ image.alt }
+      className=" colSpan-4
+                  marginBottom-5
+                  bp-1_marginBottom-6
+                  bp-2_marginBottom-9"
+    />
+  )
+}
+
 const renderFeaturedProjects = (projects) => {
   return (
     projects.map(({ node: project }, i) => (
       <li className='bp-1_masonry-child-2col' key={i}>
-        <article className="featuredProjectHover">
+        <article className="featuredProject">
           <Link to={ project.fields.slug }>
-            <img
-              src={ project.frontmatter.featured.featuredImage.url }
-              alt={ project.frontmatter.featured.featuredImage.alt }
-              className=" marginBottom-5
-                          bp-1_marginBottom-6
-                          bp-2_marginBottom-9"
-            />
+          { project.frontmatter.featured.featuredImage.isPortrait ?
+            <div className="nestedGrid-6-2">
+              <div className="colSpan-1"></div>
+              <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage } />
+            </div>
+          :
+            <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage } />
+          }
+            
             <div className="featured-info">
               <h1 className=" f-headline-d
                               marginBottom-5
@@ -25,7 +40,8 @@ const renderFeaturedProjects = (projects) => {
               <div className="f-subhead
                               marginBottom-12
                               bp-1_marginBottom-14
-                              bp-2_marginBottom-30">
+                              bp-2_marginBottom-30"
+              >
                 <p>{project.frontmatter.featured.featuredDescription}</p>
                 <p className="underline">Read More</p>
               </div>
@@ -84,7 +100,7 @@ export const query = graphql`
       }
     }
     projects: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: ASC }
     ) {
       edges {
         node {

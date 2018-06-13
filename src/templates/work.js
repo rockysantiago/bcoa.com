@@ -40,8 +40,8 @@ export default class Work extends Component {
           { projects &&
             projects.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
               return (
-                <li key={i} className="defaultLink">
-                  <article>
+                <li key={i}>
+                  <article className="workProjectHover">
                     <Link to={ project.fields.slug }>
                       { project.frontmatter.previewImage &&
                         <img
@@ -51,12 +51,12 @@ export default class Work extends Component {
                         />
                       }
                       <h1 className="f-subhead">{ project.frontmatter.title }</h1>
-                      <h1 className=" f-subhead
+                      <h2 className=" f-subhead
                                       marginBottom-9
                                       bp-2_marginBottom-21"
                       >
-{/* Project Description , may need to change marginBottom if don't use Project Description */}
-                      </h1>
+                      { project.frontmatter.workDescription }
+                      </h2>
                     </Link>
                   </article>
                 </li>
@@ -80,6 +80,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            workDescription
             type
             previewImage {
               url

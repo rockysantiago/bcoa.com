@@ -8,6 +8,7 @@ headline: Light Folds
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     url: /images/uploads/20 GREENE ST_ (10)_1820.jpg
   isFeatured: true

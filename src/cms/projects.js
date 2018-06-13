@@ -4,7 +4,6 @@ import Hero from "../components/Hero";
 import ProjectImage from "../components/ProjectImage";
 
 export default (props) => {
-  console.log(props);
   const entry = props.entry;
   const title = entry.getIn(['data', 'title']);
   const headline = entry.getIn(['data', 'headline']);

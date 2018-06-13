@@ -59,42 +59,65 @@ export default class TemplateWrapper extends Component {
   }
 
   updateDimensions = () => {
-    document.body.clientWidth >= 768 ? this.setState({ isWindowLarge: true }) : this.setState({ isWindowLarge: false });
+    const screenWidth = document.body.clientWidth;
+    screenWidth >= 768 ? this.setState({ isWindowLarge: true }) : this.setState({ isWindowLarge: false });
+    screenWidth > 768 && screenWidth < 1024 ? this.setState({ isWindowMedium: true }) : this.setState({ isWindowMedium: false });
   }
 
   render() {
     const homeClasses = classnames(this.props.className, {
-      'bg-lightRed c-red': (this.props.location.pathname.replace(/\//g, '') === 'about' || this.props.location.pathname.replace(/\//g, '') === 'contact'),
+      'showFixedLogo': this.props.location.pathname.replace(/\//g, '') === '',
       'menuVisible': this.state.menuOpen,
+      'bg-lightRed c-red': ( this.props.location.pathname.replace(/\//g, '') === 'about'
+                          || this.props.location.pathname.replace(/\//g, '') === 'contact' ),
+      'hideFixedLogo': this.props.location.pathname.replace(/\//g, '') === 'news'
+                  || ( this.props.location.pathname.replace(/\//g, '') === 'work' && this.state.isWindowMedium )
+                  || ( this.props.location.pathname.replace(/\//g, '') === 'contact' && this.state.isWindowMedium ),
     })
-
+    
+    console.log(this.state);
+    
     const menuBackground = this.props.data.settingsJson.menuBackground;
-
+    
     const {
       children,
       data
     } = this.props;
-
+    
     return (
-      <div className={homeClasses}>
+      <div className={ homeClasses }>
         <Helmet title="Home | BC–OA"
-          bodyAttributes={{
-            class: this.state.menuOpen && 'scrollingIsDisabled'
-          }}
+                bodyAttributes={{ class: this.state.menuOpen && 'scrollingIsDisabled' }}
         />
         <Headroom>
-          <HeaderNav visible={this.state.menuOpen} toggleMenu={this.toggleMenu} isWindowLarge={this.state.isWindowLarge} menuBackground={menuBackground} />
+          <HeaderNav  visible=        { this.state.menuOpen }
+                      toggleMenu=     { this.toggleMenu }
+                      isWindowLarge=  { this.state.isWindowLarge }
+                      menuBackground= { menuBackground }
+          />
         </Headroom>
-        <FixedLogo fixedNavPast={this.state.fixedNavPast} />
-        <main ref={(el) => { if (el) { this.main = el } }}>{children()}</main>
+        <FixedLogo fixedNavPast={ this.state.fixedNavPast } isWindowMedium={ this.state.isWindowMedium } />
+        <main ref={(el) => { if (el) { this.main = el } } }>{ children() }</main>
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />
-            <div className="bp-1_grid-12col marginBottom-9 bp-1_marginBottom-11 bp-2_marginBottom-41">
-              <div className={`colSpan-6 marginBottom-7 bp-1_marginBottom-0 layer-${this.state.layerIncrement}`}>
+            <div className="marginBottom-9
+                            bp-1_grid-12col
+                            bp-1_marginBottom-11
+                            bp-2_marginBottom-41"
+            >
+              <div className={` colSpan-6
+                                marginBottom-7
+                                bp-1_marginBottom-0
+                                layer-${ this.state.layerIncrement }`}
+              >
                 { icons.footerGIFs }
               </div>
-              <div className="f-footer-b colSpan-3 marginBottom-5 bp-1_marginBottom-0">
+              <div className="f-footer-b
+                              colSpan-3
+                              marginBottom-5
+                              bp-1_marginBottom-0"
+              >                
                 <b>Contact</b>
                 <a href="https://goo.gl/maps/cxWiP9aLg6v">
                   <address className="f-footer-b">

@@ -4,10 +4,10 @@
   }
 }
 
-.featuredProjectHover:hover .f-headline-d {
+.featuredProject:hover .f-headline-d {
   text-decoration: underline;
 }
 
-.featuredImageIsLandscape {
-  display: none;
+.workProjectHover:hover h1 {
+  text-decoration: underline;
 }

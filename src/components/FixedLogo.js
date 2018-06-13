@@ -1,5 +1,5 @@
-import React from 'react'
-import { icons } from "./Icons"
+import React, { Component } from 'react';
+import { icons } from "./Icons";
 
 export default ({ fixedNavPast }) => {
   return (

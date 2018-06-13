@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: Micro Cabin
+workDescription: Work description text
 type: residential
 heroImage:
   alt: Micro Cabin - residential forest reclaimed materials

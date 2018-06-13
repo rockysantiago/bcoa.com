@@ -5,7 +5,6 @@ import Hero from "../components/Hero";
 export default ({ data }) => {
   const post = data.markdownRemark;
   const fields = post.frontmatter;
-  console.log(fields.projectGallery[0].colWidth);
   return (
     <div className="bp-2_marginBottom-15">
       <div className="container
@@ -46,8 +45,7 @@ export default ({ data }) => {
           <div className="colSpan-1"></div>
           {fields.primaryImage && 
             <div className={`project-primaryImage colSpan-6 bp-1_marginTop-1 bp-2_marginTop-3`}>
-              <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? 'absolute' : 'relative'} key='primary-image' image={fields.primaryImage} />
-              {/* I feel like we had absolute and relative switched up above...    ^   <-- -->   ^     */}
+              <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' image={fields.primaryImage} />
             </div>
           }
         </div>

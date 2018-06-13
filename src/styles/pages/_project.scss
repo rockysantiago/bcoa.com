@@ -6,12 +6,16 @@
 
 .project-primaryImage {
   position: relative;
+}
 
-  > figure {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
+.project-primaryImage figure {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+
+  @include only_bp-0 {
+    position: relative !important;
   }
 }
 

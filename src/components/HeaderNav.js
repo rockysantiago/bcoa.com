@@ -8,7 +8,7 @@ const Menu = ({ visible, menuBG, toggleMenu }) => (
   >
     <ul className="c-white">
       <li>
-        <Link to="/" onClick={toggleMenu}>Featured</Link>
+        <Link to="/#featured" onClick={toggleMenu}>Featured</Link>
       </li>
       <li>
         <Link to="/work" onClick={toggleMenu}>Index</Link>

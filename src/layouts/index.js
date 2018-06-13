@@ -33,17 +33,17 @@ export default class TemplateWrapper extends Component {
     // }
   }
 
-  createObserver = () => {
-    this.observer = null;
+  // createObserver = () => {
+  //   this.observer = null;
 
-    const options = {
-      root: null,
-      rootMargin: "-50%",
-    };
+  //   const options = {
+  //     root: null,
+  //     rootMargin: "-50%",
+  //   };
 
-    this.observer = new IntersectionObserver(this.handleIntersect, options);
-    this.observer.observe(this.main.querySelector('.hero'));
-  }
+  //   this.observer = new IntersectionObserver(this.handleIntersect, options);
+  //   this.observer.observe(this.main.querySelector('.hero'));
+  // }
 
   componentDidMount() {
     window.addEventListener("resize", this.updateDimensions);
@@ -74,8 +74,6 @@ export default class TemplateWrapper extends Component {
                   || ( this.props.location.pathname.replace(/\//g, '') === 'work' && this.state.isWindowMedium )
                   || ( this.props.location.pathname.replace(/\//g, '') === 'contact' && this.state.isWindowMedium ),
     })
-    
-    console.log(this.state);
     
     const menuBackground = this.props.data.settingsJson.menuBackground;
     

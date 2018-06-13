@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import Link from "gatsby-link";
 import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
@@ -53,36 +53,47 @@ const renderFeaturedProjects = (projects) => {
   )
 }
 
-export default ({ data }) => {
-  const edges = data.projects.edges;
-  const projects = edges.filter(
-    edge =>
-      edge.node.frontmatter.templateKey === "project-page" &&
-      edge.node.frontmatter.featured
-  );
+export default class Index extends Component {
 
-  return (
-    <div>
-      <Slider className="hero" slides={ data.page.frontmatter.carouselImages } />
-      <div className="container overflow--hidden">
-        <h2 className=" f-page-title
-                        marginTop-8 marginBottom-7
-                        bp-1_marginTop-10
-                        bp-2_marginTop-17 bp-2_marginBottom-13">
-          { data.page.frontmatter.title }
-        </h2>
-        {projects &&                        
-          <Masonry
-            className={'masonry'}
-            elementType={'ul'}
-            options={{ transitionDuration: 0 }}
-          >
-            { renderFeaturedProjects(projects) }
-          </Masonry>
-        }
+  componentWillUpdate(nextProps) {
+    if ((this.props.location.hash !== nextProps.location.hash) && nextProps.location.hash === "#featured") {
+      setTimeout(() => {
+        this.content.scrollIntoView({ behavior: "smooth", block: "start", inline: 'nearest'});
+      }, 100);
+    }
+  }
+
+  render() {
+    const edges = this.props.data.projects.edges;
+    const projects = edges.filter(
+      edge =>
+        edge.node.frontmatter.templateKey === "project-page" &&
+        edge.node.frontmatter.featured
+    );
+  
+    return (
+      <div>
+        <Slider className="hero" slides={ this.props.data.page.frontmatter.carouselImages } />
+        <div ref={(el) => { if (el) { this.content = el } }} className="container overflow--hidden">
+          <h2 className=" f-page-title
+                          marginTop-8 marginBottom-7
+                          bp-1_marginTop-10
+                          bp-2_marginTop-17 bp-2_marginBottom-13">
+            { this.props.data.page.frontmatter.title }
+          </h2>
+          {projects &&                        
+            <Masonry
+              className={'masonry'}
+              elementType={'ul'}
+              options={{ transitionDuration: 0 }}
+            >
+              { renderFeaturedProjects(projects) }
+            </Masonry>
+          }
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 };
 
 export const query = graphql`

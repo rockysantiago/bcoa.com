@@ -1,0 +1,11 @@
+.workProject {
+  transition: opacity .25s ease-in-out;
+
+  .inTransition & {
+    opacity: 0;
+  }
+
+  &:hover h1 {
+    text-decoration: underline;
+  }
+}

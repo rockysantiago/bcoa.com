@@ -16,6 +16,12 @@ export default class Work extends Component {
     return project.frontmatter.type === this.state.filterValue;
   }
 
+  renderFilterTransition = (filterValue) => {
+    this.setState({inTransition: true});
+    setTimeout(() => this.setState({filterValue: filterValue}), 250);
+    setTimeout(() => this.setState({ inTransition: false }), 500);
+  }
+
   render() {
     const page = this.props.data.page.frontmatter;
     const projects = this.props.data.projects.edges;
@@ -34,14 +40,14 @@ export default class Work extends Component {
           <h1 className="f-page-title">
             { page.title }
           </h1>
-          <ProjectFilter onChange={(val) => this.setState({filterValue: val})}/>
+          <ProjectFilter onChange={(val) => this.renderFilterTransition(val)}/>
         </div>
-        <ul className="bp-1_grid-3col bp-2_grid-4col">
+        <ul className={`${this.state.inTransition ? 'inTransition' : '' } bp-1_grid-3col bp-2_grid-4col`}>
           { projects &&
             projects.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
               return (
                 <li key={i}>
-                  <article className="workProjectHover">
+                  <article className="workProject">
                     <Link to={ project.fields.slug }>
                       { project.frontmatter.previewImage &&
                         <img

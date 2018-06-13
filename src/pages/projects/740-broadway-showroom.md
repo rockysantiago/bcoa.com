@@ -16,7 +16,7 @@ infoObject:
   - description: Avec
     title: SHOWROOM IDENTITY
 primaryImage:
-  image: /images/uploads/740 BROADWAY_SHOWROOM_ (3)_1820.jpg
+  image: /images/uploads/740-broadway_showroom_-10-_1820.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/740 BROADWAY_SHOWROOM_ (2)_1820.jpg

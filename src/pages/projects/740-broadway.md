@@ -10,7 +10,7 @@ featured:
   featuredImage:
     alt: this is the alt text
     isPortrait: true
-    url: /images/uploads/20 GREENE ST_ (10)_1820.jpg
+    url: /images/uploads/740 BROADWAY_LOBBY_ (4)_1820.jpg
   isFeatured: true
 previewImage:
   url: /images/uploads/740-broadway_lobby_index.jpg

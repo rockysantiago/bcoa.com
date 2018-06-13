@@ -15,41 +15,36 @@ infoObject:
   - description: Submitted Fall 2017
     title: STATUS
 primaryImage:
-  image: /images/uploads/STAIR-WELL_ (4)_1820.jpg
+  image: /images/uploads/STAIR-WELL_ (9)_1820.jpg
 projectGallery:
-  - colWidth: '6'
-    image: /images/uploads/STAIR-WELL_ (7)_1820.jpg
-    type: image
-  - colWidth: '10'
-    image: /images/uploads/STAIR-WELL_ (11)_1820.jpg
-    type: image
-  - colWidth: '10'
-    image: /images/uploads/STAIR-WELL_ (13)_1820.jpg
-    type: image
-  - alt: ''
-    caption: ''
-    colWidth: '10'
-    image: /images/uploads/STAIR-WELL_ (14)_1820.jpg
-    type: image
-  - caption: concept description for each schema?
-    colWidth: '10'
-    image: /images/uploads/STAIR-WELL_ (2)_1820.jpg
-    type: image
-  - colWidth: '10'
-    image: /images/uploads/STAIR-WELL_ (15)_1820.jpg
-    type: image
-  - colWidth: '12'
-    image: /images/uploads/STAIR-WELL_ (3)_1820.jpg
-    type: image
-  - pullQuote: >-
-      Architecture is in space, in extent, in depth, in height: it is volumes
-      and circulation.
-    type: quote
   - colWidth: '9'
     image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
     offsetWidth: '3'
     type: image
-  - colWidth: '8'
+  - colWidth: '12'
+    image: /images/uploads/STAIR-WELL_ (1)_1820.jpg
+    type: image
+  - pullQuote: quote
+    type: quote
+  - colWidth: '4'
+    image: /images/uploads/STAIR-WELL_ (4)_1820.jpg
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/STAIR-WELL_ (13)_1820.jpg
+    type: image
+  - alt: ''
+    caption: ''
+    colWidth: '4'
+    image: /images/uploads/STAIR-WELL_ (14)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/STAIR-WELL_ (15)_1820.jpg
+    type: image
+  - colWidth: '10'
+    image: /images/uploads/STAIR-WELL_ (3)_1820.jpg
+    offsetWidth: '2'
+    type: image
+  - colWidth: '10'
     image: /images/uploads/STAIR-WELL_ (6)_1820.jpg
     type: image
 ---

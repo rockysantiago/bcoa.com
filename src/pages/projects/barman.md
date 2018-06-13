@@ -28,10 +28,10 @@ projectGallery:
     type: image
   - pullQuote: quote
     type: quote
-  - colWidth: '5'
+  - colWidth: '6'
     image: /images/uploads/barman_-23-_1820.jpg
     type: image
-  - colWidth: '5'
+  - colWidth: '6'
     image: /images/uploads/BARMAN_ (11)_1820.jpg
     offsetWidth: '6'
     type: image

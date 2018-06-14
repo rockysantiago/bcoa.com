@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 44 Monroe
+workDescription: Monroe descritpion
 type: residential
 heroImage:
   url: /images/uploads/44-monroe_ph.jpg

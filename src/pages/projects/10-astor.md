@@ -6,7 +6,7 @@ heroImage:
   url: /images/uploads/10-astor_ph_2.jpg
 headline: lobby
 featured:
-  featuredDescription: this is the text of the featured description
+  featuredDescription: this is the text for the featured description
   featuredImage:
     alt: this is the alt text
     url: /images/uploads/10 Astor_ index.jpg

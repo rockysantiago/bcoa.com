@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 10 Astor
+workDescription: work description 10 Astor
 type: residential
 heroImage:
   url: /images/uploads/10-astor_ph_2.jpg
@@ -24,8 +25,6 @@ infoObject:
     title: Photographs
 primaryImage:
   image: /images/uploads/10 Astor_ (2)_1820.jpg
-secondaryImage:
-  image: /images/uploads/10 Astor_ (8)_1820.jpg
 projectGallery:
   - colWidth: '12'
     image: /images/uploads/10 Astor_ (7)_1820.jpg

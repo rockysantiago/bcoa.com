@@ -1,6 +1,7 @@
 ---
 templateKey: project-page
 title: 740 Broadway
+workDescription: Broadway description
 type: residential
 heroImage:
   url: /images/uploads/740-broadway_lobby_-10-.jpg

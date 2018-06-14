@@ -1,16 +1,17 @@
 ---
 templateKey: project-page
 title: 740 Broadway
+workDescription: Broadway description
 type: residential
 heroImage:
-  url: /images/uploads/740-broadway_lobby_ph.jpg
+  url: /images/uploads/740-broadway_lobby_-10-.jpg
 headline: Light Folds
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
-    isPortrait: true
     alt: this is the alt text
-    url: /images/uploads/20 GREENE ST_ (10)_1820.jpg
+    isPortrait: true
+    url: /images/uploads/740 BROADWAY_LOBBY_ (4)_1820.jpg
   isFeatured: true
 previewImage:
   url: /images/uploads/740-broadway_lobby_index.jpg
@@ -24,18 +25,23 @@ infoObject:
 primaryImage:
   image: /images/uploads/740-broadway_lobby_-6.1-_1820.jpg
 projectGallery:
+  - colWidth: '8'
+    image: /images/uploads/740-broadway_lobby_-8-.jpg
+    type: image
   - colWidth: '6'
-    image: /images/uploads/740-broadway_lobby_-3-_2480.jpg
+    image: /images/uploads/740-broadway_lobby_-1-_1820.jpg
     type: image
-  - colWidth: '12'
-    image: /images/uploads/740-broadway_lobby_-1-_3800.jpg
-    type: image
-  - colWidth: '10'
-    image: /images/uploads/740-broadway_lobby_-7-_3140.jpg
-    offsetWidth: '2'
+  - colWidth: '4'
+    image: /images/uploads/740-broadway_lobby_-9-.jpg
+    offsetWidth: '8'
     type: image
   - colWidth: '10'
     image: /images/uploads/740-broadway_lobby_-8-_3140.jpg
+    type: image
+  - pullQuote: quote
+    type: quote
+  - colWidth: '12'
+    image: /images/uploads/740 BROADWAY_LOBBY_ (3)_1820.jpg
     type: image
 ---
 A very progressive, future-focused client asked BC-OA to design a complete modernization to this century old lobby utilizing the glass panel and display material palette utilized at the Reflect Showroom. The contrast between the historic facade and contemporary, technologically sophisticated interior reflects the adaptability of historic architecture in New

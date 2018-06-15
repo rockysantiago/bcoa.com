@@ -43,7 +43,7 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '12'
-    image: /images/uploads/10 Astor_ (6)_1820.jpg
+    image: /images/uploads/10-astor_cropped.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/10 Astor_ (3)_1820.jpg

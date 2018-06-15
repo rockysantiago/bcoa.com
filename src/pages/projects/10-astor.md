@@ -34,6 +34,14 @@ projectGallery:
     image: /images/uploads/10 Astor_ (7)_1820.jpg
     offsetWidth: '2'
     type: image
+  - colWidth: '6'
+    image: /images/uploads/10 Astor_ (4)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/10-astor_-11-.jpg
+    type: image
+  - pullQuote: quote
+    type: quote
 ---
 
 

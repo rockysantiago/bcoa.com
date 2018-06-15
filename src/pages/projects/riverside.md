@@ -32,6 +32,9 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/RIVERSIDE_PROMO CODE_1820.jpg
     type: image
+  - colWidth: '12'
+    image: /images/uploads/riverside_-10-_1820.jpg
+    type: image
   - colWidth: '10'
     image: /images/uploads/RIVERSIDE_ (7)_1820.jpg
     offsetWidth: '2'

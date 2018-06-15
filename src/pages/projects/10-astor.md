@@ -27,18 +27,30 @@ infoObject:
 primaryImage:
   image: /images/uploads/10 Astor_ (2)_1820.jpg
 projectGallery:
-  - colWidth: '12'
-    image: /images/uploads/10 Astor_ (7)_1820.jpg
-    type: image
-  - colWidth: '3'
+  - colWidth: '6'
     image: /images/uploads/10 Astor_ (9)_1820.jpg
     type: image
-  - colWidth: '9'
-    image: /images/uploads/10 Astor_ (5)_1820.jpg
+  - colWidth: '10'
+    image: /images/uploads/10 Astor_ (7)_1820.jpg
+    offsetWidth: '2'
     type: image
+  - colWidth: '6'
+    image: /images/uploads/10 Astor_ (4)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/10-astor_-11-.jpg
+    type: image
+  - pullQuote: quote
+    type: quote
   - colWidth: '12'
-    image: /images/uploads/10 Astor_PROMO PLAN_1820.jpg
-    offsetWidth: '0'
+    image: /images/uploads/10-astor_cropped.jpg
+    type: image
+  - colWidth: '10'
+    image: /images/uploads/10 Astor_ (3)_1820.jpg
+    type: image
+  - colWidth: '10'
+    image: /images/uploads/10 Astor_ (10)_1820.jpg
+    offsetWidth: '2'
     type: image
 ---
 

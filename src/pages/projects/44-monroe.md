@@ -45,6 +45,12 @@ projectGallery:
   - colWidth: '8'
     image: /images/uploads/44 MONROE_ (23)_1820.jpg
     type: image
-  - {}
+  - colWidth: '6'
+    image: /images/uploads/44 MONROE_ (14)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/44 MONROE_ (15)_1820.jpg
+    offsetWidth: '6'
+    type: image
 ---
 The renovation to this 19th Century historic townhouse included the gut renovation of an owner's triplex apartment as well as two rental units on the upper floors.

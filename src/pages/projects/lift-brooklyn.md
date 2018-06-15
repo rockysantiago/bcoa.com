@@ -25,13 +25,17 @@ infoObject:
   - description: 'Award of Merit AIA Brooklyn + Queens Design Awards, 2016'
     title: Awards
 primaryImage:
-  image: /images/uploads/LIFT_BROOKLYN_ (5)_1820.jpg
+  image: /images/uploads/LIFT_BROOKLYN_ (4)_1820.jpg
 projectGallery:
-  - colWidth: '6'
-    image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
-    type: image
   - colWidth: '12'
+    image: /images/uploads/LIFT_BROOKLYN_ (1)_1820.jpg
+    type: image
+  - colWidth: '8'
     image: /images/uploads/LIFT_BROOKLYN_ (8)_1820.jpg
+    offsetWidth: '4'
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/LIFT_BROOKLYN_ (5)_1820.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/LIFT_BROOKLYN_ (11)_1820.jpg

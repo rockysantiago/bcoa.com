@@ -17,21 +17,24 @@ infoObject:
 primaryImage:
   image: /images/uploads/RIVERSIDE_index.jpg
 projectGallery:
+  - colWidth: '10'
+    image: /images/uploads/RIVERSIDE_ (3)_1820.jpg
+    type: image
   - colWidth: '6'
-    image: /images/uploads/RIVERSIDE_ (9)_1820.jpg
+    image: /images/uploads/RIVERSIDE_ (1)_1820.jpg
+    offsetWidth: '6'
     type: image
   - colWidth: '12'
-    image: /images/uploads/RIVERSIDE_ (4)_1820.jpg
+    image: /images/uploads/RIVERSIDE_ (9)_1820.jpg
     type: image
+  - pullQuote: quote
+    type: quote
   - colWidth: '12'
     image: /images/uploads/RIVERSIDE_PROMO CODE_1820.jpg
     type: image
-  - colWidth: '8'
-    image: /images/uploads/RIVERSIDE_ (3)_1820.jpg
-    type: image
-  - colWidth: '8'
+  - colWidth: '10'
     image: /images/uploads/RIVERSIDE_ (7)_1820.jpg
-    offsetWidth: '4'
+    offsetWidth: '2'
     type: image
 ---
 The 151st street Kiosk is a free-standing, open-air kiosk and

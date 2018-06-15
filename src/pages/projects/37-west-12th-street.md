@@ -23,9 +23,10 @@ projectGallery:
     image: /images/uploads/37 W 12TH ST_ (19)_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/37 W 12TH ST_ (30)_1820.jpg
+    image: /images/uploads/37-w-12th-st_-30-.jpg
     type: image
   - pullQuote: quote
     type: quote
+  - type: image
 ---
 

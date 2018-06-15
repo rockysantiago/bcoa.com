@@ -30,12 +30,9 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/10 Astor_ (9)_1820.jpg
     type: image
-  - colWidth: '12'
+  - colWidth: '10'
     image: /images/uploads/10 Astor_ (7)_1820.jpg
-    type: image
-  - colWidth: '12'
-    image: /images/uploads/10 Astor_PROMO PLAN_1820.jpg
-    offsetWidth: '0'
+    offsetWidth: '2'
     type: image
 ---
 

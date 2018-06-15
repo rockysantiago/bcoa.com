@@ -43,6 +43,10 @@ projectGallery:
   - colWidth: '8'
     image: /images/uploads/45 CROSBY_5S_ (14)_1820.jpg
     type: image
+  - colWidth: '6'
+    image: /images/uploads/45-crosby_5s_-18-.png
+    offsetWidth: '6'
+    type: image
   - colWidth: '10'
     image: /images/uploads/45 CROSBY_5S_ (15)_1820.jpg
     offsetWidth: '0'

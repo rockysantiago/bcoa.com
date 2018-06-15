@@ -18,32 +18,39 @@ infoObject:
   - description: Christian Harder Photography
     title: Photography
 primaryImage:
-  image: /images/uploads/dusk-extention.png
+  image: /images/uploads/44 MONROE_ (26)_1820.jpg
 projectGallery:
-  - colWidth: ''
-    image: /images/uploads/44 MONROE_ (18)_1820.jpg
-    type: image
-  - colWidth: '12'
-    image: /images/uploads/44 MONROE_ (23)_1820.jpg
-    type: image
-  - colWidth: '7'
-    image: /images/uploads/44 MONROE_ (11)_1820.jpg
-    type: image
-  - colWidth: '5'
-    image: /images/uploads/44 MONROE_ (14)_1820.jpg
-    type: image
-  - colWidth: '5'
-    image: /images/uploads/44 MONROE_ (15)_1820.jpg
-    type: image
-  - colWidth: '7'
+  - colWidth: '6'
     image: /images/uploads/44 MONROE_ (3)_1820.jpg
     type: image
-  - colWidth: '12'
+  - colWidth: '8'
+    image: /images/uploads/44 MONROE_ (22)_1820.jpg
+    offsetWidth: '4'
+    type: image
+  - colWidth: '8'
     image: /images/uploads/44 MONROE_ (21)_1820.jpg
     type: image
+  - colWidth: '4'
+    image: /images/uploads/44 MONROE_ (6)_1820.jpg
+    type: image
+  - pullQuote: quote
+    type: quote
   - colWidth: '10'
     image: /images/uploads/44 MONROE_PROMO PLAN_1820.jpg
     offsetWidth: '1'
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/44 MONROE_ (9)_1820.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/44 MONROE_ (23)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/44 MONROE_ (14)_1820.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/44 MONROE_ (15)_1820.jpg
+    offsetWidth: '6'
     type: image
 ---
 The renovation to this 19th Century historic townhouse included the gut renovation of an owner's triplex apartment as well as two rental units on the upper floors.

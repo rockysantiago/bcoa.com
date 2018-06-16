@@ -15,7 +15,7 @@ infoObject:
   - description: In-Process
     title: STATUS
 primaryImage:
-  image: /images/uploads/RIVERSIDE_index.jpg
+  image: /images/uploads/riverside_-6-cropped_1820.jpg
 projectGallery:
   - colWidth: '10'
     image: /images/uploads/RIVERSIDE_ (3)_1820.jpg

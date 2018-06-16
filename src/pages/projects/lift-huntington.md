@@ -8,7 +8,7 @@ featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    url: /images/uploads/10-astor_-index.jpg
+    url: /images/uploads/LIFT_HUNTINGTON_ (13)_1820.jpg
   isFeatured: true
 previewImage:
   url: /images/uploads/lift_huntington_index_1.jpg
@@ -20,7 +20,7 @@ infoObject:
   - description: In Construction
     title: STATUS
 primaryImage:
-  image: /images/uploads/lift_huntington_-7-_1820.jpg
+  image: /images/uploads/lift_huntington_-7-cropped_1820.jpg
 projectGallery:
   - colWidth: '10'
     image: /images/uploads/LIFT_HUNTINGTON_ (12)_1820.jpg
@@ -40,7 +40,7 @@ projectGallery:
     image: /images/uploads/lift_huntington_-1-.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/lift_huntington_-2-.jpg
+    image: /images/uploads/lift_huntington_-2-cropped.jpg
     type: image
 ---
 Objective — to design the second location for the award-winning Lift Next Level Floats isolation therapy spa for a new demographic in Long Island.

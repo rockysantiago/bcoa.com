@@ -43,6 +43,9 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/740-broadway_lobby_-3-.jpg
     type: image
+  - colWidth: '10'
+    image: /images/uploads/740-broadway_lobby_-4-cropped_1820.jpg
+    type: image
 ---
 A very progressive, future-focused client asked BC-OA to design a complete modernization to this century old lobby utilizing the glass panel and display material palette utilized at the Reflect Showroom. The contrast between the historic facade and contemporary, technologically sophisticated interior reflects the adaptability of historic architecture in New
 

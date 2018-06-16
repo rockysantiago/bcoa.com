@@ -29,7 +29,7 @@ projectGallery:
     image: /images/uploads/45 CROSBY_LOBBY_ (9)_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_LOBBY_ (10)_1820.jpg
+    image: /images/uploads/crosby-lobby-cropped.jpg
     type: image
   - pullQuote: quote
     type: quote

@@ -27,12 +27,12 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '4'
-    image: /images/uploads/STAIR-WELL_ (4)_1820.jpg
+    image: /images/uploads/stair-well_-4-cropped_1820.jpg
     type: image
   - alt: ''
     caption: ''
     colWidth: '4'
-    image: /images/uploads/STAIR-WELL_ (14)_1820.jpg
+    image: /images/uploads/stair-well_-14-cropped_1820.jpg
     type: image
   - colWidth: '4'
     image: /images/uploads/stair-well_-13-cropped_1820.jpg

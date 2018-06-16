@@ -40,7 +40,7 @@ projectGallery:
     image: /images/uploads/LIFT_BROOKLYN_ (3)_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/LIFT_BROOKLYN_ (2)_1820.jpg
+    image: /images/uploads/lift_brooklyn_-2-cropped_1820.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/LIFT_BROOKLYN_PROMO PLAN_1820.jpg

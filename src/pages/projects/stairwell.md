@@ -15,14 +15,14 @@ infoObject:
   - description: Submitted Fall 2017
     title: STATUS
 primaryImage:
-  image: /images/uploads/STAIR-WELL_ (9)_1820.jpg
+  image: /images/uploads/stair-well_-9-cropped_1820.jpg
 projectGallery:
   - colWidth: '9'
     image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
     offsetWidth: '3'
     type: image
   - colWidth: '12'
-    image: /images/uploads/STAIR-WELL_ (1)_1820.jpg
+    image: /images/uploads/stair-well_-1-_1820.jpg
     type: image
   - pullQuote: quote
     type: quote

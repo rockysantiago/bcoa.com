@@ -30,14 +30,14 @@ projectGallery:
     type: image
   - pullQuote: quote
     type: quote
-  - colWidth: '12'
-    image: /images/uploads/JUNGLE HOUSE_ (3)_1820.jpg
+  - colWidth: '10'
+    image: /images/uploads/jungle-house_promo-plancropped_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/JUNGLE HOUSE_ (11)_1820.jpg
+    image: /images/uploads/jungle-house_-11-cropped_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/JUNGLE HOUSE_ (7)_1820.jpg
+    image: /images/uploads/jungle-house_-7-cropped_1820.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '12'

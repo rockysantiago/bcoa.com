@@ -16,7 +16,7 @@ infoObject:
   - description: Schematic Design Completed
     title: Status
 primaryImage:
-  image: /images/uploads/JUNGLE HOUSE_ (12)_1820.jpg
+  image: /images/uploads/jungle-house_-12-cropped_1820.jpg
 projectGallery:
   - colWidth: '8'
     image: /images/uploads/JUNGLE HOUSE_ (10)_1820.jpg

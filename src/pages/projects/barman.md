@@ -15,7 +15,7 @@ infoObject:
   - description: Complete
     title: Status
 primaryImage:
-  image: /images/uploads/BARMAN_ (15)_1820.jpg
+  image: /images/uploads/kitchen-final-cropped.jpg
 projectGallery:
   - colWidth: '8'
     image: /images/uploads/BARMAN_ (2)_1820.jpg

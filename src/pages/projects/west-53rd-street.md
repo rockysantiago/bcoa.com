@@ -31,7 +31,7 @@ projectGallery:
     offsetWidth: '2'
     type: image
   - colWidth: '6'
-    image: /images/uploads/w-53rd-st_-24-_1820.jpg
+    image: /images/uploads/w-53rd-st_-24-cropped_1820.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/w-53rd-st_-23-_1820.jpg

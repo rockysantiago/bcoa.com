@@ -35,4 +35,4 @@ projectGallery:
     image: /images/uploads/17 THOMPSON_ (11)_1820.jpg
     type: image
 ---
-...
+

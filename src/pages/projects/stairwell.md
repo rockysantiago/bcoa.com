@@ -15,27 +15,27 @@ infoObject:
   - description: Submitted Fall 2017
     title: STATUS
 primaryImage:
-  image: /images/uploads/STAIR-WELL_ (9)_1820.jpg
+  image: /images/uploads/stair-well_-9-cropped_1820.jpg
 projectGallery:
   - colWidth: '9'
     image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
     offsetWidth: '3'
     type: image
   - colWidth: '12'
-    image: /images/uploads/STAIR-WELL_ (1)_1820.jpg
+    image: /images/uploads/stair-well_-1-_1820.jpg
     type: image
   - pullQuote: quote
     type: quote
   - colWidth: '4'
-    image: /images/uploads/STAIR-WELL_ (4)_1820.jpg
-    type: image
-  - colWidth: '4'
-    image: /images/uploads/STAIR-WELL_ (13)_1820.jpg
+    image: /images/uploads/stair-well_-4-cropped_1820.jpg
     type: image
   - alt: ''
     caption: ''
     colWidth: '4'
-    image: /images/uploads/STAIR-WELL_ (14)_1820.jpg
+    image: /images/uploads/stair-well_-14-cropped_1820.jpg
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/stair-well_-13-cropped_1820.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/STAIR-WELL_ (15)_1820.jpg

@@ -29,13 +29,13 @@ projectGallery:
   - colWidth: '4'
     image: /images/uploads/STAIR-WELL_ (4)_1820.jpg
     type: image
-  - colWidth: '4'
-    image: /images/uploads/STAIR-WELL_ (13)_1820.jpg
-    type: image
   - alt: ''
     caption: ''
     colWidth: '4'
     image: /images/uploads/STAIR-WELL_ (14)_1820.jpg
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/stair-well_-13-cropped_1820.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/STAIR-WELL_ (15)_1820.jpg

@@ -42,7 +42,7 @@ projectGallery:
     pullQuote: quote
     type: quote
   - colWidth: '6'
-    image: /images/uploads/W 53RD ST_ (8)_1820.jpg
+    image: /images/uploads/1017_03-cropped.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '6'

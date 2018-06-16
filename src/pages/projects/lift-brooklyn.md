@@ -47,7 +47,7 @@ projectGallery:
     offsetWidth: '2'
     type: image
   - colWidth: '4'
-    image: /images/uploads/LIFT_BROOKLYN_ (5)_1820.jpg
+    image: /images/uploads/lift_brooklyn_-5-cropped_1820.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/LIFT_BROOKLYN_ (8)_1820.jpg

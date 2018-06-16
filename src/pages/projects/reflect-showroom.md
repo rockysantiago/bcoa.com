@@ -33,9 +33,9 @@ projectGallery:
     image: /images/uploads/REFLECT SHOWROOM_ (6)_1820.jpg
     offsetWidth: '0'
     type: image
-  - colWidth: '8'
-    image: /images/uploads/REFLECT SHOWROOM_PROMOPLAN_1820.jpg
-    offsetWidth: '2'
+  - colWidth: '10'
+    image: /images/uploads/reflect-showroom_promoplan-cropped_1820.jpg
+    offsetWidth: '1'
     type: image
   - pullQuote: quote
     type: quote

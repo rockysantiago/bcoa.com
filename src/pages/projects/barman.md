@@ -20,8 +20,11 @@ projectGallery:
   - colWidth: '8'
     image: /images/uploads/BARMAN_ (2)_1820.jpg
     type: image
-  - colWidth: '12'
-    image: /images/uploads/BARMAN_CONSTRUCTION PHOTO_1820.jpg
+  - colWidth: '4'
+    image: /images/uploads/barman_-19-.jpeg
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/barman_-22-.jpg
     type: image
   - colWidth: '12'
     image: /images/uploads/BARMAN_ (6)_1820.jpg
@@ -33,7 +36,6 @@ projectGallery:
     type: image
   - colWidth: '6'
     image: /images/uploads/BARMAN_ (11)_1820.jpg
-    offsetWidth: '6'
     type: image
   - colWidth: '10'
     image: /images/uploads/BARMAN_ (10)_1820.jpg

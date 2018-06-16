@@ -39,7 +39,7 @@ projectGallery:
     image: /images/uploads/new-line-cinema_-9-cropped_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
+    image: /images/uploads/new-line-cinema_-1-cropped_1820.jpg
     type: image
 ---
 The building at 116 North Robertson Boulevard, designed

@@ -20,7 +20,7 @@ primaryImage:
   image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/NEW LINE CINEMA_ (4)_1820.jpg
+    image: /images/uploads/new-line-cinema_-4-cropped_1820.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/NEW LINE CINEMA_ (7)_1820.jpg
@@ -30,16 +30,16 @@ projectGallery:
     image: /images/uploads/NEW LINE CINEMA_ (3)_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/NEW LINE CINEMA_ (2)_1820.jpg
+    image: /images/uploads/new-line-cinema_-2-cropped_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/new-line-cinema_-8-_1820.jpg
+    image: /images/uploads/new-line-cinema_-8-cropped_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/new-line-cinema_-9-_1820.jpg
+    image: /images/uploads/new-line-cinema_-9-cropped_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
+    image: /images/uploads/new-line-cinema_-1-cropped_1820.jpg
     type: image
 ---
 The building at 116 North Robertson Boulevard, designed

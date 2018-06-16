@@ -30,7 +30,7 @@ projectGallery:
     image: /images/uploads/NEW LINE CINEMA_ (3)_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/NEW LINE CINEMA_ (2)_1820.jpg
+    image: /images/uploads/new-line-cinema_-2-cropped_1820.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/new-line-cinema_-8-_1820.jpg

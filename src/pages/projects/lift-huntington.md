@@ -40,7 +40,7 @@ projectGallery:
     image: /images/uploads/lift_huntington_-1-.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/lift_huntington_-2-.jpg
+    image: /images/uploads/lift_huntington_-2-cropped.jpg
     type: image
 ---
 Objective — to design the second location for the award-winning Lift Next Level Floats isolation therapy spa for a new demographic in Long Island.

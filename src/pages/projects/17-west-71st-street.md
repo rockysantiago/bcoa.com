@@ -28,7 +28,7 @@ projectGallery:
     offsetWidth: '2'
     type: image
   - colWidth: '6'
-    image: /images/uploads/17 W 71st St_ (10)_1820.jpg
+    image: /images/uploads/17west71ststreet-cropped.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/17 W 71st St_ (5)_1820.jpg

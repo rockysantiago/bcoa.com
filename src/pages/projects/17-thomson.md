@@ -7,17 +7,20 @@ heroImage:
 previewImage:
   url: /images/uploads/17-thompson_index.jpg
 primaryImage:
-  image: /images/uploads/17 THOMPSON_ (5)_1820.jpg
+  image: /images/uploads/17-thompson-cropped.jpg
 projectGallery:
   - colWidth: '10'
-    image: /images/uploads/17 THOMPSON_ (1)_1820.jpg
+    image: /images/uploads/17-thompson-2-cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/17 THOMPSON_ (2)_1820.jpg
     offsetWidth: '4'
     type: image
   - colWidth: '6'
-    image: /images/uploads/17-thompson_-17-_1820.jpg
+    image: /images/uploads/17-thompson_-17-cropped.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/17-thompson_-18-.jpg
     type: image
   - type: image
   - pullQuote: quote
@@ -26,7 +29,7 @@ projectGallery:
     image: /images/uploads/17 THOMPSON_PROMO PLAN_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/17 THOMPSON_ (6)_1820.jpg
+    image: /images/uploads/17-thompson_-6-cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/17-thompson_-16.1-_1820.jpg

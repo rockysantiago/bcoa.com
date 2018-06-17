@@ -33,12 +33,12 @@ projectGallery:
     image: /images/uploads/45 CROSBY_5S_ (8)_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/45 CROSBY_5S_PROMO PLAN_1820.jpg
+    image: /images/uploads/promo-plan-2015-45-crosby-5s-cropped.jpg
     type: image
   - pullQuote: quote
     type: quote
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_5S_ (17)_1820.jpg
+    image: /images/uploads/590bc-45crosby-12cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/45 CROSBY_5S_ (14)_1820.jpg

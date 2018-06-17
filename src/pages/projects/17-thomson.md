@@ -29,7 +29,7 @@ projectGallery:
     image: /images/uploads/17 THOMPSON_PROMO PLAN_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/17 THOMPSON_ (6)_1820.jpg
+    image: /images/uploads/17-thompson_-6-cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/17-thompson_-16.1-_1820.jpg

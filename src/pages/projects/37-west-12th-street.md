@@ -27,6 +27,7 @@ projectGallery:
     type: image
   - pullQuote: quote
     type: quote
+  - type: image
   - colWidth: '12'
     image: /images/uploads/37 W 12TH ST_ (2)_1820.jpg
     type: image

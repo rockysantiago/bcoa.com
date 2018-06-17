@@ -71,9 +71,21 @@ awards:
     title: Merit Award for Lift Next Level Floats
     url: ''
   - date: 'May 1, 2018'
-    orgName: The Mediocre Organization
-    title: 3rd Award
-    url: 'http://www.test.com'
+    orgName: ''
+    title: Duravit Dream Bath Competition for 71st Street
+    url: ''
+  - date: 'January 1, 2015'
+    title: Best of Brooklyn Awards - Architects
+  - date: 'January 1, 2014'
+    title: The Selective Loft featured as part of Dwell Home Tours NYC
+  - date: 'January 1, 2012'
+    title: 'Selected firm to participate in DesigNYC, The Selective Loft'
+  - date: 'January 1, 2005'
+    title: The Eileen Gray Thesis Prize (BB)
+  - date: 'January 1, 2005'
+    title: Alpha Rho Chi Award (BB Leadership)
+  - date: 'January 1, 1997'
+    title: Matthew W. Del Gaudio award (LC Excellence in Design)
 collaborators:
   - description: 'Helped us build our site. :)'
     jobTitle: Web Developer

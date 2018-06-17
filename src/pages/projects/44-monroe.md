@@ -18,7 +18,7 @@ infoObject:
   - description: Christian Harder Photography
     title: Photography
 primaryImage:
-  image: /images/uploads/44 MONROE_ (26)_1820.jpg
+  image: /images/uploads/dsc_7604-editcropped.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/44 MONROE_ (3)_1820.jpg
@@ -31,7 +31,7 @@ projectGallery:
     image: /images/uploads/44 MONROE_ (21)_1820.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/44 MONROE_ (6)_1820.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_022cropped.jpg
     type: image
   - pullQuote: quote
     type: quote
@@ -40,7 +40,7 @@ projectGallery:
     offsetWidth: '1'
     type: image
   - colWidth: '4'
-    image: /images/uploads/44 MONROE_ (9)_1820.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_015cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/44 MONROE_ (23)_1820.jpg

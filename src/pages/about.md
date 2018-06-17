@@ -44,27 +44,48 @@ studioMembers:
     jobTitle: Worker bee
     name: John Smith
 publications:
-  - date: 'April 30, 2018'
-    publisher: Publisher 1
-    title: First Publication 1
-    url: 'http://www.google.com'
-  - date: 'May 1, 2018'
-    publisher: Publisher 2
-    title: Second Publication 2
-    url: 'http://www.google.com'
+  - date: 'January 1, 2017'
+    publisher: The NYTimes
+    title: Pre-War is So Last Year
+    url: ''
+  - date: 'January 1, 2014'
+    publisher: Dwell Magazine
+    title: Dwell on Design NY
+    url: ''
+  - date: 'January 1, 2013'
+    publisher: 'Dwell Magazine OnLine, Dianna Budds'
+    title: A Renovated Loft in Soho
+  - date: 'January 1, 2012'
+    publisher: Satellite Magazine
+    title: Brooklyn / BC—OA
+  - date: 'January 1, 2011'
+    publisher: Architect’s Newspaper
+    title: Recharging Communities
 awards:
-  - date: 'April 29, 2018'
-    orgName: Awesome Organization
-    title: Award Title 1
-    url: 'http://www.ikea.com'
-  - date: 'April 30, 2018'
-    orgName: The Best Organization Inc
-    title: 'Award #2'
-    url: 'http://www.google.com'
+  - date: 'January 1, 2018'
+    orgName: AIA BQDA
+    title: Design Excellence Award for Riverside Kiosk
+    url: ''
+  - date: 'January 1, 2016'
+    orgName: AIA BQDA
+    title: Merit Award for Lift Next Level Floats
+    url: ''
   - date: 'May 1, 2018'
-    orgName: The Mediocre Organization
-    title: 3rd Award
-    url: 'http://www.test.com'
+    orgName: ''
+    title: Duravit Dream Bath Competition for 71st Street
+    url: ''
+  - date: 'January 1, 2015'
+    title: Best of Brooklyn Awards - Architects
+  - date: 'January 1, 2014'
+    title: The Selective Loft featured as part of Dwell Home Tours NYC
+  - date: 'January 1, 2012'
+    title: 'Selected firm to participate in DesigNYC, The Selective Loft'
+  - date: 'January 1, 2005'
+    title: The Eileen Gray Thesis Prize (BB)
+  - date: 'January 1, 2005'
+    title: Alpha Rho Chi Award (BB Leadership)
+  - date: 'January 1, 1997'
+    title: Matthew W. Del Gaudio award (LC Excellence in Design)
 collaborators:
   - description: 'Helped us build our site. :)'
     jobTitle: Web Developer

@@ -34,7 +34,7 @@ projectGallery:
     image: /images/uploads/17 W 71st St_ (5)_1820.jpg
     type: image
   - colWidth: '11'
-    image: /images/uploads/17 W 71st St_PROMO PLAN_1820.jpg
+    image: /images/uploads/17-west-71st-_-standardized-plan-cropped.jpg
     offsetWidth: '1'
     type: image
   - colWidth: '10'

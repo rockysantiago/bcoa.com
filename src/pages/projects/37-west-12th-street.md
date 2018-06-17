@@ -13,7 +13,7 @@ projectGallery:
     image: /images/uploads/37 W 12TH ST_ (23)_1820.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/37 W 12TH ST_ (11)_1820.jpg
+    image: /images/uploads/37west12thstreet-cropped.jpg
     offsetWidth: '4'
     type: image
   - colWidth: '4'
@@ -27,6 +27,7 @@ projectGallery:
     type: image
   - pullQuote: quote
     type: quote
+  - type: image
   - colWidth: '12'
     image: /images/uploads/37 W 12TH ST_ (2)_1820.jpg
     type: image

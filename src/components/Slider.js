@@ -39,7 +39,7 @@ export default ({ slides }) => {
         return slide.project ?
           <div className="slide c-white" key={`slide-${i}`}>
             <div className="container slick-container">
-              <div className="slide-info ">
+              <div className="slide-info">
                 <a className="marginBottom-4 block" href={`projects/${slugify(slide.project, { lower: true })}`}>
                   {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
                 </a>
@@ -49,10 +49,12 @@ export default ({ slides }) => {
             <img src={slide.url} alt={slide.alt} />
           </div>
           :
-          <div className="slide" key={`slide-${i}`}>
-            <div className="slide-info">
-              <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
-              <span>{i + 1}/{slides.length}</span>
+          <div className="slide c-white" key={`slide-${i}`}>
+            <div className="container slick-container">
+              <div className="slide-info">
+                {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
+                <span>{i + 1}/{slides.length}</span>
+              </div>
             </div>
             <img src={slide.url} alt={slide.alt} />
           </div>

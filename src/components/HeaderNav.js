@@ -3,8 +3,8 @@ import Link from "gatsby-link";
 import { icons } from "./Icons";
 
 const Menu = ({ visible, menuBG, toggleMenu }) => (
-  <nav className={`menu f-navigation ${visible ? 'visible' : ''}`}
-    style={{ backgroundImage: `url("${menuBG}")` }}
+  <nav  className={`menu f-navigation ${visible ? 'visible' : ''}`}
+        style={{ backgroundImage: `url("${menuBG}")` }}
   >
     <ul className="c-white">
       <li>
@@ -32,7 +32,7 @@ export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
       <header className={visible ? 'c-white bg-transparent' : ''}>
         <div className="container">
           <div className="flex-1">
-            <Link className="headerLogo" to="/">{isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall}</Link>
+            <Link className="headerLogo" onClick={ visible && toggleMenu } to="/">{isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall}</Link>
           </div>
           <div className={`header-menuButton ${visible ? 'isActive' : ''}`} onClick={toggleMenu}>
             <div className="line lineExterior"></div>

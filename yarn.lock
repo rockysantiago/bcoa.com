@@ -4177,9 +4177,9 @@ gatsby-remark-images@^1.5.66:
     slash "^1.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-relative-images@^0.1.1:
+"gatsby-remark-relative-images@git://github.com/danielmahon/gatsby-remark-relative-images.git#master":
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-relative-images/-/gatsby-remark-relative-images-0.1.1.tgz#fd75ab3ba38414750a312de0542c5e8b3da0086b"
+  resolved "git://github.com/danielmahon/gatsby-remark-relative-images.git#f94bf4be55f94bc1c4c879496d932d3da7df0dbd"
   dependencies:
     cheerio "1.0.0-rc.2"
     deep-map "1.5.0"

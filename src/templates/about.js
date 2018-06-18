@@ -1,14 +1,17 @@
 import React from "react";
 import Link from "gatsby-link";
 import Image from "../components/Image";
+import Img from 'gatsby-image'
 
 const Member = ({ member }) => (
   <div className={ `${ member.principal ? "principal bp-2_marginBottom-33" : "bp-2_marginBottom-13" } ` }>
     { !member.principal && <hr className=" marginBottom-2" /> }
-    { member.principal && <img
-      className="marginBottom-3 bp-1_marginBottom-2"
-      src={ member.image.url}
-      alt={ member.image.alt } /> }
+    { member.principal && <Img
+      // className="marginBottom-3 bp-1_marginBottom-2"
+      sizes={member.image.url.sizes}
+      // src={ member.image.url }
+      // alt={ member.image.alt }
+      /> }
     <h3 className=" f-copy-bold">{ member.name }</h3>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }` }>{ member.jobTitle }</p>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }  marginBottom-5` }>{ member.principalInfo }</p>
@@ -198,7 +201,13 @@ export const query = graphql`
         studioMembers {
           name
           image {
-            url
+            url {
+              childImageSharp {
+                sizes(maxWidth: 1240 ) {
+                  ...GatsbyImageSharpSizes_tracedSVG
+                }
+              }
+            }
             alt
           }
           jobTitle

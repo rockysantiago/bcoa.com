@@ -94,7 +94,13 @@ export const query = graphql`
             featured {
               isFeatured
               featuredImage {
-                url
+                url {
+                  childImageSharp {
+                    resolutions(width: 125, height: 125) {
+                      src
+                    }
+                  }
+                }
                 alt
               }
               featuredDescription

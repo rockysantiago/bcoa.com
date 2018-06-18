@@ -82,7 +82,13 @@ export const query = graphql`
             title
             type
             previewImage {
-              url
+              url {
+                childImageSharp {
+                  resolutions(width: 250) {
+                    ...GatsbyImageSharpResolutions_withWebp
+                  }
+                }
+              }
               alt
             }
           }

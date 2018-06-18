@@ -100,8 +100,8 @@ export const query = graphql`
             image {
               url {
                 childImageSharp {
-                  resolutions(width: 125, height: 125) {
-                    ...GatsbyImageSharpResolutions
+                  resolutions(width: 830) {
+                    ...GatsbyImageSharpResolutions_withWebp
                   }
                 }
               }

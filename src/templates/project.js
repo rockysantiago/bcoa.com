@@ -89,17 +89,35 @@ export const query = graphql`
           description
         }
         heroImage {
-          url
+          url {
+            childImageSharp {
+              resolutions(width: 1000) {
+                ...GatsbyImageSharpResolutions_withWebp
+              }
+            }
+          }
           alt
         }
         primaryImage {
-          image
+          image {
+            childImageSharp {
+              resolutions(width: 500) {
+                ...GatsbyImageSharpResolutions_withWebp
+              }
+            }
+          }
           alt
           caption
         }
         projectGallery {
           type
-          image
+          image {
+            childImageSharp {
+              resolutions(width: 1000) {
+                ...GatsbyImageSharpResolutions_withWebp
+              }
+            }
+          }
           colWidth
           offsetWidth
           alt

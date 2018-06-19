@@ -25,12 +25,11 @@ class Article extends Component {
     return (
       <article id={slugify(article.frontmatter.title, { lower: true })} className="marginBottom-12 bp-1_marginBottom-14 bp-2_marginBottom-21">
         <Img
-          resolutions={article.frontmatter.image.url.childImageSharp.resolutions}
+          sizes={article.frontmatter.image.url.childImageSharp.sizes}
           // src={ article.frontmatter.image.url }
           // alt={ article.frontmatter.image.alt }
           className=" marginBottom-5
-                      bp-2_marginBottom-6"
-        />
+                      bp-2_marginBottom-6"/>
         <h2 className="f-headline-a">{ article.frontmatter.title }</h2>
         <time className="c-gray f-headline-a">{ article.frontmatter.date }</time>
         <div className="f-copy-book
@@ -38,8 +37,7 @@ class Article extends Component {
                         bp-1_marginTop-4 
                         bp-2_marginTop-5
                         marginBottom-5"
-                        dangerouslySetInnerHTML={{ __html: article.html }}
-                        />
+              dangerouslySetInnerHTML={{ __html: article.html }} />
         <button className="copyButton" onClick={this.copyLink}>{this.state.copying ? 'Link Copied!' : 'Share This'}</button>
         <textarea className="copyInput" ref={el => this.articleLink = el} name="articleLink" id="articleLink" defaultValue={`http://staging.bc-oa.com/news#${slugify(article.frontmatter.title, { lower: true })}`}></textarea>
       </article>
@@ -100,8 +98,8 @@ export const query = graphql`
             image {
               url {
                 childImageSharp {
-                  resolutions(width: 830) {
-                    ...GatsbyImageSharpResolutions_withWebp
+                  sizes(maxWidth: 500) {
+                    ...GatsbyImageSharpSizes_tracedSVG
                   }
                 }
               }

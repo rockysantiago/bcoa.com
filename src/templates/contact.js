@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../components/Image";
-import Img from 'gatsby-image'
+import Img from 'gatsby-image';
 
 export default ({ data }) => {
   const page       = data.page;
@@ -16,7 +16,7 @@ export default ({ data }) => {
                       bp-2_paddingTop-17 bp-2_marginBottom-12">
         { pageFields.title }
       </h1>
-      <Img resolutions={pageFields.heroImage.url.childImageSharp.resolutions} />
+      <Img sizes={pageFields.heroImage.url.childImageSharp.sizes} />
       <div className="marginBottom-6
                       bp-1_marginBottom-8
                       bp-2_marginBottom-15"
@@ -60,8 +60,8 @@ export const query = graphql`
         heroImage {
           url {
             childImageSharp {
-              resolutions(width: 1540) {
-                ...GatsbyImageSharpResolutions
+              sizes(maxWidth: 1540) {
+                ...GatsbyImageSharpSizes_tracedSVG
               }
             }
           }

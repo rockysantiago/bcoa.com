@@ -1,14 +1,14 @@
 import React from "react";
 import Link from "gatsby-link";
+import Img from 'gatsby-image';
 import Image from "../components/Image";
-import Img from 'gatsby-image'
 
 const Member = ({ member }) => (
   <div className={ `${ member.principal ? "principal bp-2_marginBottom-33" : "bp-2_marginBottom-13" } ` }>
     { !member.principal && <hr className=" marginBottom-2" /> }
     { member.principal && <Img
-      // className="marginBottom-3 bp-1_marginBottom-2"
-      sizes={member.image.url.sizes}
+      className="marginBottom-3 bp-1_marginBottom-2"
+      sizes={member.image.url.childImageSharp.sizes}
       // src={ member.image.url }
       // alt={ member.image.alt }
       /> }
@@ -78,15 +78,13 @@ export default ({ data }) => {
         { fields.title }
       </h1>
       <div className="bp-2_grid-12col bp-1_grid-12col">
-        <div
-          className=" f-display-copy
-                      marginBottom-15
-                      bp-1_colSpan-10
-                      bp-2_marginBottom-26 bp-2_colSpan-9"
-          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+        <div  className=" f-display-copy
+                          marginBottom-15
+                          bp-1_colSpan-10
+                          bp-2_marginBottom-26 bp-2_colSpan-9"
+              dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         />
       </div>
-
       <div className="bp-2_grid-12col">
         { principals && (
           <div className="  marginBottom-2

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Img from 'gatsby-image';
 import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
 
@@ -9,9 +10,10 @@ const renderFeaturedProjects = (projects) => {
       <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">
           <Link to={ project.fields.slug }>
-            <img
-              src={ project.frontmatter.featured.featuredImage.url }
-              alt={ project.frontmatter.featured.featuredImage.alt }
+            <Img
+              sizes={ project.frontmatter.featured.featuredImage.url.childImageSharp.sizes }
+              // src={ project.frontmatter.featured.featuredImage.url }
+              // alt={ project.frontmatter.featured.featuredImage.alt }
               className=" marginBottom-5
                           bp-1_marginBottom-6
                           bp-2_marginBottom-9"
@@ -96,8 +98,8 @@ export const query = graphql`
               featuredImage {
                 url {
                   childImageSharp {
-                    resolutions(width: 125, height: 125) {
-                      src
+                    sizes(maxWidth: 500) {
+                      ...GatsbyImageSharpSizes_tracedSVG
                     }
                   }
                 }

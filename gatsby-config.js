@@ -7,7 +7,8 @@ module.exports = {
       options: {
         postCssPlugins: [
           autoprefixer({
-            browsers: ['last 2 versions']
+            browsers: ['last 2 versions'],
+            grid: true,
           })
         ],
         precision: 8

@@ -47,7 +47,7 @@ export default ({ data }) => {
           <div className="colSpan-1"></div>
           {fields.primaryImage && 
             <div className={`project-primaryImage colSpan-6 bp-1_marginTop-1 bp-2_marginTop-3`}>
-              <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' />
+            <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' imageData={fields.projectGallery[0]} />
             </div>
           }
         </div>
@@ -55,10 +55,9 @@ export default ({ data }) => {
           {fields.projectGallery && fields.projectGallery.length &&
             <div className="project-images bp-1_grid-12col">
               {fields.projectGallery.map((imageData, i) => {
-                debugger;
                 return (
                   imageData.type === 'image'
-                    ?
+                  ?
                       <ProjectImage key={i} index={i} imageData={ imageData } />
                     :
                       <blockquote key={i} className=" project-blockquote colSpan-12 bp-1_colSpan-11 t-center f-headline-b 

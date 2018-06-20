@@ -1,44 +1,46 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
+import Img from 'gatsby-image';
 import classnames from "classnames";
 
 import Image from "./Image";
 
 const ProjectImage = (props) => (
   <figure key={props.i} className={props.classes}>
-    <Image image={props.image} />
-    {props.image.caption &&
+    <Img sizes={props.imageData.image.childImageSharp.sizes} alt={ props.imageData.alt } />
+    {props.imageData.caption &&
       <div className="marginTop-1">
         –
-        <figcaption className='f-caption'>{props.image.caption}</figcaption>
+        <figcaption className='f-caption'>{props.imageData.caption}</figcaption>
       </div>
     }
   </figure>
 )
 
 export default (props) => {
+  debugger;
   const classes = classnames(props.className, {
-    'colSpan-1': (props.image.colWidth === '1'),
-    'colSpan-2': (props.image.colWidth === '2'),
-    'colSpan-3': (props.image.colWidth === '3'),
-    'colSpan-4': (props.image.colWidth === '4'),
-    'colSpan-5': (props.image.colWidth === '5'),
-    'colSpan-6': (props.image.colWidth === '6'),
-    'colSpan-7': (props.image.colWidth === '7'),
-    'colSpan-8': (props.image.colWidth === '8'),
-    'colSpan-9': (props.image.colWidth === '9'),
-    'colSpan-10': (props.image.colWidth === '10'),
-    'colSpan-11': (props.image.colWidth === '11'),
-    'colSpan-12': (props.image.colWidth === '12'),
-    'colOffset-1': (props.image.offsetWidth === '1'),
-    'colOffset-2': (props.image.offsetWidth === '2'),
-    'colOffset-3': (props.image.offsetWidth === '3'),
-    'colOffset-4': (props.image.offsetWidth === '5'),
-    'colOffset-6': (props.image.offsetWidth === '6'),
-    'colOffset-7': (props.image.offsetWidth === '7'),
-    'colOffset-8': (props.image.offsetWidth === '8'),
-    'colOffset-9': (props.image.offsetWidth === '9'),
-    'colOffset-10': (props.image.offsetWidth === '10'),
-    'colOffset-11': (props.image.offsetWidth === '11'),
+    'colSpan-1': (props.imageData.colWidth === '1'),
+    'colSpan-2': (props.imageData.colWidth === '2'),
+    'colSpan-3': (props.imageData.colWidth === '3'),
+    'colSpan-4': (props.imageData.colWidth === '4'),
+    'colSpan-5': (props.imageData.colWidth === '5'),
+    'colSpan-6': (props.imageData.colWidth === '6'),
+    'colSpan-7': (props.imageData.colWidth === '7'),
+    'colSpan-8': (props.imageData.colWidth === '8'),
+    'colSpan-9': (props.imageData.colWidth === '9'),
+    'colSpan-10': (props.imageData.colWidth === '10'),
+    'colSpan-11': (props.imageData.colWidth === '11'),
+    'colSpan-12': (props.imageData.colWidth === '12'),
+    'colOffset-1': (props.imageData.offsetWidth === '1'),
+    'colOffset-2': (props.imageData.offsetWidth === '2'),
+    'colOffset-3': (props.imageData.offsetWidth === '3'),
+    'colOffset-4': (props.imageData.offsetWidth === '5'),
+    'colOffset-6': (props.imageData.offsetWidth === '6'),
+    'colOffset-7': (props.imageData.offsetWidth === '7'),
+    'colOffset-8': (props.imageData.offsetWidth === '8'),
+    'colOffset-9': (props.imageData.offsetWidth === '9'),
+    'colOffset-10': (props.imageData.offsetWidth === '10'),
+    'colOffset-11': (props.imageData.offsetWidth === '11'),
     'marginBottom-6 bp-1_marginBottom-7 bp-2_marginBottom-16 project-image-wrapper': true,
     // 'project-image-wrapper': true
   })
@@ -46,9 +48,9 @@ export default (props) => {
   console.log(props);
 
   return (
-    props.image.offsetWidth > 0 ?
+    props.imageData.offsetWidth > 0 ?
       <div className={`colSpan-12 grid-12col`}>
-        <div className={`colSpan-${props.image.offsetWidth}`}></div>
+        <div className={`colSpan-${props.imageData.offsetWidth}`}></div>
         <ProjectImage {...props} classes={classes} />
       </div>
       :

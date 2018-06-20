@@ -4,17 +4,17 @@ title: Micro Cabin
 type: residential
 heroImage:
   alt: Micro Cabin - residential forest reclaimed materials
-  url: /images/uploads/hero.jpg
+  image: /images/uploads/hero.jpg
 headline: CRAFT A JEWEL BOX
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    url: /images/uploads/10-astor_-index.jpg
+    image: /images/uploads/10-astor_-index.jpg
   isFeatured: true
 previewImage:
   alt: Micro Cabin - residential living room with cast iron stove
-  url: /images/uploads/preview.jpg
+  image: /images/uploads/preview.jpg
 infoObject:
   - description: Private Owner
     title: client

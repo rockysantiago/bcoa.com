@@ -3,10 +3,10 @@ templateKey: project-page
 title: Barman
 type: residential
 heroImage:
-  url: /images/uploads/BARMAN_PH_1.jpg
+  image: /images/uploads/BARMAN_PH_1.jpg
 headline: California Modern
 previewImage:
-  url: /images/uploads/BARMAN_index_2.jpg
+  image: /images/uploads/BARMAN_index_2.jpg
 infoObject:
   - description: Private Owner
     title: Client

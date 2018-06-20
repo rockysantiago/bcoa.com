@@ -3,10 +3,10 @@ templateKey: project-page
 title: Stairwell
 type: commercial
 heroImage:
-  url: /images/uploads/STAIRWELL_PH_1.jpg
+  image: /images/uploads/STAIRWELL_PH_1.jpg
 headline: 'STAIR-WELL HOUSING: EMBRACE THE CORE'
 previewImage:
-  url: /images/uploads/STAIR-WELL_index.jpg
+  image: /images/uploads/STAIR-WELL_index.jpg
 infoObject:
   - description: Competition entry
     title: CLIENT

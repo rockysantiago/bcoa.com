@@ -17,12 +17,11 @@ export default ({ data }) => {
       </div>
 
       {fields.heroImage &&
-        <Img sizes={ fields.heroImage.url.childImageSharp.sizes }>
+        <Img sizes={ fields.heroImage.image.childImageSharp.sizes }>
           <Hero />
         </Img>
       }
       <div className="container marginTop-5 bp-1_marginTop-10 bp-2_marginTop-30">
-      {/* <Hero image={fields.heroImage.url} alt={fields.heroImage.alt} /> */}
         <div className="bp-1_grid-12col">
           <div className="colSpan-5">
             <h1 className='f-headline-b marginBottom-4 bp-1_marginBottom-13 bp-2_marginBottom-9'>
@@ -48,29 +47,26 @@ export default ({ data }) => {
           <div className="colSpan-1"></div>
           {fields.primaryImage && 
             <div className={`project-primaryImage colSpan-6 bp-1_marginTop-1 bp-2_marginTop-3`}>
-              <Img sizes={ fields.primaryImage.url.childImageSharp.sizes }>
-                <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' />
-              </Img>
+              <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' />
             </div>
           }
         </div>
         <div>
           {fields.projectGallery && fields.projectGallery.length &&
             <div className="project-images bp-1_grid-12col">
-              {fields.projectGallery.map((item, i) => {
+              {fields.projectGallery.map((imageData, i) => {
+                debugger;
                 return (
-                  item.type === 'image'
+                  imageData.type === 'image'
                     ?
-                      <Img sizes={ item.url.childImageSharp.sizes }>
-                        <ProjectImage key={i} index={i} />
-                      </Img>
+                      <ProjectImage key={i} index={i} imageData={ imageData } />
                     :
                       <blockquote key={i} className=" project-blockquote colSpan-12 bp-1_colSpan-11 t-center f-headline-b 
                                                       marginTop-12 marginBottom-12
                                                       bp-1_marginTop-7 bp-1_marginBottom-14
                                                       bp-2_marginTop-14 bp-2_marginBottom-30"
                       >
-                    {item.pullQuote}
+                    {imageData.pullQuote}
                   </blockquote>
                 )
               })}
@@ -96,9 +92,9 @@ export const query = graphql`
           description
         }
         heroImage {
-          url {
+          image {
             childImageSharp {
-              sizes(maxWidth: 500) {
+              sizes(maxWidth: 3848) {
                 ...GatsbyImageSharpSizes_tracedSVG
               }
             }
@@ -106,9 +102,9 @@ export const query = graphql`
           alt
         }
         primaryImage {
-          url {
+          image {
             childImageSharp {
-              sizes(maxWidth: 500) {
+              sizes(maxWidth: 1820) {
                 ...GatsbyImageSharpSizes_tracedSVG
               }
             }
@@ -118,9 +114,9 @@ export const query = graphql`
         }
         projectGallery {
           type
-          url {
+          image {
             childImageSharp {
-              sizes(maxWidth: 500) {
+              sizes(maxWidth: 3800) {
                 ...GatsbyImageSharpSizes_tracedSVG
               }
             }

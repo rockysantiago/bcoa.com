@@ -25,9 +25,7 @@ class Article extends Component {
     return (
       <article id={slugify(article.frontmatter.title, { lower: true })} className="marginBottom-12 bp-1_marginBottom-14 bp-2_marginBottom-21">
         <Img
-          sizes={article.frontmatter.image.url.childImageSharp.sizes}
-          // src={ article.frontmatter.image.url }
-          // alt={ article.frontmatter.image.alt }
+          sizes={article.frontmatter.image.image.childImageSharp.sizes}
           className=" marginBottom-5
                       bp-2_marginBottom-6"/>
         <h2 className="f-headline-a">{ article.frontmatter.title }</h2>
@@ -96,9 +94,9 @@ export const query = graphql`
             templateKey
             title
             image {
-              url {
+              image {
                 childImageSharp {
-                  sizes(maxWidth: 500) {
+                  sizes(maxWidth: 830) {
                     ...GatsbyImageSharpSizes_tracedSVG
                   }
                 }

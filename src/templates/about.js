@@ -8,9 +8,7 @@ const Member = ({ member }) => (
     { !member.principal && <hr className=" marginBottom-2" /> }
     { member.principal && <Img
       className="marginBottom-3 bp-1_marginBottom-2"
-      sizes={member.image.url.childImageSharp.sizes}
-      // src={ member.image.url }
-      // alt={ member.image.alt }
+      sizes={member.image.image.childImageSharp.sizes}
       /> }
     <h3 className=" f-copy-bold">{ member.name }</h3>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }` }>{ member.jobTitle }</p>
@@ -199,9 +197,9 @@ export const query = graphql`
         studioMembers {
           name
           image {
-            url {
+            image {
               childImageSharp {
-                sizes(maxWidth: 1240 ) {
+                sizes(maxWidth: 1820 ) {
                   ...GatsbyImageSharpSizes_tracedSVG
                 }
               }

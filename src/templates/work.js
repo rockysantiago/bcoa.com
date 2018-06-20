@@ -46,10 +46,8 @@ export default class Work extends Component {
                     <Link to={ project.fields.slug }>
                       { project.frontmatter.previewImage &&
                         <Img
-                          sizes={ project.frontmatter.previewImage.url.childImageSharp.sizes }
-                          className=" marginBottom-3"
-                          // src={ project.frontmatter.previewImage.url }
-                          // alt={ project.frontmatter.previewImage.alt }
+                          sizes={ project.frontmatter.previewImage.image.childImageSharp.sizes }
+                          className="marginBottom-3"
                         />
                       }
                       <h1 className="f-subhead">{ project.frontmatter.title }</h1>
@@ -57,7 +55,6 @@ export default class Work extends Component {
                                       marginBottom-9
                                       bp-2_marginBottom-21"
                       >
-{/* Project Description , may need to change marginBottom if don't use Project Description */}
                       </h1>
                     </Link>
                   </article>
@@ -84,9 +81,9 @@ export const query = graphql`
             title
             type
             previewImage {
-              url {
+              image {
                 childImageSharp {
-                  sizes(maxWidth: 500) {
+                  sizes(maxWidth: 1160) {
                     ...GatsbyImageSharpSizes_tracedSVG
                   }
                 }

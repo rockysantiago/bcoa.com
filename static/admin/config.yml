@@ -30,7 +30,7 @@ collections:
                 name: image
                 widget: object
                 fields:
-                  - { label: "Image", name: "url", widget: "image" }
+                  - { label: "Image", name: "image", widget: "image" }
                   - { label: "Alt", name: "alt", widget: "string" }
               - { label: "Job Title", name: "jobTitle", widget: "string" }
               - { label: "Principal Info", name: "principalInfo", widget: "string", required: "false" }
@@ -70,7 +70,7 @@ collections:
             name: heroImage
             widget: object
             fields:
-              - { label: "Image", name: "url", widget: "image" }
+              - { label: "Image", name: "image", widget: "image" }
               - { label: "Alt", name: "alt", widget: "string" }
           - { label: "Message", name: "message", widget: "text" }
       
@@ -98,7 +98,7 @@ collections:
             name: "carouselImages"
             widget: "list"
             fields:
-              - { label: "Image", name: "url", widget: "image", default: "/images/uploads/placeholder.jpg" }
+              - { label: "Image", name: "image", widget: "image", default: "/images/uploads/placeholder.jpg" }
               - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
               - { label: "Description", name: "description", widget: "markdown" }
               - label: "Related Project"
@@ -129,7 +129,7 @@ collections:
         widget: object
         required: false
         fields:
-          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Image", name: "image", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Headline", name: "headline", widget: "string", required: false }
       - label: Featured
@@ -149,7 +149,7 @@ collections:
               field: isFeatured
               value: true
             fields:
-              - { label: "Image", name: "url", widget: "image" }
+              - { label: "Image", name: "image", widget: "image" }
               - { label: "Alt", name: "alt", widget: "string" }
           - label: Featured Description
             name: featuredDescription
@@ -165,7 +165,7 @@ collections:
         widget: object
         required: false
         fields:
-          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Image", name: "image", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       
       - { label: "Body", name: "body", widget: "markdown", required: false }
@@ -254,7 +254,7 @@ collections:
         name: image
         widget: object
         fields:
-          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Image", name: "image", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Date", name: "date", widget: "date", format: "M.D.YYYY" }
       - { label: "Body", name: "body", widget: "markdown" }

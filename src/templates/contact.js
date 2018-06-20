@@ -16,7 +16,7 @@ export default ({ data }) => {
                       bp-2_paddingTop-17 bp-2_marginBottom-12">
         { pageFields.title }
       </h1>
-      <Img sizes={pageFields.heroImage.url.childImageSharp.sizes} />
+      <Img sizes={pageFields.heroImage.image.childImageSharp.sizes} />
       <div className="marginBottom-6
                       bp-1_marginBottom-8
                       bp-2_marginBottom-15"
@@ -58,9 +58,9 @@ export const query = graphql`
         title
         message
         heroImage {
-          url {
+          image {
             childImageSharp {
-              sizes(maxWidth: 1540) {
+              sizes(maxWidth: 3800) {
                 ...GatsbyImageSharpSizes_tracedSVG
               }
             }

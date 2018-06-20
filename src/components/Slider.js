@@ -46,7 +46,7 @@ export default ({ slides }) => {
                 <span>{i + 1}/{slides.length}</span>
               </div>
             </div>
-            <img src={slide.url} alt={slide.alt} />
+            <img src={slide.image} alt={slide.alt} />
           </div>
           :
           <div className="slide" key={`slide-${i}`}>
@@ -54,7 +54,7 @@ export default ({ slides }) => {
               <div className="md" dangerouslySetInnerHTML={{ __html: slide.description }} />
               <span>{i + 1}/{slides.length}</span>
             </div>
-            <img src={slide.url} alt={slide.alt} />
+            <img src={slide.image} alt={slide.alt} />
           </div>
       })}
     </Slider>

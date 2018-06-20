@@ -3,10 +3,10 @@ templateKey: project-page
 title: 58th Street
 type: residential
 heroImage:
-  url: /images/uploads/58TH ST_ PH.jpg
+  image: /images/uploads/58TH ST_ PH.jpg
 headline: 'Collector''s Apartment '
 previewImage:
-  url: /images/uploads/58TH ST_ index.jpg
+  image: /images/uploads/58TH ST_ index.jpg
 infoObject:
   - description: Private Owner
     title: Client

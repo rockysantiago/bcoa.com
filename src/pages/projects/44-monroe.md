@@ -3,10 +3,10 @@ templateKey: project-page
 title: 44 Monroe
 type: residential
 heroImage:
-  url: /images/uploads/44-monroe_ph.jpg
+  image: /images/uploads/44-monroe_ph.jpg
 headline: Brooklyn heights townhouse
 previewImage:
-  url: /images/uploads/44-monroe_-index.jpg
+  image: /images/uploads/44-monroe_-index.jpg
 infoObject:
   - description: Private Owner
     title: Client

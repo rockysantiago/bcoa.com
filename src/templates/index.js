@@ -11,9 +11,7 @@ const renderFeaturedProjects = (projects) => {
         <article className="featuredProject">
           <Link to={ project.fields.slug }>
             <Img
-              sizes={ project.frontmatter.featured.featuredImage.url.childImageSharp.sizes }
-              // src={ project.frontmatter.featured.featuredImage.url }
-              // alt={ project.frontmatter.featured.featuredImage.alt }
+              sizes={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes }
               className=" marginBottom-5
                           bp-1_marginBottom-6
                           bp-2_marginBottom-9"
@@ -78,7 +76,7 @@ export const query = graphql`
       frontmatter {
         title
         carouselImages {
-          url
+          image
           alt
           description
           project
@@ -96,9 +94,9 @@ export const query = graphql`
             featured {
               isFeatured
               featuredImage {
-                url {
+                image {
                   childImageSharp {
-                    sizes(maxWidth: 500) {
+                    sizes(maxWidth: 1820) {
                       ...GatsbyImageSharpSizes_tracedSVG
                     }
                   }

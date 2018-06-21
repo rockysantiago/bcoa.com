@@ -84,8 +84,9 @@ export default class TemplateWrapper extends Component {
     
     return (
       <div className={ homeClasses }>
-        <Helmet title="Home | BC–OA"
-                bodyAttributes={{ class: this.state.menuOpen && 'scrollingIsDisabled' }}
+        <Helmet 
+          title="Home | BC–OA"
+          bodyAttributes={{ class: this.state.menuOpen && 'scrollingIsDisabled' }}
         />
         <Headroom>
           <HeaderNav  visible=        { this.state.menuOpen }

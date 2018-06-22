@@ -1,4 +1,5 @@
 const autoprefixer = require('autoprefixer');
+const customProperties = require('postcss-custom-properties');
 module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -9,7 +10,8 @@ module.exports = {
           autoprefixer({
             browsers: ['last 2 versions'],
             grid: true,
-          })
+          }),
+          customProperties
         ],
         precision: 8
       }

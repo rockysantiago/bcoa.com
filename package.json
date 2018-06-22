@@ -26,6 +26,7 @@
     "netlify-cms": "github:joshuarule/netlify-cms",
     "node-sass": "^4.9.0",
     "npm": "^5.10.0",
+    "postcss-custom-properties": "^7.0.0",
     "react": "^16.3.2",
     "react-headroom": "^2.2.2",
     "react-helmet": "^5.2.0",

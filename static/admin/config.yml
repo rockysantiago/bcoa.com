@@ -150,13 +150,11 @@ collections:
               field: isFeatured
               value: true
             fields:
-<<<<<<< HEAD
               - label: Set Portrait
                 name: isPortrait
                 widget: boolean
                 required: false
               - { label: "Image", name: "image", widget: "image" }
->>>>>>> relativeImages
               - { label: "Alt", name: "alt", widget: "string" }
           - label: Featured Description
             name: featuredDescription

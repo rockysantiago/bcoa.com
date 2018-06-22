@@ -10,7 +10,7 @@ studioMembers:
       chicken microdosing iPhone viral keffiyeh typewriter mlkshk.
     image:
       alt: Image of Bronwyn Breitner
-      url: /images/uploads/placeholder.jpg
+      image: /images/uploads/placeholder.jpg
     jobTitle: Registered Architect
     name: Bronwyn Breitner
     principal: true
@@ -23,7 +23,7 @@ studioMembers:
       chicken microdosing iPhone viral keffiyeh typewriter mlkshk.
     image:
       alt: Image of Luigi
-      url: /images/uploads/placeholder.jpg
+      image: /images/uploads/placeholder.jpg
     jobTitle: Other Architect
     name: Luigi Ciaccia
     principal: true
@@ -34,13 +34,13 @@ studioMembers:
       study architecture but mostly to eat all the foods.
     image:
       alt: Image of Scott Mikawa
-      url: /images/uploads/placeholder.jpg
+      image: /images/uploads/placeholder.jpg
     jobTitle: Peon
     name: Scott Mikawa
   - description: Job description here
     image:
       alt: alt
-      url: /images/uploads/placeholder.jpg
+      image: /images/uploads/placeholder.jpg
     jobTitle: Worker bee
     name: John Smith
 publications:

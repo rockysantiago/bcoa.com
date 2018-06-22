@@ -4,10 +4,10 @@ title: Jungle House
 workDescription: Jungle House project
 type: residential
 heroImage:
-  url: /images/uploads/JUNGLE HOUSE_ (5)_1820.jpg
+  image: /images/uploads/JUNGLE HOUSE_ (5)_1820.jpg
 headline: Lake View
 previewImage:
-  url: /images/uploads/JUNGLE HOUSE_index.jpg
+  image: /images/uploads/JUNGLE HOUSE_index.jpg
 infoObject:
   - description: Private Owners
     title: Client

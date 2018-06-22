@@ -4,17 +4,16 @@ title: 10 Astor
 workDescription: work description 10 Astor
 type: residential
 heroImage:
-  alt: hero alt text
-  url: /images/uploads/10-astor_ph_2.jpg
+  image: /images/uploads/10-astor_ph_2.jpg
 headline: lobby
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    url: /images/uploads/10 Astor_ index.jpg
+    image: /images/uploads/10 Astor_ index.jpg
   isFeatured: true
 previewImage:
-  url: /images/uploads/10-astor_-index.jpg
+  image: /images/uploads/10-astor_-index.jpg
 infoObject:
   - description: Newmark Holdings
     title: Client

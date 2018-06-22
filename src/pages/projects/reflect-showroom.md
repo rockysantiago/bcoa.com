@@ -3,10 +3,10 @@ templateKey: project-page
 title: 'Reflect Showroom '
 type: commercial
 heroImage:
-  url: /images/uploads/REFLECT SHOWROOM_PH.jpg
+  image: /images/uploads/REFLECT SHOWROOM_PH.jpg
 headline: REFLECT INNOVATION IN GLASS
 previewImage:
-  url: /images/uploads/REFLECT SHOWROOM_index_1.jpg
+  image: /images/uploads/REFLECT SHOWROOM_index_1.jpg
 infoObject:
   - description: Private
     title: CLIENT

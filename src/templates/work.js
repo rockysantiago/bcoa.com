@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Link from "gatsby-link";
+import Img from 'gatsby-image'
 import ProjectFilter from '../components/ProjectFilter';
 
 export default class Work extends Component {
@@ -50,10 +51,9 @@ export default class Work extends Component {
                   <article className="workProject">
                     <Link to={ project.fields.slug }>
                       { project.frontmatter.previewImage &&
-                        <img
-                          className=" marginBottom-3"
-                          src={ project.frontmatter.previewImage.url }
-                          alt={ project.frontmatter.previewImage.alt }
+                        <Img
+                          sizes={ project.frontmatter.previewImage.image.childImageSharp.sizes }
+                          className="marginBottom-3"
                         />
                       }
                       <h1 className="f-subhead">{ project.frontmatter.title }</h1>
@@ -61,7 +61,6 @@ export default class Work extends Component {
                                       marginBottom-9
                                       bp-2_marginBottom-21"
                       >
-                      { project.frontmatter.workDescription }
                       </h2>
                     </Link>
                   </article>
@@ -89,7 +88,13 @@ export const query = graphql`
             workDescription
             type
             previewImage {
-              url
+              image {
+                childImageSharp {
+                  sizes(maxWidth: 768) {
+                    ...GatsbyImageSharpSizes_withWebp
+                  }
+                }
+              }
               alt
             }
           }

@@ -1,14 +1,15 @@
 import React from "react";
 import Link from "gatsby-link";
+import Img from 'gatsby-image';
 import Image from "../components/Image";
 
 const Member = ({ member }) => (
   <div className={ `${ member.principal ? "principal bp-2_marginBottom-33" : "bp-2_marginBottom-13" } ` }>
     { !member.principal && <hr className=" marginBottom-2" /> }
-    { member.principal && <img
+    { member.principal && <Img
       className="marginBottom-3 bp-1_marginBottom-2"
-      src={ member.image.url}
-      alt={ member.image.alt } /> }
+      sizes={member.image.image.childImageSharp.sizes}
+      /> }
     <h3 className=" f-copy-bold">{ member.name }</h3>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }` }>{ member.jobTitle }</p>
     <p className={ `${ member.principal ? "f-copy-bold" : "" }  marginBottom-5` }>{ member.principalInfo }</p>
@@ -75,15 +76,13 @@ export default ({ data }) => {
         { fields.title }
       </h1>
       <div className="bp-2_grid-12col bp-1_grid-12col">
-        <div
-          className=" f-display-copy
-                      marginBottom-15
-                      bp-1_colSpan-10
-                      bp-2_marginBottom-26 bp-2_colSpan-9"
-          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+        <div  className=" f-display-copy
+                          marginBottom-15
+                          bp-1_colSpan-10
+                          bp-2_marginBottom-26 bp-2_colSpan-9"
+              dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         />
       </div>
-
       <div className="bp-2_grid-12col">
         { principals && (
           <div className="  marginBottom-2
@@ -198,7 +197,13 @@ export const query = graphql`
         studioMembers {
           name
           image {
-            url
+            image {
+              childImageSharp {
+                sizes(maxWidth: 768 ) {
+                  ...GatsbyImageSharpSizes_withWebp
+                }
+              }
+            }
             alt
           }
           jobTitle

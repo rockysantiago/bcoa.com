@@ -3,9 +3,9 @@ templateKey: project-page
 title: City of Dreams
 type: residential
 heroImage:
-  url: /images/uploads/CITY OF DREAMS_PH.jpg
+  image: /images/uploads/CITY OF DREAMS_PH.jpg
 previewImage:
-  url: /images/uploads/CITY OF DREAMS_index_2.jpg
+  image: /images/uploads/CITY OF DREAMS_index_2.jpg
 infoObject:
   - description: Governors Island
     title: SITE

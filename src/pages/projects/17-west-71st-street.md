@@ -4,10 +4,10 @@ title: 17 West 71st Street
 workDescription: work description
 type: residential
 heroImage:
-  url: /images/uploads/17 W 71st St_ (14)_1820.jpg
+  image: /images/uploads/17-w-71st-st_ph_2.jpg
 headline: UWS NYC
 previewImage:
-  url: /images/uploads/17-w-71st-st_index_2-.jpg
+  image: /images/uploads/17-w-71st-st_index_2-.jpg
 infoObject:
   - description: Private Owner
     title: Client

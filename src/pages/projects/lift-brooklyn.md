@@ -3,16 +3,16 @@ templateKey: project-page
 title: Lift Brooklyn
 type: commercial
 heroImage:
-  url: /images/uploads/lift_brooklyn_ph.jpg
+  image: /images/uploads/lift_brooklyn_ph.jpg
 headline: ENGAGE THE SENSES
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    url: /images/uploads/10-astor_-index.jpg
+    image: /images/uploads/10-astor_-index.jpg
   isFeatured: true
 previewImage:
-  url: /images/uploads/lift_brooklyn_index_1.jpg
+  image: /images/uploads/lift_brooklyn_index_1.jpg
 infoObject:
   - description: Lift Next Level Floats
     title: Client

@@ -61,7 +61,7 @@ export const query = graphql`
           image {
             childImageSharp {
               sizes(maxWidth: 3800) {
-                ...GatsbyImageSharpSizes_tracedSVG
+                ...GatsbyImageSharpSizes_withWebp
               }
             }
           }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { icons } from "./Icons";
 
-export default ({ fixedNavPast }) => {
+export default ({ fixedLogoPast }) => {
   return (
-    <div className={`fixedLogo container ${fixedNavPast ? 'c-black' : 'c-white'}`}>
+    <div className={`fixedLogo container ${fixedLogoPast ? 'c-black' : 'c-white'}`}>
       {icons.fixedLogo}
     </div>
   )

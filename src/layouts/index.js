@@ -26,28 +26,42 @@ export default class TemplateWrapper extends Component {
   }
 
   handleIntersect = (e) => {
-    // if (e[0].isIntersecting) {
-    //   this.setState({ fixedNavPast: false })
-    // } else {
-    //   this.setState({ fixedNavPast: true })
-    // }
+    if (e[0].isIntersecting) {
+      this.setState({ fixedLogoPast: false })
+    } else {
+      this.setState({ fixedLogoPast: true })
+    }
   }
 
-  // createObserver = () => {
-  //   this.observer = null;
+  createObserver = () => {
+    this.observer = null;
 
-  //   const options = {
-  //     root: null,
-  //     rootMargin: "-50%",
-  //   };
+    const options = {
+      root: null,
+      rootMargin: '-49%'
+    };
 
-  //   this.observer = new IntersectionObserver(this.handleIntersect, options);
-  //   this.observer.observe(this.main.querySelector('.hero'));
-  // }
+    this.observer = new IntersectionObserver(this.handleIntersect, options);
+    this.observer.observe(this.hero);
+  }
+
+  initHeroObserver = () => {
+    this.hero = this.main.querySelector('.hero');
+    if(this.hero) {
+      this.createObserver();
+    }
+  }
 
   componentDidMount() {
     window.addEventListener("resize", this.updateDimensions);
     this.updateDimensions();
+    this.initHeroObserver();
+  }
+  
+  componentDidUpdate(prevProps) {
+    if(this.props.location.pathname !== prevProps.location.pathname) {
+      this.initHeroObserver();
+    }
   }
 
   componentWillUnmount() {
@@ -94,7 +108,7 @@ export default class TemplateWrapper extends Component {
                       menuBackground= { menuBackground }
           />
         </Headroom>
-        <FixedLogo fixedNavPast={ this.state.fixedNavPast } isWindowMedium={ this.state.isWindowMedium } />
+        <FixedLogo fixedLogoPast={ this.state.fixedLogoPast } isWindowMedium={ this.state.isWindowMedium } />
         <main ref={(el) => { if (el) { this.main = el } } }>{ children() }</main>
         <footer>
           <div className="container">

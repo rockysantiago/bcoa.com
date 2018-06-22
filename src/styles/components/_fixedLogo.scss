@@ -1,5 +1,7 @@
 .fixedLogo {
   display: none;
+  transition: color .5s ease-in-out;
+
   @include bp-1 {
     position: fixed;
     width: 100%;

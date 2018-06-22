@@ -2,9 +2,9 @@ import React from 'react'
 import Slider from "react-slick";
 import slugify from "slugify";
 import { icons } from "./Icons";
-// import remark from "remark";
-// import recommended from "remark-preset-lint-recommended";
-// import remarkHtml from "remark-html";
+import remark from "remark";
+import recommended from "remark-preset-lint-recommended";
+import remarkHtml from "remark-html";
 
 const PrevArrow = ({ onClick }) => (
   <div className="container slick-container">
@@ -35,13 +35,16 @@ export default ({ slides }) => {
   return (
     <Slider className="hero" {...settings}>
       {slides.map((slide, i) => {
-        // const description = remark().use(recommended).use(remarkHtml).processSync(slide.description).toString();
+        const description = remark()
+        .use(recommended)
+        .use(remarkHtml)
+        .processSync(slide.description).toString();
         return slide.project ?
           <div className="slide c-white" key={`slide-${i}`}>
             <div className="container slick-container">
               <div className="slide-info">
                 <a className="marginBottom-4 block" href={`projects/${slugify(slide.project, { lower: true })}`}>
-                  {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
+                  <div className="md" dangerouslySetInnerHTML={{ __html: description }} />
                 </a>
                 <span>{i + 1}/{slides.length}</span>
               </div>
@@ -52,7 +55,7 @@ export default ({ slides }) => {
           <div className="slide c-white" key={`slide-${i}`}>
             <div className="container slick-container">
               <div className="slide-info">
-                {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
+              <div className="md" dangerouslySetInnerHTML={{ __html: description }} />
                 <span>{i + 1}/{slides.length}</span>
               </div>
             </div>

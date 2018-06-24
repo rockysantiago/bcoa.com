@@ -47,20 +47,23 @@ publications:
   - date: 'January 1, 2017'
     publisher: The NYTimes
     title: Pre-War is So Last Year
-    url: ''
+    url: 'https://www.nytimes.com/2017/03/10/realestate/prewar-is-so-last-year.html'
   - date: 'January 1, 2014'
     publisher: Dwell Magazine
     title: Dwell on Design NY
     url: ''
   - date: 'January 1, 2013'
-    publisher: 'Dwell Magazine OnLine, Dianna Budds'
+    publisher: 'Dwell Magazine OnLine, Diana Budds'
     title: A Renovated Loft in Soho
+    url: 'https://www.dwell.com/collection/a-renovated-loft-in-soho-628c9992'
   - date: 'January 1, 2012'
     publisher: Satellite Magazine
     title: Brooklyn / BC—OA
   - date: 'January 1, 2011'
     publisher: Architect’s Newspaper
     title: Recharging Communities
+    url: >-
+      https://archpaper.com/2011/09/on-view-designyc-presents-recharging-communities/
 awards:
   - date: 'January 1, 2018'
     orgName: AIA BQDA

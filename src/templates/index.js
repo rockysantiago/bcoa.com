@@ -119,10 +119,6 @@ export const query = graphql`
             featured {
               isFeatured
               featuredImage {
-<<<<<<< HEAD
-                isPortrait
-                url
-=======
                 image {
                   childImageSharp {
                     sizes(maxWidth: 1820) {
@@ -130,7 +126,6 @@ export const query = graphql`
                     }
                   }
                 }
->>>>>>> relativeImages
                 alt
               }
               featuredDescription

@@ -26,6 +26,7 @@
     "gatsby-transformer-json": "^1.0.17",
     "gatsby-transformer-remark": "^1.7.42",
     "gatsby-transformer-sharp": "^1.6.26",
+    "intersection-observer": "^0.5.0",
     "json": "^9.0.6",
     "netlify-cms": "github:joshuarule/netlify-cms",
     "node-sass": "^4.9.0",

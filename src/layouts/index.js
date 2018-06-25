@@ -97,7 +97,7 @@ export default class TemplateWrapper extends Component {
       children,
       data
     } = this.props;
-    
+
     return (
       <div className={ homeClasses }>
         <Helmet title="Home | BC–OA"
@@ -111,7 +111,9 @@ export default class TemplateWrapper extends Component {
           />
         </Headroom>
         <FixedLogo fixedLogoPast={ this.state.fixedLogoPast } isWindowMedium={ this.state.isWindowMedium } />
-        <main ref={(el) => { if (el) { this.main = el } } }>{ children() }</main>
+        <main ref={(el) => { if (el) { this.main = el } } }>
+          { children({ ...this.props, ...{ isWindowLarge: this.state.isWindowLarge } } ) }
+        </main>
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />

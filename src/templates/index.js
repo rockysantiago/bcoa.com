@@ -79,15 +79,18 @@ export default class Index extends Component {
                           bp-2_marginTop-17 bp-2_marginBottom-13">
             { this.props.data.page.frontmatter.title }
           </h2>
-          {projects &&                        
-            <Masonry
-              className={'masonry'}
-              elementType={'ul'}
-              options={{ transitionDuration: 0 }}
-            >
-              { renderFeaturedProjects(projects) }
-            </Masonry>
-          }
+          {(this.props.isWindowLarge
+            ?
+              <Masonry
+                className={'masonry'}
+                elementType={'ul'}
+                options={{ transitionDuration: 0 }}
+              >
+                { renderFeaturedProjects(projects) }
+              </Masonry>
+            :
+              renderFeaturedProjects(projects)
+          )}
         </div>
       </div>
     );

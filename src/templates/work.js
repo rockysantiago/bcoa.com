@@ -41,7 +41,7 @@ export default class Work extends Component {
           <h1 className="f-page-title">
             { page.title }
           </h1>
-          <ProjectFilter onChange={(val) => this.renderFilterTransition(val)}/>
+          <ProjectFilter isWindowLarge={ this.props.isWindowLarge } onChange={(val) => this.renderFilterTransition(val)}/>
         </div>
         <ul className={`${this.state.inTransition ? 'inTransition' : '' } bp-1_grid-3col bp-2_grid-4col`}>
           { projects &&

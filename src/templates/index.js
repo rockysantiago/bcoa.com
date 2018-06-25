@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Link from "gatsby-link";
+import Img from 'gatsby-image';
 import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
 
@@ -22,15 +23,12 @@ const renderFeaturedProjects = (projects) => {
       <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">
           <Link to={ project.fields.slug }>
-          { project.frontmatter.featured.featuredImage.isPortrait ?
-            <div className="nestedGrid-6-2">
-              <div className="colSpan-1"></div>
-              <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage } />
-            </div>
-          :
-            <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage } />
-          }
-            
+            <Img
+              sizes={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes }
+              className=" marginBottom-5
+                          bp-1_marginBottom-6
+                          bp-2_marginBottom-9"
+            />
             <div className="featured-info">
               <h1 className=" f-headline-d
                               marginBottom-5
@@ -103,7 +101,7 @@ export const query = graphql`
       frontmatter {
         title
         carouselImages {
-          url
+          image
           alt
           description
           project
@@ -121,8 +119,13 @@ export const query = graphql`
             featured {
               isFeatured
               featuredImage {
-                isPortrait
-                url
+                image {
+                  childImageSharp {
+                    sizes(maxWidth: 1820) {
+                      ...GatsbyImageSharpSizes_withWebp
+                    }
+                  }
+                }
                 alt
               }
               featuredDescription

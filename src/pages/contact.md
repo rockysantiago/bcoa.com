@@ -3,7 +3,7 @@ templateKey: contact-page
 title: Contact
 heroImage:
   alt: this is the contact hero image
-  url: /images/uploads/Landscape_3X4.png
+  image: /images/uploads/Landscape_3X4.png
 message: >-
   Raw denim subway tile skateboard, thundercats cliche before they sold out
   crucifix keffiyeh taxidermy aesthetic artisan mumblecore butcher offal

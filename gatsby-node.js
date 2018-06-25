@@ -1,9 +1,13 @@
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const path = require("path");
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 
+
+exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+  fmImagesToRelative(node);
+  const { createNodeField } = boundActionCreators;
+  
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: "pages" });
     createNodeField({
@@ -13,7 +17,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     });
   }
 };
-
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
   return new Promise((resolve, reject) => {

@@ -4,17 +4,16 @@ title: 740 Broadway
 workDescription: Broadway description
 type: residential
 heroImage:
-  url: /images/uploads/740-broadway_lobby_-10-.jpg
+  image: /images/uploads/740-broadway_lobby_ph.jpg
 headline: Light Folds
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    isPortrait: true
-    url: /images/uploads/740 BROADWAY_LOBBY_ (4)_1820.jpg
+    image: /images/uploads/20 GREENE ST_ (10)_1820.jpg
   isFeatured: true
 previewImage:
-  url: /images/uploads/740-broadway_lobby_index.jpg
+  image: /images/uploads/740-broadway_lobby_index.jpg
 infoObject:
   - description: Newmark Holdings
     title: Client

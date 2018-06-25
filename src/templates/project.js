@@ -16,7 +16,7 @@ export default ({ data }) => {
         </div>
       </div>
 
-      {fields.heroImage &&
+      {fields.heroImage && fields.heroImage.image &&
         <Img sizes={ fields.heroImage.image.childImageSharp.sizes }>
           <Hero />
         </Img>

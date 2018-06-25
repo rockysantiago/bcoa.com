@@ -8,7 +8,12 @@ import classnames from "classnames";
 import Headroom from "react-headroom";
 import { icons } from "../components/Icons";
 
-require('intersection-observer');
+if (typeof window !== `undefined`) {
+  require("intersection-observer");
+}
+
+// import * require('intersection-observer');
+// import "intersection-observer";
 
 export default class TemplateWrapper extends Component {
 

@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Link from "gatsby-link";
 import Img from 'gatsby-image';
 import Masonry from 'react-masonry-component';
-import Slider from '../components/Slider';
+// import Slider from '../components/Slider';
 
 const FeaturedProjectImage = ({ image }) => {
   return (
@@ -71,7 +71,7 @@ export default class Index extends Component {
   
     return (
       <div>
-        <Slider className="hero" slides={ this.props.data.page.frontmatter.carouselImages } />
+        {/* <Slider className="hero" slides={ this.props.data.page.frontmatter.carouselImages } /> */}
         <div ref={(el) => { if (el) { this.content = el } }} className="container overflow--hidden">
           <h2 className=" f-page-title
                           marginTop-8 marginBottom-7

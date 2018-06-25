@@ -60,12 +60,12 @@ export default class TemplateWrapper extends Component {
   }
 
   componentWillMount = () => {
-    window.addEventListener("resize", this.updateDimensions);
     this.updateDimensions();
     this.initHeroObserver();
   }
-
+  
   componentDidUpdate(prevProps) {
+    window.addEventListener("resize", this.updateDimensions);
     if(this.props.location.pathname !== prevProps.location.pathname) {
       this.initHeroObserver();
     }

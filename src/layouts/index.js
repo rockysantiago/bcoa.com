@@ -116,10 +116,15 @@ export default class TemplateWrapper extends Component {
                       menuBackground= { menuBackground }
           />
         </Headroom>
+<<<<<<< HEAD
         <FixedLogo fixedLogoPast={ this.state.fixedLogoPast } isWindowMedium={ this.state.isWindowMedium } />
         <main ref={(el) => { if (el) { this.main = el } } }>
           { children({ ...this.props, ...{ isWindowLarge: this.state.isWindowLarge } } ) }
         </main>
+=======
+        <FixedLogo fixedNavPast={ this.state.fixedNavPast } isWindowMedium={ this.state.isWindowMedium } />
+        <div className="main" ref={(el) => { if (el) { this.main = el } } }>{ children() }</div>
+>>>>>>> cssAutoprefix
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />

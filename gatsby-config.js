@@ -1,13 +1,28 @@
+const autoprefixer = require('autoprefixer');
+const customProperties = require('postcss-custom-properties');
 module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [
+          autoprefixer({
+            browsers: ['last 2 versions'],
+            grid: true,
+          }),
+          customProperties
+        ],
+        precision: 8
+      }
+    },
+    `gatsby-plugin-netlify`,
     "gatsby-link",
     `gatsby-plugin-styled-components`,
     "gatsby-transformer-json",
     'gatsby-plugin-react-next',
     {
-    resolve: 'gatsby-source-filesystem',
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static/images/uploads`,
         name: 'uploads',
@@ -42,7 +57,7 @@ module.exports = {
       }
     },
     {
-    resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           // gatsby-remark-relative-images must

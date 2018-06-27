@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Img from 'gatsby-image';
 import Image from "../components/Image";
+import SEO from "../components/SEO"
 
 const Member = ({ member }) => (
   <div className={ `${ member.principal ? "principal bp-2_marginBottom-33" : "bp-2_marginBottom-13" } ` }>
@@ -58,6 +59,7 @@ const Collaborator = ({ collaborator }) => (
 );
 
 export default ({ data }) => {
+  
   const post = data.markdownRemark;
   const fields = post.frontmatter;
   const principals = fields.studioMembers.filter(member => member.principal);
@@ -69,6 +71,11 @@ export default ({ data }) => {
                     marginBottom-10
                     bp-1_marginBottom-11
                     bp-2_marginBottom-22">
+      <SEO
+        key="test"
+        postImage={'/images/uploads/placeholder.jpg'}
+        postData={fields}
+      />
       <h1 className=" f-page-title 
                       marginTop-7 marginBottom-5
                       bp-1_marginTop-10 bp-1_marginBottom-9
@@ -194,6 +201,10 @@ export const query = graphql`
       html
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
         studioMembers {
           name
           image {

@@ -1,6 +1,9 @@
 ---
 templateKey: about-page
 title: About
+seo: 
+  title: Test title
+  description: Test description
 studioMembers:
   - description: >-
       Pabst hell of tacos, mustache cred gastropub trust fund gochujang fanny

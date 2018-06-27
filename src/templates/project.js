@@ -2,12 +2,17 @@ import React, { Fragment } from "react";
 import Img from 'gatsby-image';
 import ProjectImage from "../components/ProjectImage";
 import Hero from "../components/Hero";
+import SEO from "../components/SEO";
 
 export default ({ data }) => {
   const post = data.markdownRemark;
   const fields = post.frontmatter;
   return (
     <div className="bp-2_marginBottom-15">
+      <SEO
+        postImage={fields.seo.image.childImageSharp.sizes.src}
+        postData={fields}
+      />
       <div className="container
                       bp-1_paddingTop-2 bp-2_paddingTop-5
                       bp-1_marginBottom-3 bp-2_marginBottom-6">
@@ -25,7 +30,7 @@ export default ({ data }) => {
         <div className="bp-1_grid-12col">
           <div className="colSpan-5">
             <h1 className='f-headline-b marginBottom-4 bp-1_marginBottom-13 bp-2_marginBottom-9'>
-              {fields.headline}-
+              {fields.headline} &#8212;
             </h1>
             <div className="marginBottom-5 bp-2_marginBottom-10"
               dangerouslySetInnerHTML={{ __html: post.html }}
@@ -85,6 +90,17 @@ export const query = graphql`
       html
       frontmatter {
         title
+        seo {
+          title
+          description
+          image {
+            childImageSharp {
+              sizes(maxWidth: 1200) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
+        }
         headline
         infoObject {
           title

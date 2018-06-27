@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import Masonry from 'react-masonry-component';
-import slugify from 'slugify'
-import Img from 'gatsby-image'
+import slugify from 'slugify';
+import Img from 'gatsby-image';
+import SEO from "../components/SEO";
 
 class Article extends Component {
   constructor(props) {
     super(props)
-  
     this.state = {};
   }
 
@@ -45,9 +45,9 @@ class Article extends Component {
 
 const renderArticles = (articles) => (
   articles.map(({ node: article }, i) => (
-    <li className="bp-1_masonry-child-2col
+    <li key={i}
+        className=" bp-1_masonry-child-2col
                     bp-2_masonry-child-3col"
-        key={i}
     >
       <Article article={article} />
     </li>
@@ -60,6 +60,10 @@ export default ({ data }) => {
 
   return (
     <div className="container bp-2_marginBottom-8">
+      <SEO
+        postImage={news.seo.image.childImageSharp.sizes.src}
+        postData={news}
+      />
       <h1 className="f-page-title
                      marginTop-8 marginBottom-7
                      bp-1_marginTop-10
@@ -93,6 +97,17 @@ export const query = graphql`
           frontmatter {
             templateKey
             title
+            seo {
+              title
+              description
+              image {
+                childImageSharp {
+                  sizes(maxWidth: 1200) {
+                    ...GatsbyImageSharpSizes_withWebp
+                  }
+                }
+              }
+            }
             image {
               image {
                 childImageSharp {

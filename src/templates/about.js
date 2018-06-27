@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Img from 'gatsby-image';
 import Image from "../components/Image";
-import SEO from "../components/SEO"
+import SEO from "../components/SEO";
 
 const Member = ({ member }) => (
   <div className={ `${ member.principal ? "principal bp-2_marginBottom-33" : "bp-2_marginBottom-13" } ` }>
@@ -21,7 +21,7 @@ const Member = ({ member }) => (
 const Publication = ({ publication }) => (
   <div>
     <hr className="marginBottom-2" />
-    <a className="f-copy-bold defaultLink" href={ publication.url }>{ publication.title } -- { publication.publisher }</a>
+    <a className="f-copy-bold defaultLink" href={ publication.url }>{ publication.title } &#8212; { publication.publisher }</a>
     <p className="f-copy marginBottom-7">{ publication.date }</p>
   </div>
 );
@@ -29,7 +29,7 @@ const Publication = ({ publication }) => (
 const Award = ({ award }) => (
   <div>
     <hr className=" marginBottom-2" />
-    <a className="f-copy-bold defaultLink" href={ award.url }>{ award.title } -- { award.orgName }</a>
+    <a className="f-copy-bold defaultLink" href={ award.url }>{ award.title } &#8212; { award.orgName }</a>
     <p className="marginBottom-7">
       { award.date }
     </p>
@@ -42,7 +42,7 @@ const Collaborator = ({ collaborator }) => (
     {collaborator.url ? (
       <a href={ collaborator.url }>
         <h3 className="f-copy-bold defaultLink">
-          { collaborator.name } - { collaborator.jobTitle }
+          { collaborator.name } &#8212; { collaborator.jobTitle }
         </h3>
         { collaborator.description && <p className="marginBottom-7">{ collaborator.description }</p> }
       </a>
@@ -50,7 +50,7 @@ const Collaborator = ({ collaborator }) => (
       <div>
       <hr className="marginBottom-2" />
         <h3 className="f-copy-bold">
-        { collaborator.name } - { collaborator.jobTitle }
+        { collaborator.name } &#8212; { collaborator.jobTitle }
       </h3>
         { collaborator.description && <p className="marginBottom-7">{ collaborator.description }</p> }
       </div>
@@ -78,7 +78,8 @@ export default ({ data }) => {
       <h1 className=" f-page-title 
                       marginTop-7 marginBottom-5
                       bp-1_marginTop-10 bp-1_marginBottom-9
-                      bp-2_marginTop-17 bp-2_marginBottom-21">
+                      bp-2_marginTop-17 bp-2_marginBottom-21"
+      >
         { fields.title }
       </h1>
       <div className="bp-2_grid-12col bp-1_grid-12col">
@@ -205,10 +206,10 @@ export const query = graphql`
           description
           image {
             childImageSharp {
-                sizes(maxWidth: 1200 ) {
-                  ...GatsbyImageSharpSizes_withWebp
-                }
+              sizes(maxWidth: 1200) {
+                ...GatsbyImageSharpSizes_withWebp
               }
+            }
           }
         }
         studioMembers {
@@ -216,7 +217,7 @@ export const query = graphql`
           image {
             image {
               childImageSharp {
-                sizes(maxWidth: 768 ) {
+                sizes(maxWidth: 768) {
                   ...GatsbyImageSharpSizes_withWebp
                 }
               }

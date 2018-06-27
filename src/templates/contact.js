@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../components/Image";
 import Img from 'gatsby-image';
+import SEO from "../components/SEO";
 
 export default ({ data }) => {
   const page       = data.page;
@@ -10,6 +11,10 @@ export default ({ data }) => {
     <div className="container
                     marginBottom-15
                     bp-1_marginBottom-17">
+      <SEO
+        postImage={pageFields.seo.image.childImageSharp.sizes.src}
+        postData={pageFields}
+      />
       <h1 className=" f-page-title
                       paddingTop-7 marginBottom-7
                       bp-1_paddingTop-11
@@ -35,11 +40,11 @@ export default ({ data }) => {
           <p>
             { contact.address.city }, { contact.address.state } { contact.address.zip }
           </p>
-          <p>--</p>
+          <p>&#8212;</p>
           <a className="defaultLink" href={`mailto:${ contact.email }`}>email</a>
           <br/>
           <a className="defaultLink" href={`tel:${ contact.phone }`}>phone</a>
-          <p>--</p>
+          <p>&#8212;</p>
           <a href="http://instagram.com/590bc" className="defaultLink">
             Instagram
           </a>
@@ -56,6 +61,17 @@ export const query = graphql`
       html
       frontmatter {
         title
+        seo {
+          title
+          description
+          image {
+            childImageSharp {
+              sizes(maxWidth: 1200) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
+        }
         message
         heroImage {
           image {

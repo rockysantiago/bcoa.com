@@ -71,6 +71,13 @@ collections:
         label: "Contact Page"
         file: "src/pages/contact.md"
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page" }
           - { label: "Title", name: "title", widget: "string" }
           - label: Hero Image
@@ -85,6 +92,13 @@ collections:
         label: "News Page"
         file: "src/pages/news.md"
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "news-page" }
           - { label: "Title", name: "title", widget: "string" }
 
@@ -92,6 +106,13 @@ collections:
         label: "Index / Work Page"
         file: "src/pages/work.md"
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "work-page" }
           - { label: "Title", name: "title", widget: "string" }
 
@@ -99,6 +120,13 @@ collections:
         label: "Featured / Home Page"
         file: "src/pages/index.md"
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "featured-page" }
           - { label: "Title", name: "title", widget: "string" }
           - label: "Carousel Images"
@@ -120,6 +148,13 @@ collections:
     folder: "src/pages/projects"
     create: true
     fields:
+      - label: SEO
+        name: seo
+        widget: object
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Image", name: "image", widget: "image" }
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page" }
       - { label: "Project Name", name: "title", widget: "string" }
       - { label: "Work Description", name: "workDescription", widget: "string", required: false }

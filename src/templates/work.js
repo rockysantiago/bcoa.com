@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Link from "gatsby-link";
 import Img from 'gatsby-image'
 import ProjectFilter from '../components/ProjectFilter';
+import SEO from "../components/SEO";
 
 export default class Work extends Component {
   constructor(props) {
@@ -32,6 +33,10 @@ export default class Work extends Component {
                       bp-1_marginBottom-3
                       bp-2_marginBottom-9"
       >
+        <SEO
+          postImage={page.seo.image.childImageSharp.sizes.src}
+          postData={page}
+        />
         <div className="flex
                         justifySpaceBetween
                         marginTop-7 marginBottom-6
@@ -85,6 +90,17 @@ export const query = graphql`
           id
           frontmatter {
             title
+            seo {
+              title
+              description
+              image {
+                childImageSharp {
+                  sizes(maxWidth: 1200) {
+                    ...GatsbyImageSharpSizes_withWebp
+                  }
+                }
+              }
+            }
             workDescription
             type
             previewImage {
@@ -108,6 +124,17 @@ export const query = graphql`
       id
       frontmatter {
         title
+        seo {
+          title
+          description
+          image {
+            childImageSharp {
+              sizes(maxWidth: 1200) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
+        }
       }
     }
   }

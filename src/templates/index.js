@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import Img from 'gatsby-image';
 import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
+import SEO from "../components/SEO";
 
 const FeaturedProjectImage = ({ image }) => {
   return (
@@ -71,6 +72,10 @@ export default class Index extends Component {
   
     return (
       <div>
+        <SEO
+          postImage={this.props.data.page.frontmatter.seo.image.childImageSharp.sizes.src}
+          postData={this.props.data.page.frontmatter}
+        />
         <Slider className="hero" slides={ this.props.data.page.frontmatter.carouselImages } />
         <div ref={(el) => { if (el) { this.content = el } }} className="container overflow--hidden">
           <h2 className=" f-page-title
@@ -103,6 +108,17 @@ export const query = graphql`
       id
       frontmatter {
         title
+        seo {
+          title
+          description
+          image {
+            childImageSharp {
+              sizes(maxWidth: 1200) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
+        }
         carouselImages {
           image
           alt

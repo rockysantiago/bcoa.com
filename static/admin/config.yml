@@ -16,7 +16,14 @@ collections:
         label: "About Page"
         file: "src/pages/about.md"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page" }
+          - label: SEO
+            name: seo
+            widget: object
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "body", widget: "markdown" }
           - label: Studio Members
@@ -279,8 +286,6 @@ collections:
           - { label: "Site Description", name: "siteDescription", widget: "text" }
           - { label: "Site Url", name: "url", widget: "text" }
           - { label: 'Site Image', name: 'siteImage', widget: 'image' }
-          - { label: 'OG Image', name: 'ogImage', widget: 'image' }
-          - { label: 'Twitter Image', name: 'twitterImage', widget: 'image' }
           - { label: 'Faivcon', name: 'favicon', widget: 'image' }
           - { label: 'Menu Background', name: 'menuBG', widget: 'image' }
           - { label: 'Logo', name: 'logo', widget: 'image' }

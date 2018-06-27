@@ -202,6 +202,10 @@ export const query = graphql`
       html
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
         studioMembers {
           name
           image {

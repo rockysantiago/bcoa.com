@@ -5,12 +5,8 @@ import * as settings from '../_data/settings/settings.json'
 import * as contact from '../_data/contact/contact.json'
 
 const getSchemaOrgJSONLD = ({
-  isBlogPost,
   url,
-  title,
-  image,
-  description,
-  datePublished,
+  title
 }) => {
   const schemaOrgJSONLD = [
     {
@@ -22,79 +18,26 @@ const getSchemaOrgJSONLD = ({
     },
   ];
 
-  return isBlogPost
-    ? [
-      ...schemaOrgJSONLD,
-      {
-        '@context': 'http://schema.org',
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            item: {
-              '@id': url,
-              name: title,
-              image,
-            },
-          },
-        ],
-      },
-      {
-        '@context': 'http://schema.org',
-        '@type': 'BlogPosting',
-        url,
-        name: title,
-        alternateName: settings.siteTitle,
-        headline: title,
-        image: {
-          '@type': 'ImageObject',
-          url: image,
-        },
-        description,
-        author: {
-          '@type': 'Person',
-          name: 'Bronwyn Breitner',
-        },
-        publisher: {
-          '@type': 'Organization',
-          url: 'https://bc-oa.com',
-          logo: settings.logo,
-          name: 'Bronwyn Breitner',
-        },
-        mainEntityOfPage: {
-          '@type': 'WebSite',
-          '@id': settings.url,
-        },
-        datePublished,
-      },
-    ]
-    : schemaOrgJSONLD;
+  return schemaOrgJSONLD;
 };
 
-const SEO = ({ postData, postImage, isBlogPost, bodyAttributes }) => {
-  const postMeta = postData.frontmatter || {};
-
-  const title = postMeta.title || settings.title;
+const SEO = ({ postData, postImage }) => {
+  const postMeta = postData || {};
+  const title = postMeta.seo.title || settings.siteTitle;
   const description =
-    postMeta.description || postData.excerpt || settings.siteDescription;
-  const image = `${settings.url}${postImage}` || settings.ogImage;
+    postMeta.seo.description || settings.siteDescription;
+  const image = `${settings.url}${postImage}` || settings.siteImage;
   const url = postMeta.slug
     ? `${settings.url}${path.sep}${postMeta.slug}`
     : settings.url;
-  const datePublished = isBlogPost ? postMeta.datePublished : false;
 
   const schemaOrgJSONLD = getSchemaOrgJSONLD({
-    isBlogPost,
     url,
-    title,
-    image,
-    description,
-    datePublished,
+    title
   });
 
   return (
-    <Helmet bodyAttributes={bodyAttributes}>
+    <Helmet>
       {/* General tags */}
       <meta name="description" content={description} />
       <meta name="image" content={image} />
@@ -106,7 +49,6 @@ const SEO = ({ postData, postImage, isBlogPost, bodyAttributes }) => {
 
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />
-      {isBlogPost ? <meta property="og:type" content="article" /> : null}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
@@ -123,7 +65,6 @@ const SEO = ({ postData, postImage, isBlogPost, bodyAttributes }) => {
 };
 
 SEO.defaultProps = {
-  isBlogPost: false,
   postImage: null,
 };
 

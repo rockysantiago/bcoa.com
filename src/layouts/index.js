@@ -95,7 +95,7 @@ export default class TemplateWrapper extends Component {
           />
         </Headroom>
         <FixedLogo fixedNavPast={ this.state.fixedNavPast } isWindowMedium={ this.state.isWindowMedium } />
-        <main ref={(el) => { if (el) { this.main = el } } }>{ children() }</main>
+        <div className="main" ref={(el) => { if (el) { this.main = el } } }>{ children() }</div>
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />

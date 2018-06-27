@@ -33,7 +33,7 @@ $slickArrowSize: 28px;
 .slick-previous { left:  calc((var(--unit-4) - 28px) * -1); }
 
 .slick-list, .slick-track {
-  flex: 1;
+  flex: 1 0 0%;
   display: flex !important;
   min-width: 0;
   min-height: 0;
@@ -48,13 +48,13 @@ $slickArrowSize: 28px;
 .slick-slide {
   min-width: 0;
   min-height: 0;
-  flex: 1;
+  flex: 1 0 0%;
   display: flex !important;
   overflow: hidden;
 
   > div {
     display: flex !important;
-    flex: 1;
+    flex: 1 0 0%;
   }
 
   .slide {

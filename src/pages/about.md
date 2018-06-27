@@ -4,6 +4,7 @@ title: About
 seo: 
   title: Test title
   description: Test description
+  image: /images/uploads/placeholder.jpg
 studioMembers:
   - description: >-
       Pabst hell of tacos, mustache cred gastropub trust fund gochujang fanny

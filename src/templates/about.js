@@ -204,6 +204,13 @@ export const query = graphql`
         seo {
           title
           description
+          image {
+            childImageSharp {
+                sizes(maxWidth: 500 ) {
+                  ...GatsbyImageSharpSizes_withWebp
+                }
+              }
+          }
         }
         studioMembers {
           name

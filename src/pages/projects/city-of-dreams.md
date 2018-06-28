@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: City of Dreams
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/CITY OF DREAMS_PH.jpg

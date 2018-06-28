@@ -97,17 +97,6 @@ export const query = graphql`
           frontmatter {
             templateKey
             title
-            seo {
-              title
-              description
-              image {
-                childImageSharp {
-                  sizes(maxWidth: 1200) {
-                    ...GatsbyImageSharpSizes_withWebp
-                  }
-                }
-              }
-            }
             image {
               image {
                 childImageSharp {
@@ -131,6 +120,17 @@ export const query = graphql`
       id
       frontmatter {
         title
+        seo {
+          title
+          description
+          image {
+            childImageSharp {
+              sizes(maxWidth: 1200) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
+        }
       }
     }
   }

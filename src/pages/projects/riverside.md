@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
-title: 'Riverside '
+title: Riverside
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/RIVERSIDE_PH.jpg

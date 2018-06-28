@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: 740 Broadway Showroom
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/740_BROADWAY_SHOWROOM_PH.jpg

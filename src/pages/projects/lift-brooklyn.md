@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Lift Brooklyn
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: commercial
 heroImage:
   image: /images/uploads/lift_brooklyn_ph.jpg

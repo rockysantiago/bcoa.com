@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
-title: '83 Waverly '
+title: 83 Waverly
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/83 WAVERLY_PH_1.jpg
@@ -9,7 +13,7 @@ previewImage:
 infoObject:
   - description: 'Private Owner, Brooklyn NY'
     title: CLIENT
-  - description: 'Full Renovation 3,200 sf  Townhouse '
+  - description: 'Full Renovation 3,200 sf Townhouse'
     title: SCOPE
   - description: Completed
     title: STATUS

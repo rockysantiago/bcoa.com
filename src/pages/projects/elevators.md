@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Elevators
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/evlavtor_ph_1.jpg

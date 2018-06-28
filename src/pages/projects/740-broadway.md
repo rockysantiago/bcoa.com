@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: 740 Broadway
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 workDescription: Broadway description
 type: residential
 heroImage:

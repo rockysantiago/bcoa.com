@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: 45 Crosby 5S
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/45CROSBY_5S_PH.jpg

@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Lift Huntington
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/lift_huntington_ph.jpg

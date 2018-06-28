@@ -1,16 +1,20 @@
 ---
 templateKey: project-page
 title: 58th Street
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/58TH ST_ PH.jpg
-headline: 'Collector''s Apartment '
+headline: 'Collector''s Apartment'
 previewImage:
   image: /images/uploads/58TH ST_ index.jpg
 infoObject:
   - description: Private Owner
     title: Client
-  - description: 'Full renovation of 1,685 sf Midtown East Apartment '
+  - description: 'Full renovation of 1,685 sf Midtown East Apartment'
     title: Scope
   - description: Complete
     title: Status

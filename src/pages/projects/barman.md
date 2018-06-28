@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Barman
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/BARMAN_PH_1.jpg

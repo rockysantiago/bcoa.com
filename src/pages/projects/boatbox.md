@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Boatbox
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/BOATBOX_PH_1.jpg

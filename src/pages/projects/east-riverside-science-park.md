@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
-title: 'East Riverside Science Park '
+title: East Riverside Science Park
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/east-riverside-science-park_ph.jpg

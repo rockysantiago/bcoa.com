@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
-title: 'Reflect Showroom '
+title: Reflect Showroom
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: commercial
 heroImage:
   image: /images/uploads/REFLECT SHOWROOM_PH.jpg

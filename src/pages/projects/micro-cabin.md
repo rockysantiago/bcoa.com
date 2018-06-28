@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Micro Cabin
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 workDescription: Work description text
 type: residential
 heroImage:

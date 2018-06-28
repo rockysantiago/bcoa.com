@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: 45 Crosby Lobby
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/45CROSBY_LOBBY_PH_2.jpg

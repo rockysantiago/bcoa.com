@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: West 53rd Street
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/W 53RD ST_PH_3.jpg

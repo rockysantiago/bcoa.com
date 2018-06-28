@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Ward Road
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/ward-road_ph.jpg

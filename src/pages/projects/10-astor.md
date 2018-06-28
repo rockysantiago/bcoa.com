@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: 10 Astor
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 workDescription: work description 10 Astor
 type: residential
 heroImage:

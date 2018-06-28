@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
-title: 'Newline Cinema '
+title: 'Newline Cinema'
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: commercial
 heroImage:
   image: /images/uploads/newline-cinema_ph_2.jpg

@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Ankara
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: residential
 heroImage:
   image: /images/uploads/ANKARA_PH_1-1.jpg

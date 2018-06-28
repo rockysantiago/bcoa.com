@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Stairwell
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 type: commercial
 heroImage:
   image: /images/uploads/STAIRWELL_PH_1.jpg

@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: 17 West 71st Street
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 workDescription: work description
 type: residential
 heroImage:
@@ -12,7 +16,7 @@ infoObject:
   - description: Private Owner
     title: Client
   - description: Full renovation of 1200 sf Upper West Side Apartment
-    title: 'Scope '
+    title: 'Scope'
   - description: Completed Spring 2015
     title: Status
   - description: Raquel Perez Puig

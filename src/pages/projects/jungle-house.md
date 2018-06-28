@@ -1,6 +1,10 @@
 ---
 templateKey: project-page
 title: Jungle House
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 workDescription: Jungle House project
 type: residential
 heroImage:

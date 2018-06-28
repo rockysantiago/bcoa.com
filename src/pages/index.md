@@ -1,6 +1,10 @@
 ---
 templateKey: featured-page
 title: Featured
+seo: 
+  title: Test title
+  description: Test description
+  image: /images/uploads/placeholder.jpg
 carouselImages:
   - alt: Home Page Hero image alt 1
     description: |-

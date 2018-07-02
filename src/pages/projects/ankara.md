@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Ankara
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Ankara
 type: residential
 heroImage:
   image: /images/uploads/ANKARA_PH_1-1.jpg
@@ -50,6 +50,8 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/ANKARA HOTEL_ (30)_1820.jpg
     type: image
+  - pullQuote: quote
+    type: quote
 ---
 The guest tower has been developed as an iconic form at the preeminent south-east corner of the property. The tower anchors the podium development and creates a strong monolithic element at the highway intersection with long distance visibility.
 

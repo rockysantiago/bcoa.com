@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Riverside
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Riverside
 type: residential
 heroImage:
   image: /images/uploads/RIVERSIDE_PH.jpg
@@ -41,6 +41,10 @@ projectGallery:
     type: image
   - colWidth: '10'
     image: /images/uploads/RIVERSIDE_ (7)_1820.jpg
+    offsetWidth: '2'
+    type: image
+  - colWidth: '10'
+    image: /images/uploads/placeholder.jpg
     offsetWidth: '2'
     type: image
 ---

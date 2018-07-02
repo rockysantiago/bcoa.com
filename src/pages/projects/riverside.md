@@ -43,10 +43,6 @@ projectGallery:
     image: /images/uploads/RIVERSIDE_ (7)_1820.jpg
     offsetWidth: '2'
     type: image
-  - colWidth: '8'
-    image: /images/uploads/placeholder.jpg
-    offsetWidth: '2'
-    type: image
 ---
 The 151st street Kiosk is a free-standing, open-air kiosk and
  bar at the existing circular lookout point at Riverside Drive,

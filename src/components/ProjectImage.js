@@ -15,6 +15,7 @@ const ProjectImage = (props) => (
 )
 
 export default (props) => {
+  console.log(props);
   const classes = classnames(props.className, {
     'colSpan-1': (props.imageData.colWidth === '1'),
     'colSpan-2': (props.imageData.colWidth === '2'),
@@ -43,17 +44,19 @@ export default (props) => {
   })
 
   return (
-    props.imageData.offsetWidth > 0 ?
-      <div className={`colSpan-12 grid-12col`}>
-        <div className={`colSpan-${props.imageData.offsetWidth}`}></div>
-        <ProjectImage {...props} classes={classes} />
-      </div>
-      :
-      props.index == 0 ?
+    props.imageData.offsetWidth > 0
+      ?
         <div className={`colSpan-12 grid-12col`}>
+          <div className={`colSpan-${props.imageData.offsetWidth}`}></div>
           <ProjectImage {...props} classes={classes} />
         </div>
-        :
-        <ProjectImage {...props} classes={classes} />
+      :
+        props.index == 0
+          ?
+            <div className={`colSpan-12 grid-12col`}>
+              <ProjectImage {...props} classes={classes} />
+            </div>
+          :
+            <ProjectImage {...props} classes={classes} />
   )
 }

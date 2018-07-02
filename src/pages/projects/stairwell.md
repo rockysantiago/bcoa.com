@@ -14,7 +14,7 @@ previewImage:
 infoObject:
   - description: Competition entry
     title: CLIENT
-  - description: 'Modular, ground up aff ordable housing'
+  - description: 'Modular, ground up affordable housing'
     title: SCOPE
   - description: Submitted Fall 2017
     title: STATUS
@@ -54,17 +54,17 @@ projectGallery:
 ---
 Stair-Well Housing represents a concept for modular housing
  design intended to address NYCs dire need to bring low
- cost, eff icient aff ordable housing to the fi ve boroughs. The
+ cost, efficient affordable housing to the five boroughs. The
  flexible, stacking design is conceived to take advantage of
- the many vacant infi ll lots located in developing, low-rise
+ the many vacant infill lots located in developing, low-rise
  neighborhoods in the 5 boroughs. The invention is in the
  single stair run integrated into each module which, when
  stacked, provides continuous access to the unit above and
  integrates egress pathways.
 
 Through the integration of private interior and exterior spaces
- and the use of the sun-fi lled common stairwell as the
+ and the use of the sun-filled common stairwell as the
  heart of the shared community spaces, Stair-Well Housing
- marries eff icient and adaptable modular construction techniques
+ marries efficient and adaptable modular construction techniques
  with the power of design, bringing dignity and joy to
  its residents.

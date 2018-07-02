@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 import Hero from "../components/Hero";
 import ProjectImage from "../components/ProjectImage";
 

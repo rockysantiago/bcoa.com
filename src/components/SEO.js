@@ -1,8 +1,8 @@
 import path from 'path';
 import React from 'react';
 import Helmet from 'react-helmet';
-import * as settings from '../_data/settings/settings.json'
-import * as contact from '../_data/contact/contact.json'
+import * as settings from '../_data/settings/settings.json';
+import * as contact from '../_data/contact/contact.json';
 
 const getSchemaOrgJSONLD = ({
   url,

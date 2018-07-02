@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Riverside
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Riverside
 type: residential
 heroImage:
   image: /images/uploads/RIVERSIDE_PH.jpg
@@ -42,6 +42,9 @@ projectGallery:
   - colWidth: '10'
     image: /images/uploads/RIVERSIDE_ (7)_1820.jpg
     offsetWidth: '2'
+    type: image
+  - colWidth: '10'
+    image: /images/uploads/placeholder.jpg
     type: image
 ---
 The 151st street Kiosk is a free-standing, open-air kiosk and

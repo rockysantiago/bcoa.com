@@ -45,6 +45,7 @@ projectGallery:
     type: image
   - colWidth: '10'
     image: /images/uploads/placeholder.jpg
+    offsetWidth: '2'
     type: image
 ---
 The 151st street Kiosk is a free-standing, open-air kiosk and

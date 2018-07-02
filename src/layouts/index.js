@@ -93,7 +93,8 @@ export default class TemplateWrapper extends Component {
                           || this.props.location.pathname.replace(/\//g, '') === 'contact' ),
       'hideFixedLogo': this.props.location.pathname.replace(/\//g, '') === 'news'
                   || ( this.props.location.pathname.replace(/\//g, '') === 'work' && this.state.isWindowMedium )
-                  || ( this.props.location.pathname.replace(/\//g, '') === 'contact' && this.state.isWindowMedium ),
+                  || ( this.props.location.pathname.replace(/\//g, '') === 'contact' && this.state.isWindowMedium )
+                  || ( this.props.location.pathname.replace(/\//g, '') === '' && !this.state.isWindowMedium && !this.state.isWindowLarge ),
     })
     
     const menuBackground = this.props.data.settingsJson.menuBackground;

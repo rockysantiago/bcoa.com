@@ -1,8 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Img from 'gatsby-image';
 import classnames from "classnames";
-
-import Image from "./Image";
 
 const ProjectImage = (props) => (
   <figure key={props.i} className={props.classes}>
@@ -17,7 +15,6 @@ const ProjectImage = (props) => (
 )
 
 export default (props) => {
-  debugger;
   const classes = classnames(props.className, {
     'colSpan-1': (props.imageData.colWidth === '1'),
     'colSpan-2': (props.imageData.colWidth === '2'),
@@ -45,8 +42,6 @@ export default (props) => {
     // 'project-image-wrapper': true
   })
 
-  console.log(props);
-
   return (
     props.imageData.offsetWidth > 0 ?
       <div className={`colSpan-12 grid-12col`}>
@@ -62,4 +57,3 @@ export default (props) => {
         <ProjectImage {...props} classes={classes} />
   )
 }
-

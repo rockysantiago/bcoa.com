@@ -123,10 +123,10 @@ export default class TemplateWrapper extends Component {
         <footer>
           <div className="container">
             <hr className="marginBottom-5" />
-            <div className="marginBottom-9
+            <div className="paddingBottom-9
                             bp-1_grid-12col
-                            bp-1_marginBottom-11
-                            bp-2_marginBottom-41"
+                            bp-1_paddingBottom-11
+                            bp-2_paddingBottom-41"
             >
               <div className={` colSpan-6
                                 marginBottom-7

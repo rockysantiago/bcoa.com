@@ -20,11 +20,23 @@ export default (props) => {
     if (item) {
       if (item.getIn(['data', 'type']) === 'image' && i == 0) {
         firstGalleryImage = {
+          image: item.getIn(['data', 'image']) && props.getAsset(item.getIn(['data', 'image'])).toString(),
+          caption: item.getIn(['data', 'caption']),
+          alt: item.getIn(['data', 'alt']),
+          offsetWidth: item.getIn(['data', 'offsetWidth']),
           colWidth: item.getIn(['data', 'colWidth']),
         }
       }
     }
   })
+  // console.log(projectGallery);
+  // console.log(projectGallery[0]);
+  // let firstGalleryImage;
+  // if (projectGallery[0].getIn(['data', 'type']) === 'image') {
+  //   firstGalleryImage = {
+  //     colWidth: projectGallery[0].getIn(['data', 'colWidth']),
+  //   };
+  // }
   console.log(firstGalleryImage);
   console.log(firstGalleryImage.colWidth);
 

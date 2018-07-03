@@ -17,11 +17,11 @@ export default (props) => {
   const projectGallery = props.widgetsFor('projectGallery');
   if (projectGallery[0].getIn(['data', 'type']) === 'image') {
     const firstGalleryImage = {
-      image: item.getIn(['data', 'image']) && props.getAsset(item.getIn(['data', 'image'])).toString(),
-      caption: item.getIn(['data', 'caption']),
-      alt: item.getIn(['data', 'alt']),
-      offsetWidth: item.getIn(['data', 'offsetWidth']),
-      colWidth: item.getIn(['data', 'colWidth']),
+      image: projectGallery[0].getIn(['data', 'image']) && props.getAsset(projectGallery[0].getIn(['data', 'image'])).toString(),
+      caption: projectGallery[0].getIn(['data', 'caption']),
+      alt: projectGallery[0].getIn(['data', 'alt']),
+      offsetWidth: projectGallery[0].getIn(['data', 'offsetWidth']),
+      colWidth: projectGallery[0].getIn(['data', 'colWidth']),
     };
   }
 

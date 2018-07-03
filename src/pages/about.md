@@ -1,35 +1,41 @@
 ---
-templateKey: about-page
-title: About
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: about-page
+title: About
 studioMembers:
-  - description: >-
-      Pabst hell of tacos, mustache cred gastropub trust fund gochujang fanny
-      pack. Poutine church-key hell of sustainable, pop-up green juice
-      mumblecore kinfolk adaptogen gochujang. Hexagon tattooed brooklyn godard
-      actually sartorial try-hard PBR&B truffaut. Quinoa retro selfies, meh hot
-      chicken microdosing iPhone viral keffiyeh typewriter mlkshk.
+  - description: >
+      Bronwyn Breitner received her MArch with Distinction at Parsons the New
+      School for Design, and her BA at Duke University in Anthropology and
+      Photography. Prior to co-founding 590BC, Bronwyn worked at Smith-Miller +
+      Hawkinson Architects on a wide range of projects including dense urban
+      residential developments and medium scale commercial offices. Bronwyn has
+      taught both undergraduate and graduate level design studios at Parsons the
+      New School for Design and at the Pratt Institute. Bronwyn's work has been
+      exhibited at The Center for Architecture in NYC and at the University of
+      Alicante in Alicante, Spain.
     image:
       alt: Image of Bronwyn Breitner
       image: /images/uploads/placeholder.jpg
-    jobTitle: Registered Architect
-    name: Bronwyn Breitner
+    jobTitle: Principal
+    name: 'Bronwyn Breitner, AIA'
     principal: true
     principalInfo: Third Line of Text
   - description: >-
-      Pabst hell of tacos, mustache cred gastropub trust fund gochujang fanny
-      pack. Poutine church-key hell of sustainable, pop-up green juice
-      mumblecore kinfolk adaptogen gochujang. Hexagon tattooed brooklyn godard
-      actually sartorial try-hard PBR&B truffaut. Quinoa retro selfies, meh hot
-      chicken microdosing iPhone viral keffiyeh typewriter mlkshk.
+      Luigi Ciaccia, LEED AP received his BArch with Distinction from The New
+      York Institute of Technology. Prior to co-founding 590BC, Luigi had 5
+      years of experience as a senior associate at RMJM leading design teams on
+      large scale urban projects in Europe, Asia, Middle East and the US, and 7
+      years of experience as a designer at KPF US and UK. While specializing in
+      exterior enclosure design, Luigi's experience ranges from high rise design
+      to interior design to landscape design.
     image:
       alt: Image of Luigi
       image: /images/uploads/placeholder.jpg
-    jobTitle: Other Architect
-    name: Luigi Ciaccia
+    jobTitle: Principal
+    name: 'Luigi Ciaccia, RA, LEED BD+C'
     principal: true
     principalInfo: Third Line of Text
   - description: >-
@@ -39,14 +45,14 @@ studioMembers:
     image:
       alt: Image of Scott Mikawa
       image: /images/uploads/placeholder.jpg
-    jobTitle: Peon
+    jobTitle: Designer
     name: Scott Mikawa
   - description: Job description here
     image:
       alt: alt
       image: /images/uploads/placeholder.jpg
-    jobTitle: Worker bee
-    name: John Smith
+    jobTitle: Designer
+    name: Stefano Grisoglio
 publications:
   - date: 'January 1, 2017'
     publisher: The NYTimes
@@ -107,5 +113,28 @@ collaborators:
     name: Jane Doe
     url: 'http://google.com'
 ---
+We are Breitner Ciaccia Office of Architecture.
 
-Pabst hell of tacos, mustache cred gastropub trust fund gochujang fanny pack. Poutine church-key hell of sustainable, pop-up green juice mumblecore kinfolk adaptogen gochujang. Hexagon tattooed brooklyn godard actually sartorial try-hard PBR&B truffaut. Quinoa retro selfies, meh hot chicken microdosing iPhone viral keffiyeh typewriter mlkshk.
+We are a place that builds.
+
+We are small and nimble.
+
+And strong and wise.
+
+We are the place that knows expectations, and the desire to exceed them.
+
+We put thought into everything we do.
+
+Love of craft, conceptual dedication and technical prowess inform everything we do.
+
+We use creative vision, precise execution, technology, and collaboration to get it done.
+
+From loft renovations, to commercial development, we are the place
+
+that knows \*growing\* doesn’t mean growing up or growing old.
+
+Since 2009, and dozens of projects later....
+
+We’ve only grown forward.
+
+We are Breitner Ciaccia Office of Architecture (BC—OA).

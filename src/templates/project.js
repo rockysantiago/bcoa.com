@@ -52,7 +52,7 @@ export default ({ data }) => {
           <div className="colSpan-1"></div>
           {fields.primaryImage && 
             <div className={`project-primaryImage colSpan-6 bp-1_marginTop-1 bp-2_marginTop-3`}>
-            <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' imageData={fields.projectGallery[0]} />
+              <ProjectImage className={fields.projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' imageData={fields.primaryImage} />
             </div>
           }
         </div>

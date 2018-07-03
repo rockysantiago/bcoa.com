@@ -4,7 +4,7 @@ import classnames from "classnames";
 
 const ProjectImage = (props) => (
   <figure key={props.i} className={props.classes}>
-    <Img sizes={props.imageData.image.childImageSharp.sizes} alt={ props.imageData.alt } />
+    <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />
     {props.imageData.caption &&
       <div className="marginTop-1">
         –
@@ -15,7 +15,6 @@ const ProjectImage = (props) => (
 )
 
 export default (props) => {
-  console.log(props);
   const classes = classnames(props.className, {
     'colSpan-1': (props.imageData.colWidth === '1'),
     'colSpan-2': (props.imageData.colWidth === '2'),
@@ -46,17 +45,17 @@ export default (props) => {
   return (
     props.imageData.offsetWidth > 0
       ?
+      <div className={`colSpan-12 grid-12col`}>
+        <div className={`colSpan-${props.imageData.offsetWidth}`}></div>
+        <ProjectImage {...props} classes={classes} />
+      </div>
+      :
+      props.index == 0
+        ?
         <div className={`colSpan-12 grid-12col`}>
-          <div className={`colSpan-${props.imageData.offsetWidth}`}></div>
           <ProjectImage {...props} classes={classes} />
         </div>
-      :
-        props.index == 0
-          ?
-            <div className={`colSpan-12 grid-12col`}>
-              <ProjectImage {...props} classes={classes} />
-            </div>
-          :
-            <ProjectImage {...props} classes={classes} />
+        :
+        <ProjectImage {...props} classes={classes} />
   )
 }

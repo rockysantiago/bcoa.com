@@ -15,15 +15,16 @@ export default (props) => {
   };
   const infoObject = props.widgetsFor('infoObject');
   const projectGallery = props.widgetsFor('projectGallery');
+  console.log(projectGallery);
+  console.log(projectGallery[0]);
+  let firstGalleryImage;
   if (projectGallery[0].getIn(['data', 'type']) === 'image') {
-    const firstGalleryImage = {
-      image: projectGallery[0].getIn(['data', 'image']) && props.getAsset(projectGallery[0].getIn(['data', 'image'])).toString(),
-      caption: projectGallery[0].getIn(['data', 'caption']),
-      alt: projectGallery[0].getIn(['data', 'alt']),
-      offsetWidth: projectGallery[0].getIn(['data', 'offsetWidth']),
+    firstGalleryImage = {
       colWidth: projectGallery[0].getIn(['data', 'colWidth']),
     };
   }
+  console.log(firstGalleryImage);
+  console.log(firstGalleryImage.colWidth);
 
   return (
     <div>

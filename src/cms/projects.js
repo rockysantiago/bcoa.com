@@ -15,6 +15,15 @@ export default (props) => {
   };
   const infoObject = props.widgetsFor('infoObject');
   const projectGallery = props.widgetsFor('projectGallery');
+  if (projectGallery[0].getIn(['data', 'type']) === 'image') {
+    const firstGalleryImage = {
+      image: item.getIn(['data', 'image']) && props.getAsset(item.getIn(['data', 'image'])).toString(),
+      caption: item.getIn(['data', 'caption']),
+      alt: item.getIn(['data', 'alt']),
+      offsetWidth: item.getIn(['data', 'offsetWidth']),
+      colWidth: item.getIn(['data', 'colWidth']),
+    };
+  }
 
   return (
     <div>
@@ -62,7 +71,7 @@ export default (props) => {
 
           {primaryImg &&
             <div className={`project-primaryImage colSpan-6 bp-1_marginTop-1 bp-2_marginTop-3`}>
-              <ProjectImage className={projectGallery[0].colWidth > 6 ? '' : 'absolute'} key='primary-image' imageData={primaryImg} />
+              <ProjectImage className={firstGalleryImage.colWidth > 6 ? '' : 'absolute'} key='primary-image' imageData={primaryImg} />
             </div>
           }
         </div>

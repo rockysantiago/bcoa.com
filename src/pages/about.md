@@ -33,7 +33,7 @@ studioMembers:
       to interior design to landscape design.
     image:
       alt: Image of Luigi
-      image: /images/uploads/placeholder.jpg
+      image: /images/uploads/lc-bc-oa_imagecoloring.jpg
     jobTitle: Principal
     name: 'Luigi Ciaccia, RA, LEED BD+C'
     principal: true

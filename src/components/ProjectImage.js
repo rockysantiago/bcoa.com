@@ -4,7 +4,11 @@ import classnames from "classnames";
 
 const ProjectImage = (props) => (
   <figure key={props.i} className={props.classes}>
-    <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />
+    {props.imageData.image.childImageSharp ?
+      <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />
+      :
+      <img src={props.imageData.image} alt={props.imageData.alt} />
+    }
     {props.imageData.caption &&
       <div className="marginTop-1">
         –

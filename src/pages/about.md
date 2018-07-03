@@ -124,26 +124,26 @@ collaborators:
 ---
 We are Breitner Ciaccia Office of Architecture.
 
-We are a place that builds.
+We are a place that builds.
 
-We are small and nimble.
+We are small and nimble.
 
-And strong and wise.
+And strong and wise.
 
-We are the place that knows expectations, and the desire to exceed them.
+We are the place that knows expectations, and the desire to exceed them.
 
-We put thought into everything we do.
+We put thought into everything we do.
 
-Love of craft, conceptual dedication and technical prowess inform everything we do.
+Love of craft, conceptual dedication and technical prowess inform everything we do.
 
-We use creative vision, precise execution, technology, and collaboration to get it done.
+We use creative vision, precise execution, technology, and collaboration to get it done.
 
-From loft renovations, to commercial development, we are the place
+From loft renovations, to commercial development, we are the place
 
-that knows \*growing\* doesn’t mean growing up or growing old.
+that knows \*growing\* doesn’t mean growing up or growing old.
 
-Since 2009, and dozens of projects later....
+Since 2009, and dozens of projects later....
 
-We’ve only grown forward.
+We’ve only grown forward.
 
-We are Breitner Ciaccia Office of Architecture (BC—OA).
+We are Breitner Ciaccia Office of Architecture (BC—OA).

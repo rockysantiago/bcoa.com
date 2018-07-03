@@ -15,14 +15,16 @@ export default (props) => {
   };
   const infoObject = props.widgetsFor('infoObject');
   const projectGallery = props.widgetsFor('projectGallery');
-  console.log(projectGallery);
-  console.log(projectGallery[0]);
   let firstGalleryImage;
-  if (projectGallery[0].getIn(['data', 'type']) === 'image') {
-    firstGalleryImage = {
-      colWidth: projectGallery[0].getIn(['data', 'colWidth']),
-    };
-  }
+  projectGallery.map((item, i) => {
+    if (item) {
+      if (item.getIn(['data', 'type']) === 'image' && i == 0) {
+        firstGalleryImage = {
+          colWidth: item.getIn(['data', 'colWidth']),
+        }
+      }
+    }
+  })
   console.log(firstGalleryImage);
   console.log(firstGalleryImage.colWidth);
 

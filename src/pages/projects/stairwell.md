@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Stairwell
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Stairwell
 type: commercial
 heroImage:
   image: /images/uploads/STAIRWELL_PH_1.jpg
@@ -51,6 +51,8 @@ projectGallery:
   - colWidth: '10'
     image: /images/uploads/STAIR-WELL_ (6)_1820.jpg
     type: image
+  - pullQuote: hi
+    type: quote
 ---
 Stair-Well Housing represents a concept for modular housing
  design intended to address NYCs dire need to bring low

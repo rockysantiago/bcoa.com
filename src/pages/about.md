@@ -18,7 +18,7 @@ studioMembers:
       Alicante in Alicante, Spain.
     image:
       alt: Image of Bronwyn Breitner
-      image: /images/uploads/placeholder.jpg
+      image: /images/uploads/bb-bc-oa_imagecoloring.jpg
     jobTitle: Principal
     name: 'Bronwyn Breitner, AIA'
     principal: true

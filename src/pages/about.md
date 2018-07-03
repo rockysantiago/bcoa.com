@@ -104,14 +104,23 @@ collaborators:
     jobTitle: Web Developer
     name: Josh Dobson
     url: 'http://joshuarule.com'
-  - description: Helped us build our buildings.
-    jobTitle: Masonry
-    name: John Smith
-    url: 'http://google.com'
-  - description: Helped us collect money and bag our groceries.
-    jobTitle: Cashier
-    name: Jane Doe
-    url: 'http://google.com'
+  - description: Helped us design our site
+    jobTitle: Web Designer
+    name: 'Virgo '
+    url: virgo-ny.com
+  - description: Helped us craft our branding
+    jobTitle: Graphic Designers
+    name: Lost and Found
+    url: wm@wmwmwm.com
+  - description: Shoots a lot of our stuff
+    jobTitle: Photographer
+    name: Amy Barkow
+    url: 'http://www.barkowphoto.com/'
+  - description: Build stuff good
+    jobTitle: Metalworkers
+    name: Caliper Studio
+    url: 'http://www.caliperstudio.com/'
+  - name: ''
 ---
 We are Breitner Ciaccia Office of Architecture.
 

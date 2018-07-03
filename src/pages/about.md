@@ -35,7 +35,7 @@ studioMembers:
       alt: Image of Luigi
       image: /images/uploads/lc-bc-oa_imagecoloring.jpg
     jobTitle: Principal
-    name: 'Luigi Ciaccia, RA, LEED BD+C'
+    name: 'Luigi Ciaccia, AIA, LEED BD+C'
     principal: true
     principalInfo: Third Line of Text
   - description: >-

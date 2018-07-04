@@ -1,8 +1,11 @@
 ---
 seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
+  description: >-
+    Stair-Well Housing represents a concept for modular housing design intended
+    to address NYCs dire need to bring low cost, efficient affordable housing to
+    the five boroughs.
+  image: /images/uploads/STAIR-WELL_index.jpg
+  title: 'STAIR-WELL HOUSING: EMBRACE THE CORE'
 templateKey: project-page
 title: Stairwell
 type: commercial

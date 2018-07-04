@@ -103,7 +103,7 @@ export default (props) => {
                       offsetWidth: item.getIn(['data', 'offsetWidth']),
                       colWidth: item.getIn(['data', 'colWidth']),
                     }
-                    return <ProjectImage key={i} index={i} image={image} />
+                    return <ProjectImage key={i} index={i} imageData={image} />
                   } else {
                     return (
                       <blockquote key={i} className="colSpan-12 t-center f-headline-b 

@@ -19,6 +19,8 @@ const ProjectImage = (props) => (
 )
 
 export default (props) => {
+  console.log('props', props);
+  console.log('imageData', props.imageData);
   const classes = classnames(props.className, {
     'colSpan-1': (props.imageData.colWidth === '1'),
     'colSpan-2': (props.imageData.colWidth === '2'),

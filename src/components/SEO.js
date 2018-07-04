@@ -52,7 +52,12 @@ const SEO = ({ postData, postImage }) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta property="fb:app_id" content={contact.facebook} />
+      <meta property="og:type" content={image} />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:width" content="299" />
+      <meta property="og:image:height" content="299" />
+      <meta property="fb:app_id" content={305434379998344} />
+
 
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />

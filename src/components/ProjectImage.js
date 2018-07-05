@@ -2,21 +2,25 @@ import React from 'react';
 import Img from 'gatsby-image';
 import classnames from "classnames";
 
-const ProjectImage = (props) => (
-  <figure key={props.i} className={props.classes}>
-    {props.imageData.image.childImageSharp ?
-      <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />
-      :
-      <img src={props.imageData.image} alt={props.imageData.alt} />
-    }
-    {props.imageData.caption &&
-      <div className="marginTop-1">
-        –
-        <figcaption className='f-caption'>{props.imageData.caption}</figcaption>
-      </div>
-    }
-  </figure>
-)
+const ProjectImage = (props) => {
+  console.log(props.imageData);
+  if (!props.imageData.image) return null;
+  return (
+    <figure key={props.i} className={props.classes}>
+      {props.imageData.image.childImageSharp ?
+        <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />
+        :
+        <img src={props.imageData.image} alt={props.imageData.alt} />
+      }
+      {props.imageData.caption &&
+        <div className="marginTop-1">
+          –
+          <figcaption className='f-caption'>{props.imageData.caption}</figcaption>
+        </div>
+      }
+    </figure>
+  )
+}
 
 export default (props) => {
   console.log('props', props);

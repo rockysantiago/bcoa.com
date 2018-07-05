@@ -24,6 +24,7 @@ infoObject:
 primaryImage:
   image: /images/uploads/stair-well_-9-cropped_1820.jpg
 projectGallery:
+  - type: image
   - colWidth: '9'
     image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
     offsetWidth: '3'

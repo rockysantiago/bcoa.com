@@ -12,6 +12,10 @@ type: commercial
 heroImage:
   image: /images/uploads/STAIRWELL_PH_1.jpg
 headline: 'STAIR-WELL HOUSING: EMBRACE THE CORE'
+featured:
+  featuredImage:
+    image: /images/uploads/stair-well_-8-_1160x1740.jpg
+  isFeatured: true
 previewImage:
   image: /images/uploads/STAIR-WELL_index.jpg
 infoObject:

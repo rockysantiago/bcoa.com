@@ -9,6 +9,10 @@ type: residential
 heroImage:
   image: /images/uploads/RIVERSIDE_PH.jpg
 headline: BUILD COMMUNITY WITH A KIOSK REVISITED
+featured:
+  featuredImage:
+    image: /images/uploads/riverside_-8-_1820x1024.jpg
+  isFeatured: true
 previewImage:
   image: /images/uploads/RIVERSIDE_index.jpg
 infoObject:

@@ -18,7 +18,7 @@ studioMembers:
       Alicante in Alicante, Spain.
     image:
       alt: Image of Bronwyn Breitner
-      image: /images/uploads/bb-bc-oa_imagecoloring.jpg
+      image: /images/uploads/bb-headshot.jpg
     jobTitle: Principal
     name: 'Bronwyn Breitner, AIA'
     principal: true
@@ -33,7 +33,7 @@ studioMembers:
       to interior design to landscape design.
     image:
       alt: Image of Luigi
-      image: /images/uploads/lc-bc-oa_imagecoloring.jpg
+      image: /images/uploads/lc-headshot.jpg
     jobTitle: Principal
     name: 'Luigi Ciaccia, AIA, LEED BD+C'
     principal: true

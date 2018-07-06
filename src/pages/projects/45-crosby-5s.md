@@ -1,14 +1,18 @@
 ---
-templateKey: project-page
-title: 45 Crosby 5S
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: 45 Crosby 5S
 type: residential
 heroImage:
   image: /images/uploads/45CROSBY_5S_PH.jpg
 headline: The Selective Loft
+featured:
+  featuredImage:
+    image: /images/uploads/45-crosby_5s_-12-_1160x1547.jpg
+  isFeatured: true
 previewImage:
   image: /images/uploads/45-crosby_5s_4.jpg
 infoObject:

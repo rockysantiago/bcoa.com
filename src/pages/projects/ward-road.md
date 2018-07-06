@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Ward Road
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Ward Road
 type: residential
 heroImage:
   image: /images/uploads/ward-road_ph.jpg
@@ -13,7 +13,7 @@ featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    image: /images/uploads/10-astor_-index.jpg
+    image: /images/uploads/ward-road_-15-_1160x1740.jpg
   isFeatured: true
 previewImage:
   image: /images/uploads/ward-road_index.jpg

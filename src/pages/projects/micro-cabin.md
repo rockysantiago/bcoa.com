@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Micro Cabin
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Micro Cabin
 workDescription: Work description text
 type: residential
 heroImage:
@@ -14,9 +14,9 @@ headline: CRAFT A JEWEL BOX
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
-    isPortrait: true
     alt: this is the alt text
-    image: /images/uploads/10-astor_-index.jpg
+    image: /images/uploads/microcabin_-7-_1820x1024.jpg
+    isPortrait: true
   isFeatured: true
 previewImage:
   alt: Micro Cabin - residential living room with cast iron stove

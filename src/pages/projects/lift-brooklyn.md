@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Lift Brooklyn
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Lift Brooklyn
 type: commercial
 heroImage:
   image: /images/uploads/lift_brooklyn_ph.jpg
@@ -13,7 +13,7 @@ featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    image: /images/uploads/10-astor_-index.jpg
+    image: /images/uploads/lift_brooklyn_-7-_1160x1547.jpg
   isFeatured: true
 previewImage:
   image: /images/uploads/lift_brooklyn_index_1.jpg

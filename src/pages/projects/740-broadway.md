@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: 740 Broadway
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: 740 Broadway
 workDescription: Broadway description
 type: residential
 heroImage:
@@ -14,7 +14,7 @@ featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    image: /images/uploads/20 GREENE ST_ (10)_1820.jpg
+    image: /images/uploads/740-broadway_lobby_-6.1-_1160x1740.jpg
   isFeatured: true
 previewImage:
   image: /images/uploads/740-broadway_lobby_index.jpg

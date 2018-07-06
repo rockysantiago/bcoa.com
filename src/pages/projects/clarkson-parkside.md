@@ -1,14 +1,18 @@
 ---
-templateKey: project-page
-title: Clarkson Parkside
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Clarkson Parkside
 type: residential
 heroImage:
   image: /images/uploads/CLARKSON PARKSIDE_PH.jpg
 headline: 'Clark-side ground up '
+featured:
+  featuredImage:
+    image: /images/uploads/clarkson-parkside_-19-_1820x1024.jpg
+  isFeatured: true
 previewImage:
   image: /images/uploads/CLARKSON PARKSIDE_index_1.jpg
 infoObject:

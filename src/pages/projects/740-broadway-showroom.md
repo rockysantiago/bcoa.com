@@ -43,8 +43,10 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '6'
-    image: /images/uploads/740-broadway_showroom_-8-.jpg
-    offsetWidth: '6'
+    image: /images/uploads/img_7830.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/740-broadway_showroom_-8-cropped_1820.jpg
     type: image
 ---
 Objective — to design a think tank showroom for exhibiting the

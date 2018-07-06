@@ -38,10 +38,10 @@ projectGallery:
     offsetWidth: '2'
     type: image
   - colWidth: '6'
-    image: /images/uploads/ANKARA HOTEL_ (1)_1820.jpg
+    image: /images/uploads/ankara-hotel_-1-cropped_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/ANKARA HOTEL_ (2)_1820.jpg
+    image: /images/uploads/ankara-hotel_-2-cropped_1820.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/ANKARA HOTEL_ (4)_1820.jpg

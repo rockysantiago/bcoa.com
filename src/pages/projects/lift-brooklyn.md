@@ -14,7 +14,7 @@ featured:
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/lift_brooklyn_-7-_1160x1547.jpg
-  isFeatured: false
+  isFeatured: true
 previewImage:
   image: /images/uploads/lift_brooklyn_index_1.jpg
 infoObject:

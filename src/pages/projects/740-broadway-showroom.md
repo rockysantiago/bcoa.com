@@ -10,7 +10,7 @@ heroImage:
   image: /images/uploads/740_BROADWAY_SHOWROOM_PH.jpg
 featured:
   featuredImage:
-    image: /images/uploads/740-broadway_showroom_-4-_1160x1740.jpg
+    image: /images/uploads/740-broadway_showroom_-4-_1160x1547.jpg
   isFeatured: true
 previewImage:
   image: /images/uploads/740 BROADWAY_SHOWROOM_index_3.jpg

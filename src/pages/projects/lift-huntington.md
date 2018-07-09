@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Lift Huntington
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Lift Huntington
 type: residential
 heroImage:
   image: /images/uploads/lift_huntington_ph.jpg
@@ -13,7 +13,7 @@ featured:
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/10-astor_-index.jpg
-  isFeatured: true
+  isFeatured: false
 previewImage:
   image: /images/uploads/lift_huntington_index_1.jpg
 infoObject:

@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: 10 Astor
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: 10 Astor
 workDescription: work description 10 Astor
 type: residential
 heroImage:
@@ -15,7 +15,7 @@ featured:
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/10 Astor_ index.jpg
-  isFeatured: true
+  isFeatured: false
 previewImage:
   image: /images/uploads/10-astor_-index.jpg
 infoObject:

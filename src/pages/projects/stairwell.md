@@ -13,7 +13,7 @@ heroImage:
   image: /images/uploads/STAIRWELL_PH_1.jpg
 headline: 'STAIR-WELL HOUSING: EMBRACE THE CORE'
 featured:
-  featuredOrder: 1
+  featuredOrder: "1"
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

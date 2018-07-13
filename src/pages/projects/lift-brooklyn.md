@@ -10,7 +10,7 @@ heroImage:
   image: /images/uploads/lift_brooklyn_ph.jpg
 headline: ENGAGE THE SENSES
 featured:
-featuredOrder: 2
+  featuredOrder: "2"
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

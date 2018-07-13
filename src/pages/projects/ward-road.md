@@ -10,7 +10,7 @@ heroImage:
   image: /images/uploads/ward-road_ph.jpg
 headline: DESIGN IN DUALS - SHARED HOLIDAY HOUSE
 featured:
-  featuredOrder: 7
+  featuredOrder: "7"
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

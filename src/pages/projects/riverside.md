@@ -10,7 +10,7 @@ heroImage:
   image: /images/uploads/RIVERSIDE_PH.jpg
 headline: BUILD COMMUNITY WITH A KIOSK REVISITED
 featured:
-  featuredOrder: 6
+  featuredOrder: "6"
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

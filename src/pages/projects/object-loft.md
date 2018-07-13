@@ -16,15 +16,13 @@ previewImage:
 infoObject:
   - description: Private Client
     title: client
-  - description: '2,500sf Soho loft gut renovation'
+  - description: 2,500sf Soho loft gut renovation
     title: scope
   - description: Completed 2018
     title: status
   - description: Amy Barkow
     title: Photography
 primaryImage:
-  alt: ALT TEXT NEEDS INPUT
-  caption: Caption Text, Lorem Ipsum Dolor Sit Amet
   image: /images/uploads/copyright_barkow_photo_6o2a6552.jpg
 projectGallery:
   - caption: Object kitchen

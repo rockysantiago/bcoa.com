@@ -11,13 +11,6 @@ heroImage:
   alt: ALT TEXT NEEDS INPUT
   image: /images/uploads/20greene_ph.jpg
 headline: objects, functional by design
-featured:
-  featuredDescription: this is the text of the featured description
-  featuredImage:
-    alt: CHANGE FEATURED IMAGE
-    image: /images/uploads/copyright_barkow_photo_6225.jpg
-    isPortrait: true
-  isFeatured: true
 previewImage:
   image: /images/uploads/index_copyright_barkow_photo_6363.jpg
 infoObject:

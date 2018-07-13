@@ -8,12 +8,6 @@ title: Lift Huntington
 type: residential
 heroImage:
   image: /images/uploads/lift_huntington_ph.jpg
-featured:
-  featuredDescription: this is the text of the featured description
-  featuredImage:
-    alt: this is the alt text
-    image: /images/uploads/10-astor_-index.jpg
-  isFeatured: false
 previewImage:
   image: /images/uploads/lift_huntington_index_1.jpg
 infoObject:

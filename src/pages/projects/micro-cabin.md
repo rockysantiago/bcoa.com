@@ -12,6 +12,7 @@ heroImage:
   image: /images/uploads/hero.jpg
 headline: CRAFT A JEWEL BOX
 featured:
+  featuredOrder: 0
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

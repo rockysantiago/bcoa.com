@@ -10,12 +10,6 @@ type: residential
 heroImage:
   image: /images/uploads/10-astor_ph_2.jpg
 headline: lobby
-featured:
-  featuredDescription: this is the text of the featured description
-  featuredImage:
-    alt: this is the alt text
-    image: /images/uploads/10 Astor_ index.jpg
-  isFeatured: false
 previewImage:
   image: /images/uploads/10-astor_-index.jpg
 infoObject:

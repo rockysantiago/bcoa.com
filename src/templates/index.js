@@ -19,8 +19,13 @@ const FeaturedProjectImage = ({ image }) => {
 }
 
 const renderFeaturedProjects = (projects) => {
+  const featured = Array(projects.length).fill(null)
+  projects.forEach((project) => {
+    featured.splice(project.node.frontmatter.featured.featuredOrder, 1, project)
+  })
   return (
-    projects.map(({ node: project }, i) => (
+    featured.map(({node: project}, i) => {
+      return (
       <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">
           <Link to={ project.fields.slug }>
@@ -48,7 +53,7 @@ const renderFeaturedProjects = (projects) => {
           </Link>
         </article>
       </li>
-    ))
+    )})
   )
 }
 
@@ -136,6 +141,7 @@ export const query = graphql`
           frontmatter {
             templateKey
             featured {
+              featuredOrder
               isFeatured
               featuredImage {
                 image {

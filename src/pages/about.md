@@ -120,30 +120,41 @@ collaborators:
     jobTitle: Metalworkers
     name: Caliper Studio
     url: 'http://www.caliperstudio.com/'
-  - name: ''
 ---
 We are Breitner Ciaccia Office of Architecture.
 
-We are a place that builds.
 
-We are small and nimble.
+We are a place that builds.
 
-And strong and wise.
 
-We are the place that knows expectations, and the desire to exceed them.
+We are small and nimble.
 
-We put thought into everything we do.
 
-Love of craft, conceptual dedication and technical prowess inform everything we do.
+And strong and wise.
 
-We use creative vision, precise execution, technology, and collaboration to get it done.
 
-From loft renovations, to commercial development, we are the place
+We are the place that knows expectations, and the desire to exceed them.
 
-that knows \*growing\* doesn’t mean growing up or growing old.
 
-Since 2009, and dozens of projects later....
+We put thought into everything we do.
 
-We’ve only grown forward.
 
-We are Breitner Ciaccia Office of Architecture (BC—OA).
+Love of craft, conceptual dedication and technical prowess inform everything we do.
+
+
+We use creative vision, precise execution, technology, and collaboration to get it done.
+
+
+From loft renovations, to commercial development, we are the place
+
+
+that knows \*growing\* doesn’t mean growing up or growing old.
+
+
+Since 2009, and dozens of projects later....
+
+
+We’ve only grown forward.
+
+
+We are Breitner Ciaccia Office of Architecture (BC—OA).

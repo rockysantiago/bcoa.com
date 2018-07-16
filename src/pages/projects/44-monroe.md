@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: 44 Monroe
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: 44 Monroe
 workDescription: Monroe descritpion
 type: residential
 heroImage:
@@ -39,8 +39,8 @@ projectGallery:
     type: image
   - pullQuote: quote
     type: quote
-  - colWidth: '10'
-    image: /images/uploads/44 MONROE_PROMO PLAN_1820.jpg
+  - colWidth: '12'
+    image: /images/uploads/44-monroe_promo-plan.jpg
     offsetWidth: '1'
     type: image
   - colWidth: '4'

@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Barman
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Barman
 type: residential
 heroImage:
   image: /images/uploads/BARMAN_PH_1.jpg
@@ -24,11 +24,9 @@ projectGallery:
   - colWidth: '8'
     image: /images/uploads/BARMAN_ (2)_1820.jpg
     type: image
-  - colWidth: '4'
-    image: /images/uploads/barman_-19-.jpeg
-    type: image
-  - colWidth: '4'
-    image: /images/uploads/barman_-22-.jpg
+  - colWidth: '8'
+    image: /images/uploads/barman-composition-images.jpg
+    offsetWidth: '4'
     type: image
   - colWidth: '12'
     image: /images/uploads/BARMAN_ (6)_1820.jpg
@@ -39,7 +37,7 @@ projectGallery:
     image: /images/uploads/barman_-23-_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/BARMAN_ (11)_1820.jpg
+    image: /images/uploads/barman_-11-cropped_1820.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/BARMAN_ (10)_1820.jpg

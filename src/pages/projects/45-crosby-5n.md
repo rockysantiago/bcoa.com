@@ -10,7 +10,6 @@ heroImage:
   image: /images/uploads/45_crosbyy_5n_ph.jpg
 headline: EXPOSE AND CONCEAL THE LOFT
 featured:
-  featuredOrder: "3"
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
@@ -41,7 +40,7 @@ projectGallery:
     image: /images/uploads/Crosby_5N_C.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/45 CROSBY_5N_PROMO PLAN_1820.jpg
+    image: /images/uploads/45-crosby_5n_promo-plan.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/45 CROSBY_5N_ (5)_1820.jpg

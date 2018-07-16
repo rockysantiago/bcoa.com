@@ -11,7 +11,6 @@ heroImage:
   image: /images/uploads/740-broadway_lobby_ph.jpg
 headline: Light Folds
 featured:
-  featuredOrder: "4"
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
@@ -32,12 +31,12 @@ projectGallery:
   - colWidth: '8'
     image: /images/uploads/740-broadway_lobby_-8-.jpg
     type: image
-  - colWidth: '6'
-    image: /images/uploads/740-broadway_lobby_-1-_1820.jpg
+  - colWidth: '8'
+    image: /images/uploads/740-broadway_lobby_-7-cropped_1820.jpg
     type: image
   - colWidth: '4'
     image: /images/uploads/740-broadway_lobby_-9-cropped.jpg
-    offsetWidth: '8'
+    offsetWidth: '0'
     type: image
   - colWidth: '10'
     image: /images/uploads/740-broadway_lobby_-8-_3140.jpg

@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 import Link from "gatsby-link";
 import { icons } from "./Icons";
 
-const Menu = ({ visible, menuBG, toggleMenu }) => (
+const Menu = ({ visible, menuBG, toggleMenu, navHeight }) => (
   <nav  className={`menu f-navigation ${visible ? 'visible' : ''}`}
-        style={{ backgroundImage: `url("${menuBG}")` }}
+        style={{ backgroundImage: `url("${menuBG}")`, height: `${navHeight}px` }}
   >
     <ul className="c-white">
       <li>
@@ -30,7 +30,7 @@ const headerLogoClick = (visible, toggleMenu) => {
   if (visible) { toggleMenu() };
 }
 
-export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
+export default ({ visible, toggleMenu, isWindowLarge, menuBackground, navHeight }) => {
   return (
     <div>
       <header className={visible ? 'c-white bg-transparent' : ''}>
@@ -46,7 +46,7 @@ export default ({ visible, toggleMenu, isWindowLarge, menuBackground }) => {
           </div>
         </div>
       </header>
-      <Menu visible={visible} menuBG={menuBackground} toggleMenu={toggleMenu} />
+      <Menu visible={visible} menuBG={menuBackground} toggleMenu={toggleMenu} navHeight={navHeight} />
     </div>
   )
 }

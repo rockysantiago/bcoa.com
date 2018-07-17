@@ -76,7 +76,9 @@ export default class TemplateWrapper extends Component {
   }
 
   toggleMenu = () => {
-    this.state.menuOpen ? this.setState({ menuOpen: false }) : this.setState({ menuOpen: true });
+    const screenHeight = window.innerHeight;
+    // console.log(screenHeight);
+    this.state.menuOpen ? this.setState({ menuOpen: false, navHeight: screenHeight }) : this.setState({ menuOpen: true, navHeight: screenHeight });
   }
 
   updateDimensions = () => {
@@ -115,6 +117,7 @@ export default class TemplateWrapper extends Component {
                       toggleMenu=     { this.toggleMenu }
                       isWindowLarge=  { this.state.isWindowLarge }
                       menuBackground= { menuBackground }
+                      navHeight=      { this.state.navHeight }
           />
         </Headroom>
         <FixedLogo fixedLogoPast={ this.state.fixedLogoPast } isWindowMedium={ this.state.isWindowMedium } />
@@ -141,7 +144,7 @@ export default class TemplateWrapper extends Component {
                               marginBottom-5
                               bp-1_marginBottom-0"
               >                
-                <b>Contact</b>
+                <b className="f-footer-a">Contact</b>
                 <a href="https://goo.gl/maps/cxWiP9aLg6v">
                   <address className="f-footer-b">
                     {data.contactJson.address.street},
@@ -167,7 +170,7 @@ export default class TemplateWrapper extends Component {
               </div>
               <div className="f-footer-b colSpan-3" style={{ display: "flex", flexDirection: "column" }}
               >
-                <b>Social</b>
+                <b className="f-footer-a">Social</b>
                 <div>
                   <a href={`http://instagram.com/${data.contactJson.instagram}`} target="_blank">
                     Instagram

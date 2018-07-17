@@ -24,7 +24,7 @@
   label {
     display: flex;
     align-items: center;
-    margin-right: 16px;
+    margin-right: var(--unit-8) !important;
     &:last-child {
       margin-right: 0px;
     }

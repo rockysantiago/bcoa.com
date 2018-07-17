@@ -84,8 +84,8 @@ $messina-book: "MessinaSansBookWeb", "helvetica neue", "sans-serif";
   }
 
   @include bp-2 {
-    font-size:   102px;
-    line-height: 112px;
+    font-size:   92px;
+    line-height: 96px;
   }
 }
 
@@ -113,13 +113,13 @@ $messina-book: "MessinaSansBookWeb", "helvetica neue", "sans-serif";
   text-transform: uppercase;
 
   @include bp-1 {
-    font-size:   30px;
+    font-size:   35px;
     line-height: 32px;
   }
 
   @include bp-2 {
     font-size:   60px;
-    line-height: 69px;
+    line-height: 56px;
   }
 }
 
@@ -152,7 +152,7 @@ $messina-book: "MessinaSansBookWeb", "helvetica neue", "sans-serif";
   }
 
   @include bp-2 {
-    font-size:   52px;
+    font-size:   50px;
     line-height: 44px;
   }
 }

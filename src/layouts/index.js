@@ -89,7 +89,7 @@ export default class TemplateWrapper extends Component {
 
   render() {
     const homeClasses = classnames(this.props.className, {
-      'showFixedLogo': this.props.location.pathname.replace(/\//g, '') === '',
+      'blackFixedLogo': this.props.location.pathname.replace(/\//g, '') === 'work' && this.state.isWindowLarge,
       'menuVisible': this.state.menuOpen,
       'bg-lightRed c-red': ( this.props.location.pathname.replace(/\//g, '') === 'about'
                           || this.props.location.pathname.replace(/\//g, '') === 'contact' ),

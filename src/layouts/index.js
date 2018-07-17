@@ -77,7 +77,6 @@ export default class TemplateWrapper extends Component {
 
   toggleMenu = () => {
     const screenHeight = window.innerHeight;
-    // console.log(screenHeight);
     this.state.menuOpen ? this.setState({ menuOpen: false, navHeight: screenHeight }) : this.setState({ menuOpen: true, navHeight: screenHeight });
   }
 

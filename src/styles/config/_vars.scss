@@ -46,7 +46,7 @@
 
 :root {
   --unit: 4px;
-  @for $i from 0 through 50 {
+  @for $i from 0 through 60 {
     --unit-#{$i}: calc(var(--unit) * #{$i});
   }
 }
@@ -99,7 +99,7 @@ $propsAdj: "", "Vertical", "Horizontal", "Left", "Bottom", "Right", "Top";
 @for $h from 1 through length($breakpoints) {
   @for $i from 1 through length($props) {
     @for $j from 1 through length($propsAdj) {
-      @for $k from 0 through 50 {
+      @for $k from 0 through 60 {
         @if nth($propsAdj, $j) == 'Vertical' {
           @if nth($breakpoints, $h) == 'bp-1' {
             .#{nth($breakpoints, $h)}_#{nth($props, $i)}#{nth($propsAdj, $j)}-#{$k} {

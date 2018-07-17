@@ -41,9 +41,9 @@ export default ({ data }) => {
             { contact.address.city }, { contact.address.state } { contact.address.zip }
           </p>
           <p>&#8212;</p>
-          <a className="defaultLink" href={`mailto:${ contact.email }`}>email</a>
+          <a className="defaultLink" href={`mailto:${ contact.email }`}>{ contact.email }</a>
           <br/>
-          <a className="defaultLink" href={`tel:${ contact.phone }`}>phone</a>
+          <a className="defaultLink" href={`tel:${ contact.phone }`}>{ contact.phone }</a>
           <p>&#8212;</p>
           <a href="http://instagram.com/590bc" className="defaultLink">
             Instagram

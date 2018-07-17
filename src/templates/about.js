@@ -68,9 +68,9 @@ export default ({ data }) => {
   );
   return (
     <div className="container
-                    marginBottom-10
-                    bp-1_marginBottom-11
-                    bp-2_marginBottom-22">
+                    marginBottom-15
+                    bp-1_marginBottom-24
+                    bp-2_marginBottom-20">
       <SEO
         postImage={fields.seo.image.childImageSharp.sizes.src}
         postData={fields}

@@ -36,7 +36,7 @@ class Article extends Component {
                         bp-2_marginTop-5
                         marginBottom-5"
               dangerouslySetInnerHTML={{ __html: article.html }} />
-        <button className="copyButton" onClick={this.copyLink}>{this.state.copying ? 'Link Copied!' : 'Share This'}</button>
+        <button className="f-copy-book copyButton" onClick={this.copyLink}>{this.state.copying ? 'Link Copied!' : 'Share This'}</button>
         <textarea className="copyInput" ref={el => this.articleLink = el} name="articleLink" id="articleLink" defaultValue={`http://staging.bc-oa.com/news#${slugify(article.frontmatter.title, { lower: true })}`}></textarea>
       </article>
     )

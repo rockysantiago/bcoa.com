@@ -23,6 +23,7 @@ const renderFeaturedProjects = (projects) => {
   projects.forEach((project) => {
     featured.splice(project.node.frontmatter.featured.featuredOrder, 1, project)
   })
+  // debugger;
   return (
     featured.map(({node: project}, i) => {
       return (

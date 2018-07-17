@@ -10,7 +10,7 @@ heroImage:
   image: /images/uploads/CLARKSON PARKSIDE_PH.jpg
 headline: 'Clark-side ground up '
 featured:
-  featuredOrder: "9"
+  featuredOrder: 9
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

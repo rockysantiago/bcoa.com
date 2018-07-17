@@ -7,7 +7,7 @@ import SEO from "../components/SEO";
 const Member = ({ member }) => (
   <div className={ `${ member.principal ? "principal bp-2_marginBottom-33" : "bp-2_marginBottom-13" } ` }>
     { !member.principal && <hr className=" marginBottom-2" /> }
-    { member.principal && <Img
+    {member.principal && member.image && member.image.image && <Img
       className="marginBottom-3 bp-1_marginBottom-2"
       sizes={member.image.image.childImageSharp.sizes}
       /> }

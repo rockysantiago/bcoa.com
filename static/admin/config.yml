@@ -184,6 +184,13 @@ collections:
             name: isFeatured
             widget: boolean
             required: false
+          - label: Main Page Order
+            name: featuredOrder
+            widget: number
+            default: 0
+            valueType: "int"
+            min: 0
+            max: 101
           - label: Featured Image
             name: featuredImage
             widget: object

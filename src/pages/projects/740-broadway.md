@@ -11,6 +11,7 @@ heroImage:
   image: /images/uploads/740-broadway_lobby_ph.jpg
 headline: Light Folds
 featured:
+  featuredOrder: 4
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

@@ -9,7 +9,7 @@ type: residential
 heroImage:
   image: /images/uploads/740_BROADWAY_SHOWROOM_PH.jpg
 featured:
-  featuredOrder: "8"
+  featuredOrder: 8
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

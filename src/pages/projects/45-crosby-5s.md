@@ -10,7 +10,7 @@ heroImage:
   image: /images/uploads/45CROSBY_5S_PH.jpg
 headline: The Selective Loft
 featured:
-  featuredOrder: "5"
+  featuredOrder: 5
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text

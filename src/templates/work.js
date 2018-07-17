@@ -55,7 +55,7 @@ export default class Work extends Component {
                 <li key={i}>
                   <article className="workProject">
                     <Link to={ project.fields.slug }>
-                      { project.frontmatter.previewImage &&
+                      { project.frontmatter.previewImage && project.frontmatter.previewImage.image &&
                         <Img
                           sizes={ project.frontmatter.previewImage.image.childImageSharp.sizes }
                           className="marginBottom-3"

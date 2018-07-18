@@ -24,7 +24,7 @@ projectGallery:
     image: /images/uploads/17-thompson_-17-cropped.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/17-thompson_-18-cropped.jpg
+    image: /images/uploads/17-thompson_-18-.jpg
     type: image
   - pullQuote: quote
     type: quote

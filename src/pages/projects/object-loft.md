@@ -9,38 +9,51 @@ workDescription: Work description text
 type: residential
 heroImage:
   alt: ALT TEXT NEEDS INPUT
-  image: /images/uploads/20greene_ph.jpg
-headline: objects, functional by design
+  image: /images/uploads/object-loft_-12-_1820_cropped.jpg
+headline: 'objects, functional by design'
 previewImage:
   image: /images/uploads/index_copyright_barkow_photo_6363.jpg
 infoObject:
   - description: Private Client
     title: client
-  - description: 2,500sf Soho loft gut renovation
+  - description: '2,500sf Soho loft gut renovation'
     title: scope
   - description: Completed 2018
     title: status
   - description: Amy Barkow
     title: Photography
 primaryImage:
-  image: /images/uploads/copyright_barkow_photo_6o2a6552.jpg
+  image: /images/uploads/OBJECT LOFT_ (14)_1820.jpg
 projectGallery:
-  - caption: Object kitchen
+  - colWidth: '6'
+    image: /images/uploads/object-loft_-2-_1820_cropped.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/object-loft_-6-_1820_cropped.jpg
+    offsetWidth: '4'
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/object-loft_-4-_1820_cropped.jpg
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/object-loft_-3-_1820_cropped.jpg
+    type: image
+  - alt: ALT TEXT NEEDS INPUT
+    caption: Object kitchen
     colWidth: '8'
     image: /images/uploads/copyright_barkow_photo_6283.jpg
     offsetWidth: '4'
     type: image
-    alt: ALT TEXT NEEDS INPUT
-  - caption: View from back
+  - alt: ALT TEXT NEEDS INPUT
+    caption: View from back
     colWidth: '4'
     image: /images/uploads/copyright_barkow_photo_6248.jpg
     type: image
-    alt: ALT TEXT NEEDS INPUT
-  - colWidth: '8'
+  - alt: ALT TEXT NEEDS INPUT
+    colWidth: '8'
     image: /images/uploads/copyright_barkow_photo_6517a.jpg
     offsetWidth: '0'
     type: image
-    alt: ALT TEXT NEEDS INPUT
 ---
 This double-wide SoHo Loft building has uniquely wide dimensions, allowing for broad views from front to back of this approximately 2500sf residence. Three volumetric objects are strategically placed within the public space, providing a staggered canvas of living utilities – kitchen, storage, entry - within the otherwise pure geometry of the floor plan. Placement of the objects straddles the original line of cast iron columns, generating a visual contrast of new against old from front to back of the apartment. The center room at the apartment rear is enclosed by a glass and raw steel framed wall, allowing daylight from the oversized windows to flood in from both orientations of the apartment.
 

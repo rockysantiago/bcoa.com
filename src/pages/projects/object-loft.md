@@ -38,19 +38,20 @@ projectGallery:
   - colWidth: '4'
     image: /images/uploads/object-loft_-3-_1820_cropped.jpg
     type: image
-  - alt: ALT TEXT NEEDS INPUT
-    caption: Object kitchen
-    colWidth: '8'
-    image: /images/uploads/copyright_barkow_photo_6283.jpg
+  - colWidth: '12'
+    image: /images/uploads/object-loft_promo-plan_1820_cropped.jpg
+    type: image
+  - pullQuote: quote
+    type: quote
+  - colWidth: '12'
+    image: /images/uploads/OBJECT LOFT_ (17)_1820.jpg
+    type: image
+  - colWidth: '8'
+    image: /images/uploads/object-loft_-20-_1820_cropped.jpg
     offsetWidth: '4'
     type: image
   - alt: ALT TEXT NEEDS INPUT
-    caption: View from back
-    colWidth: '4'
-    image: /images/uploads/copyright_barkow_photo_6248.jpg
-    type: image
-  - alt: ALT TEXT NEEDS INPUT
-    colWidth: '8'
+    colWidth: '10'
     image: /images/uploads/copyright_barkow_photo_6517a.jpg
     offsetWidth: '0'
     type: image

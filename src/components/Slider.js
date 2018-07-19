@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Slider from "react-slick";
 import slugify from "slugify";
 import { icons } from "./Icons";
@@ -22,46 +22,62 @@ const NextArrow = ({ onClick }) => (
   </div>
 )
 
-export default ({ slides }) => {
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />
-  };
+export default class HeroSlider extends Component {
 
-  return (
-    <Slider className="hero" {...settings}>
-      {slides.map((slide, i) => {
-        // const description = remark()
-        // .use(recommended)
-        // .use(remarkHtml)
-        // .processSync(slide.description).toString();
-        return slide.project ?
-          <div className="slide c-white" key={`slide-${i}`}>
-            <div className="container slick-container">
-              <div className="slide-info">
-                <a className="marginBottom-4 block" href={`projects/${slugify(slide.project, { lower: true })}`}>
+  componentDidMount() {
+    this.slider.innerSlider.list.setAttribute('tabindex', 0);
+    this.slider.innerSlider.list.focus();
+  }
+
+  render() {
+    const settings = {
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />
+    };
+
+    return (
+      <Slider
+        className="hero"
+        {...settings}
+        ref={el => {
+          if (el) {
+            this.slider = el;
+          }
+        }}
+      >
+        {this.props.slides.map((slide, i) => {
+          // const description = remark()
+          // .use(recommended)
+          // .use(remarkHtml)
+          // .processSync(slide.description).toString();
+          return slide.project ?
+            <div className="slide c-white" key={`slide-${i}`}>
+              <div className="container slick-container">
+                <div className="slide-info">
+                  <a className="marginBottom-4 block" href={`projects/${slugify(slide.project, { lower: true })}`}>
+                    {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
+                  </a>
+                  <span>{i + 1}/{this.props.slides.length}</span>
+                </div>
+              </div>
+              <img src={slide.image} alt={slide.alt} />
+            </div>
+            :
+            <div className="slide c-white" key={`slide-${i}`}>
+              <div className="container slick-container">
+                <div className="slide-info">
                   {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
-                </a>
-                <span>{i + 1}/{slides.length}</span>
+                  <span>{i + 1}/{this.props.slides.length}</span>
+                </div>
               </div>
+              <img src={slide.image} alt={slide.alt} />
             </div>
-            <img src={slide.image} alt={slide.alt} />
-          </div>
-          :
-          <div className="slide c-white" key={`slide-${i}`}>
-            <div className="container slick-container">
-              <div className="slide-info">
-                {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
-                <span>{i + 1}/{slides.length}</span>
-              </div>
-            </div>
-            <img src={slide.image} alt={slide.alt} />
-          </div>
-      })}
-    </Slider>
-  )
+        })}
+      </Slider>
+    )
+  }
 }

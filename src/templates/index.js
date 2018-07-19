@@ -23,7 +23,6 @@ const renderFeaturedProjects = (projects) => {
   projects.forEach((project) => {
     featured.splice(project.node.frontmatter.featured.featuredOrder, 1, project)
   })
-  // debugger;
   return (
     featured.map(({node: project}, i) => {
       return (
@@ -82,7 +81,10 @@ export default class Index extends Component {
           postImage={this.props.data.page.frontmatter.seo.image.childImageSharp.sizes.src}
           postData={this.props.data.page.frontmatter}
         />
-        <Slider className="hero" slides={ this.props.data.page.frontmatter.carouselImages } />
+        <Slider 
+          className="hero" 
+          slides={ this.props.data.page.frontmatter.carouselImages } 
+        />
         <div ref={(el) => { if (el) { this.content = el } }} className="container overflow--hidden">
           <h2 className=" f-page-title
                           marginTop-8 marginBottom-7

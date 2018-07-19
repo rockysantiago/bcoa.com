@@ -167,8 +167,7 @@ export default class TemplateWrapper extends Component {
                   </a>
                 </div>
               </div>
-              <div className="f-footer-b colSpan-3" style={{ display: "flex", flexDirection: "column" }}
-              >
+              <div className="f-footer-b colSpan-3" style={{ display: "flex", flexDirection: "column" }}>
                 <b className="f-footer-a">Social</b>
                 <div>
                   <a href={`http://instagram.com/${data.contactJson.instagram}`} target="_blank">

@@ -95,12 +95,12 @@ module.exports = {
           android: true,
           appleIcon: true,
           appleStartup: true,
-          coast: true,
+          coast: false,
           favicons: true,
           firefox: true,
-          twitter: true,
-          yandex: true,
-          windows: true
+          twitter: false,
+          yandex: false,
+          windows: false
         }
       }
     },

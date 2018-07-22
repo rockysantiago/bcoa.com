@@ -3,6 +3,14 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import * as settings from '../_data/settings/settings.json';
 import * as contact from '../_data/contact/contact.json';
+// favicons
+import faviconApple from '../favicon/apple-touch-icon.png';
+import favicon32 from '../favicon/favicon-32x32.png';
+import favicon16 from '../favicon/favicon-16x16.png';
+// import manifest from '../favicon/site.webmanifest';
+import safariPinned from '../favicon/safari-pinned-tab.svg';
+import faviconICO from '../favicon/favicon.ico';
+// import browserConfig from '../favicon/browserconfig.xml';
 
 const getSchemaOrgJSONLD = ({
   url,
@@ -65,6 +73,16 @@ const SEO = ({ postData, postImage }) => {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
+
+      {/* Favicon tags */}
+      <link rel="apple-touch-icon" sizes="180x180" href={faviconApple} />
+      <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
+      <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
+      <link rel="manifest" href="../favicon/site.webmanifest" />
+      <link rel="mask-icon" href={safariPinned} color="#5bbad5" />
+      <link rel="shortcut icon" href={faviconICO} />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="theme-color" content="#ffffff" />
     </Helmet>
   );
 };

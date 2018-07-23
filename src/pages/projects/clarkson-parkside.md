@@ -7,17 +7,17 @@ templateKey: project-page
 title: Clarkson Parkside
 type: residential
 heroImage:
-  image: /images/uploads/CLARKSON PARKSIDE_PH.jpg
+  image: /images/uploads/lobby5.jpg
 headline: 'Clark-side ground up '
 featured:
-  featuredOrder: 9
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/clarkson-parkside_-19-_1820x1024.jpg
+  featuredOrder: 9
   isFeatured: true
 previewImage:
-  image: /images/uploads/CLARKSON PARKSIDE_index_1.jpg
+  image: /images/uploads/lobby-stair.jpg
 infoObject:
   - description: Aspen Equities Brooklyn NY
     title: Client
@@ -26,26 +26,27 @@ infoObject:
   - description: In construction
     title: Status
 primaryImage:
-  image: /images/uploads/clarkson-parkside_section-perspective.jpg
+  image: /images/uploads/dscf9124.jpg
 projectGallery:
   - colWidth: '10'
-    image: /images/uploads/CLARKSON PARKSIDE_ (1)_1820.jpg
+    image: /images/uploads/lobby1.2_cropped.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/CLARKSON PARKSIDE_ (17)_1820.jpg
+    image: /images/uploads/lobby3.jpg
     offsetWidth: '4'
     type: image
+  - colWidth: '6'
+    image: /images/uploads/dscf9154_cropped.jpg
+    offsetWidth: '0'
+    type: image
+  - type: image
   - colWidth: '12'
-    image: /images/uploads/CLARKSON PARKSIDE_ (19)_1820.jpg
-    offsetWidth: '4'
+    image: /images/uploads/clarkson-parkside_-16-.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/CLARKSON PARKSIDE_ (19)_1820.jpg
     pullQuote: quote
     type: quote
-  - colWidth: '12'
-    image: /images/uploads/clarkson-parkside_-16-.jpg
-    type: image
   - colWidth: '12'
     image: /images/uploads/CLARKSON PARKSIDE_ (20)_1820.jpg
     type: image

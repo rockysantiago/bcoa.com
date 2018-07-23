@@ -1,13 +1,31 @@
 .hero {
+  height: calc(100vh - var(--header-height) - var(--unit-28));
+  display: flex;
+
+  @include bp-1 {
+    height: calc(100vh - var(--header-height));
+  }
+
+  @include bp-2 {
+    height: calc(100vh - var(--header-height));
+  }
+
+  img {
+    flex: 1 0 0%;
+    object-fit: cover;
+  }
+}
+
+.projectHero {
   height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-28));
   display: flex;
 
   @include bp-1 {
-    height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-24));
+    height: calc(100vh - var(--header-height) - var(--project-title-height));
   }
 
   @include bp-2 {
-    height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-30));
+    height: calc(100vh - var(--header-height) - var(--project-title-height) + 2px);
   }
 
   img {

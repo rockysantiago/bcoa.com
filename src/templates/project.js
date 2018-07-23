@@ -22,9 +22,7 @@ export default ({ data }) => {
       </div>
 
       {fields.heroImage && fields.heroImage.image &&
-        <Img sizes={ fields.heroImage.image.childImageSharp.sizes }>
-          <Hero />
-        </Img>
+        <Img className="projectHero" sizes={ fields.heroImage.image.childImageSharp.sizes } />
       }
       <div className="container marginTop-5 bp-1_marginTop-10 bp-2_marginTop-30">
         <div className="bp-1_grid-12col">

@@ -51,13 +51,6 @@
   }
 }
 
-// Component values
-
-:root {
-  --header-height: var(--unit-10);
-  --project-title-height: var(--unit-24);
-  --heroHeight: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-45));
-}
 
 //
 // breakpoints
@@ -82,6 +75,24 @@ $bp-2-width: 1024px;
 @mixin bp-2 {
   @media (min-width: #{$bp-2-width}) {
     @content;
+  }
+}
+
+// Component values
+
+:root {
+  --project-title-height: var(--unit-12);
+  --heroHeight: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-45));
+  --header-height: var(--unit-10);
+  
+  @include bp-1 {
+    --header-height: var(--unit-17);
+    --project-title-height: var(--unit-17);
+  }
+  
+  @include bp-2 {
+    --project-title-height: var(--unit-24);
+    --header-height: var(--unit-23);
   }
 }
 

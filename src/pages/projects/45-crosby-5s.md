@@ -13,6 +13,7 @@ featured:
   featuredOrder: 5
   featuredDescription: this is the text of the featured description
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/45-crosby_5s_-12-_1160x1547.jpg
   isFeatured: true

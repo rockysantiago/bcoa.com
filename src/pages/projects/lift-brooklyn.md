@@ -12,6 +12,7 @@ headline: ENGAGE THE SENSES
 featured:
   featuredDescription: New York City's first and only dedicated isolation therapy spa
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/lift_brooklyn_-7-_1160x1547.jpg
   featuredOrder: 2

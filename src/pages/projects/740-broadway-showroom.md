@@ -12,6 +12,7 @@ featured:
   featuredOrder: 8
   featuredDescription: this is the text of the featured description
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/740-broadway_showroom_-4-_1160x1547.jpg
   isFeatured: true

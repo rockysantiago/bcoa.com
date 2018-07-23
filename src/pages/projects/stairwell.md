@@ -69,7 +69,8 @@ projectGallery:
     image: /images/uploads/STAIR-WELL_ (3)_1820.jpg
     offsetWidth: '2'
     type: image
-  - colWidth: '10'
+  - caption: Unit interior with view to the private deck and common stair
+    colWidth: '10'
     image: /images/uploads/STAIR-WELL_ (6)_1820.jpg
     type: image
 ---

@@ -10,7 +10,9 @@ heroImage:
   image: /images/uploads/45_crosbyy_5n_ph.jpg
 headline: EXPOSE AND CONCEAL THE LOFT
 featured:
-  featuredDescription: this is the text of the featured description
+  featuredDescription: >-
+    Contemporary materials contrast the original highlights of this SoHo
+    converted loft
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/45-crosby_5n_-14-_1160x1740.jpg

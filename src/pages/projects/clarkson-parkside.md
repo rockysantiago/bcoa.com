@@ -7,7 +7,7 @@ templateKey: project-page
 title: Clarkson Parkside
 type: residential
 heroImage:
-  image: /images/uploads/lobby5.jpg
+  image: /images/uploads/updated-lobby.jpg
 headline: 'Clark-side ground up '
 featured:
   featuredDescription: this is the text of the featured description

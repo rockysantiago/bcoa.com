@@ -42,10 +42,12 @@ projectGallery:
     type: image
   - pullQuote: quote
     type: quote
-  - colWidth: '6'
+  - caption: Floatation room - pod style
+    colWidth: '6'
     image: /images/uploads/LIFT_BROOKLYN_ (3)_1820.jpg
     type: image
-  - colWidth: '6'
+  - caption: Floation room - tank style
+    colWidth: '6'
     image: /images/uploads/lift_brooklyn_-2-cropped_1820.jpg
     type: image
   - colWidth: '10'

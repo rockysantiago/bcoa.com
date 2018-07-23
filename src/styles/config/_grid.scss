@@ -105,3 +105,9 @@ $gutter: 4.21%;
     margin-left: 12%;
   }
 }
+
+.mobile-grid-none {
+  @include only_bp-0 {
+    display: block;
+  }
+}

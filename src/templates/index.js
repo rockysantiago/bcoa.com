@@ -5,16 +5,12 @@ import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
 import SEO from "../components/SEO";
 
-const FeaturedProjectImage = ({ image }) => {
-  // console.log(project.frontmatter.featured.featuredImage);
-  console.log(image);
-  // debugger;
+const FeaturedProjectImage = ({ image, className }) => {
   return (
     <Img
       sizes={ image }
-      className=" marginBottom-5
-                  bp-1_marginBottom-6
-                  bp-2_marginBottom-9"
+      outerWrapperClassName={className}
+      className={`marginBottom-5 bp-1_marginBottom-6 bp-2_marginBottom-9 ${className}`}
     />
   )
 }
@@ -34,11 +30,9 @@ const renderFeaturedProjects = (projects) => {
           ?
             <div className="nestedGrid-6-2">
               <div className="colSpan-1"></div>
-              {/* {FeaturedProjectImage(project)} */}
-              <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
+              <FeaturedProjectImage className="colSpan-4" image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
             </div>
           :
-            // {FeaturedProjectImage(project)}
             <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
           }
             <div className="featured-info">
@@ -77,8 +71,8 @@ export default class Index extends Component {
     const edges = this.props.data.projects.edges;
     const projects = edges.filter(
       edge =>
-        edge.node.frontmatter.templateKey === "project-page" &&
-        edge.node.frontmatter.featured
+      edge.node.frontmatter.templateKey === "project-page" &&
+      edge.node.frontmatter.featured
     );
   
     return (

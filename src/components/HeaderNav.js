@@ -31,12 +31,13 @@ const headerLogoClick = (visible, toggleMenu) => {
 }
 
 export default ({ visible, toggleMenu, isWindowLarge, menuBackground, navHeight }) => {
+  const headerLogo = (isWindowLarge === undefined) ? "" : isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall
   return (
     <div>
       <header className={visible ? 'c-white bg-transparent' : ''}>
         <div className="container">
           <div className="flex-1">
-            <Link className="headerLogo" onClick={ () => headerLogoClick(visible, toggleMenu) } to="/">{isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall}</Link>
+            <Link className="headerLogo" onClick={ () => headerLogoClick(visible, toggleMenu) } to="/">{headerLogo}</Link>
           </div>
           <div className={`header-menuButton ${visible ? 'isActive' : ''}`} onClick={toggleMenu}>
             <div className="line lineExterior"></div>

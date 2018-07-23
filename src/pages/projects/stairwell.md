@@ -11,10 +11,10 @@ title: Stair-well Housing
 type: commercial
 heroImage:
   image: /images/uploads/STAIRWELL_PH_1.jpg
-headline: 'STAIR-WELL HOUSING: EMBRACE THE CORE'
+headline: EMBRACE THE CORE
 featured:
   featuredDescription: >-
-    A modular stack of affordable housing units which incorporate a stair. When
+    A modular stack of affordable housing units which incorporate a stair. As
     the units stack, the stair core is created.
   featuredImage:
     alt: this is the alt text

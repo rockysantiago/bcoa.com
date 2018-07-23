@@ -10,11 +10,11 @@ heroImage:
   image: /images/uploads/45_crosbyy_5n_ph.jpg
 headline: EXPOSE AND CONCEAL THE LOFT
 featured:
-  featuredOrder: 3
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/45-crosby_5n_-14-_1160x1740.jpg
+  featuredOrder: 3
   isFeatured: true
 previewImage:
   image: /images/uploads/45 CROSBY_5N_index.jpg
@@ -30,7 +30,8 @@ infoObject:
 primaryImage:
   image: /images/uploads/45 CROSBY_5N_ (11)_1820.jpg
 projectGallery:
-  - colWidth: '6'
+  - caption: Floating distressed bronze cabinets separate the public and private spaces
+    colWidth: '6'
     image: /images/uploads/45 CROSBY_5N_ (23)_1820.jpg
     type: image
   - colWidth: '8'

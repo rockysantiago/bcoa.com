@@ -6,12 +6,13 @@ import Slider from '../components/Slider';
 import SEO from "../components/SEO";
 
 const FeaturedProjectImage = ({ image }) => {
+  // console.log(project.frontmatter.featured.featuredImage);
+  console.log(image);
+  // debugger;
   return (
-    <img
-      src={ image.url }
-      alt={ image.alt }
-      className=" colSpan-4
-                  marginBottom-5
+    <Img
+      sizes={ image }
+      className=" marginBottom-5
                   bp-1_marginBottom-6
                   bp-2_marginBottom-9"
     />
@@ -29,12 +30,17 @@ const renderFeaturedProjects = (projects) => {
       <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">
           <Link to={ project.fields.slug }>
-            <Img
-              sizes={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes }
-              className=" marginBottom-5
-                          bp-1_marginBottom-6
-                          bp-2_marginBottom-9"
-            />
+          { project.frontmatter.featured.featuredImage.isPortrait
+          ?
+            <div className="nestedGrid-6-2">
+              <div className="colSpan-1"></div>
+              {/* {FeaturedProjectImage(project)} */}
+              <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
+            </div>
+          :
+            // {FeaturedProjectImage(project)}
+            <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
+          }
             <div className="featured-info">
               <h1 className=" f-headline-d
                               marginBottom-5
@@ -147,6 +153,7 @@ export const query = graphql`
               featuredOrder
               isFeatured
               featuredImage {
+                isPortrait
                 image {
                   childImageSharp {
                     sizes(maxWidth: 1820) {

@@ -17,6 +17,7 @@ featured:
     A modular stack of affordable housing units which incorporate a stair. As
     the units stack, the stair core is created.
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/stair-well_-8-_1160x1740.jpg
   featuredOrder: 1

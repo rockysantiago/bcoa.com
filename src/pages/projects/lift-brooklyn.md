@@ -32,7 +32,8 @@ infoObject:
 primaryImage:
   image: /images/uploads/LIFT_BROOKLYN_ (4)_1820.jpg
 projectGallery:
-  - colWidth: '12'
+  - caption: The iconic blue glow as seen from Court Street
+    colWidth: '12'
     image: /images/uploads/LIFT_BROOKLYN_ (1)_1820.jpg
     type: image
   - colWidth: '8'

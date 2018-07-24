@@ -1,15 +1,12 @@
 ---
+seo:
+  title: .
 templateKey: project-page
 title: Boatbox
-seo: 
-  title: Test title
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-type: residential
+type: commercial
 heroImage:
-  image: /images/uploads/BOATBOX_PH_1.jpg
-previewImage:
-  image: /images/uploads/BOATBOX_index.jpg
+  image: /images/uploads/BOATBOX_ (3)_1820.jpg
+previewImage: {}
 infoObject:
   - description: PortSide New York via DesigNYC
     title: CLIENT
@@ -20,7 +17,7 @@ infoObject:
   - description: '2D Design: Studio L''Image desigNYC Advisor: Paul S. Alter'
     title: CREDITS
 primaryImage:
-  image: /images/uploads/BOATBOX_ (2)_1820.jpg
+  image: /images/uploads/boatbox_-6-_1820_cropped.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/BOATBOX_ (3)_1820.jpg

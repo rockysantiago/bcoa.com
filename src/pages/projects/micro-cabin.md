@@ -4,16 +4,16 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Micro Cabin
+title: Craft a Montauk jewel box
 workDescription: Work description text
 type: residential
 heroImage:
   alt: Micro Cabin - residential reclaimed materials small houses tiny houses
   image: /images/uploads/hero.jpg
-headline: CRAFT A MONTAUK JEWEL BOX
+headline: CRAFT A JEWEL BOX
 featured:
   featuredDescription: >-
-    A tiny house - the size of a single car garage - with all the fixin's on an
+    A Micro Cabin - the size of a single car garage - with all the fixin's on an
     existing foundation in Montauk, NY.
   featuredImage:
     alt: this is the alt text

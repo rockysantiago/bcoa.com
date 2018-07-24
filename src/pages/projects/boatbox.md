@@ -19,9 +19,6 @@ infoObject:
 primaryImage:
   image: /images/uploads/boatbox_-6-_1820_cropped.jpg
 projectGallery:
-  - colWidth: '6'
-    image: /images/uploads/BOATBOX_ (3)_1820.jpg
-    type: image
   - colWidth: '10'
     image: /images/uploads/BOATBOX_ (1)_1820.jpg
     type: image

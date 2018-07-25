@@ -72,7 +72,7 @@ export default ({ data }) => {
                     bp-1_marginBottom-24
                     bp-2_marginBottom-20">
       <SEO
-        postImage={fields.seo.image.childImageSharp.sizes.src}
+        postImage={fields.seo.image ? fields.seo.image.childImageSharp.sizes.src : null}
         postData={fields}
       />
       <h1 className=" f-page-title 

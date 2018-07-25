@@ -10,7 +10,7 @@ export default ({ data }) => {
   return (
     <div className="bp-2_marginBottom-15">
       <SEO
-        postImage={fields.seo.image.childImageSharp.sizes.src}
+        postImage={fields.seo.image ? fields.seo.image.childImageSharp.sizes.src : null}
         postData={fields}
       />
       <div className="container

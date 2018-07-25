@@ -39,7 +39,7 @@ const renderFeaturedProjects = (projects) => {
               <h1 className=" f-headline-d
                               marginBottom-5
                               bp-2_marginBottom-10">
-                { project.frontmatter.title } &#8212;
+                { project.frontmatter.headline } &#8212;
               </h1>
               <div className="f-subhead
                               marginBottom-12
@@ -160,7 +160,7 @@ export const query = graphql`
               }
               featuredDescription
             }
-            title
+            headline
             date
           }
           fields {

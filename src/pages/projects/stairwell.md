@@ -34,6 +34,9 @@ infoObject:
 primaryImage:
   image: /images/uploads/stair-well_-9-cropped_1820.jpg
 projectGallery:
+  - colWidth: '6'
+    image: /images/uploads/stair-well-unit-stack_1820.jpg
+    type: image
   - caption: The micro-unit interior with kitchen and fold-down table
     colWidth: '9'
     image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
@@ -46,7 +49,7 @@ projectGallery:
     type: quote
   - caption: Sample plans
     colWidth: '4'
-    image: /images/uploads/stair-well_-4-cropped_1820.jpg
+    image: /images/uploads/stair-well_-11-_1820_cropped.jpg
     type: image
   - alt: ''
     caption: Stairs as an extension of the communal spaces

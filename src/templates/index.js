@@ -74,6 +74,7 @@ export default class Index extends Component {
       edge.node.frontmatter.templateKey === "project-page" &&
       edge.node.frontmatter.featured
     );
+    const seo = this.props.data.page.frontmatter.seo;
   
     return (
       <div>

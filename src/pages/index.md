@@ -2,7 +2,7 @@
 templateKey: featured-page
 title: Featured
 seo: 
-  title: Test title
+  title: Featured Page Title
   description: Test description
   image: /images/uploads/placeholder.jpg
 carouselImages:

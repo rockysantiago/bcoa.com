@@ -130,7 +130,8 @@ export const query = graphql`
         carouselImages {
           image
           alt
-          description
+          title
+          subtitle
           project
         }
       }

@@ -135,7 +135,8 @@ collections:
             fields:
               - { label: "Image", name: "image", widget: "image", default: "/images/uploads/placeholder.jpg" }
               - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
-              - { label: "Description", name: "description", widget: "markdown" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
               - label: "Related Project"
                 name: "project"
                 widget: "relation"

@@ -50,16 +50,13 @@ export default class HeroSlider extends Component {
         }}
       >
         {this.props.slides.map((slide, i) => {
-          // const description = remark()
-          // .use(recommended)
-          // .use(remarkHtml)
-          // .processSync(slide.description).toString();
           return slide.project ?
             <div className="slide c-white" key={`slide-${i}`}>
               <div className="container slick-container">
                 <div className="slide-info">
                   <a className="marginBottom-4 block" href={`projects/${slugify(slide.project, { lower: true })}`}>
-                    {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
+                    <p>{slide.title}</p>
+                    {slide.subtitle}
                   </a>
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
@@ -70,7 +67,8 @@ export default class HeroSlider extends Component {
             <div className="slide c-white" key={`slide-${i}`}>
               <div className="container slick-container">
                 <div className="slide-info">
-                  {/* <div className="md" dangerouslySetInnerHTML={{ __html: description }} /> */}
+                  <p>{slide.title}</p>
+                  {slide.subtitle}
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
               </div>

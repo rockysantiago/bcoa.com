@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: Elevators
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Elevators
 type: residential
 heroImage:
   image: /images/uploads/evlavtor_ph_1.jpg
@@ -18,24 +18,25 @@ infoObject:
   - description: Ongoing
     title: STATUS
 primaryImage:
-  image: /images/uploads/ELEVATORS_ (2)_1820.jpg
+  image: /images/uploads/elevators_-5-_cropped.jpg
 projectGallery:
-  - colWidth: '6'
+  - colWidth: '8'
     image: /images/uploads/ELEVATORS_PH_2.jpg
     type: image
-  - colWidth: '9'
-    image: /images/uploads/ELEVATORS_ (3)_1820.jpg
+  - colWidth: '6'
+    image: /images/uploads/elevators_-6-_cropped.jpg
+    offsetWidth: '6'
     type: image
-  - colWidth: '9'
-    image: /images/uploads/ELEVATORS_ (4)_1820.jpg
+  - colWidth: '12'
+    image: /images/uploads/elevators_-3-_cropped.jpg
     type: image
-  - colWidth: '9'
-    image: /images/uploads/ELEVATORS_ (5)_1820.jpg
-    offsetWidth: '3'
+  - colWidth: '12'
+    image: /images/uploads/elevator-detail_1820_cropped.jpg
     type: image
-  - colWidth: '9'
-    image: /images/uploads/ELEVATORS_ (6)_1820.jpg
-    offsetWidth: '3'
+  - pullQuote: quote
+    type: quote
+  - colWidth: '10'
+    image: /images/uploads/elevators_-2-_cropped.jpg
     type: image
 ---
 The elevator is perhaps the most constrained space we design, limited not only in its dimension but also by weight restrictions, durability concerns, and maintenance requirements. It is also an often overlooked opportunity to be a more compelling experience as part of the building lobby or just by itself. A decade-long collaboration with the architectural products company Elevecture™ has resulted in design investigations that have challenged not only the forms in elevator cab and lobby design but also the concept of surface and interaction.

@@ -41,7 +41,7 @@ projectGallery:
     image: /images/uploads/5.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/4.jpg
+    image: /images/uploads/4_cropped.jpg
     type: image
   - pullQuote: quote
     type: quote

@@ -23,7 +23,7 @@ projectGallery:
     image: /images/uploads/BOATBOX_ (1)_1820.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/BOATBOX_ (8)_1820.jpg
+    image: /images/uploads/boatbox_-8-_1820.jpg
     offsetWidth: '2'
     type: image
   - pullQuote: quote

@@ -13,6 +13,7 @@ featured:
   featuredOrder: 7
   featuredDescription: this is the text of the featured description
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/ward-road_-15-_1160x1740.jpg
   isFeatured: true

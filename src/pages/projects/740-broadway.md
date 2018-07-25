@@ -14,6 +14,7 @@ featured:
   featuredOrder: 4
   featuredDescription: this is the text of the featured description
   featuredImage:
+    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/740-broadway_lobby_-6.1-_1160x1740.jpg
   isFeatured: true

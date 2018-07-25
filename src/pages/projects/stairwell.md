@@ -7,19 +7,19 @@ seo:
   image: /images/uploads/STAIR-WELL_index.jpg
   title: EMBRACE THE CORE
 templateKey: project-page
-title: Stair-well Housing
+title: Embrace the Core
 type: commercial
 heroImage:
   image: /images/uploads/STAIRWELL_PH_1.jpg
 headline: EMBRACE THE CORE
 featured:
   featuredDescription: >-
-    A modular stack of affordable housing units which incorporate a stair. As
-    the units stack, the stair core is created.
+    Stair-well housing proposes modular affordable housing units which
+    incorporate a stair. As the units stack, the stair core is created.
   featuredImage:
-    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/stair-well_-8-_1160x1740.jpg
+    isPortrait: true
   featuredOrder: 1
   isFeatured: true
 previewImage:
@@ -34,9 +34,6 @@ infoObject:
 primaryImage:
   image: /images/uploads/stair-well_-9-cropped_1820.jpg
 projectGallery:
-  - caption: diagramming the stack as a double-wide
-    image: ''
-    type: image
   - caption: The micro-unit interior with kitchen and fold-down table
     colWidth: '9'
     image: /images/uploads/STAIR-WELL_ (10)_1820.jpg

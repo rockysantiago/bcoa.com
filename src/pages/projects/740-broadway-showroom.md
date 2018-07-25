@@ -7,14 +7,14 @@ templateKey: project-page
 title: 740 Broadway Showroom
 type: residential
 heroImage:
-  image: /images/uploads/740_BROADWAY_SHOWROOM_PH.jpg
+  image: /images/uploads/3.jpg
 featured:
-  featuredOrder: 8
   featuredDescription: this is the text of the featured description
   featuredImage:
-    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/740-broadway_showroom_-4-_1160x1547.jpg
+    isPortrait: true
+  featuredOrder: 8
   isFeatured: true
 previewImage:
   image: /images/uploads/740 BROADWAY_SHOWROOM_index_3.jpg
@@ -28,29 +28,25 @@ infoObject:
   - description: Avec
     title: SHOWROOM IDENTITY
 primaryImage:
-  image: /images/uploads/740-broadway_showroom_-10-_1820.jpg
+  image: /images/uploads/6.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/740-broadway_showroom_-6-cropped.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/740 BROADWAY_SHOWROOM_ (3)_1820.jpg
+    image: /images/uploads/1.jpg
     offsetWidth: '2'
     type: image
   - colWidth: '6'
-    image: /images/uploads/740-broadway_showroom_-7-cropped.jpg
-    offsetWidth: '0'
+    image: /images/uploads/5.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/740-broadway_showroom_-5-.jpg
+    image: /images/uploads/4_cropped.jpg
     type: image
   - pullQuote: quote
     type: quote
-  - colWidth: '6'
-    image: /images/uploads/img_7830.jpg
-    type: image
-  - colWidth: '6'
-    image: /images/uploads/740-broadway_showroom_-8-cropped_1820.jpg
+  - colWidth: '12'
+    image: /images/uploads/2.jpg
     type: image
 ---
 Objective — to design a think tank showroom for exhibiting the

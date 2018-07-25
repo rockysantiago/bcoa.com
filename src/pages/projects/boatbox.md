@@ -6,7 +6,8 @@ title: Boatbox
 type: commercial
 heroImage:
   image: /images/uploads/BOATBOX_ (3)_1820.jpg
-previewImage: {}
+previewImage:
+  image: /images/uploads/BOATBOX_index.jpg
 infoObject:
   - description: PortSide New York via DesigNYC
     title: CLIENT

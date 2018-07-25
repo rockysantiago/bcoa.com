@@ -8,18 +8,18 @@ title: 740 Broadway
 workDescription: Broadway description
 type: residential
 heroImage:
-  image: /images/uploads/740-broadway_lobby_ph.jpg
+  image: /images/uploads/740-broadway_lobby_-10-.jpg
 headline: Light Folds
 featured:
-  featuredOrder: 4
   featuredDescription: this is the text of the featured description
   featuredImage:
-    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/740-broadway_lobby_-6.1-_1160x1740.jpg
+    isPortrait: true
+  featuredOrder: 4
   isFeatured: true
 previewImage:
-  image: /images/uploads/740-broadway_lobby_index.jpg
+  image: /images/uploads/2.jpg
 infoObject:
   - description: Newmark Holdings
     title: Client
@@ -28,20 +28,17 @@ infoObject:
   - description: Completed
     title: Status
 primaryImage:
-  image: /images/uploads/740-broadway_lobby_-6.1-_1820.jpg
+  image: /images/uploads/1.jpg
 projectGallery:
   - colWidth: '8'
-    image: /images/uploads/740-broadway_lobby_-8-.jpg
+    image: /images/uploads/740-broadway_lobby_-8-_1820_cropped.jpg
     type: image
-  - colWidth: '8'
-    image: /images/uploads/740-broadway_lobby_-7-cropped_1820.jpg
-    type: image
-  - colWidth: '4'
-    image: /images/uploads/740-broadway_lobby_-9-cropped.jpg
-    offsetWidth: '0'
+  - colWidth: '12'
+    image: /images/uploads/2.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/740-broadway_lobby_-8-_3140.jpg
+    offsetWidth: '1'
     type: image
   - pullQuote: quote
     type: quote
@@ -49,7 +46,7 @@ projectGallery:
     image: /images/uploads/740-broadway_lobby_-3-.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/740-broadway_lobby_-4-cropped_1820.jpg
+    image: /images/uploads/3.jpg
     type: image
 ---
 A very progressive, future-focused client asked BC-OA to design a complete modernization to this century old lobby utilizing the glass panel and display material palette utilized at the Reflect Showroom. The contrast between the historic facade and contemporary, technologically sophisticated interior reflects the adaptability of historic architecture in New

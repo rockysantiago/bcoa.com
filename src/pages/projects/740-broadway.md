@@ -1,5 +1,4 @@
 ---
-isPublished: true
 seo:
   description: Test description
   image: /images/uploads/placeholder.jpg

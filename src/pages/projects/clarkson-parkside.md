@@ -17,7 +17,7 @@ featured:
   featuredOrder: 9
   isFeatured: true
 previewImage:
-  image: /images/uploads/lobby-stair.jpg
+  image: /images/uploads/clarkson-parkside_index.jpg
 infoObject:
   - description: Aspen Equities Brooklyn NY
     title: Client

@@ -14,5 +14,7 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/10 Astor_ (3)_1820.jpg
     type: image
+  - image: /images/uploads/ZHUHAI_ (1)_1820.jpg
+    type: image
 ---
 

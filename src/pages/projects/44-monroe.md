@@ -35,7 +35,7 @@ projectGallery:
     image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_013.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_022.jpg
+    image: /images/uploads/44-monroe_-6-_1160_cropped.jpg
     type: image
   - pullQuote: quote
     type: quote

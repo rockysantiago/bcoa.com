@@ -40,7 +40,7 @@ projectGallery:
     offsetWidth: '0'
     type: image
   - colWidth: '4'
-    image: /images/uploads/railing-1_cropped.jpg
+    image: /images/uploads/railing-1_1160_cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/CLARKSON PARKSIDE_ (19)_1820.jpg

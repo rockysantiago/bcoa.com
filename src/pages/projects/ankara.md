@@ -38,10 +38,10 @@ projectGallery:
     offsetWidth: '2'
     type: image
   - colWidth: '6'
-    image: /images/uploads/ankara-hotel_-1-cropped_1820.jpg
+    image: /images/uploads/ankara-hotel_-1-_1820_cropped.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/ankara-hotel_-2-cropped_1820.jpg
+    image: /images/uploads/ankara-hotel_-2-_1820_cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/ANKARA HOTEL_ (4)_1820.jpg
@@ -50,8 +50,6 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/ANKARA HOTEL_ (30)_1820.jpg
     type: image
-  - pullQuote: quote
-    type: quote
 ---
 The guest tower has been developed as an iconic form at the preeminent south-east corner of the property. The tower anchors the podium development and creates a strong monolithic element at the highway intersection with long distance visibility.
 

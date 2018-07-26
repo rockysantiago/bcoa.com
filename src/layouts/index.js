@@ -68,6 +68,7 @@ export default class TemplateWrapper extends Component {
   componentDidUpdate(prevProps) {
     if(this.props.location.pathname !== prevProps.location.pathname) {
       this.initHeroObserver();
+      this.setState({menuOpen: false});
     }
   }
 
@@ -78,6 +79,12 @@ export default class TemplateWrapper extends Component {
   toggleMenu = () => {
     const screenHeight = window.innerHeight;
     this.state.menuOpen ? this.setState({ menuOpen: false, navHeight: screenHeight }) : this.setState({ menuOpen: true, navHeight: screenHeight });
+  }
+
+  handleMenuButtonClick = (path) => {
+    if (this.props.location.pathname === path) {
+      this.setState({ menuOpen: false})
+    }
   }
 
   updateDimensions = () => {
@@ -114,6 +121,7 @@ export default class TemplateWrapper extends Component {
         <Headroom>
           <HeaderNav  visible=        { this.state.menuOpen }
                       toggleMenu=     { this.toggleMenu }
+                      handleMenuButtonClick=     { this.handleMenuButtonClick }
                       isWindowLarge=  { this.state.isWindowLarge }
                       menuBackground= { menuBackground }
                       navHeight=      { this.state.navHeight }

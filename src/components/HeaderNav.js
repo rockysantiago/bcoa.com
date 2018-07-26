@@ -2,25 +2,25 @@ import React, { Fragment } from 'react';
 import Link from "gatsby-link";
 import { icons } from "./Icons";
 
-const Menu = ({ visible, menuBG, toggleMenu, navHeight }) => (
+const Menu = ({ visible, menuBG, toggleMenu, navHeight, handleMenuButtonClick }) => (
   <nav  className={`menu f-navigation ${visible ? 'visible' : ''}`}
         style={{ backgroundImage: `url("${menuBG}")`, height: `${navHeight}px` }}
   >
     <ul className="c-white">
       <li>
-        <Link to="/#featured" onClick={toggleMenu}>Featured</Link>
+        <Link to="/#featured" onClick={() => handleMenuButtonClick('/#featured')}>Featured</Link>
       </li>
       <li>
-        <Link to="/work" onClick={toggleMenu}>Index</Link>
+        <Link to="/work" onClick={() => handleMenuButtonClick('/work')}>Index</Link>
       </li>
       <li>
-        <Link to="/news" onClick={toggleMenu}>News</Link>
+        <Link to="/news" onClick={() => handleMenuButtonClick('/news')}>News</Link>
       </li>
       <li>
-        <Link to="/about" onClick={toggleMenu}>About</Link>
+        <Link to="/about" onClick={() => handleMenuButtonClick('/about')}>About</Link>
       </li>
       <li>
-        <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+        <Link to="/contact" onClick={() => handleMenuButtonClick('/contact')}>Contact</Link>
       </li>
     </ul>
   </nav>
@@ -30,7 +30,7 @@ const headerLogoClick = (visible, toggleMenu) => {
   if (visible) { toggleMenu() };
 }
 
-export default ({ visible, toggleMenu, isWindowLarge, menuBackground, navHeight }) => {
+export default ({ visible, toggleMenu, isWindowLarge, menuBackground, navHeight, handleMenuButtonClick }) => {
   const headerLogo = (isWindowLarge === undefined) ? "" : isWindowLarge ? icons.menuLogoLarge : icons.menuLogoSmall
   return (
     <div>
@@ -47,7 +47,7 @@ export default ({ visible, toggleMenu, isWindowLarge, menuBackground, navHeight 
           </div>
         </div>
       </header>
-      <Menu visible={visible} menuBG={menuBackground} toggleMenu={toggleMenu} navHeight={navHeight} />
+      <Menu visible={visible} menuBG={menuBackground} toggleMenu={toggleMenu} navHeight={navHeight} handleMenuButtonClick={handleMenuButtonClick} />
     </div>
   )
 }

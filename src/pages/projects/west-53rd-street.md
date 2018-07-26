@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: West 53rd Street
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: West 53rd Street
 type: residential
 heroImage:
   image: /images/uploads/W 53RD ST_PH_3.jpg
@@ -31,7 +31,7 @@ projectGallery:
     image: /images/uploads/W 53RD ST_ (13)_1820.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/W 53RD ST_ (17)_1820.jpg
+    image: /images/uploads/W 53RD ST_ (18)_1820.jpg
     offsetWidth: '2'
     type: image
   - colWidth: '6'
@@ -46,7 +46,7 @@ projectGallery:
     pullQuote: quote
     type: quote
   - colWidth: '6'
-    image: /images/uploads/1017_03-cropped.jpg
+    image: /images/uploads/w-53rd-st_-8-_1820_cropped.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '6'

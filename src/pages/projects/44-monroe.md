@@ -25,17 +25,17 @@ primaryImage:
   image: /images/uploads/dsc_7604-editcropped.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/44 MONROE_ (3)_1820.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_009.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/44 MONROE_ (22)_1820.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_017.jpg
     offsetWidth: '4'
     type: image
   - colWidth: '8'
-    image: /images/uploads/44 MONROE_ (21)_1820.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_013.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_022cropped.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_022.jpg
     type: image
   - pullQuote: quote
     type: quote

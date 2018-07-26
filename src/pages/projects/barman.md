@@ -34,10 +34,10 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '6'
-    image: /images/uploads/barman_-23-_1820.jpg
+    image: /images/uploads/barman_-23-_1820_cropped.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/barman_-11-cropped_1820.jpg
+    image: /images/uploads/barman_-11-_1820.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/BARMAN_ (10)_1820.jpg

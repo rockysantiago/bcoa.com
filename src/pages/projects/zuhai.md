@@ -6,5 +6,9 @@ title: ZUHAI
 type: residential
 heroImage:
   image: /images/uploads/ZHUHAI_ (6)_1820.jpg
+primaryImage:
+  alt: test
+  caption: test
+  image: /images/uploads/10 Astor_ (4)_1820.jpg
 ---
 

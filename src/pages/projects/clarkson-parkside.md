@@ -13,11 +13,11 @@ featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
     alt: this is the alt text
-    image: /images/uploads/clarkson-parkside_-19-_1820x1024.jpg
+    image: /images/uploads/clarkson-parkside-lobby-stair_1820x1024.jpg
   featuredOrder: 9
   isFeatured: true
 previewImage:
-  image: /images/uploads/lobby-stair.jpg
+  image: /images/uploads/clarkson-parkside_index.jpg
 infoObject:
   - description: Aspen Equities Brooklyn NY
     title: Client

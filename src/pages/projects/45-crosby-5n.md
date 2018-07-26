@@ -44,10 +44,10 @@ projectGallery:
     image: /images/uploads/Crosby_5N_C.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/45-crosby_5n_promo-plan.jpg
+    image: /images/uploads/crosby-5n_promotional-plan.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/45 CROSBY_5N_ (5)_1820.jpg
+    image: /images/uploads/45-crosby_5n_-5-_1820_cropped.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '6'

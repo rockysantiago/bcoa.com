@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: 45 Crosby Lobby
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: 45 Crosby Lobby
 type: residential
 heroImage:
   image: /images/uploads/45CROSBY_LOBBY_PH_2.jpg
@@ -30,10 +30,10 @@ projectGallery:
     offsetWidth: '2'
     type: image
   - colWidth: '8'
-    image: /images/uploads/45 CROSBY_LOBBY_ (9)_1820.jpg
+    image: /images/uploads/45-crosby_lobby_-9-_2480_cropped.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/crosby-lobby-cropped.jpg
+    image: /images/uploads/45-crosby_lobby_-10-_1160_cropped.jpg
     type: image
   - pullQuote: quote
     type: quote
@@ -42,13 +42,13 @@ projectGallery:
     offsetWidth: '2'
     type: image
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_LOBBY_ (5)_1820.jpg
+    image: /images/uploads/45-crosby_lobby_-5-_1160_cropped.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_LOBBY_ (14)_1820.jpg
+    image: /images/uploads/45-crosby_lobby_-14-_1160_cropped.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_LOBBY_ (2)_1820.jpg
+    image: /images/uploads/45-crosby_lobby_-2-_1160_cropped.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/45 CROSBY_LOBBY_ (6)_1820.jpg

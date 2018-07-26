@@ -50,10 +50,10 @@ projectGallery:
     image: /images/uploads/44 MONROE_ (23)_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/44 MONROE_ (14)_1820.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_010.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/44 MONROE_ (15)_1820.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_006.jpg
     offsetWidth: '6'
     type: image
 ---

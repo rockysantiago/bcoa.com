@@ -45,18 +45,18 @@ projectGallery:
     type: quote
   - caption: Floatation room - pod style
     colWidth: '6'
-    image: /images/uploads/LIFT_BROOKLYN_ (3)_1820.jpg
+    image: /images/uploads/lift_brooklyn_-3-_1820_cropped.jpg
     type: image
   - caption: Floation room - tank style
     colWidth: '6'
-    image: /images/uploads/lift_brooklyn_-2-cropped_1820.jpg
+    image: /images/uploads/lift_brooklyn_-2-_1820_cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/lift_brooklyn_promo-plan_cropped.png
     offsetWidth: '2'
     type: image
   - colWidth: '4'
-    image: /images/uploads/lift_brooklyn_-5-cropped_1820.jpg
+    image: /images/uploads/lift_brooklyn_-5-_1160_cropped.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/LIFT_BROOKLYN_ (8)_1820.jpg

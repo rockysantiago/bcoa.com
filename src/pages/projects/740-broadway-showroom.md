@@ -7,7 +7,7 @@ templateKey: project-page
 title: 740 Broadway Showroom
 type: residential
 heroImage:
-  image: /images/uploads/3.jpg
+  image: /images/uploads/3-bs.jpg
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
@@ -34,19 +34,19 @@ projectGallery:
     image: /images/uploads/740-broadway_showroom_-6-cropped.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/1.jpg
+    image: /images/uploads/1-bs_cropped.jpg
     offsetWidth: '2'
     type: image
   - colWidth: '6'
     image: /images/uploads/5.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/4_cropped.jpg
+    image: /images/uploads/4-bs_cropped.jpg
     type: image
   - pullQuote: quote
     type: quote
   - colWidth: '12'
-    image: /images/uploads/2.jpg
+    image: /images/uploads/2-bs.jpg
     type: image
 ---
 Objective — to design a think tank showroom for exhibiting the

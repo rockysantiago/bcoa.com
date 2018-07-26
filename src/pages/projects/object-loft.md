@@ -9,7 +9,7 @@ workDescription: Work description text
 type: residential
 heroImage:
   alt: ALT TEXT NEEDS INPUT
-  image: /images/uploads/object-loft_-12-_1820_cropped.jpg
+  image: /images/uploads/object-loft_-12-_3800.jpg
 headline: 'objects, functional by design'
 previewImage:
   image: /images/uploads/index_copyright_barkow_photo_6363.jpg
@@ -33,10 +33,10 @@ projectGallery:
     offsetWidth: '4'
     type: image
   - colWidth: '8'
-    image: /images/uploads/object-loft_-4-_1820_cropped.jpg
+    image: /images/uploads/object-loft_-4-_2480_cropped.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/object-loft_-3-_1820_cropped.jpg
+    image: /images/uploads/object-loft_-3-_1160_cropped.jpg
     type: image
   - colWidth: '12'
     image: /images/uploads/object-loft_promo-plan_1820_cropped.jpg

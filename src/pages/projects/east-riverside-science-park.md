@@ -31,6 +31,10 @@ projectGallery:
     image: /images/uploads/science1-popup_4cc1eddb9f08b.jpg
     offsetWidth: '0'
     type: image
+  - colWidth: '10'
+    image: /images/uploads/img_6345.jpg
+    offsetWidth: '2'
+    type: image
   - colWidth: '4'
     image: /images/uploads/east-river-science-park_-5-_1160_cropped.jpg
     type: image
@@ -38,13 +42,13 @@ projectGallery:
     image: /images/uploads/east-river-science-park_-13-_2480_cropped.jpg
     offsetWidth: '0'
     type: image
-  - colWidth: '11'
-    image: /images/uploads/page01-copy.jpg
+  - colWidth: '10'
+    image: /images/uploads/east-riverside-science-park-drawings_1820_cropped.jpg
     offsetWidth: '1'
     type: image
   - pullQuote: quote
     type: quote
-  - colWidth: '6'
+  - colWidth: '10'
     image: /images/uploads/4th-annual-giving-gracefully-awards-super-dnea6uotjyzl.jpg
     offsetWidth: '0'
     type: image

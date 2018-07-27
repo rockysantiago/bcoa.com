@@ -12,9 +12,6 @@ if (typeof window !== `undefined`) {
   require("intersection-observer");
 }
 
-// import * require('intersection-observer');
-// import "intersection-observer";
-
 export default class TemplateWrapper extends Component {
 
   constructor(props) {
@@ -53,7 +50,7 @@ export default class TemplateWrapper extends Component {
   }
 
   initHeroObserver = () => {
-    this.hero = this.main.querySelector('.hero');
+    this.hero = this.main.querySelector('.hero') || this.main.querySelector('.projectHero');
     if(this.hero) {
       this.createObserver();
     }

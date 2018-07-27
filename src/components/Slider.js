@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import Slider from "react-slick";
 import slugify from "slugify";
 import { icons } from "./Icons";
-// import remark from "remark";
-// import recommended from "remark-preset-lint-recommended";
-// import remarkHtml from "remark-html";
 
 const PrevArrow = ({ onClick }) => (
   <div className="container slick-container">
@@ -56,7 +53,7 @@ export default class HeroSlider extends Component {
                 <div className="slide-info">
                   <a className="marginBottom-4 block" href={`projects/${slugify(slide.project, { lower: true })}`}>
                     <p>{slide.title}</p>
-                    {slide.subtitle}
+                    <p>{slide.subtitle}</p>
                   </a>
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
@@ -67,8 +64,10 @@ export default class HeroSlider extends Component {
             <div className="slide c-white" key={`slide-${i}`}>
               <div className="container slick-container">
                 <div className="slide-info">
-                  <p>{slide.title}</p>
-                  {slide.subtitle}
+                  <div className="marginBottom-4">
+                    <p>{slide.title}</p>
+                    <p>{slide.subtitle}</p>
+                  </div>
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
               </div>

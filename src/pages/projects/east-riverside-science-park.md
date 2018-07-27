@@ -1,10 +1,10 @@
 ---
-templateKey: project-page
-title: East Riverside Science Park
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: East Riverside Science Park
 type: residential
 heroImage:
   image: /images/uploads/east-riverside-science-park_ph.jpg
@@ -25,23 +25,27 @@ infoObject:
   - description: Luigi Ciaccia
     title: KEY PERSONNEL
 primaryImage:
-  image: /images/uploads/p1230779.jpg
+  image: /images/uploads/wintergarden.jpg
 projectGallery:
-  - colWidth: '6'
-    image: /images/uploads/EAST RIVER SCIENCE PARK_ (17)_1820.jpg
+  - colWidth: '10'
+    image: /images/uploads/science1-popup_4cc1eddb9f08b.jpg
+    offsetWidth: '0'
     type: image
-  - colWidth: '12'
-    image: /images/uploads/img_6345.jpg
-    type: image
-  - colWidth: '12'
-    image: /images/uploads/EAST RIVER SCIENCE PARK_ (8)_1820.jpg
+  - colWidth: '4'
+    image: /images/uploads/east-river-science-park_-5-_1160_cropped.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/4th-annual-giving-gracefully-awards-super-dnea6uotjyzl.jpg
-    offsetWidth: '4'
+    image: /images/uploads/east-river-science-park_-13-_2480_cropped.jpg
+    offsetWidth: '0'
     type: image
-  - colWidth: '12'
-    image: /images/uploads/EAST RIVER SCIENCE PARK_ (10)_1820.jpg
+  - colWidth: '11'
+    image: /images/uploads/page01-copy.jpg
+    offsetWidth: '1'
+    type: image
+  - pullQuote: quote
+    type: quote
+  - colWidth: '6'
+    image: /images/uploads/4th-annual-giving-gracefully-awards-super-dnea6uotjyzl.jpg
     offsetWidth: '0'
     type: image
 ---

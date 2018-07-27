@@ -40,7 +40,7 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '12'
-    image: /images/uploads/44-monroe_promo-plan.jpg
+    image: /images/uploads/44-monroe-floorplan-hq.jpg
     offsetWidth: '1'
     type: image
   - colWidth: '4'

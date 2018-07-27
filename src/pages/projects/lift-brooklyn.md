@@ -52,7 +52,7 @@ projectGallery:
     image: /images/uploads/lift_brooklyn_-2-_1820_cropped.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/lift_brooklyn_promo-plan_cropped.png
+    image: /images/uploads/lift-brooklyn-floorplan-hq.jpg
     offsetWidth: '2'
     type: image
   - colWidth: '4'

@@ -12,7 +12,7 @@
 
 const indexOrder = [
   "micro-cabin",
-  "17-thompson",
+  "17-thomson",
   "object-loft",
   "17-west-71st-street",
   "lift-brooklyn",

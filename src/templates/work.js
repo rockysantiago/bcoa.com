@@ -1,8 +1,9 @@
 import React, {Component} from "react";
 import Link from "gatsby-link";
-import Img from 'gatsby-image'
+import Img from 'gatsby-image';
 import ProjectFilter from '../components/ProjectFilter';
 import SEO from "../components/SEO";
+import indexOrder from "../_data/indexOrder";
 
 export default class Work extends Component {
   constructor(props) {
@@ -27,6 +28,15 @@ export default class Work extends Component {
   render() {
     const page = this.props.data.page.frontmatter;
     const projects = this.props.data.projects.edges;
+    const slugs = projects.map(({node: project}) => (project.fields.slug).substr(10).slice(0, -1));
+    const newOrder = indexOrder.map(slug => {
+      console.log(slug);
+      return projects[slugs.indexOf(slug)];
+    })
+    // console.log(newOrder);
+    // console.log(slugs);
+    // console.log(projects);
+    // console.log(indexOrder);
     return (
       <div className="container
                       marginBottom-11
@@ -50,7 +60,7 @@ export default class Work extends Component {
         </div>
         <ul className={`${this.state.inTransition ? 'inTransition' : '' } bp-1_grid-3col bp-2_grid-4col`}>
           { projects &&
-            projects.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
+            newOrder.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
               return (
                 <li key={i}>
                   <article className="workProject">

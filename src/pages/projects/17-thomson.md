@@ -32,10 +32,10 @@ projectGallery:
     image: /images/uploads/17-thompson_promo-plan_1820_cropped.jpg
     type: image
   - colWidth: '4'
-    image: /images/uploads/17-thompson_-6-cropped_1820.jpg
+    image: /images/uploads/17-thompson_-6-_1160_cropped.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/17-thompson_-16-_1820_cropped.jpg
+    image: /images/uploads/17-thompson_-16-_2480_cropped.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/17 THOMPSON_ (11)_1820.jpg

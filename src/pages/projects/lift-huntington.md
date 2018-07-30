@@ -30,7 +30,7 @@ projectGallery:
     image: /images/uploads/LIFT_HUNTINGTON_ (16)_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/LIFT_HUNTINGTON_PROMO PLAN_1820.jpg
+    image: /images/uploads/lift_huntington_promo-plan_3800_cropped.jpg
     type: image
   - pullQuote: quote
     type: quote

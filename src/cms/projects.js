@@ -29,16 +29,6 @@ export default (props) => {
       }
     }
   })
-  // console.log(projectGallery);
-  // console.log(projectGallery[0]);
-  // let firstGalleryImage;
-  // if (projectGallery[0].getIn(['data', 'type']) === 'image') {
-  //   firstGalleryImage = {
-  //     colWidth: projectGallery[0].getIn(['data', 'colWidth']),
-  //   };
-  // }
-  console.log(firstGalleryImage);
-  console.log(firstGalleryImage.colWidth);
 
   return (
     <div>

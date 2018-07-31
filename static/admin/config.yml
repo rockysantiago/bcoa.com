@@ -152,6 +152,7 @@ collections:
       - label: SEO
         name: seo
         widget: object
+        required: false
         fields: 
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
@@ -261,7 +262,7 @@ collections:
             name: "colWidth"
             widget: "select"
             options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
-            default: "12"
+            default: "1"
             condition: 
               field: type
               value: image

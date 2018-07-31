@@ -11,6 +11,7 @@
 //create array below...Umm
 
 const indexOrder = [
+  "testing",
   "micro-cabin",
   "17-thomson",
   "object-loft",

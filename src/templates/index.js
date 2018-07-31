@@ -39,7 +39,7 @@ const renderFeaturedProjects = (projects) => {
               <h1 className=" f-headline-d
                               marginBottom-5
                               bp-2_marginBottom-10">
-                { project.frontmatter.headline } &#8212;
+                { project.frontmatter.headline }&nbsp;&#8212;
               </h1>
               <div className="f-subhead
                               marginBottom-12

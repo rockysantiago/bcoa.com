@@ -8,7 +8,7 @@ title: Clarkson Parkside
 type: residential
 heroImage:
   image: /images/uploads/updated-lobby.jpg
-headline: 'Clark-side ground up '
+headline: 'Clark-side ground up'
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:

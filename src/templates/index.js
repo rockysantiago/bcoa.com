@@ -8,9 +8,9 @@ import SEO from "../components/SEO";
 const FeaturedProjectImage = ({ image, className }) => {
   return (
     <Img
-      sizes={ image }
-      outerWrapperClassName={className}
-      className={`marginBottom-5 bp-1_marginBottom-6 bp-2_marginBottom-9 ${className}`}
+    sizes={ image }
+    outerWrapperClassName={className}
+    className={`marginBottom-5 bp-1_marginBottom-6 bp-2_marginBottom-9 ${className}`}
     />
   )
 }
@@ -23,18 +23,18 @@ const renderFeaturedProjects = (projects) => {
   return (
     featured.map(({node: project}, i) => {
       return (
-      <li className='bp-1_masonry-child-2col' key={i}>
+        <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">
           <Link to={ project.fields.slug }>
           { project.frontmatter.featured.featuredImage.isPortrait
           ?
-            <div className="nestedGrid-6-2">
+          <div className="nestedGrid-6-2">
               <div className="colSpan-1"></div>
               <FeaturedProjectImage className="colSpan-4" image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
             </div>
           :
-            <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
-          }
+          <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
+        }
             <div className="featured-info">
               <h1 className=" f-headline-d
                               marginBottom-5
@@ -45,7 +45,7 @@ const renderFeaturedProjects = (projects) => {
                               marginBottom-12
                               bp-1_marginBottom-14
                               bp-2_marginBottom-30"
-              >
+                              >
                 <p>{project.frontmatter.featured.featuredDescription}</p>
                 <p className="underline">Read More</p>
               </div>
@@ -58,7 +58,7 @@ const renderFeaturedProjects = (projects) => {
 }
 
 export default class Index extends Component {
-
+  
   componentWillUpdate(nextProps) {
     if ((this.props.location.hash !== nextProps.location.hash) && nextProps.location.hash === "#featured") {
       setTimeout(() => {
@@ -66,7 +66,7 @@ export default class Index extends Component {
       }, 100);
     }
   }
-
+  
   render() {
     const edges = this.props.data.projects.edges;
     const projects = edges.filter(
@@ -75,17 +75,17 @@ export default class Index extends Component {
       edge.node.frontmatter.featured
     );
     const seo = this.props.data.page.frontmatter.seo;
-  
+    
     return (
       <div>
         <SEO
           postImage={this.props.data.page.frontmatter.seo.image.childImageSharp.sizes.src}
           postData={this.props.data.page.frontmatter}
-        />
+          />
         <Slider 
           className="hero" 
           slides={ this.props.data.page.frontmatter.carouselImages } 
-        />
+          />
         <div ref={(el) => { if (el) { this.content = el } }} className="container overflow--hidden">
           <h2 className=" f-page-title
                           marginTop-8 marginBottom-7
@@ -95,15 +95,15 @@ export default class Index extends Component {
           </h2>
           {(this.props.isWindowLarge
             ?
-              <Masonry
-                className={'masonry'}
-                elementType={'ul'}
-                options={{ transitionDuration: 0 }}
-              >
+            <Masonry
+            className={'masonry'}
+            elementType={'ul'}
+            options={{ transitionDuration: 0 }}
+            >
                 { renderFeaturedProjects(projects) }
               </Masonry>
             :
-              renderFeaturedProjects(projects)
+            renderFeaturedProjects(projects)
           )}
         </div>
       </div>

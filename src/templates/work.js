@@ -30,13 +30,8 @@ export default class Work extends Component {
     const projects = this.props.data.projects.edges;
     const slugs = projects.map(({node: project}) => (project.fields.slug).substr(10).slice(0, -1));
     const newOrder = indexOrder.map(slug => {
-      // console.log(slug);
       return projects[slugs.indexOf(slug)];
     })
-    // console.log(newOrder);
-    // console.log(slugs);
-    // console.log(projects);
-    // console.log(indexOrder);
     return (
       <div className="container
                       marginBottom-11

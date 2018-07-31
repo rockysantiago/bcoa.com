@@ -76,7 +76,7 @@ export default (props) => {
 
           {primaryImg &&
             <div className={`project-primaryImage colSpan-6 bp-1_marginTop-1 bp-2_marginTop-3`}>
-              <ProjectImage className={firstGalleryImage.colWidth > 6 ? '' : 'absolute'} key='primary-image' imageData={primaryImg} />
+              <ProjectImage className={firstGalleryImage && firstGalleryImage.colWidth > 6 ? '' : 'absolute'} key='primary-image' imageData={primaryImg} />
             </div>
           }
         </div>

@@ -1,4 +1,5 @@
 ---
+isPublished: true
 seo:
   description: Testing DESC
   image: /images/uploads/placeholder.jpg

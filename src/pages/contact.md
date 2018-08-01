@@ -9,8 +9,6 @@ heroImage:
   alt: this is the contact hero image
   image: /images/uploads/Landscape_3X4.png
 message: >-
-  Raw denim subway tile skateboard, thundercats cliche before they sold out
-  crucifix keffiyeh taxidermy aesthetic artisan mumblecore butcher offal
-  distillery.
+  Find us in Williamsburg where we search for the best eats, watch the world go by on the BQE, drink wine on the roof, ride our bikes to site visits, ride the L train while it lasts, drink coffee, fight about door details, resolve, do and build.
 ---
 

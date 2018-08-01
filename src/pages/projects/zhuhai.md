@@ -19,6 +19,12 @@ projectGallery:
     image: /images/uploads/ZHUHAI_ (14)_1820.jpg
     offsetWidth: '2'
     type: image
+  - colWidth: '6'
+    image: /images/uploads/zhuhai_-8-_1820_cropped.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/zhuhai_-7-_1820_cropped.jpg
+    type: image
   - pullQuote: quote
     type: quote
   - colWidth: '12'

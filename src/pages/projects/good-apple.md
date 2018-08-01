@@ -21,5 +21,18 @@ projectGallery:
     type: image
   - pullQuote: quote
     type: quote
+  - colWidth: '12'
+    image: /images/uploads/good-apple_promo-plan.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/good-apple_-2-_1820_cropped.jpg
+    type: image
+  - colWidth: '6'
+    image: /images/uploads/good-apple_-8-_1820_cropped.jpg
+    type: image
+  - colWidth: '10'
+    image: /images/uploads/171031_final_kitchen_.0004_1820_cropped.jpg
+    offsetWidth: '2'
+    type: image
 ---
 

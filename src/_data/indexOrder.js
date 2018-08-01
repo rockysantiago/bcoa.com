@@ -5,7 +5,7 @@ add toggle to project (published)
   --default to true ***
   --publish their drafts
   --remove workflow(config.yml)
-  --make sure on every project
+  --make sure on every project ***
   --change queries to filter by published (true or false)
     -->index(home).js and work.js
     -->will that unpublish the slug???

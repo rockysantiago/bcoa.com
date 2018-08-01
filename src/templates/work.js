@@ -88,7 +88,7 @@ export default class Work extends Component {
 export const query = graphql`
   query WorkQuery($slug: String!) {
     projects: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { regex: "/project-page/" }, isPublished: { regex: "true" } } }
+      filter: { frontmatter: { templateKey: { regex: "/project-page/" } } }
     ) {
       edges {
         node {

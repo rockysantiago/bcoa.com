@@ -138,7 +138,6 @@ export const query = graphql`
       }
     }
     projects: allMarkdownRemark(
-      filter: { frontmatter: { isPublished: { regex: "true" } } }
       sort: { fields: [frontmatter___date], order: ASC }
     ) {
       edges {

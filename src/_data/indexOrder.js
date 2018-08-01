@@ -1,14 +1,16 @@
+
 /* 
-  - create array in JS of all project titles(or some id --> slug) -- manually! XX
-  - instead of looping projects on index(work)...
-      ...map through project titles array created in JSON X
-  - use slug to find project
-    --> on every map iteration, find project from graphQL array, look at slug, return the array
 
-  -- Look at array.indexOf() --
+add toggle to project (published)
+  --default to true ***
+  --publish their drafts
+  --remove workflow(config.yml)
+  --make sure on every project
+  --change queries to filter by published (true or false)
+    -->index(home).js and work.js
+    -->will that unpublish the slug???
+
 */
-
-//create array below...Umm
 
 const indexOrder = [
   "testing",

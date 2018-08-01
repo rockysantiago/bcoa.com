@@ -20,7 +20,7 @@ export default class TemplateWrapper extends Component {
       menuOpen: false,
       layerIncrement: 0,
     };
-    this.animationInterval = setInterval(this.animateFooterLogo, 2000);
+    // this.animationInterval = setInterval(this.animateFooterLogo, 2000);
     this.fixedLogo = React.createRef();
   }
 
@@ -66,6 +66,8 @@ export default class TemplateWrapper extends Component {
     if(this.props.location.pathname !== prevProps.location.pathname) {
       this.initHeroObserver();
       this.setState({menuOpen: false});
+    } else if (this.props.location.hash !== prevProps.location.hash) {
+      this.setState({menuOpen: false});
     }
   }
 
@@ -78,9 +80,15 @@ export default class TemplateWrapper extends Component {
     this.state.menuOpen ? this.setState({ menuOpen: false, navHeight: screenHeight }) : this.setState({ menuOpen: true, navHeight: screenHeight });
   }
 
-  handleMenuButtonClick = (path) => {
-    if (this.props.location.pathname === path) {
+  handleMenuButtonClick = (e, path) => {
+    const location = this.props.location;
+    if (location.pathname === path) {
       this.setState({ menuOpen: false})
+      e.preventDefault();
+    }
+    if (location.hash === path.substring(1)) {
+      this.setState({ menuOpen: false})
+      e.preventDefault();
     }
   }
 

@@ -8,19 +8,19 @@ const Menu = ({ visible, menuBG, toggleMenu, navHeight, handleMenuButtonClick })
   >
     <ul className="c-white">
       <li>
-        <Link to="/#featured" onClick={() => handleMenuButtonClick('/#featured')}>Featured</Link>
+        <Link to="/#featured" onClick={(e) => handleMenuButtonClick(e, '/#featured')}>Featured</Link>
       </li>
       <li>
-        <Link to="/work" onClick={() => handleMenuButtonClick('/work')}>Index</Link>
+        <Link to="/work" onClick={(e) => handleMenuButtonClick(e, '/work')}>Index</Link>
       </li>
       <li>
-        <Link to="/news" onClick={() => handleMenuButtonClick('/news')}>News</Link>
+        <Link to="/news" onClick={(e) => handleMenuButtonClick(e, '/news')}>News</Link>
       </li>
       <li>
-        <Link to="/about" onClick={() => handleMenuButtonClick('/about')}>About</Link>
+        <Link to="/about" onClick={(e) => handleMenuButtonClick(e, '/about')}>About</Link>
       </li>
       <li>
-        <Link to="/contact" onClick={() => handleMenuButtonClick('/contact')}>Contact</Link>
+        <Link to="/contact" onClick={(e) => handleMenuButtonClick(e, '/contact')}>Contact</Link>
       </li>
     </ul>
   </nav>

@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 import Masonry from 'react-masonry-component';
 import Slider from '../components/Slider';
 import SEO from "../components/SEO";
+import smoothscroll from 'smoothscroll-polyfill';
 
 const FeaturedProjectImage = ({ image, className }) => {
   return (
@@ -58,12 +59,21 @@ const renderFeaturedProjects = (projects) => {
 }
 
 export default class Index extends Component {
+
+  scrollToFeatured() {
+    setTimeout(() => {
+      this.content.scrollIntoView({ behavior: "smooth", block: "start", inline: 'nearest'});
+    }, 100);
+  }
+
+  componentDidMount() {
+    smoothscroll.polyfill();
+    if (this.props.location.hash === "#featured") this.scrollToFeatured();
+  }
   
   componentWillUpdate(nextProps) {
     if ((this.props.location.hash !== nextProps.location.hash) && nextProps.location.hash === "#featured") {
-      setTimeout(() => {
-        this.content.scrollIntoView({ behavior: "smooth", block: "start", inline: 'nearest'});
-      }, 100);
+      this.scrollToFeatured();
     }
   }
   

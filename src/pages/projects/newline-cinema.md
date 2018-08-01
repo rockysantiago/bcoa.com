@@ -1,4 +1,5 @@
 ---
+isPublished: true
 templateKey: project-page
 title: 'Newline Cinema'
 seo: 

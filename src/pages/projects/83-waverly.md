@@ -1,4 +1,5 @@
 ---
+isPublished: true
 templateKey: project-page
 title: 83 Waverly
 seo: 

@@ -149,6 +149,10 @@ collections:
     folder: "src/pages/projects"
     create: true
     fields:
+      - label: Set Published
+        name: isPublished
+        widget: boolean
+        default: true
       - label: SEO
         name: seo
         widget: object

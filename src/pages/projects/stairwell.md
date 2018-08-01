@@ -1,4 +1,5 @@
 ---
+isPublished: true
 seo:
   description: >-
     Stair-Well Housing represents a concept for modular housing design intended

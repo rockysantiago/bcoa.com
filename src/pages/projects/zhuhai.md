@@ -1,4 +1,5 @@
 ---
+isPublished: true
 seo:
   title: ZHUHAI
 templateKey: project-page

@@ -5,8 +5,8 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Craft a Montauk jewel box
-workDescription: Work description text
+title: Micro Cabin
+workDescription: A 325sf guest cabin in Montauk
 type: residential
 heroImage:
   alt: Micro Cabin - residential reclaimed materials small houses tiny houses

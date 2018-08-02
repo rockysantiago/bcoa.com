@@ -1,11 +1,11 @@
 ---
 isPublished: true
-templateKey: project-page
-title: 'Newline Cinema'
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Newline Cinema
 type: commercial
 heroImage:
   image: /images/uploads/newline-cinema_ph_2.jpg

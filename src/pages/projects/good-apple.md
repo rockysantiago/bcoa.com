@@ -1,5 +1,5 @@
 ---
-isPublished: false
+isPublished: true
 seo:
   description: Test description
   title: Test tile

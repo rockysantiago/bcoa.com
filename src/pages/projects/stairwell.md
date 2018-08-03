@@ -9,7 +9,7 @@ seo:
   title: EMBRACE THE CORE
 templateKey: project-page
 title: Embrace the Core
-type: commercial
+type: residential
 heroImage:
   image: /images/uploads/STAIRWELL_PH_1.jpg
 headline: EMBRACE THE CORE

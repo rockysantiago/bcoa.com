@@ -6,7 +6,7 @@ seo:
   title: Test title
 templateKey: project-page
 title: Lift Huntington
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/lift_huntington_ph.jpg
 previewImage:

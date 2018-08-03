@@ -17,14 +17,12 @@ const FeaturedProjectImage = ({ image, className }) => {
 }
 
 const renderFeaturedProjects = (projects) => {
-  console.log(projects);
   const featured = Array(projects.length).fill(null)
   projects.forEach((project) => {
     featured.splice(project.node.frontmatter.featured.featuredOrder, 1, project)
   })
   return (
     featured.map(({node: project}, i) => {
-      debugger;
       return (
         <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">

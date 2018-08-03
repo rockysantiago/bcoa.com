@@ -3,7 +3,7 @@ isPublished: true
 seo:
   title: Zhuhai
 templateKey: project-page
-title: ZHUHAI
+title: Zhuhai
 type: residential
 heroImage:
   image: /images/uploads/ZHUHAI_ (6)_1820.jpg

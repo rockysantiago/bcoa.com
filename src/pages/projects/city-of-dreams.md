@@ -6,7 +6,7 @@ seo:
   title: Test title
 templateKey: project-page
 title: City of Dreams
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/CITY OF DREAMS_ (1)_1820.jpg
 previewImage:

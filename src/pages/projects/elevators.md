@@ -6,7 +6,7 @@ seo:
   title: Test title
 templateKey: project-page
 title: Elevators
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/evlavtor_ph_1.jpg
 previewImage:

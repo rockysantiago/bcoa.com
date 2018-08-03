@@ -6,7 +6,7 @@ seo:
   title: Test title
 templateKey: project-page
 title: East Riverside Science Park
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/east-riverside-science-park_ph.jpg
 headline: DESIGN A HUB FOR NYC’s EXPANDING LIFE SCIENCES SECTOR

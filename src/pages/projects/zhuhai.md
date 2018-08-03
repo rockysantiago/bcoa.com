@@ -4,7 +4,7 @@ seo:
   title: Zhuhai
 templateKey: project-page
 title: Zhuhai
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/ZHUHAI_ (6)_1820.jpg
 featured:

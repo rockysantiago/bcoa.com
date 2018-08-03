@@ -6,7 +6,7 @@ seo:
   title: Test title
 templateKey: project-page
 title: 740 Broadway Showroom
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/3-bs.jpg
 featured:

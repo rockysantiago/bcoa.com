@@ -14,6 +14,8 @@
 */
 
 const indexOrder = [
+  'zhuhai',
+  'good-apple',
   "testing",
   "micro-cabin",
   "17-thomson",

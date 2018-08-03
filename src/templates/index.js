@@ -17,12 +17,14 @@ const FeaturedProjectImage = ({ image, className }) => {
 }
 
 const renderFeaturedProjects = (projects) => {
+  console.log(projects);
   const featured = Array(projects.length).fill(null)
   projects.forEach((project) => {
     featured.splice(project.node.frontmatter.featured.featuredOrder, 1, project)
   })
   return (
     featured.map(({node: project}, i) => {
+      debugger;
       return (
         <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">
@@ -82,8 +84,8 @@ export default class Index extends Component {
     const projects = edges.filter(
       edge =>
       edge.node.frontmatter.templateKey === "project-page" &&
-      edge.node.frontmatter.featured
-    );
+      edge.node.frontmatter.featured && edge.node.frontmatter.featured.isFeatured
+    )
     const seo = this.props.data.page.frontmatter.seo;
     
     return (

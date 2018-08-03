@@ -8,7 +8,7 @@ type: residential
 heroImage:
   image: /images/uploads/ZHUHAI_ (6)_1820.jpg
 featured:
-  isFeatured: true
+  isFeatured: false
 previewImage:
   image: /images/uploads/ZHUHAI_index_3.jpg
 primaryImage:

@@ -6,7 +6,7 @@ seo:
   title: Test title
 templateKey: project-page
 title: Ankara
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/ANKARA_PH_1-1.jpg
 previewImage:

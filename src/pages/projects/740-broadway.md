@@ -7,7 +7,7 @@ seo:
 templateKey: project-page
 title: 740 Broadway
 workDescription: Broadway description
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/740-broadway_lobby_-10-.jpg
 headline: Light Folds

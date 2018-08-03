@@ -7,7 +7,7 @@ seo:
 templateKey: project-page
 title: 10 Astor
 workDescription: work description 10 Astor
-type: residential
+type: commercial
 heroImage:
   image: /images/uploads/10-astor_ph_2.jpg
 headline: lobby

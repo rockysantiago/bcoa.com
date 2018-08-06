@@ -77,7 +77,7 @@ publications:
 awards:
   - date: 'January 1, 2018'
     orgName: AIA BQDA
-    title: Design Excellence Award for Riverside Kiosk
+    title: Design Excellence Award for Stair-Well Housing
     url: ''
   - date: 'January 1, 2016'
     orgName: AIA BQDA

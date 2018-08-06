@@ -1,13 +1,9 @@
 ---
-seo: 
-  title: SEO title
-  description: SEO description
-  image: /images/uploads/placeholder.jpg
 templateKey: article-page
 title: NYC Parks Department Interview
 image:
   alt: image alt text
-  image: /images/uploads/riverside_1000x1000.jpg
+  image: /images/uploads/riverside_-8-_1820x1024.jpg
 date: 5.2.2018
 ---
 

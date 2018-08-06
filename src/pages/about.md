@@ -1,7 +1,7 @@
 ---
 seo:
   description: Test description
-  image: /images/uploads/placeholder.jpg
+  image: /images/uploads/office-pic-with-filter.jpg
   title: Test title
 templateKey: about-page
 title: About

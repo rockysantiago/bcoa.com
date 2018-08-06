@@ -1,4 +1,8 @@
 ---
+seo: 
+  title: SEO title
+  description: SEO description
+  image: /images/uploads/placeholder.jpg
 templateKey: article-page
 title: NYC Parks Department Interview
 image:

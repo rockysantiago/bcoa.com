@@ -1,4 +1,8 @@
 ---
+seo: 
+  title: object loft photo shoot SEO title
+  description: object loft photo shoot SEO description
+  image: /images/uploads/placeholder.jpg
 templateKey: article-page
 title: Object Loft Photo Shoot
 image:

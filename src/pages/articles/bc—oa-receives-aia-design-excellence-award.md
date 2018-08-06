@@ -1,4 +1,8 @@
 ---
+seo: 
+  title: AIA Award Article SEO title
+  description: AIA Award Article SEO description
+  image: /images/uploads/placeholder.jpg
 templateKey: article-page
 title: BC—OA Receives AIA Design Excellence Award
 image:

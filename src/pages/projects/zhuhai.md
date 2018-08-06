@@ -1,7 +1,9 @@
 ---
 isPublished: true
-seo:
-  title: Zhuhai
+seo: 
+  title: zhuhai
+  description: zhuhai description
+  image: /images/uploads/placeholder.jpg
 templateKey: project-page
 title: Zhuhai
 type: commercial

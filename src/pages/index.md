@@ -1,8 +1,8 @@
 ---
-seo:
-  description: Test description
+seo: 
+  title: SEO Featured Page Title
+  description: SEO Featured Page description
   image: /images/uploads/placeholder.jpg
-  title: Featured Page Title
 templateKey: featured-page
 title: Featured
 carouselImages:

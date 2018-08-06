@@ -1,4 +1,8 @@
 ---
+seo: 
+  title: catherine moves to grad school SEO title
+  description: catherine moves to grad school SEO description
+  image: /images/uploads/placeholder.jpg
 templateKey: article-page
 title: Treasured employee Catherine moving on to grad school
 image:

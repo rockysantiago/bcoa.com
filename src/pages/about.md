@@ -1,8 +1,8 @@
 ---
 seo:
-  description: Test description
-  image: ''
-  title: Test title
+  description: About SEO description
+  image: /images/uploads/placeholder.jpg
+  title: About SEO title
 templateKey: about-page
 title: About
 studioMembers:

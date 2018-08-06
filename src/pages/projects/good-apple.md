@@ -3,6 +3,7 @@ isPublished: false
 seo:
   description: Test description
   title: Test tile
+  image: /images/uploads/placeholder.jpg
 templateKey: project-page
 title: Good Apple
 type: commercial

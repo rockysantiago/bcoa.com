@@ -1,8 +1,8 @@
 ---
 seo:
-  description: Test description
-  image: ''
-  title: Test title
+  description: Contact SEO description
+  image: /images/uploads/placeholder.jpg
+  title: Contact SEO title
 templateKey: contact-page
 title: Contact
 heroImage:

@@ -1,4 +1,8 @@
 ---
+seo: 
+  title: jenny says farewell SEO title
+  description: jenny says farewell SEO description
+  image: /images/uploads/placeholder.jpg
 templateKey: article-page
 title: Scottish Intern Jenny says farewell
 image:

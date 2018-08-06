@@ -1,4 +1,8 @@
 ---
+seo: 
+  title: Stefano Joins SEO title
+  description: Stefano Joins SEO description
+  image: /images/uploads/placeholder.jpg
 templateKey: article-page
 title: Italian intern Stefano joins BC—OA
 image:

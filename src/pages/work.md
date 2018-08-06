@@ -1,9 +1,9 @@
 ---
+seo: 
+  title: Work SEO title
+  description: Work SEO description
+  image: /images/uploads/placeholder.jpg
 templateKey: work-page
 title: Index
-seo: 
-  title: Test title
-  description: Test description
-  image: /images/uploads/placeholder.jpg
 ---
 

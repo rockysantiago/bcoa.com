@@ -29,7 +29,7 @@ export default class Work extends Component {
     const page = this.props.data.page.frontmatter;
     const projects = this.props.data.projects.edges;
     const slugs = projects.map(({node: project}) => (project.fields.slug).substr(10).slice(0, -1));
-    const newOrder = indexOrder.map(slug => {
+    const newOrder = indexOrder.filter(slug => slugs.indexOf(slug) >= 0).map(slug => {
       return projects[slugs.indexOf(slug)];
     })
     return (
@@ -88,7 +88,12 @@ export default class Work extends Component {
 export const query = graphql`
   query WorkQuery($slug: String!) {
     projects: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { regex: "/project-page/" } } }
+      filter: {
+        frontmatter: { 
+        	templateKey: { regex: "/project-page/" },
+          isPublished: {eq: true}
+      	} 
+      }
     ) {
       edges {
         node {

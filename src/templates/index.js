@@ -78,12 +78,7 @@ export default class Index extends Component {
   }
   
   render() {
-    const edges = this.props.data.projects.edges;
-    const projects = edges.filter(
-      edge =>
-      edge.node.frontmatter.templateKey === "project-page" &&
-      edge.node.frontmatter.featured && edge.node.frontmatter.featured.isFeatured
-    )
+    const projects = this.props.data.projects.edges;
     const seo = this.props.data.page.frontmatter.seo;
     
     return (
@@ -148,7 +143,13 @@ export const query = graphql`
       }
     }
     projects: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: ASC }
+      filter: {
+        frontmatter: { 
+        	templateKey: { regex: "/project-page/" },
+          featured: { isFeatured: { eq: true } },
+          isPublished: {eq: true}
+      	} 
+      }
     ) {
       edges {
         node {

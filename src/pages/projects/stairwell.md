@@ -50,16 +50,16 @@ projectGallery:
     type: quote
   - caption: Sample plans
     colWidth: '4'
-    image: /images/uploads/stair-well_-11-_1820_cropped.jpg
+    image: /images/uploads/stair-well_-15-cropped_1160.jpg
     type: image
   - alt: ''
     caption: Stairs as an extension of the communal spaces
     colWidth: '4'
-    image: /images/uploads/stair-well_-14-cropped_1820.jpg
+    image: /images/uploads/stair-well_-14-cropped_1160.jpg
     type: image
   - caption: Exterior spaces - private vs communal
     colWidth: '4'
-    image: /images/uploads/stair-well_-13-cropped_1820.jpg
+    image: /images/uploads/stair-well_-13-cropped_1160.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/STAIR-WELL_ (15)_1820.jpg

@@ -1,13 +1,9 @@
 ---
 templateKey: article-page
-title: New Branding / New Site!
-seo: 
-  title: Test title
-  description: Test description
-  image: /images/uploads/placeholder.jpg
+title: NYC Parks Department Interview
 image:
   alt: image alt text
-  image: /images/uploads/placeholdermountains.png
+  image: /images/uploads/riverside_1000x1000.jpg
 date: 5.2.2018
 ---
 

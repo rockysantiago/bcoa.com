@@ -1,11 +1,11 @@
 ---
-isPublished: true
-templateKey: project-page
-title: 83 Waverly
-seo: 
-  title: Test title
+isPublished: false
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: 83 Waverly
 type: residential
 heroImage:
   image: /images/uploads/83 WAVERLY_PH_1.jpg

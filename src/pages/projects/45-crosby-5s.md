@@ -8,7 +8,7 @@ templateKey: project-page
 title: 45 Crosby 5S
 type: residential
 heroImage:
-  image: /images/uploads/45CROSBY_5S_PH.jpg
+  image: /images/uploads/45crosby5s_cropped_3800.jpg
 headline: The Selective Loft
 featured:
   featuredDescription: this is the text of the featured description

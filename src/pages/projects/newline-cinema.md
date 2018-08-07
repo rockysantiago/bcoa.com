@@ -8,7 +8,7 @@ templateKey: project-page
 title: Newline Cinema
 type: commercial
 heroImage:
-  image: /images/uploads/newline-cinema_ph_2.jpg
+  image: /images/uploads/new-line-cinema_-4-_cropped_3800.jpg
 headline: RETHINK THE “STANDARD” STANDARDS
 previewImage:
   image: /images/uploads/NEW LINE CINEMA_index_1.jpg

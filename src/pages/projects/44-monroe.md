@@ -26,7 +26,7 @@ primaryImage:
   image: /images/uploads/dsc_7604-editcropped.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/44-monroe_-3-_3800.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_009.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_017.jpg
@@ -51,10 +51,10 @@ projectGallery:
     image: /images/uploads/44-monroe_-23-_3800.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/44-monroe_-14-_3800.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_010_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/44-monroe_-15-_3800.jpg
+    image: /images/uploads/ch_corcoran_ash_44_monroe_pl_ny_006_1820.jpg
     offsetWidth: '6'
     type: image
 ---

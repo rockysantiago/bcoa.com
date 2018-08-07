@@ -9,6 +9,7 @@ title: Zhuhai
 type: commercial
 heroImage:
   image: /images/uploads/ZHUHAI_ (6)_1820.jpg
+headline: '500,000 SQ FT OF SKY-LIT EXHIBITION SPACE'
 featured:
   isFeatured: false
 previewImage:

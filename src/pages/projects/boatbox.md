@@ -1,14 +1,14 @@
 ---
 isPublished: true
-seo: 
-  title: SEO title
+seo:
   description: SEO description
   image: /images/uploads/placeholder.jpg
+  title: SEO title
 templateKey: project-page
 title: Boatbox
 type: commercial
 heroImage:
-  image: /images/uploads/BOATBOX_ (3)_1820.jpg
+  image: /images/uploads/boatboxheroimage_cropped_3800.jpg
 previewImage:
   image: /images/uploads/BOATBOX_index.jpg
 infoObject:

@@ -10,7 +10,7 @@ workDescription: Work description text
 type: residential
 heroImage:
   alt: ALT TEXT NEEDS INPUT
-  image: /images/uploads/object-loft_-12-_3800.jpg
+  image: /images/uploads/objectloftheroimage_cropped_3800.jpg
 headline: 'objects, functional by design'
 previewImage:
   image: /images/uploads/index_copyright_barkow_photo_6363.jpg

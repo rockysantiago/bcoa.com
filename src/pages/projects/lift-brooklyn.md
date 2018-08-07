@@ -8,7 +8,7 @@ templateKey: project-page
 title: Lift Brooklyn
 type: commercial
 heroImage:
-  image: /images/uploads/lift_brooklyn_ph.jpg
+  image: /images/uploads/liftbrooklynheroimage_cropped_3800.jpg
 headline: ENGAGE THE SENSES
 featured:
   featuredDescription: New York City's first and only dedicated isolation therapy spa

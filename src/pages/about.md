@@ -121,18 +121,4 @@ collaborators:
     name: Caliper Studio
     url: 'http://www.caliperstudio.com/'
 ---
-We are Breitner Ciaccia Office of Architecture.
-
-We are a place that builds. We are small and nimble.
-
-And strong and wise. We are the place that knows expectations, and the desire to exceed them.
-
-Love of craft, conceptual dedication and technical prowess inform everything we do.
-
-We use creative vision, precise execution, technology, and collaboration to get it done.
-
-From loft renovations, to commercial development, we are the place
-
-that knows \*growing\* doesn’t mean growing up or growing old, but rather growing forward.
-
-We are BC—OA.
+We are Breitner Ciaccia Office of Architecture. We are a place that builds. We are small and nimble. And strong and wise. We are the place that knows expectations, and the desire to exceed them. Love of craft, conceptual dedication and technical prowess inform everything we do. We use creative vision, precise execution, technology, and collaboration to get it done. From loft renovations, to commercial development, we are the place that knows \*growing\* doesn’t mean growing up or growing old, but rather growing forward. We are BC—OA.

@@ -18,11 +18,11 @@ studioMembers:
       Alicante in Alicante, Spain.
     image:
       alt: Image of Bronwyn Breitner
-      image: /images/uploads/bb-headshot.jpg
+      image: /images/uploads/bb-headshot-black-tint.jpg
     jobTitle: Principal
     name: 'Bronwyn Breitner, AIA'
     principal: true
-    principalInfo: Third Line of Text
+    principalInfo: ''
   - description: >-
       Luigi Ciaccia, LEED AP received his BArch with Distinction from The New
       York Institute of Technology. Prior to co-founding 590BC, Luigi had 5
@@ -33,11 +33,11 @@ studioMembers:
       to interior design to landscape design.
     image:
       alt: Image of Luigi
-      image: /images/uploads/lc-headshot.jpg
+      image: /images/uploads/lc-headshot-black-tint.jpg
     jobTitle: Principal
     name: 'Luigi Ciaccia, AIA, LEED BD+C'
     principal: true
-    principalInfo: Third Line of Text
+    principalInfo: ''
   - description: >-
       Scott is a great worker with a big heart. He went to school at blah blah
       university where he studied blah blah. He frequently travels to world to
@@ -121,4 +121,6 @@ collaborators:
     name: Caliper Studio
     url: 'http://www.caliperstudio.com/'
 ---
-We are Breitner Ciaccia Office of Architecture. We are a place that builds. We are small and nimble. And strong and wise. We are the place that knows expectations, and the desire to exceed them. Love of craft, conceptual dedication and technical prowess inform everything we do. We use creative vision, precise execution, technology, and collaboration to get it done. From loft renovations, to commercial development, we are the place that knows \*growing\* doesn’t mean growing up or growing old, but rather growing forward. We are BC—OA.
+We are Breitner Ciaccia Office of Architecture. We are a place that builds. We are small and nimble. And strong and wise. Love of craft, conceptual dedication and technical prowess inform everything we do. We use creative vision, precise execution, technology, and collaboration to get it done. From loft renovations, to commercial development, we are the place that knows \*growing\* doesn’t mean growing up or growing old, but rather growing forward. 
+
+We are BC—OA.

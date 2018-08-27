@@ -20,7 +20,7 @@ export default class TemplateWrapper extends Component {
       menuOpen: false,
       layerIncrement: 0,
     };
-    // this.animationInterval = setInterval(this.animateFooterLogo, 2000);
+    this.animationInterval = setInterval(this.animateFooterLogo, 2000);
     this.fixedLogo = React.createRef();
   }
 

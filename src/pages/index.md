@@ -6,11 +6,6 @@ seo:
 templateKey: featured-page
 title: Featured
 carouselImages:
-  - alt: Home Page Hero image alt 1
-    image: /images/uploads/20greene_c.jpg
-    project: Object Loft
-    subtitle: 2nd Line Subtitle
-    title: 1st Title Line of Text
   - image: /images/uploads/53rd_c1.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
@@ -20,7 +15,7 @@ carouselImages:
   - image: /images/uploads/affordablehousing_c.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
-  - image: /images/uploads/crosby_5n_c.jpg
+  - image: /images/uploads/45 CROSBY_5N_ (14)_1820.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
   - image: /images/uploads/lift_c1.jpg

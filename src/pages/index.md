@@ -21,7 +21,7 @@ carouselImages:
   - image: /images/uploads/lift_c1.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
-  - image: /images/uploads/microcabin_c1.jpg
+  - image: /images/uploads/microcabin_-7-_1820x1024.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
   - image: /images/uploads/riverside_c1.jpg

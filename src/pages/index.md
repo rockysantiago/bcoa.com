@@ -9,7 +9,7 @@ carouselImages:
   - image: /images/uploads/53rd_c1.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
-  - image: /images/uploads/740broadwayshowroom_c1.jpg
+  - image: /images/uploads/740 BROADWAY_SHOWROOM_ (4)_1820.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
   - image: /images/uploads/affordablehousing_c.jpg
@@ -21,7 +21,7 @@ carouselImages:
   - image: /images/uploads/lift_c1.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
-  - image: /images/uploads/microcabin_-7-_1820x1024.jpg
+  - image: /images/uploads/03-12.jpg
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
   - image: /images/uploads/riverside_c1.jpg

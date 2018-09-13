@@ -8,6 +8,7 @@ title: Featured
 carouselImages:
   - alt: Carousel Image
     image: /images/uploads/53rd_c1.jpg
+    project: West 53rd Street
     subtitle: 2nd Line Subtitle
     title: 1st Title Line of Text
   - alt: Carousel Image

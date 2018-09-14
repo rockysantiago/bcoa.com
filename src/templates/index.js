@@ -134,11 +134,17 @@ export const query = graphql`
           }
         }
         carouselImages {
-          image
           alt
           title
           subtitle
           project
+          image {
+            childImageSharp {
+              sizes(maxWidth: 1200) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
         }
       }
     }

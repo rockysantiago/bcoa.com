@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
+import Img from 'gatsby-image';
 import slugify from "slugify";
 import { icons } from "./Icons";
 
@@ -58,7 +59,7 @@ export default class HeroSlider extends Component {
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
               </div>
-              <img src={slide.image} alt={slide.alt} />
+              <Img sizes={ slide.image.childImageSharp.sizes } />
             </div>
             :
             <div className="slide c-white" key={`slide-${i}`}>
@@ -71,7 +72,7 @@ export default class HeroSlider extends Component {
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
               </div>
-              <img src={slide.image} alt={slide.alt} />
+              <Img sizes={ slide.image.childImageSharp.sizes } />
             </div>
         })}
       </Slider>

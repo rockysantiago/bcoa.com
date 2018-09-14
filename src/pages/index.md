@@ -25,5 +25,22 @@ carouselImages:
     project: 45 Crosby 5N
     subtitle: Kitchen
     title: Crosby 5N
+  - alt: Carousel Image 5
+    image: /images/uploads/Lift_C1.jpg
+    project: Lift Brooklyn
+    subtitle: Brooklyn
+    title: Lift
+  - alt: Carousel image 6
+    image: /images/uploads/microcabin_c1.jpg
+    project: Micro Cabin
+    title: Microcabin
+  - alt: Carousel Image 7
+    image: /images/uploads/Riverside_C1.jpg
+    project: Riverside
+    title: Riverside
+  - alt: Carousel Image 8
+    image: /images/uploads/Wardroad_C1.jpg
+    project: Ward Road
+    title: Ward Road
 ---
 

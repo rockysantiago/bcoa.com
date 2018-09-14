@@ -21,7 +21,7 @@ carouselImages:
     subtitle: Exterior
     title: Affordable Housing Project
   - alt: Carousel Image 4
-    image: /images/uploads/45 CROSBY_5N_ (14)_1820.jpg
+    image: /images/uploads/45_CROSBY_5N_(14)_1820.jpg
     project: 45 Crosby 5N
     subtitle: Kitchen
     title: Crosby 5N

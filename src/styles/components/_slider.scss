@@ -62,8 +62,10 @@ $slickArrowSize: 28px;
     display: flex !important;
   }
 
-  .gatsby-image-outer-wrapper {
+  .gatsby-image-outer-wrapper,
+  .gatsby-image-wrapper, {
     flex: 1;
+    display: flex !important;
   }
   img {
     object-position: center center;

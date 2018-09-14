@@ -169,7 +169,7 @@ export const query = graphql`
                 isPortrait
                 image {
                   childImageSharp {
-                    sizes(maxWidth: 1820) {
+                    sizes(maxWidth: 2400) {
                       ...GatsbyImageSharpSizes_withWebp
                     }
                   }

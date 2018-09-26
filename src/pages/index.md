@@ -43,7 +43,7 @@ carouselImages:
     project: Ward Road
     title: Ward Road
 featuredProjects:
-  - project: West 53rd Street
-  - project: 740 Broadway
+  - project: Micro Cabin
+  - project: Embrace the Core
 ---
 

@@ -42,5 +42,8 @@ carouselImages:
     image: /images/uploads/Wardroad_C1.jpg
     project: Ward Road
     title: Ward Road
+featuredProjects:
+  - project: West 53rd Street
+  - project: 740 Broadway
 ---
 

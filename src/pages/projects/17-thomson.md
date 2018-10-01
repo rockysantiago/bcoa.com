@@ -21,11 +21,11 @@ projectGallery:
     image: /images/uploads/17 THOMPSON_ (2)_1820.jpg
     offsetWidth: '4'
     type: image
-  - colWidth: '6'
-    image: /images/uploads/17-thompson_-17-cropped.jpg
+  - colWidth: '8'
+    image: /images/uploads/17-thompson-master-bathroom_-2480_cropped.jpg
     type: image
-  - colWidth: '6'
-    image: /images/uploads/17-thompson_-18-.jpg
+  - colWidth: '4'
+    image: /images/uploads/17-thompson-master-bathroom_-1160_-cropped.jpg
     type: image
   - pullQuote: the balanced loft
     type: quote

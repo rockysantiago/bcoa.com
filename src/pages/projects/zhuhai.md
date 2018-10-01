@@ -39,7 +39,7 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/zhuhai_-7-_1820_cropped.jpg
     type: image
-  - pullQuote: quote
+  - pullQuote: large but sitting delicately
     type: quote
   - colWidth: '12'
     image: /images/uploads/section_final.jpg

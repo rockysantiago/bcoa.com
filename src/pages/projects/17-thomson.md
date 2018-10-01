@@ -27,16 +27,14 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/17-thompson_-18-.jpg
     type: image
-  - pullQuote: quote
+  - pullQuote: the balanced loft
     type: quote
   - colWidth: '12'
     image: /images/uploads/17-thompson_promo-plan_1820_cropped.jpg
     type: image
-  - colWidth: '4'
-    image: /images/uploads/17-thompson_-6-_1160_cropped.jpg
-    type: image
   - colWidth: '8'
     image: /images/uploads/17-thompson_-16-_2480_cropped.jpg
+    offsetWidth: '4'
     type: image
   - colWidth: '10'
     image: /images/uploads/17 THOMPSON_ (11)_1820.jpg

@@ -11,7 +11,7 @@ templateKey: project-page
 title: Embrace the Core
 type: residential
 heroImage:
-  image: /images/uploads/stairwell_-ph_aia-logo.jpg
+  image: /images/uploads/staiwell_ph-aia-logo.jpg
 headline: EMBRACE THE CORE
 featured:
   featuredDescription: >-

@@ -42,7 +42,7 @@ projectGallery:
     image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
     offsetWidth: '4'
     type: image
-  - pullQuote: quote
+  - pullQuote: a tactile respite quietly nestled
     type: quote
   - caption: Floatation room - pod style
     colWidth: '6'

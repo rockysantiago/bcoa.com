@@ -27,7 +27,7 @@ primaryImage:
   image: /images/uploads/zhuhai_-15-_1820_cropped.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/ZHUHAI_ (3)_1820.jpg
+    image: /images/uploads/zhuhai_-3-_1820_cropped.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/ZHUHAI_ (14)_1820.jpg

@@ -47,6 +47,8 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/crosby-5n_promotional-plan.jpg
     type: image
+  - pullQuote: quote
+    type: quote
   - colWidth: '6'
     image: /images/uploads/45-crosby_5n_-5-_1820_cropped.jpg
     offsetWidth: '0'

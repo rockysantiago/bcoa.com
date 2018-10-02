@@ -8,8 +8,9 @@ seo:
   image: /images/uploads/STAIR-WELL_index.jpg
   title: EMBRACE THE CORE
 templateKey: project-page
-title: Embrace the Core
-type: residential
+title: Stair-Well Housing
+workDescription: A modular stack for joyful and smart affordable housing in NYC
+type: commercial
 heroImage:
   image: /images/uploads/staiwell_ph-aia-logo.jpg
 headline: EMBRACE THE CORE
@@ -48,7 +49,7 @@ projectGallery:
     type: image
   - pullQuote: 'Private, Public, Dignity, ownership whether it''s affordable or not'
     type: quote
-  - caption: Sample plans
+  - caption: Services Routing via stair core
     colWidth: '4'
     image: /images/uploads/stair-well_-15-cropped_1160.jpg
     type: image

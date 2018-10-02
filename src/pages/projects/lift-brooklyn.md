@@ -5,7 +5,8 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Lift Brooklyn
+title: Lift Next Level Floats
+workDescription: 'Boutique Sensory Deprivation Spa '
 type: commercial
 heroImage:
   image: /images/uploads/lift_brooklyn_ph-aia-logo.jpg
@@ -32,6 +33,7 @@ infoObject:
   - description: AIA Award of Merit 2016
     title: Awards
 primaryImage:
+  caption: View into a pod-style float suite
   image: /images/uploads/LIFT_BROOKLYN_ (4)_1820.jpg
 projectGallery:
   - caption: The iconic blue glow as seen from Court Street
@@ -42,7 +44,7 @@ projectGallery:
     image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
     offsetWidth: '4'
     type: image
-  - pullQuote: a tactile respite quietly nestled
+  - pullQuote: NYCs first-of-it's-kind dedicated floatation therapy spa
     type: quote
   - caption: Floatation room - pod style
     colWidth: '6'
@@ -52,14 +54,17 @@ projectGallery:
     colWidth: '6'
     image: /images/uploads/lift_brooklyn_-2-_1820_cropped.jpg
     type: image
-  - colWidth: '8'
+  - caption: ''
+    colWidth: '8'
     image: /images/uploads/lift-brooklyn-floorplan-hq.jpg
     offsetWidth: '2'
     type: image
-  - colWidth: '4'
+  - caption: 'Blue cove light '
+    colWidth: '4'
     image: /images/uploads/lift_brooklyn_-5-_1160_cropped.jpg
     type: image
-  - colWidth: '8'
+  - caption: The Decompression Lounge
+    colWidth: '8'
     image: /images/uploads/LIFT_BROOKLYN_ (8)_1820.jpg
     type: image
   - colWidth: '10'

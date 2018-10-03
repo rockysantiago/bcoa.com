@@ -23,7 +23,7 @@ infoObject:
   - description: SMH w. Bronwyn Breitner
     title: ARCHITECT
 primaryImage:
-  caption: 'Asymmetrical geometries relieve the monotony of the deep, narrow floor plate'
+  caption: 'Asymmetrical geometries relieve the monotony of a deep, narrow floor plate'
   image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
 projectGallery:
   - caption: '"Broken" clerestories atop offset partitions'

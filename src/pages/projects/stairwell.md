@@ -12,7 +12,7 @@ title: Stair-Well Housing
 workDescription: A modular stack for joyful and smart affordable housing in NYC
 type: commercial
 heroImage:
-  image: /images/uploads/staiwell_ph-aia-logo.jpg
+  image: /images/uploads/staiwell_ph-aia-round-logo.jpg
 headline: EMBRACE THE CORE
 featured:
   featuredDescription: >-

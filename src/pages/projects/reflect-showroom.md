@@ -28,10 +28,14 @@ primaryImage:
   alt: ''
   image: /images/uploads/REFLECT SHOWROOM_ (1)_1820.jpg
 projectGallery:
-  - colWidth: '10'
+  - caption: Showroom lobby entry panels integrated with linear folding lights
+    colWidth: '10'
     image: /images/uploads/REFLECT SHOWROOM_ (4)_1820.jpg
     type: image
-  - colWidth: '6'
+  - caption: >-
+      The mock elevator cab clad in Elevecture panels customized with a Paul
+      Goldberger quote from the NY Times
+    colWidth: '6'
     image: /images/uploads/REFLECT SHOWROOM_ (7)_1820.jpg
     offsetWidth: '6'
     type: image
@@ -43,7 +47,7 @@ projectGallery:
     image: /images/uploads/reflect-showroom_promoplan-cropped_1820.jpg
     offsetWidth: '1'
     type: image
-  - pullQuote: quote
+  - pullQuote: '"In truth, the elevator is a room"'
     type: quote
   - colWidth: '12'
     image: /images/uploads/REFLECT SHOWROOM_ (5)_1820.jpg

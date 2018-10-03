@@ -44,7 +44,7 @@ projectGallery:
     image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
     offsetWidth: '4'
     type: image
-  - pullQuote: NYCs first-of-it's-kind dedicated floatation therapy spa
+  - pullQuote: NYCs first of its kind dedicated flotation therapy spa
     type: quote
   - caption: Floatation room - pod style
     colWidth: '6'

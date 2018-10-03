@@ -27,12 +27,17 @@ infoObject:
   - description: In-Process
     title: STATUS
 primaryImage:
+  caption: 'A woven, timber structure with floating central oculus'
   image: /images/uploads/riverside_-6-cropped_1820.jpg
 projectGallery:
-  - colWidth: '10'
+  - caption: >-
+      The adaptive reuse of the arcade with a restaurant, rotunda bar and street
+      level kiosk above
+    colWidth: '10'
     image: /images/uploads/RIVERSIDE_ (3)_1820.jpg
     type: image
-  - colWidth: '6'
+  - caption: 'Historic pagoda, demolished in the 60''s'
+    colWidth: '6'
     image: /images/uploads/riverside_-1-.png
     offsetWidth: '6'
     type: image

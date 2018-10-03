@@ -9,7 +9,7 @@ title: Lift Next Level Floats
 workDescription: 'Boutique Sensory Deprivation Spa '
 type: commercial
 heroImage:
-  image: /images/uploads/lift_brooklyn_ph-aia-logo.jpg
+  image: /images/uploads/liftbrooklyn_-ph-aia-round-logo.jpg
 headline: ENGAGE THE SENSES
 featured:
   featuredDescription: New York City's first and only dedicated isolation therapy spa

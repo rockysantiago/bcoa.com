@@ -44,8 +44,6 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/RIVERSIDE_ (9)_1820.jpg
     type: image
-  - pullQuote: quote
-    type: quote
   - colWidth: '12'
     image: /images/uploads/RIVERSIDE_PROMO CODE_1820.jpg
     type: image

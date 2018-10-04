@@ -5,7 +5,7 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: The Less Selective Loft
+title: Crosby Loft II
 type: residential
 heroImage:
   image: /images/uploads/45_crosbyy_5n_ph.jpg
@@ -40,7 +40,8 @@ projectGallery:
     colWidth: '6'
     image: /images/uploads/45 CROSBY_5N_ (23)_1820.jpg
     type: image
-  - colWidth: '8'
+  - caption: Cat / floor coordination
+    colWidth: '8'
     image: /images/uploads/45 CROSBY_5N_ (20)_1820.jpg
     offsetWidth: '4'
     type: image
@@ -50,7 +51,7 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/crosby-5n_promotional-plan.jpg
     type: image
-  - pullQuote: quote
+  - pullQuote: Distressed tin - new | distressed tin - old
     type: quote
   - colWidth: '6'
     image: /images/uploads/45-crosby_5n_-5-_1820_cropped.jpg

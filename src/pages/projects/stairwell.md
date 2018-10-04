@@ -34,9 +34,13 @@ infoObject:
   - description: Submitted Winter 2017
     title: STATUS
 primaryImage:
+  caption: >-
+    Rotating, mirroring and stacking modular units brings both exterior space
+    and facade to the streetscape
   image: /images/uploads/stair-well_-9-cropped_1820.jpg
 projectGallery:
-  - colWidth: '6'
+  - caption: Stacking in a prescribed sequence at both single or double-wide lots
+    colWidth: '6'
     image: /images/uploads/stair-well-unit-stack_1820.jpg
     type: image
   - caption: The micro-unit interior with kitchen and fold-down table
@@ -72,7 +76,7 @@ projectGallery:
     image: /images/uploads/STAIR-WELL_ (3)_1820.jpg
     offsetWidth: '2'
     type: image
-  - caption: Unit interior with view to the private deck and common stair
+  - caption: ''
     colWidth: '10'
     image: /images/uploads/STAIR-WELL_ (6)_1820.jpg
     type: image

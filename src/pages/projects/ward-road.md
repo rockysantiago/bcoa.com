@@ -5,18 +5,21 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Ward Road
+title: Ward Road House
+workDescription: ''
 type: residential
 heroImage:
   image: /images/uploads/ward-road_ph.jpg
 headline: DESIGN IN DUALS - SHARED HOLIDAY HOUSE
 featured:
-  featuredOrder: 7
-  featuredDescription: this is the text of the featured description
+  featuredDescription: >-
+    On a small lot, Australian sisters seek to build an adaptable single family
+    home to suit their two families
   featuredImage:
-    isPortrait: true
     alt: this is the alt text
     image: /images/uploads/ward-road_-15-_1160x1740.jpg
+    isPortrait: true
+  featuredOrder: 7
   isFeatured: true
 previewImage:
   image: /images/uploads/ward-road_index.jpg
@@ -32,10 +35,13 @@ infoObject:
   - description: Tony Miller
     title: Photos
 primaryImage:
-  caption: Test this change.
+  caption: Exterior stair to high deck with water views
   image: /images/uploads/ward-road_-16-.jpg
 projectGallery:
-  - colWidth: '6'
+  - caption: >-
+      Local spotted gum timber shutters act to open or close one of the two
+      master suites
+    colWidth: '6'
     image: /images/uploads/ward-road_-15-_.jpg
     type: image
   - colWidth: '10'
@@ -64,13 +70,16 @@ projectGallery:
     image: /images/uploads/ward-road_-20-_.jpg
     type: image
   - pullQuote: >-
-      integer pretium bibendum posuere. In ac enim aliquam, porta est quis,
-      maximus.
+      Four building blocks, stacked and overlapping, each dedicated to private
+      or public
     type: quote
   - colWidth: '12'
     image: /images/uploads/ward-road_-8-_3800.jpg
     type: image
-  - colWidth: '8'
+  - caption: >-
+      The large common space accommodates all the families at once, flooded with
+      northern light and views to  Swan Bay
+    colWidth: '8'
     image: /images/uploads/ward-road_-7-_2480.jpg
     type: image
   - colWidth: '10'

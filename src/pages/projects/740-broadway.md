@@ -12,7 +12,9 @@ heroImage:
   image: /images/uploads/740-broadway_lobby_-10-.jpg
 headline: Surround with light
 featured:
-  featuredDescription: Distinguishing a Broadway lobby with columns of light and art
+  featuredDescription: >-
+    Distinguishing a Broadway lobby with columns of light merging technology and
+    art
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/740-broadway_lobby_-6.1-_1160x1740.jpg
@@ -29,14 +31,17 @@ infoObject:
   - description: Completed
     title: Status
 primaryImage:
-  caption: White glass columns fold as suspended LED panels overhead
+  caption: White glass columns fold to become suspended LED panels overhead
   image: /images/uploads/1.jpg
 projectGallery:
   - caption: Section Perspective
     colWidth: '8'
     image: /images/uploads/740-broadway_lobby_-8-_1820_cropped.jpg
     type: image
-  - colWidth: '12'
+  - caption: >-
+      Digital displays with animated nature scenes extend across column widths,
+      alternating a full nature scene with the pure white columns
+    colWidth: '12'
     image: /images/uploads/2.jpg
     type: image
   - colWidth: '10'
@@ -50,4 +55,4 @@ projectGallery:
     image: /images/uploads/3.jpg
     type: image
 ---
-A progressive, future-focused client asked BCOA to design a complete modernization to this century old lobby utilizing the Elevecture glass panel and display material palette utilized at the Reflect Showroom. The contrast between the historic facade and contemporary, technologically sophisticated interior reflects the adaptability of historic architecture in New York’s fast paced developing market. The challenge of the design comes from implementing the modular panel system in a wholly different way, which we addressed by incorporating vertical strips of digital displays alternating with the white static panels and lighting. The result is a space defined largely by these folding layers wrapping the space, creating an opportunity for the occupant to physically inhabit the graphic content on the walls as they experience a moment of pause in their daily commutes.
+A progressive, future-focused client asked BC—OA to design a complete modernization to this century old lobby utilizing the Elevecture glass panel and display material palette utilized at the Reflect Showroom. The contrast between the historic facade and contemporary, technologically sophisticated interior reflects the adaptability of historic architecture in New York’s fast paced developing market. The challenge of the design comes from implementing the modular panel system in a wholly different way, which we addressed by incorporating vertical strips of digital displays alternating with the white static panels and lighting. The result is a space defined largely by these folding layers wrapping the space, creating an opportunity for the occupant to physically inhabit the graphic content on the walls as they experience a moment of pause in their daily commutes.

@@ -5,13 +5,13 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Elevecture Showroom II
+title: Elevecture® Showroom II
 type: commercial
 heroImage:
   image: /images/uploads/3-bs.jpg
 headline: Innovating with the innovators
 featured:
-  featuredDescription: this is the text of the featured description
+  featuredDescription: Exhibiting innovations in advanced glass technologies
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/740-broadway_showroom_-4-_1160x1547.jpg
@@ -30,12 +30,17 @@ infoObject:
   - description: Avec
     title: SHOWROOM IDENTITY
 primaryImage:
+  caption: 'One of three folding glass surfaces defines the Corning® table '
   image: /images/uploads/6.jpg
 projectGallery:
-  - colWidth: '6'
+  - caption: Section perspective
+    colWidth: '6'
     image: /images/uploads/740-broadway_showroom_-6-cropped.jpg
     type: image
-  - colWidth: '10'
+  - caption: >-
+      The second of three Elevecture® glass folds defines a shared conference
+      table and integrates digital displays seamlessly withing the glass surface
+    colWidth: '10'
     image: /images/uploads/1-bs_cropped.jpg
     offsetWidth: '2'
     type: image
@@ -45,10 +50,12 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/4-bs_cropped.jpg
     type: image
-  - pullQuote: quote
+  - pullQuote: >-
+      "New York City Innovation Center is a One-Stop Shop to See Tomorrow's
+      Buildings and Design Trends Today"
     type: quote
   - colWidth: '12'
     image: /images/uploads/2-bs.jpg
     type: image
 ---
-This showroom, the re-conceptualized, relocated version of the first Elevecture showroom, represents a collaboration by three innovative companies future-focused designed for three specific companies whose focus is on integration of materials for the built environment.  The space function as a forum that networks people and their innovations together with a focus on interactive collaboration. Digital displays blend seamlessly with glass panel to help showcase changing exhibits while maintaining an enviroment conducive to co-working for the developement, design and construction industries.
+This showroom, the re-conceptualized, relocated version of the first Elevecture® showroom, represents a collaboration by three innovative companies who's common mission involves revolutionizing the architectural surfaces world through the use of advanced glass technologies.   The Innovation Center functions as a forum that networks people and their innovations together with a focus on interactive collaboration. Digital displays blend seamlessly with glass panel to help showcase changing exhibits while maintaining an environment conducive to co-working for the development, design and construction industries.

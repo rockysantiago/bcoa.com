@@ -5,10 +5,11 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Lift Brooklyn
+title: Lift Next Level Floats
+workDescription: 'Boutique Sensory Deprivation Spa '
 type: commercial
 heroImage:
-  image: /images/uploads/liftbrooklynheroimage_cropped_3800.jpg
+  image: /images/uploads/liftbrooklyn_-ph-aia-round-logo.jpg
 headline: ENGAGE THE SENSES
 featured:
   featuredDescription: New York City's first and only dedicated isolation therapy spa
@@ -32,34 +33,39 @@ infoObject:
   - description: AIA Award of Merit 2016
     title: Awards
 primaryImage:
+  caption: View into a pod-style float suite
   image: /images/uploads/LIFT_BROOKLYN_ (4)_1820.jpg
 projectGallery:
-  - caption: The iconic blue glow as seen from Court Street
+  - caption: An iconic blue glow as seen from Court Street
     colWidth: '12'
     image: /images/uploads/LIFT_BROOKLYN_ (1)_1820.jpg
     type: image
-  - colWidth: '8'
+  - caption: The spa entry with fir veneer plywood and industrial felt
+    colWidth: '8'
     image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
     offsetWidth: '4'
     type: image
-  - pullQuote: quote
+  - pullQuote: NYC's first of its kind dedicated flotation therapy spa
     type: quote
-  - caption: Floatation room - pod style
+  - caption: ''
     colWidth: '6'
     image: /images/uploads/lift_brooklyn_-3-_1820_cropped.jpg
     type: image
-  - caption: Floation room - tank style
+  - caption: ''
     colWidth: '6'
     image: /images/uploads/lift_brooklyn_-2-_1820_cropped.jpg
     type: image
-  - colWidth: '8'
+  - caption: ''
+    colWidth: '8'
     image: /images/uploads/lift-brooklyn-floorplan-hq.jpg
     offsetWidth: '2'
     type: image
-  - colWidth: '4'
+  - caption: ''
+    colWidth: '4'
     image: /images/uploads/lift_brooklyn_-5-_1160_cropped.jpg
     type: image
-  - colWidth: '8'
+  - caption: ''
+    colWidth: '8'
     image: /images/uploads/LIFT_BROOKLYN_ (8)_1820.jpg
     type: image
   - colWidth: '10'

@@ -8,7 +8,7 @@ templateKey: project-page
 title: Zhuhai
 type: commercial
 heroImage:
-  image: /images/uploads/ZHUHAI_ (6)_1820.jpg
+  image: /images/uploads/zhuhai_-5-_3800.jpg
 headline: '500,000 SQ FT OF SKY-LIT EXHIBITION SPACE'
 featured:
   isFeatured: false
@@ -27,7 +27,7 @@ primaryImage:
   image: /images/uploads/zhuhai_-15-_1820_cropped.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/ZHUHAI_ (3)_1820.jpg
+    image: /images/uploads/zhuhai_-3-_1820_cropped.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/ZHUHAI_ (14)_1820.jpg
@@ -39,7 +39,7 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/zhuhai_-7-_1820_cropped.jpg
     type: image
-  - pullQuote: quote
+  - pullQuote: large but sitting delicately
     type: quote
   - colWidth: '12'
     image: /images/uploads/section_final.jpg

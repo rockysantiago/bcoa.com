@@ -44,7 +44,7 @@ projectGallery:
     type: image
   - colWidth: '10'
     image: /images/uploads/17 W 71st St_ (7)_1820.jpg
-    pullQuote: quote
+    pullQuote: not quite midcentury meets modern on upper westside
     type: quote
   - colWidth: '12'
     image: /images/uploads/17 W 71st St_ (8)_1820.jpg

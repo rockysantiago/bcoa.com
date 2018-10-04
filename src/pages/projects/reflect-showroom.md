@@ -1,11 +1,12 @@
 ---
 isPublished: true
-templateKey: project-page
-title: Reflect Showroom
-seo: 
-  title: Test title
+seo:
   description: Test description
   image: /images/uploads/placeholder.jpg
+  title: Test title
+templateKey: project-page
+title: Elevecture Showroom I
+workDescription: Exploring the world of smart surfaces
 type: commercial
 heroImage:
   image: /images/uploads/REFLECT SHOWROOM_PH.jpg
@@ -27,10 +28,14 @@ primaryImage:
   alt: ''
   image: /images/uploads/REFLECT SHOWROOM_ (1)_1820.jpg
 projectGallery:
-  - colWidth: '10'
+  - caption: Showroom lobby entry panels integrated with linear folding lights
+    colWidth: '10'
     image: /images/uploads/REFLECT SHOWROOM_ (4)_1820.jpg
     type: image
-  - colWidth: '6'
+  - caption: >-
+      The mock elevator cab clad in Elevecture panels customized with a Paul
+      Goldberger quote from the NY Times
+    colWidth: '6'
     image: /images/uploads/REFLECT SHOWROOM_ (7)_1820.jpg
     offsetWidth: '6'
     type: image
@@ -42,11 +47,13 @@ projectGallery:
     image: /images/uploads/reflect-showroom_promoplan-cropped_1820.jpg
     offsetWidth: '1'
     type: image
-  - pullQuote: quote
+  - pullQuote: '"In truth, the elevator is a room"'
     type: quote
   - colWidth: '12'
     image: /images/uploads/REFLECT SHOWROOM_ (5)_1820.jpg
     offsetWidth: '0'
     type: image
 ---
-BC-OA was asked to design a showroom in Soho to present a new architectural surfaces product. The showroom is meant to demonstrate the versatility of a lightweight modular glass panel system containing static graphics, LED illumination and active displays. The space is divided into two zones - a simulated entry lobby with elevator both clad with the modular product followed by an open convention area for rotating exhibits, meetings, demonstrations and educational workshops.
+Corning® is one of the world's leading innovators in material science. Elevecture has worked in collaboration with Corning® to develop a revolutionary architectural surfaces product introducing the remarkable physical characteristics of Corning's Gorilla® Glass to the architectural world through a modular panel system. BC—OA was asked to design an experiential showroom in Soho to unveil this unique, nimble product to the design community - architects, academics, developers, building management. The futuristic simulated lobby at the showroom entry demonstrates the versatility of a lightweight glass panel system containing static graphics, LED illumination and active displays. Modular panel sizing determined by BC—OA permits the integration of light panel and static graphics, seamlessly activating the vertical surfaces activated with graphics, fixtures and display. The mock-elevator provides the same, introducing a bright, modular, durable system to the stagnant elevator interiors market.
+
+The rear showroom space collects design vignettes - also designed by BC—OA - exhibiting a few of the endless possibilities achievable with the Elevecture product. This includes backprinted photographs, unlimited saturated colors, glass-laminated wood veneers and laser-cut aluminum masks diffusing the light from a static light panel into a decorative pattern.

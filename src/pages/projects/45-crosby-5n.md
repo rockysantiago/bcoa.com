@@ -40,7 +40,7 @@ projectGallery:
     colWidth: '6'
     image: /images/uploads/45 CROSBY_5N_ (23)_1820.jpg
     type: image
-  - caption: Cat / floor coordination
+  - caption: Cat / floor coordination = essential
     colWidth: '8'
     image: /images/uploads/45 CROSBY_5N_ (20)_1820.jpg
     offsetWidth: '4'
@@ -48,11 +48,11 @@ projectGallery:
   - colWidth: '12'
     image: /images/uploads/Crosby_5N_C.jpg
     type: image
+  - pullQuote: Distressed Bronze - new | Distressed Tin - old
+    type: quote
   - colWidth: '12'
     image: /images/uploads/crosby-5n_promotional-plan.jpg
     type: image
-  - pullQuote: Distressed tin - new | distressed tin - old
-    type: quote
   - colWidth: '6'
     image: /images/uploads/45-crosby_5n_-5-_1820_cropped.jpg
     offsetWidth: '0'
@@ -60,7 +60,7 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/45 CROSBY_5N_ (17)_1820.jpg
     type: image
-  - caption: 'Living room view through to '
+  - caption: Living room view through to original fire door and timber column
     colWidth: '10'
     image: /images/uploads/45 CROSBY_5N_ (8)_1820.jpg
     offsetWidth: '2'

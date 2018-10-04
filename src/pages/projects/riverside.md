@@ -5,13 +5,14 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Riverside
+title: Riverside Kiosk for Harlem Public
+workDescription: Adaptive reuse at an iconic NYC parks arcade
 type: commercial
 heroImage:
   image: /images/uploads/RIVERSIDE_PH.jpg
-headline: BUILD COMMUNITY WITH A KIOSK REVISITED
+headline: 'BUILD COMMUNITY WITH A KIOSK, REVISITED'
 featured:
-  featuredDescription: this is the text of the featured description
+  featuredDescription: A phased approach to adaptive reuse at a remarkable NYC iconic structure
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/riverside_-8-_1820x1024.jpg

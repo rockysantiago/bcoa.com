@@ -6,13 +6,13 @@ seo:
   title: Test title
 templateKey: project-page
 title: Crosby Loft 1
-workDescription: BC—OAs first of many Soho loft projects
+workDescription: ''
 type: residential
 heroImage:
   image: /images/uploads/45crosby5s_cropped_3800.jpg
 headline: Select the loft
 featured:
-  featuredDescription: this is the text of the featured description
+  featuredDescription: BC—OAs first of many Soho loft projects
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/45-crosby_5s_-12-_1160x1547.jpg

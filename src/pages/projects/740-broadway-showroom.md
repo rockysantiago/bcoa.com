@@ -5,10 +5,11 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: 740 Broadway Showroom
+title: Elevecture Showroom II
 type: commercial
 heroImage:
   image: /images/uploads/3-bs.jpg
+headline: Innovating with the innovators
 featured:
   featuredDescription: this is the text of the featured description
   featuredImage:
@@ -50,6 +51,4 @@ projectGallery:
     image: /images/uploads/2-bs.jpg
     type: image
 ---
-Objective — to design a think tank showroom for exhibiting the
- latest technology integrating Gorilla Glass, LED lighting and digital
- displays seamlessly into the built environment.
+This showroom, the re-conceptualized, relocated version of the first Elevecture showroom, represents a collaboration by three innovative companies future-focused designed for three specific companies whose focus is on integration of materials for the built environment.  The space function as a forum that networks people and their innovations together with a focus on interactive collaboration. Digital displays blend seamlessly with glass panel to help showcase changing exhibits while maintaining an enviroment conducive to co-working for the developement, design and construction industries.

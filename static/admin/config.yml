@@ -310,7 +310,7 @@ collections:
         fields:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
-      - { label: "Date", name: "date", widget: "date", format: "M.D.YYYY" }
+      - { label: "Date", name: "date", widget: "date" }
       - { label: "Body", name: "body", widget: "markdown" }
     
   - name: 'settings'

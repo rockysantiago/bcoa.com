@@ -3,6 +3,7 @@ import Masonry from 'react-masonry-component';
 import slugify from 'slugify';
 import Img from 'gatsby-image';
 import SEO from "../components/SEO";
+import moment from 'moment'
 
 class Article extends Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class Article extends Component {
           className=" marginBottom-5
                       bp-2_marginBottom-6"/>
         <h2 className="f-headline-a">{ article.frontmatter.title }</h2>
-        <time className="c-gray f-headline-a">{ article.frontmatter.date }</time>
+        <time className="c-gray f-headline-a">{ moment(article.frontmatter.date).format("M.D.YYYY") }</time>
         <div className="f-copy-book
                         marginTop-3
                         bp-1_marginTop-4 

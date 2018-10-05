@@ -11,7 +11,7 @@ heroImage:
   image: /images/uploads/updated-lobby.jpg
 headline: Stitching detail into the mass
 featured:
-  featuredDescription: Constrained design to bring a human scale to a brick box
+  featuredDescription: Designing within constraints to bring a human scale to a brick box
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/clarkson-parkside-lobby-stair_1820x1024.jpg

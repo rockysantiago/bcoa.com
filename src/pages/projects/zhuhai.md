@@ -26,7 +26,8 @@ infoObject:
 primaryImage:
   image: /images/uploads/zhuhai_-15-_1820_cropped.jpg
 projectGallery:
-  - colWidth: '6'
+  - caption: Forms intertwined by the water's edge
+    colWidth: '6'
     image: /images/uploads/zhuhai_-3-_1820_cropped.jpg
     type: image
   - colWidth: '10'
@@ -39,12 +40,13 @@ projectGallery:
   - colWidth: '6'
     image: /images/uploads/zhuhai_-7-_1820_cropped.jpg
     type: image
-  - pullQuote: large but sitting delicately
+  - pullQuote: nestled and sitting delicately
     type: quote
   - colWidth: '12'
     image: /images/uploads/section_final.jpg
     type: image
-  - colWidth: '12'
+  - caption: Interstitial spaces create unique experience as one moves through.
+    colWidth: '12'
     image: /images/uploads/zhuhai_-17-_3800_cropped.jpg
     type: image
 ---

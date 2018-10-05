@@ -9,7 +9,7 @@ title: 10 Astor Lobby
 workDescription: work description 10 Astor
 type: commercial
 heroImage:
-  image: /images/uploads/10-astor_ph_2.jpg
+  image: /images/uploads/10astor_ph_3800x1900.jpg
 headline: Rebrand a building from inside out
 previewImage:
   image: /images/uploads/10-astor_-index.jpg

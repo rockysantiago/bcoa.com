@@ -8,7 +8,7 @@ templateKey: project-page
 title: Boatbox
 type: commercial
 heroImage:
-  image: /images/uploads/boatboxheroimage_cropped_3800.jpg
+  image: /images/uploads/boatbox_ph_3800x1900.jpg
 headline: educate and activate at valentino park
 previewImage:
   image: /images/uploads/BOATBOX_index.jpg

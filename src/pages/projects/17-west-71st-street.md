@@ -10,7 +10,7 @@ workDescription: A pre-war apartment reno
 type: residential
 heroImage:
   image: /images/uploads/17-w-71st-st_ph_2.jpg
-headline: merging new and old
+headline: merging prewar modern
 previewImage:
   image: /images/uploads/17-w-71st-st_index_2-.jpg
 infoObject:
@@ -61,4 +61,4 @@ projectGallery:
     image: /images/uploads/17 W 71st St_ (7)_1820.jpg
     type: image
 ---
-BC—OA merged a contemporary hand with some classic Pre-War detailing for the renovation of this 1923 co-op apartment near Central Park West. Working with the existing layout, we proposed minor changes with major impact including opening up and extending the kitchen into the dining space and expanding the master bathroom. Traditional base moldings merge with a modern door reveal detail, and a decision to restore and reuse the original brass doorknobs led to the selection of warm metal fixtures and details in the custom design of the dining table.
+BC—OA merged a contemporary hand with some classic Pre-War detailing for the renovation of this 1923 co-op apartment near Central Park West. Working with the existing layout, we proposed minor changes with major impact including opening up and extending the kitchen into the dining space and expanding the master bathroom. Traditional base moldings complement a modern door reveal detail, and a decision to restore and reuse the original brass doorknobs led to the selection of warm metal fixtures and details in the custom design of the dining table and lighting.

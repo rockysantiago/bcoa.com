@@ -23,17 +23,16 @@ infoObject:
   - description: Raquel Perez Puig
     title: Photography
 primaryImage:
-  caption: Custom millwork and a contemporary floor contrast a traditional baseboard
+  caption: Custom millwork and a contemporary floor contrast a traditional details
   image: /images/uploads/17 W 71st St_ (1)_1820.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/17 W 71st St_ (2)_1820.jpg
     type: image
   - caption: >-
-      An exposed brick shaft anchors the corner where a wall once stood,
-      creating a claustrophobic kitchen configuration. Here we remove the wall
-      and wrap the kitchen storage into the common space, stitching the rooms
-      together
+      An exposed brick shaft anchored the corner where a wall once stood
+      creating a closed in small kitchen. Removing the wall and wrapping the
+      kitchen storage into the common space, opens up the entire apartment.
     colWidth: '10'
     image: /images/uploads/17 W 71st St_ (12)_1820.jpg
     offsetWidth: '2'

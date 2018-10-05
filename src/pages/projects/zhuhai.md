@@ -8,7 +8,7 @@ templateKey: project-page
 title: Zhuhai Exhibition Center
 type: commercial
 heroImage:
-  image: /images/uploads/zhuhai_-5-_3800.jpg
+  image: /images/uploads/zhuhai_ph_3800x1900.jpg
 headline: finding endless space
 featured:
   isFeatured: false

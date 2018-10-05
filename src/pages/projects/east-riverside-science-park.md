@@ -8,7 +8,7 @@ templateKey: project-page
 title: East Riverside Science Park
 type: commercial
 heroImage:
-  image: /images/uploads/east-riverside-science-park_ph.jpg
+  image: /images/uploads/eastriversidesciencepark_ph_3800x1900.jpg
 headline: DESIGN A HUB FOR NYC’s EXPANDING LIFE SCIENCES SECTOR
 previewImage:
   image: /images/uploads/east-riverside-science-park_index_2.jpg

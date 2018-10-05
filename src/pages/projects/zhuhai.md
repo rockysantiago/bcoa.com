@@ -9,7 +9,7 @@ title: Zhuhai Exhibition Center
 type: commercial
 heroImage:
   image: /images/uploads/zhuhai_-5-_3800.jpg
-headline: '500,000 SQ FT OF SKY-LIT EXHIBITION SPACE'
+headline: finding endless space
 featured:
   isFeatured: false
 previewImage:

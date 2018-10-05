@@ -9,7 +9,7 @@ title: Ward Road House
 workDescription: ''
 type: residential
 heroImage:
-  image: /images/uploads/ward-road_ph.jpg
+  image: /images/uploads/ward-road_ph_3800x1900.jpg
 headline: DESIGN IN DUALS - SHARED HOLIDAY HOUSE
 featured:
   featuredDescription: >-

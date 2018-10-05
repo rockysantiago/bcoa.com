@@ -5,7 +5,7 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: 17 Thompson
+title: Thompson Loft
 type: residential
 heroImage:
   image: /images/uploads/17-thompson_ph.jpg

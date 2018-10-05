@@ -30,7 +30,7 @@ projectGallery:
   - pullQuote: the balanced loft
     type: quote
   - colWidth: '12'
-    image: /images/uploads/17-thompson_promo-plan_1820_cropped.jpg
+    image: /images/uploads/thompson_newplan_3800.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/17-thompson_-16-_2480_cropped.jpg

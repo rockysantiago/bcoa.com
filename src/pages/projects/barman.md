@@ -8,7 +8,7 @@ templateKey: project-page
 title: Barman
 type: residential
 heroImage:
-  image: /images/uploads/BARMAN_PH_1.jpg
+  image: /images/uploads/barman_ph_3800x1900.jpg
 headline: California Modern
 previewImage:
   image: /images/uploads/BARMAN_index_2.jpg

@@ -9,7 +9,7 @@ title: Elevecture Showroom I
 workDescription: Exploring the world of smart surfaces
 type: commercial
 heroImage:
-  image: /images/uploads/REFLECT SHOWROOM_PH.jpg
+  image: /images/uploads/reflect-showroom_ph_3800x1900.jpg
 headline: REFLECT INNOVATION IN GLASS
 previewImage:
   image: /images/uploads/REFLECT SHOWROOM_index_1.jpg
@@ -27,11 +27,11 @@ infoObject:
 primaryImage:
   alt: ''
   caption: 'Elevecture lights extend out of the flush glass panel wall and overhead '
-  image: /images/uploads/REFLECT SHOWROOM_ (1)_1820.jpg
+  image: /images/uploads/reflectshowroom_3800_4.jpg
 projectGallery:
   - caption: Showroom lobby entry panels integrated with linear folding lights
     colWidth: '10'
-    image: /images/uploads/REFLECT SHOWROOM_ (4)_1820.jpg
+    image: /images/uploads/reflectshowroom_3800_1.jpg
     type: image
   - caption: >-
       The mock elevator cab clad in Elevecture panels customized with a Paul
@@ -41,7 +41,7 @@ projectGallery:
     offsetWidth: '6'
     type: image
   - colWidth: '12'
-    image: /images/uploads/REFLECT SHOWROOM_ (6)_1820.jpg
+    image: /images/uploads/reflectshowroom_3800_3.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '10'
@@ -53,7 +53,11 @@ projectGallery:
       enter on a regular basis"
     type: quote
   - colWidth: '12'
-    image: /images/uploads/REFLECT SHOWROOM_ (5)_1820.jpg
+    image: /images/uploads/reflectshowroom_3800_2.jpg
+    offsetWidth: '0'
+    type: image
+  - colWidth: '9'
+    image: /images/uploads/reflectshowroom_3800_5.jpg
     offsetWidth: '0'
     type: image
 ---

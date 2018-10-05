@@ -9,7 +9,7 @@ title: Crosby Loft 1
 workDescription: ''
 type: residential
 heroImage:
-  image: /images/uploads/45crosby5s_cropped_3800.jpg
+  image: /images/uploads/45crosby5s_ph_3800x1900.jpg
 headline: Select the loft
 featured:
   featuredDescription: BC—OAs first of many Soho loft projects

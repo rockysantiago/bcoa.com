@@ -45,7 +45,8 @@ projectGallery:
     type: image
   - pullQuote: Redefining White Walls
     type: quote
-  - colWidth: '10'
+  - caption: Panels wrap the reception desk and elevator wall
+    colWidth: '10'
     image: /images/uploads/10 Astor_ (3)_1820.jpg
     type: image
   - colWidth: '10'

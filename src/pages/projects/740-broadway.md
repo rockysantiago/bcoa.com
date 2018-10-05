@@ -9,7 +9,7 @@ title: 740 Broadway Lobby
 workDescription: Broadway description
 type: commercial
 heroImage:
-  image: /images/uploads/740-broadway_lobby_-10-.jpg
+  image: /images/uploads/740broadwaylobby_ph_3800x1900.jpg
 headline: Surround with light
 featured:
   featuredDescription: >-

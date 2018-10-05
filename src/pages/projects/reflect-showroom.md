@@ -26,6 +26,7 @@ infoObject:
     title: CREDITS
 primaryImage:
   alt: ''
+  caption: 'Elevecture lights extend out of the flush glass panel wall and overhead '
   image: /images/uploads/REFLECT SHOWROOM_ (1)_1820.jpg
 projectGallery:
   - caption: Showroom lobby entry panels integrated with linear folding lights
@@ -47,7 +48,9 @@ projectGallery:
     image: /images/uploads/reflect-showroom_promoplan-cropped_1820.jpg
     offsetWidth: '1'
     type: image
-  - pullQuote: '"In truth, the elevator is a room"'
+  - pullQuote: >-
+      "In truth, the elevator is a room...the smallest piece of architecture we
+      enter on a regular basis"
     type: quote
   - colWidth: '12'
     image: /images/uploads/REFLECT SHOWROOM_ (5)_1820.jpg

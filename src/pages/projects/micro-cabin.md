@@ -10,7 +10,7 @@ workDescription: A 325sf guest cabin in Montauk
 type: residential
 heroImage:
   alt: Micro Cabin - residential reclaimed materials small houses tiny houses
-  image: /images/uploads/hero.jpg
+  image: /images/uploads/microcabin_ph_3800x1900.jpg
 headline: CRAFT A JEWEL BOX
 featured:
   featuredDescription: >-

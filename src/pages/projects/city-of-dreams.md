@@ -8,7 +8,7 @@ templateKey: project-page
 title: City of Dreams
 type: commercial
 heroImage:
-  image: /images/uploads/CITY OF DREAMS_ (1)_1820.jpg
+  image: /images/uploads/cityofdreams_ph_3800x1900.jpg
 previewImage:
   image: /images/uploads/CITY OF DREAMS_index_2.jpg
 infoObject:

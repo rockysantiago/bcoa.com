@@ -8,7 +8,7 @@ templateKey: project-page
 title: 45 Crosby Lobby
 type: residential
 heroImage:
-  image: /images/uploads/45CROSBY_LOBBY_PH_2.jpg
+  image: /images/uploads/45crosby_lobby_ph_2.jpg
 previewImage:
   image: /images/uploads/45 CROSBY_LOBBY_index.jpg
 infoObject:

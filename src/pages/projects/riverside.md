@@ -9,7 +9,7 @@ title: Riverside Kiosk for Harlem Public
 workDescription: Adaptive reuse at an iconic NYC parks arcade
 type: commercial
 heroImage:
-  image: /images/uploads/RIVERSIDE_PH.jpg
+  image: /images/uploads/riverside_ph-3800x1900.jpg
 headline: 'BUILD COMMUNITY WITH A KIOSK, REVISITED'
 featured:
   featuredDescription: A phased approach to adaptive reuse at a remarkable NYC iconic structure

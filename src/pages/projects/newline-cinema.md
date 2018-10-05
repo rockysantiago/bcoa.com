@@ -9,7 +9,7 @@ title: Newline Cinema
 workDescription: 'With SMH - '
 type: commercial
 heroImage:
-  image: /images/uploads/new-line-cinema_-4-_cropped_3800.jpg
+  image: /images/uploads/newline-cinema_ph_3800x1900.jpg
 headline: RETHINK THE “STANDARD” STANDARDS
 previewImage:
   image: /images/uploads/NEW LINE CINEMA_index_1.jpg

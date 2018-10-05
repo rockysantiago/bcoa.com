@@ -6,10 +6,11 @@ seo:
   title: Test title
 templateKey: project-page
 title: 'Five Star Hotel '
-workDescription: Stretching Stone Upward
+workDescription: ''
 type: commercial
 heroImage:
   image: /images/uploads/ankara_ph_3800x1900.jpg
+headline: Stretching Stone Upward
 previewImage:
   image: /images/uploads/ANKARA HOTEL_index_2.jpg
 infoObject:

@@ -1,8 +1,8 @@
 ---
 templateKey: article-page
-title: BC—OA is hiring!
+title: JOIN US
 image:
-  image: /images/uploads/cmyk_bc-oa_cndnsd_ou-small3.png
+  image: /images/uploads/bc—oa-is-hiring-white.jpg
 date: '2018-10-05'
 ---
 See our archinect ad here with more info - https://archinect.com/jobs/entry/150061580/intermediate-architect

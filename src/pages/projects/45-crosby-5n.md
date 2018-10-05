@@ -8,7 +8,7 @@ templateKey: project-page
 title: Crosby Loft II
 type: residential
 heroImage:
-  image: /images/uploads/45_crosbyy_5n_ph.jpg
+  image: /images/uploads/45crosby5n_ph_3800x1900.jpg
 headline: EXPOSE AND CONCEAL THE LOFT
 featured:
   featuredDescription: >-

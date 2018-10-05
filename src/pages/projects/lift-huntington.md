@@ -8,7 +8,7 @@ templateKey: project-page
 title: Lift Huntington
 type: commercial
 heroImage:
-  image: /images/uploads/lift_huntington_ph.jpg
+  image: /images/uploads/lifthuntington_ph_3800x1900.jpg
 previewImage:
   image: /images/uploads/lift_huntington_index_1.jpg
 infoObject:
@@ -22,7 +22,7 @@ primaryImage:
   image: /images/uploads/lift_huntington_-7-cropped_1820.jpg
 projectGallery:
   - colWidth: '10'
-    image: /images/uploads/LIFT_HUNTINGTON_ (12)_1820.jpg
+    image: /images/uploads/lift_huntington_-10-.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/LIFT_HUNTINGTON_ (13)_1820.jpg

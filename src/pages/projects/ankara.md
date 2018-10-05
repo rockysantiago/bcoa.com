@@ -8,7 +8,7 @@ templateKey: project-page
 title: Ankara
 type: commercial
 heroImage:
-  image: /images/uploads/ANKARA_PH_1-1.jpg
+  image: /images/uploads/ankara_ph_3800x1900.jpg
 previewImage:
   image: /images/uploads/ANKARA HOTEL_index_2.jpg
 infoObject:

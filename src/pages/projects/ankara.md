@@ -5,7 +5,7 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: '5 Star Hotel '
+title: 'Five Star Hotel '
 type: commercial
 heroImage:
   image: /images/uploads/ankara_ph_3800x1900.jpg

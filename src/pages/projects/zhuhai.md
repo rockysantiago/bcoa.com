@@ -5,7 +5,7 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: zhuhai
 templateKey: project-page
-title: Zhuhai
+title: Zhuhai Exhibition Center
 type: commercial
 heroImage:
   image: /images/uploads/zhuhai_-5-_3800.jpg

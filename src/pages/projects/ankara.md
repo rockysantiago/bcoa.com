@@ -43,11 +43,14 @@ projectGallery:
     image: /images/uploads/ANKARA HOTEL_ (22)_1820.jpg
     offsetWidth: '2'
     type: image
-  - colWidth: '6'
-    image: /images/uploads/ankara-hotel_-1-_1820_cropped.jpg
+  - colWidth: '4'
+    image: /images/uploads/ankara-hotel_-1new-_1160.jpg
     type: image
-  - colWidth: '6'
-    image: /images/uploads/ankara-hotel_-2-_1820_cropped.jpg
+  - colWidth: '4'
+    image: /images/uploads/ankara-hotel_-2new-_1160.jpg
+    type: image
+  - colWidth: '4'
+    image: /images/uploads/ankara-hotel_-3new-_1160.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/ANKARA HOTEL_ (4)_1820.jpg

@@ -15,14 +15,14 @@ featured:
 previewImage:
   image: /images/uploads/ZHUHAI_index_3.jpg
 infoObject:
-  - description: Huafa Group
+  - description: Private Developer
     title: CLIENT
   - description: '500,000 sf Convention Center'
     title: SCOPE
   - description: Completed 2016
     title: STATUS
   - description: RMJM w. Luigi Ciaccia
-    title: ARCHITECT
+    title: DESIGN ARCHITECT
 primaryImage:
   image: /images/uploads/zhuhai_-15-_1820_cropped.jpg
 projectGallery:

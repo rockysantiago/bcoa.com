@@ -9,7 +9,7 @@ title: Jungle House
 workDescription: Jungle House project
 type: residential
 heroImage:
-  image: /images/uploads/JUNGLE HOUSE_ (5)_1820.jpg
+  image: /images/uploads/junglehouse-_ph_3800x1900.jpg
 headline: Lake View
 previewImage:
   image: /images/uploads/JUNGLE HOUSE_index.jpg

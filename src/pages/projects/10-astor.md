@@ -5,7 +5,7 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: 10 Astor Lobby
+title: Astor Lobby
 workDescription: work description 10 Astor
 type: commercial
 heroImage:

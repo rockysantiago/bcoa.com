@@ -9,6 +9,7 @@ title: Boatbox
 type: commercial
 heroImage:
   image: /images/uploads/boatboxheroimage_cropped_3800.jpg
+headline: educate and activate at valentino park
 previewImage:
   image: /images/uploads/BOATBOX_index.jpg
 infoObject:
@@ -40,4 +41,4 @@ projectGallery:
     offsetWidth: '0'
     type: image
 ---
-BC-OA was selected to participate in desigNYC 2011 and was paired with PortSide NewYork to plan and design a kayak storage container in Valentino Park in Red Hook, Brooklyn. An existing reclaimed shipping container is currently located on the sidewalk outside of the park. Through a series of site studies we determined the optimal site for the container to maximize visibility without interrupting views to the East River, and to frame a courtyard in a forgotten corner of the park. The exterior of the container is to be used for maritime related interpretive graphic exhibitry curated by PortSide. A green roof on the container itself protects the contents of the box. Reclaimed flotsam are secured as benches around the site and a perforated metal shade structure creates a protected destination.
+BC—OA's 2011 participation in desigNYC paired us with [PortSide NewYork](http://portsidenewyork.org/), a Brooklyn-based non-profit dedicated to connecting New Yorkers to the potentials of their waterfront. PortSide was looking to propose a kayak storage container in Valentino Park in Red Hook, who's exterior could be activated to include educational exhibition panels, . Through a series of site studies we determined the optimal site for relocating an existing shipping container from the sidewalk to within the boundary of the park. the container to maximize visibility without interrupting views to the East River, and to frame a courtyard in a forgotten corner of the park. The exterior of the container is to be used for maritime related interpretive graphic exhibitry curated by PortSide. A green roof on the container itself protects the contents of the box. Reclaimed flotsam are secured as benches around the site and a perforated metal shade structure creates a protected destination.

@@ -8,7 +8,7 @@ templateKey: project-page
 title: West 53rd Street
 type: residential
 heroImage:
-  image: /images/uploads/W 53RD ST_PH_3.jpg
+  image: /images/uploads/w53rdst_ph_3800x1900.jpg
 headline: INVITE THE CITY IN
 previewImage:
   image: /images/uploads/W 53ST_index.jpg

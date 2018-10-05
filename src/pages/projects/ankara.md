@@ -5,14 +5,14 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Ankara
+title: '5 Star Hotel '
 type: commercial
 heroImage:
   image: /images/uploads/ankara_ph_3800x1900.jpg
 previewImage:
   image: /images/uploads/ANKARA HOTEL_index_2.jpg
 infoObject:
-  - description: Ozkar Construction Industry & Co. Inc.
+  - description: Private Developer
     title: CLIENT
   - description: 'Ankara, Turkey'
     title: LOCATION
@@ -24,11 +24,14 @@ infoObject:
     title: SIZE
   - description: Completed 2011
     title: STATUS
-  - description: RMJM
+  - description: RMJM - Hillier Group
     title: CREDITS
   - description: Luigi Ciaccia
     title: KEY PERSONEL
 primaryImage:
+  caption: >-
+    Vertical articulation rises high adjacent to Ankara's main artery into the
+    city center.
   image: /images/uploads/ANKARA HOTEL_ (15)_1820.jpg
 projectGallery:
   - colWidth: '6'
@@ -48,7 +51,10 @@ projectGallery:
     image: /images/uploads/ANKARA HOTEL_ (4)_1820.jpg
     offsetWidth: '2'
     type: image
-  - colWidth: '12'
+  - caption: >-
+      The building slender form from certain angles conceals its actual bulk to
+      achieve programmatic goals.
+    colWidth: '12'
     image: /images/uploads/ANKARA HOTEL_ (30)_1820.jpg
     type: image
 ---

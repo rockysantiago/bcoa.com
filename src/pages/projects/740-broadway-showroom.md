@@ -8,7 +8,7 @@ templateKey: project-page
 title: Elevecture® Showroom II
 type: commercial
 heroImage:
-  image: /images/uploads/3-bs.jpg
+  image: /images/uploads/740broadwayshowroom_ph_3800x1900.jpg
 headline: Innovating with the innovators
 featured:
   featuredDescription: Exhibiting innovations in advanced glass technologies

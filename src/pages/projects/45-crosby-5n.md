@@ -51,7 +51,7 @@ projectGallery:
   - pullQuote: Distressed Bronze - new | Distressed Tin - old
     type: quote
   - colWidth: '12'
-    image: /images/uploads/crosby-5n_promotional-plan.jpg
+    image: /images/uploads/45crosby5n_newplan_3800.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/45-crosby_5n_-5-_1820_cropped.jpg

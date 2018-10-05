@@ -5,7 +5,7 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: Crosby Loft 1
+title: Crosby Loft I
 workDescription: ''
 type: residential
 heroImage:

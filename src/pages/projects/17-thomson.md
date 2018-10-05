@@ -8,7 +8,7 @@ templateKey: project-page
 title: Thompson Loft
 type: residential
 heroImage:
-  image: /images/uploads/17-thompson_ph.jpg
+  image: /images/uploads/17thompson_ph_3800x1900.jpg
 previewImage:
   image: /images/uploads/17-thompson_index.jpg
 primaryImage:

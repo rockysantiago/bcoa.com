@@ -157,7 +157,7 @@ export default class TemplateWrapper extends Component {
                               bp-1_marginBottom-0"
               >                
                 <b className="f-footer-a">Contact</b>
-                <a href="https://goo.gl/maps/cxWiP9aLg6v">
+                <a href="https://goo.gl/maps/cxWiP9aLg6v" target="_blank">
                   <address className="f-footer-b">
                     {data.contactJson.address.street},
                     {" "}

@@ -141,6 +141,16 @@ collections:
                 collection: "projects"
                 searchFields: ["title"]
                 valueField: "title"
+          - label: "Featured Projects"
+            name: "featuredProjects"
+            widget: "list"
+            fields:
+              - label: "Featured Project"
+                name: "project"
+                widget: "relation"
+                collection: "projects"
+                searchFields: ["title"]
+                valueField: "title"
           
   - name: "projects"
     label: "Projects"

@@ -11,16 +11,17 @@ const FeaturedProjectImage = ({ image, className }) => {
     <Img
     sizes={ image }
     outerWrapperClassName={className}
-    className={`marginBottom-5 bp-1_marginBottom-6 bp-2_marginBottom-9 ${className}`}
     />
   )
 }
 
-const renderFeaturedProjects = (projects) => {
-  const featured = Array(projects.length).fill(null)
-  projects.forEach((project) => {
-    featured.splice(project.node.frontmatter.featured.featuredOrder, 1, project)
+const renderFeaturedProjects = (featuredProjects, projects) => {
+  const featured = featuredProjects.map((title) => {
+    return projects.find(({node: project}) => {
+      return project.frontmatter.title === title.project
+    })
   })
+  console.log(featured);
   return (
     featured.map(({node: project}, i) => {
       return (
@@ -83,10 +84,10 @@ export default class Index extends Component {
     
     return (
       <div>
-        <SEO
+        {/* <SEO
           postImage={this.props.data.page.frontmatter.seo.image.childImageSharp.sizes.src}
           postData={this.props.data.page.frontmatter}
-          />
+          /> */}
         <Slider 
           className="hero" 
           slides={ this.props.data.page.frontmatter.carouselImages } 
@@ -100,15 +101,15 @@ export default class Index extends Component {
           </h2>
           {(this.props.isWindowLarge
             ?
-            <Masonry
-            className={'masonry'}
-            elementType={'ul'}
-            options={{ transitionDuration: 0 }}
-            >
-                { renderFeaturedProjects(projects) }
+              <Masonry
+                className={'masonry'}
+                elementType={'ul'}
+                options={{ transitionDuration: 0 }}
+              >
+                { renderFeaturedProjects(this.props.data.page.frontmatter.featuredProjects,projects) }
               </Masonry>
             :
-            renderFeaturedProjects(projects)
+            renderFeaturedProjects(this.props.data.page.frontmatter.featuredProjects, projects)
           )}
         </div>
       </div>
@@ -121,7 +122,6 @@ export const query = graphql`
     page: markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       frontmatter {
-        title
         seo {
           title
           description
@@ -133,6 +133,7 @@ export const query = graphql`
             }
           }
         }
+        title
         carouselImages {
           alt
           title
@@ -146,14 +147,15 @@ export const query = graphql`
             }
           }
         }
+        featuredProjects {
+          project
+        }
       }
     }
     projects: allMarkdownRemark(
       filter: {
         frontmatter: { 
-        	templateKey: { regex: "/project-page/" },
-          featured: { isFeatured: { eq: true } },
-          isPublished: {eq: true}
+        	templateKey: { regex: "/project-page/" }
       	} 
       }
     ) {
@@ -162,6 +164,7 @@ export const query = graphql`
           id
           frontmatter {
             templateKey
+            title
             featured {
               featuredOrder
               isFeatured

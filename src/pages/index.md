@@ -4,7 +4,7 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: SEO Featured Page Title
 templateKey: featured-page
-title: Featured
+title: Featured Projects
 carouselImages:
   - alt: Carousel image 6
     image: /images/uploads/microcabin_c1.jpg
@@ -42,5 +42,8 @@ carouselImages:
     project: Lift Brooklyn
     subtitle: Brooklyn
     title: Lift
+featuredProjects:
+  - project: Micro Cabin
+  - project: Stair-Well Housing
 ---
 

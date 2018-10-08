@@ -57,11 +57,12 @@ projectGallery:
   - colWidth: '4'
     image: /images/uploads/railing-1_1160_cropped.jpg
     type: image
-  - colWidth: '10'
+  - caption: Section perspective through the lobby and double height space
+    colWidth: '10'
     image: /images/uploads/clarkson-parkside_section-perspective_cropped.jpg
-    offsetWidth: '1'
+    offsetWidth: '2'
     type: image
-  - colWidth: '8'
+  - colWidth: '12'
     image: /images/uploads/lobby-stair.jpg
     type: image
 ---

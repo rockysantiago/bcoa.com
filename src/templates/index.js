@@ -84,10 +84,10 @@ export default class Index extends Component {
     
     return (
       <div>
-        {/* <SEO
+        <SEO
           postImage={this.props.data.page.frontmatter.seo.image.childImageSharp.sizes.src}
           postData={this.props.data.page.frontmatter}
-          /> */}
+          />
         <Slider 
           className="hero" 
           slides={ this.props.data.page.frontmatter.carouselImages } 

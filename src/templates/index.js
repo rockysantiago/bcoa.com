@@ -80,11 +80,12 @@ export default class Index extends Component {
   render() {
     const projects = this.props.data.projects.edges;
     const seo = this.props.data.page.frontmatter.seo;
+    console.log(seo);
     
     return (
       <div>
         <SEO
-          postImage={seo.image.childImageSharp.sizes.src}
+          postImage={seo.image && seo.image.childImageSharp.sizes.src}
           postData={this.props.data.page.frontmatter}
           />
         <Slider 
@@ -165,7 +166,6 @@ export const query = graphql`
             templateKey
             title
             featured {
-              featuredOrder
               isFeatured
               featuredImage {
                 isPortrait

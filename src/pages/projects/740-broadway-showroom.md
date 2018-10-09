@@ -16,7 +16,6 @@ featured:
     alt: this is the alt text
     image: /images/uploads/740-broadway_showroom_-4-_1160x1547.jpg
     isPortrait: true
-  featuredOrder: 8
   isFeatured: true
 previewImage:
   image: /images/uploads/740 BROADWAY_SHOWROOM_index_3.jpg

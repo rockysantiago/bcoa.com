@@ -22,7 +22,6 @@ featured:
     alt: this is the alt text
     image: /images/uploads/stair-well_-8-_1160x1740.jpg
     isPortrait: true
-  featuredOrder: 1
   isFeatured: true
 previewImage:
   image: /images/uploads/STAIR-WELL_index.jpg

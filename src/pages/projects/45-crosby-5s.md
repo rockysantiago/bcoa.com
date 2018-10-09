@@ -17,7 +17,6 @@ featured:
     alt: this is the alt text
     image: /images/uploads/45-crosby_5s_-12-_1160x1547.jpg
     isPortrait: true
-  featuredOrder: 5
   isFeatured: true
 previewImage:
   image: /images/uploads/45-crosby_5s_4.jpg

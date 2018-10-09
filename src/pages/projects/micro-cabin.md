@@ -19,7 +19,6 @@ featured:
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/microcabin_-7-_1820x1024.jpg
-  featuredOrder: 0
   isFeatured: true
 previewImage:
   alt: >-

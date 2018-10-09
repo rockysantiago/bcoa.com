@@ -19,7 +19,6 @@ featured:
     alt: this is the alt text
     image: /images/uploads/740-broadway_lobby_-6.1-_1160x1740.jpg
     isPortrait: true
-  featuredOrder: 4
   isFeatured: true
 previewImage:
   image: /images/uploads/740-broadway_index.jpg

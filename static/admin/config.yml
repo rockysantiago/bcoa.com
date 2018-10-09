@@ -208,10 +208,7 @@ collections:
             name: isFeatured
             widget: boolean
             required: false
-          - label: Main Page Order
-            name: featuredOrder
-            widget: hidden
-          - label: Featured Image
+          - label: Featured Page Image
             name: featuredImage
             widget: object
             required: false
@@ -234,7 +231,7 @@ collections:
               field: isFeatured
               value: true
               
-      - label: Preview Image
+      - label: Index Page Image
         name: previewImage
         widget: object
         required: false

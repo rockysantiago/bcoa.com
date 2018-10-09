@@ -16,7 +16,6 @@ featured:
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/riverside_-8-_1820x1024.jpg
-  featuredOrder: 6
   isFeatured: true
 previewImage:
   image: /images/uploads/RIVERSIDE_index.jpg

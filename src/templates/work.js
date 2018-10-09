@@ -34,7 +34,8 @@ export default class Work extends Component {
       return projects.find(({node: project}) => {
         return project.frontmatter.title === title.project
       })
-    })
+    }).filter(({node: project}) => project.frontmatter.isPublished)
+
     return (
       <div className="container
                       marginBottom-11
@@ -42,9 +43,13 @@ export default class Work extends Component {
                       bp-2_marginBottom-9"
       >
         <SEO
-          postImage={page.seo.image.childImageSharp.sizes.src}
+          postImage={page.seo.image && page.seo.image.childImageSharp.sizes.src}
           postData={page}
         />
+        {/* <div>
+          {projects.filter(({node: project}) => project.frontmatter.isFeatured)
+            .map(({node: project}) => <span>{project.frontmatter.title}</span> )}
+        </div> */}
         <div className="flex
                         justifySpaceBetween
                         marginTop-7 marginBottom-6
@@ -103,6 +108,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            isPublished
             seo {
               title
               description

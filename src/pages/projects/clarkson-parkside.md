@@ -15,7 +15,6 @@ featured:
   featuredImage:
     alt: this is the alt text
     image: /images/uploads/clarkson-parkside-lobby-stair_1820x1024.jpg
-  featuredOrder: 9
   isFeatured: true
 previewImage:
   image: /images/uploads/clarkson-parkside_index.jpg

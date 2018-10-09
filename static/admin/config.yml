@@ -113,6 +113,16 @@ collections:
               - { label: "Image", name: "image", widget: "image" }
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "work-page" }
           - { label: "Title", name: "title", widget: "string" }
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - label: "Project"
+                name: "project"
+                widget: "relation"
+                collection: "projects"
+                searchFields: ["title"]
+                valueField: "title"
 
       - name: "featuredPage"
         label: "Featured / Home Page"

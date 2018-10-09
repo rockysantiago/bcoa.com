@@ -28,9 +28,12 @@ export default class Work extends Component {
   render() {
     const page = this.props.data.page.frontmatter;
     const projects = this.props.data.projects.edges;
-    const slugs = projects.map(({node: project}) => (project.fields.slug).substr(10).slice(0, -1));
-    const newOrder = indexOrder.filter(slug => slugs.indexOf(slug) >= 0).map(slug => {
-      return projects[slugs.indexOf(slug)];
+    const projectOrder = page.projects;
+    // creates user defined order of projects from page frontmatter
+    const orderedProjects = projectOrder.map((title) => {
+      return projects.find(({node: project}) => {
+        return project.frontmatter.title === title.project
+      })
     })
     return (
       <div className="container
@@ -55,7 +58,7 @@ export default class Work extends Component {
         </div>
         <ul className={`${this.state.inTransition ? 'inTransition' : '' } bp-1_grid-3col bp-2_grid-4col`}>
           { projects &&
-            newOrder.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
+            orderedProjects.filter(({ node: project }) => this.filterProjects(project)).map(({ node: project }, i) => {
               return (
                 <li key={i}>
                   <article className="workProject">
@@ -144,6 +147,9 @@ export const query = graphql`
               }
             }
           }
+        }
+        projects {
+          project
         }
       }
     }

@@ -21,7 +21,6 @@ const renderFeaturedProjects = (featuredProjects, projects) => {
       return project.frontmatter.title === title.project
     })
   })
-  console.log(featured);
   return (
     featured.map(({node: project}, i) => {
       return (
@@ -85,7 +84,7 @@ export default class Index extends Component {
     return (
       <div>
         <SEO
-          postImage={this.props.data.page.frontmatter.seo.image.childImageSharp.sizes.src}
+          postImage={seo.image.childImageSharp.sizes.src}
           postData={this.props.data.page.frontmatter}
           />
         <Slider 

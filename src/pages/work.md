@@ -5,5 +5,8 @@ seo:
   image: /images/uploads/placeholder.jpg
 templateKey: work-page
 title: Index
+projects:
+  - project: Micro Cabin
+  - project: Stair-Well Housing
 ---
 

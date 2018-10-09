@@ -83,10 +83,11 @@ export default ({ data }) => {
         { fields.title }
       </h1>
       <div className="bp-2_grid-12col bp-1_grid-12col">
-        <div  className=" f-display-copy
+        <div  className=" md
+                          f-display-copy
                           marginBottom-15
                           bp-1_colSpan-10
-                          bp-2_marginBottom-26 bp-2_colSpan-9"
+                          bp-2_marginBottom-26 bp-2_colSpan-8"
               dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         />
       </div>

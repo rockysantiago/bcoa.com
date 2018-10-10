@@ -14,6 +14,7 @@ featured:
     A Micro Cabin - the size of a single car garage - with all the fixin's on an
     existing foundation in Montauk, NY.
   featuredImage:
+    isPortrait: false
     alt: this is the alt text
     image: /images/uploads/microcabin_-7-_1820x1024.jpg
   isFeatured: true

@@ -5,8 +5,9 @@ title: Lift Huntington
 type: commercial
 heroImage:
   image: /images/uploads/lifthuntington_ph_3800x1900.jpg
+  portraitImage: /images/uploads/LIFTHUNTINGTON_PH_1500x2000.jpg
 previewImage:
-  image: /images/uploads/lifthuntington_ph_3800x1900.jpg
+  image: /images/uploads/LIFT_HUNTINGTON_index_2.jpg
 infoObject:
   - description: Lift Next Level Floats
     title: CLIENT

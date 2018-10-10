@@ -8,7 +8,7 @@ heroImage:
   potraitImage: /images/uploads/EASTRIVERSIDESCIENCEPARK_PH_1500x2000.jpg
 headline: DESIGN A HUB FOR NYC’s EXPANDING LIFE SCIENCES SECTOR
 previewImage:
-  image: /images/uploads/east-riverside-science-park_index_2.jpg
+  image: /images/uploads/EAST-RIVERSIDE-SCIENCE-PARK_index_2.jpg
 infoObject:
   - description: Alexandria Real Estate Equities
     title: CLIENT

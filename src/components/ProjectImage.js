@@ -5,6 +5,9 @@ import classnames from "classnames";
 const ProjectImage = (props) => {
   // console.log(props.imageData)
   // debugger;
+  if(!props.imageData.image) {
+    debugger;
+  }
   return (
     <figure key={props.i} className={props.classes}>
       <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />

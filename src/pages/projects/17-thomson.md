@@ -8,7 +8,7 @@ heroImage:
   portraitImage: /images/uploads/17THOMPSON_PH_1500x2000.jpg
   alt: 'Modern loft kitchen rendering'
 previewImage:
-  image: /images/uploads/17-thompson_index.jpg
+  image: /images/uploads/17-THOMPSON_index.jpg
 primaryImage:
   image: /images/uploads/17-thompson-cropped.jpg
 projectGallery:

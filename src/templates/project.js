@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Img from 'gatsby-image';
 import ProjectImage from "../components/ProjectImage";
-import Hero from "../components/Hero";
+import MediaQuery from 'react-responsive';
 import SEO from "../components/SEO";
 
 export default ({ data }) => {
@@ -20,10 +20,21 @@ export default ({ data }) => {
           <h2 className='f-page-title'>{fields.title}</h2>
         </div>
       </div>
-
-      {fields.heroImage && fields.heroImage.image &&
-        <Img className="projectHero" sizes={ fields.heroImage.image.childImageSharp.sizes } />
-      }
+      
+      <MediaQuery orientation={'portrait'} maxWidth={1224}>
+        {(matches) => {
+          if (matches && fields.heroImage && fields.heroImage.portraitImage) {
+            return (
+              <Img className="projectHero" sizes={ fields.heroImage.portraitImage.childImageSharp.sizes } />
+            )
+          } else if (fields.heroImage && fields.heroImage.image) {
+            return (
+              <Img className="projectHero" sizes={ fields.heroImage.image.childImageSharp.sizes } />
+            )
+          }
+        }}
+      </MediaQuery>
+      
       <div className="container marginTop-5 bp-1_marginTop-10 bp-2_marginTop-30">
         <div className="bp-1_grid-12col">
           <div className="colSpan-5">
@@ -106,6 +117,13 @@ export const query = graphql`
         }
         heroImage {
           image {
+            childImageSharp {
+              sizes(maxWidth: 3848) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
+          portraitImage {
             childImageSharp {
               sizes(maxWidth: 3848) {
                 ...GatsbyImageSharpSizes_withWebp

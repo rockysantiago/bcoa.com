@@ -9,6 +9,7 @@ title: Lift Huntington
 type: commercial
 heroImage:
   image: /images/uploads/lifthuntington_ph_3800x1900.jpg
+  potraitImage: /images/uploads/LIFTHUNTINGTON_PH_1500x2000.jpg
 previewImage:
   image: /images/uploads/lift_huntington_index_1.jpg
 infoObject:

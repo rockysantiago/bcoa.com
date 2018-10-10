@@ -9,6 +9,7 @@ title: Barman
 type: residential
 heroImage:
   image: /images/uploads/barman_ph_3800x1900.jpg
+  portraitImage: /images/uploads/BARMAN_PH_1500x2000.jpg
 headline: California Modern
 previewImage:
   image: /images/uploads/BARMAN_index_2.jpg

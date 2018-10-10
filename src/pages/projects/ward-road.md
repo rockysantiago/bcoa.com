@@ -10,6 +10,7 @@ workDescription: ''
 type: residential
 heroImage:
   image: /images/uploads/ward-road_ph_3800x1900.jpg
+  portraitImage: /images/uploads/WARD-ROAD_PH_1500x2000.jpg
 headline: DESIGN IN DUALS - SHARED HOLIDAY HOUSE
 featured:
   featuredDescription: >-

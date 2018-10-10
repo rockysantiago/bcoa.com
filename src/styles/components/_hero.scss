@@ -1,6 +1,5 @@
 .hero {
-  height: calc(100vh - var(--header-height) - var(--unit-28));
-  min-height: 35rem; 
+  height: calc(100vh - var(--header-height));
   display: flex;
 
   @include bp-1 {
@@ -18,9 +17,12 @@
 }
 
 .projectHero {
-  height: calc(100vh - var(--header-height) - var(--project-title-height) - var(--unit-28));
+  height: calc(100vh - var(--header-height) - var(--project-title-height));
   display: flex;
-  min-height: 35rem;
+
+  @media only screen and (orientation: landscape) {
+    min-height: 20rem;
+  }
 
   @include bp-1 {
     height: calc(100vh - var(--header-height) - var(--project-title-height));

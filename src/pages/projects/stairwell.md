@@ -13,6 +13,7 @@ workDescription: A modular stack for joyful and smart affordable housing in NYC
 type: commercial
 heroImage:
   image: /images/uploads/stairwell_ph_3800x1900_aia.jpg
+  portraitImage: /images/uploads/STAIRWELL_PH_1500x2000_AIA.jpg
 headline: EMBRACE THE CORE
 featured:
   featuredDescription: >-

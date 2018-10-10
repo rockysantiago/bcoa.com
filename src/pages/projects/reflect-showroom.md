@@ -10,6 +10,7 @@ workDescription: Exploring the world of smart surfaces
 type: commercial
 heroImage:
   image: /images/uploads/reflect-showroom_ph_3800x1900.jpg
+  portraitImage: /images/uploads/REFLECT-SHOWROOM_PH_1500x2000.jpg
 headline: REFLECT INNOVATION IN GLASS
 previewImage:
   image: /images/uploads/REFLECT SHOWROOM_index_1.jpg

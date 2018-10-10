@@ -10,6 +10,7 @@ workDescription: Monroe descritpion
 type: residential
 heroImage:
   image: /images/uploads/44monroe_ph_3800x1900.jpg
+  portraitImage: /images/uploads/44Monroe_PH_1500x2000.jpg
 headline: Brooklyn heights townhouse
 previewImage:
   image: /images/uploads/44-monroe_-index.jpg

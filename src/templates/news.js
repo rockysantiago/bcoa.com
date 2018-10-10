@@ -24,11 +24,27 @@ class Article extends Component {
     const {article} = this.props;
 
     return (
-      <article id={slugify(article.frontmatter.title, { lower: true })} className="marginBottom-12 bp-1_marginBottom-14 bp-2_marginBottom-21">
-        <Img
+      <article 
+        id={slugify(article.frontmatter.title, { lower: true })} 
+        className="marginBottom-12 bp-1_marginBottom-14 bp-2_marginBottom-21"
+      >
+        { article.frontmatter.image.isPortrait ?
+          <div className="nestedGrid-6-2">
+            <div className="colSpan-1"></div>
+            <Img
+              sizes={article.frontmatter.image.image.childImageSharp.sizes}
+              outerWrapperClassName={"colSpan-4"}
+              className=" marginBottom-5
+                          bp-2_marginBottom-6"/>
+          </div>
+        :
+          <Img
           sizes={article.frontmatter.image.image.childImageSharp.sizes}
           className=" marginBottom-5
                       bp-2_marginBottom-6"/>
+        }
+        
+        
         <h2 className="f-headline-a">{ article.frontmatter.title }</h2>
         <time className="c-gray f-headline-a">{ moment(article.frontmatter.date).format("M.D.YYYY") }</time>
         <div className="f-copy-book
@@ -55,7 +71,7 @@ const renderArticles = (articles) => (
   ))
 )
 
-export default ({ data }) => {
+export default ({ data, isWindowLarge }) => {
   const news = data.news.frontmatter;
   const articles = data.articles.edges;
 
@@ -72,14 +88,16 @@ export default ({ data }) => {
       >
         { news.title }
       </h1>
-      { articles &&
-        <Masonry
-          className={'masonry'}
-          elementType={'ul'}
-          options={{ transitionDuration: 0, horizontalOrder: true }}
-        >
-          {renderArticles(articles)}
-        </Masonry>
+      { articles && isWindowLarge ?
+          <Masonry
+            className={'masonry'}
+            elementType={'ul'}
+            options={{ transitionDuration: 0, horizontalOrder: true }}
+          >
+            {renderArticles(articles)}
+          </Masonry>
+        :
+          renderArticles(articles)
       }
     </div>
   );
@@ -99,6 +117,7 @@ export const query = graphql`
             templateKey
             title
             image {
+              isPortrait
               image {
                 childImageSharp {
                   sizes(maxWidth: 830) {

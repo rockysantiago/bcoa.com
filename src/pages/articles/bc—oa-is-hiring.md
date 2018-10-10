@@ -2,6 +2,7 @@
 templateKey: article-page
 title: JOIN US
 image:
+  isPortrait: false
   image: /images/uploads/bc—oa-is-hiring-white.jpg
 date: '2018-10-05'
 ---

@@ -10,6 +10,7 @@ workDescription: Adaptive reuse at an iconic NYC parks arcade
 type: commercial
 heroImage:
   image: /images/uploads/riverside_ph-3800x1900.jpg
+  portraitImage: /images/uploads/RIVERSIDE_PH-1500x2000.jpg
 headline: 'BUILD COMMUNITY WITH A KIOSK, REVISITED'
 featured:
   featuredDescription: A phased approach to adaptive reuse at a remarkable NYC iconic structure

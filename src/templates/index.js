@@ -27,15 +27,14 @@ const renderFeaturedProjects = (featuredProjects, projects) => {
         <li className='bp-1_masonry-child-2col' key={i}>
         <article className="featuredProject">
           <Link to={ project.fields.slug }>
-          { project.frontmatter.featured.featuredImage.isPortrait
-          ?
-          <div className="nestedGrid-6-2">
+          { project.frontmatter.featured.featuredImage.isPortrait ?
+            <div className="nestedGrid-6-2">
               <div className="colSpan-1"></div>
               <FeaturedProjectImage className="colSpan-4" image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
             </div>
           :
-          <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
-        }
+            <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
+          }
             <div className="featured-info">
               <h1 className=" f-headline-d
                               marginBottom-5
@@ -80,7 +79,6 @@ export default class Index extends Component {
   render() {
     const projects = this.props.data.projects.edges;
     const seo = this.props.data.page.frontmatter.seo;
-    console.log(seo);
     
     return (
       <div>
@@ -142,6 +140,13 @@ export const query = graphql`
           image {
             childImageSharp {
               sizes(maxWidth: 3400, quality: 90) {
+                ...GatsbyImageSharpSizes_withWebp
+              }
+            }
+          }
+          portraitImage {
+            childImageSharp {
+              sizes(maxWidth: 1500, quality: 90) {
                 ...GatsbyImageSharpSizes_withWebp
               }
             }

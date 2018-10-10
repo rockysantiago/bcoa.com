@@ -109,19 +109,11 @@ blockquote {
   font-size: 1.5em;
   font-weight: 700;
   margin: 0;
-
-  // &:before {
-  //   content: '"';
-  // }
-  // &:after {
-  //   content: '"';
-  // }
 }
 
-article{
-  &:target {
-    // outline: 1px solid red;
-  }
+p a {
+  word-break: break-word;
+  text-decoration: underline;
 }
 
 address {

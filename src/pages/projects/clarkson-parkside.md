@@ -9,6 +9,7 @@ title: The Lawrence
 type: residential
 heroImage:
   image: /images/uploads/updated-lobby.jpg
+  portraitImage: /images/uploads/ClarksonParkside_PH_1500x2000.jpg
 headline: Stitching detail into the mass
 featured:
   featuredDescription: Designing within constraints to bring a human scale to a brick box

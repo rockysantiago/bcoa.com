@@ -11,6 +11,7 @@ type: residential
 heroImage:
   alt: Micro Cabin - residential reclaimed materials small houses tiny houses
   image: /images/uploads/microcabin_ph_3800x1900.jpg
+  portraitImage: /images/uploads/MICROCABIN_PH_1500x2000.jpg
 headline: CRAFT A JEWEL BOX
 featured:
   featuredDescription: >-

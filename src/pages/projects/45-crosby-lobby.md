@@ -9,6 +9,7 @@ title: 45 Crosby Lobby
 type: residential
 heroImage:
   image: /images/uploads/45crosby_lobby_ph_2.jpg
+  portraitImage: /images/uploads/45CROSBY_LOBBY_PH_1500x2000.jpg
 previewImage:
   image: /images/uploads/45 CROSBY_LOBBY_index.jpg
 infoObject:

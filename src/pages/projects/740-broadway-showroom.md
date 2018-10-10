@@ -9,6 +9,7 @@ title: Elevecture® Showroom II
 type: commercial
 heroImage:
   image: /images/uploads/740broadwayshowroom_ph_3800x1900.jpg
+  portraitImage: /images/uploads/740Broadwayshowroom_PH_1500x2000.jpg
 headline: Innovating with the innovators
 featured:
   featuredDescription: Exhibiting innovations in advanced glass technologies

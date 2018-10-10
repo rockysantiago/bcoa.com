@@ -9,6 +9,7 @@ title: City of Dreams
 type: commercial
 heroImage:
   image: /images/uploads/cityofdreams_ph_3800x1900.jpg
+  portraitImage: /images/uploads/CITYOFDREAMS_PH_1500x2000.jpg
 previewImage:
   image: /images/uploads/CITY OF DREAMS_index_2.jpg
 infoObject:

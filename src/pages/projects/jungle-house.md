@@ -10,6 +10,7 @@ workDescription: Jungle House project
 type: residential
 heroImage:
   image: /images/uploads/junglehouse-_ph_3800x1900.jpg
+  portraitImage: /images/uploads/JUNGLEHOUSE-_PH_1500x2000.jpg
 headline: Lake View
 previewImage:
   image: /images/uploads/JUNGLE HOUSE_index.jpg

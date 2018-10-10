@@ -141,8 +141,9 @@ collections:
             name: "carouselImages"
             widget: "list"
             fields:
+              - { label: "Portrait Image", name: "portraitImage", widget: "image", default: "/images/uploads/placeholder.jpg" }
               - { label: "Image", name: "image", widget: "image", default: "/images/uploads/placeholder.jpg" }
-              - { label: "Alt Text", name: "alt", widget: "string", default: "project image alt" }
+              - { label: "Alt Text", name: "alt", widget: "string", default: "carousel image alt text" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string" }
               - label: "Related Project"
@@ -196,7 +197,8 @@ collections:
         widget: object
         required: false
         fields:
-          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Portrait Hero Image", name: "portraitImage", widget: "image", default: "/images/uploads/placeholder.jpg" }
+          - { label: "Landscape Hero Image", name: "image", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Headline", name: "headline", widget: "string", required: false }
       - label: Featured
@@ -325,6 +327,11 @@ collections:
         name: image
         widget: object
         fields:
+          - label: Set Portrait
+            name: isPortrait
+            widget: boolean
+            required: false
+            default: false
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }

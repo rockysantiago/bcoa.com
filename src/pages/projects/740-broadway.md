@@ -10,6 +10,7 @@ workDescription: Broadway description
 type: commercial
 heroImage:
   image: /images/uploads/740broadwaylobby_ph_3800x1900.jpg
+  portraitImage: /images/uploads/740BROADWAYLOBBY_PH_1500x2000.jpg
 headline: Surround with light
 featured:
   featuredDescription: >-

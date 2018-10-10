@@ -9,6 +9,7 @@ title: Boatbox
 type: commercial
 heroImage:
   image: /images/uploads/boatbox_ph_3800x1900.jpg
+  portraitImage: /images/uploads/BOATBOX_PH_1500x2000.jpg
 headline: educate and activate at valentino park
 previewImage:
   image: /images/uploads/BOATBOX_index.jpg

@@ -10,6 +10,7 @@ workDescription: A pre-war apartment reno
 type: residential
 heroImage:
   image: /images/uploads/17w71st_ph_3800x1900.jpg
+  portraitImage: /images/uploads/17W71st_PH_1500x2000.jpg
 headline: merging prewar modern
 previewImage:
   image: /images/uploads/17-w-71st-st_index_2-.jpg

@@ -3,7 +3,6 @@ import Link from "gatsby-link";
 import Img from 'gatsby-image';
 import ProjectFilter from '../components/ProjectFilter';
 import SEO from "../components/SEO";
-import indexOrder from "../_data/indexOrder";
 
 export default class Work extends Component {
   constructor(props) {

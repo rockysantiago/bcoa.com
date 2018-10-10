@@ -15,7 +15,6 @@ projects:
   - project: Crosby Loft I
   - project: 740 Broadway Lobby
   - project: Elevecture® Showroom II
-  - project: Barman
   - project: Five Star Hotel
   - project: City of Dreams
   - project: Boatbox
@@ -27,10 +26,8 @@ projects:
   - project: Micro Cabin
   - project: Elevecture Showroom I
   - project: Riverside Kiosk for Harlem Public
-  - project: Newline Cinema
   - project: Stair-Well Housing
   - project: Ward Road House
   - project: West 53rd Street
-  - project: Zhuhai Exhibition Center
 ---
 

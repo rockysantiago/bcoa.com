@@ -42,7 +42,7 @@ projectGallery:
     image: /images/uploads/RIVERSIDE_-(9)_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/RIVERSIDE_PROMO CODE_1820.jpg
+    image: /images/uploads/RIVERSIDE_PROMO-CODE_1820.jpg
     type: image
   - colWidth: '12'
     image: /images/uploads/riverside_-10-_1820.jpg

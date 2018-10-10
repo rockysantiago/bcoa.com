@@ -3,6 +3,8 @@ import Img from 'gatsby-image';
 import classnames from "classnames";
 
 const ProjectImage = (props) => {
+  // console.log(props.imageData)
+  // debugger;
   return (
     <figure key={props.i} className={props.classes}>
       <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />

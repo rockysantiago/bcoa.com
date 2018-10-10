@@ -9,7 +9,7 @@ heroImage:
   portraitImage: /images/uploads/17W71st_PH_1500x2000.jpg
 headline: merging prewar modern
 previewImage:
-  image: /images/uploads/17-w-71st-st_index_2-.jpg
+  image: /images/uploads/17-w-71st-st_index_2.jpg
 infoObject:
   - description: Private Owner
     title: Client

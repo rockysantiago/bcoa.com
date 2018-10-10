@@ -18,7 +18,7 @@ primaryImage:
   image: /images/uploads/lift_huntington_-7-cropped_1820.jpg
 projectGallery:
   - colWidth: '10'
-    image: /images/uploads/lift_huntington_-10-.jpg
+    image: /images/uploads/lift_huntington_-10.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/LIFT_HUNTINGTON_-(13)_1820.jpg
@@ -32,7 +32,7 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '6'
-    image: /images/uploads/lift_huntington_-1-.jpg
+    image: /images/uploads/lift_huntington_-1.jpg
     type: image
   - colWidth: '6'
     image: /images/uploads/lift_huntington_-2-cropped.jpg

@@ -32,13 +32,13 @@ infoObject:
     title: Photos
 primaryImage:
   caption: Exterior stair to high deck with water views
-  image: /images/uploads/ward-road_-16-.jpg
+  image: /images/uploads/ward-road_-16.jpg
 projectGallery:
   - caption: >-
       Local spotted gum timber shutters act to open or close one of the two
       master suites
     colWidth: '6'
-    image: /images/uploads/ward-road_-15-_.jpg
+    image: /images/uploads/ward-road_-15.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/ward-road_-9-_3140.jpg
@@ -54,16 +54,16 @@ projectGallery:
     image: /images/uploads/ward-road_-16-_1160.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/ward-road_-18-_.jpg
+    image: /images/uploads/ward-road_-18.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/ward-road_-17-_.jpg
+    image: /images/uploads/ward-road_-17.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/ward-road_-19-_.jpg
+    image: /images/uploads/ward-road_-19.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/ward-road_-20-_.jpg
+    image: /images/uploads/ward-road_-20.jpg
     type: image
   - pullQuote: >-
       Four building blocks, stacked and overlapping, each dedicated to private

@@ -45,7 +45,7 @@ projectGallery:
     offsetWidth: '1'
     type: image
   - colWidth: '12'
-    image: /images/uploads/740-broadway_lobby_-3-.jpg
+    image: /images/uploads/740-broadway_lobby_-3.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/3.jpg

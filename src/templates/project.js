@@ -10,7 +10,7 @@ export default ({ data }) => {
   return (
     <div className="bp-2_marginBottom-15">
       <SEO
-        postImage={fields.seo && fields.seo.image ? fields.seo.image.childImageSharp.sizes.src : fields.heroImage.image.childImageSharp.sizes.srcSet.split(' ')[0]}
+        postImage={fields.seo && fields.seo.image ? fields.seo.image.childImageSharp.sizes.src : fields.heroImage.image ? fields.heroImage.image.childImageSharp.sizes.srcSet.split(' ')[0] : null}
         postData={{
           slug: post.fields.slug,
           seo: {
@@ -45,6 +45,9 @@ export default ({ data }) => {
                 alt={fields.heroImage.alt} 
               />
             )
+          } else {
+            console.log('null', fields)
+            return null
           }
         }}
       </MediaQuery>

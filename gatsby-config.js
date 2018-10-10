@@ -4,6 +4,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-link",
+    `gatsby-plugin-netlify`,
+    'gatsby-plugin-netlify-cache',
     "gatsby-transformer-json",
     'gatsby-plugin-react-next',
     {
@@ -70,8 +72,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
-    `gatsby-plugin-netlify`,
-    // 'gatsby-plugin-netlify-cache',
     {
       resolve: `gatsby-plugin-postcss-sass`,
       options: {

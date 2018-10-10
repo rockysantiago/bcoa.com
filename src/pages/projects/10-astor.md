@@ -9,8 +9,8 @@ title: Astor Lobby
 workDescription: work description 10 Astor
 type: commercial
 heroImage:
-  image: /images/uploads/10astor_ph_3800x1900.jpg
-  portraitImage: /images/uploads/10Astor_PH_1500x2000.jpg
+  image: /images/uploads/10-astor_ph_3800x1900.jpg
+  portraitImage: /images/uploads/10-Astor_PH_1500x2000.jpg
 headline: Rebrand a building from inside out
 previewImage:
   image: /images/uploads/10-astor_-index.jpg
@@ -25,14 +25,14 @@ infoObject:
     title: Photographs
 primaryImage:
   caption: 'Glass and display walls, linear directional lighting'
-  image: /images/uploads/10 Astor_ (2)_1820.jpg
+  image: /images/uploads/10-Astor_(2)_1820.jpg
 projectGallery:
   - caption: 'The glass panel system designed by Elevecture in collaboration with BC—OA '
     colWidth: '6'
-    image: /images/uploads/10 Astor_ (9)_1820.jpg
+    image: /images/uploads/10-Astor_(9)_1820.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/10 Astor_ (7)_1820.jpg
+    image: /images/uploads/10-Astor_(7)_1820.jpg
     offsetWidth: '2'
     type: image
   - colWidth: '6'
@@ -48,10 +48,10 @@ projectGallery:
     type: quote
   - caption: Panels wrap the reception desk and elevator wall
     colWidth: '10'
-    image: /images/uploads/10 Astor_ (3)_1820.jpg
+    image: /images/uploads/10-Astor_(3)_1820.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/10 Astor_ (10)_1820.jpg
+    image: /images/uploads/10-Astor_(10)_1820.jpg
     offsetWidth: '2'
     type: image
 ---

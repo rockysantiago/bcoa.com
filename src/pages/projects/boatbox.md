@@ -26,7 +26,7 @@ primaryImage:
   image: /images/uploads/boatbox_-6-_1820_cropped.jpg
 projectGallery:
   - colWidth: '10'
-    image: /images/uploads/BOATBOX_ (1)_1820.jpg
+    image: /images/uploads/BOATBOX_-(1)_1820.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/boatbox_-8-_1820.jpg
@@ -35,10 +35,10 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '12'
-    image: /images/uploads/BOATBOX_ (4)_1820.jpg
+    image: /images/uploads/BOATBOX_-(4)_1820.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/BOATBOX_ (2)_1820.jpg
+    image: /images/uploads/BOATBOX_-(2)_1820.jpg
     offsetWidth: '0'
     type: image
 ---

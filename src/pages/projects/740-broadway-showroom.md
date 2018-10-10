@@ -19,7 +19,7 @@ featured:
     isPortrait: true
   isFeatured: true
 previewImage:
-  image: /images/uploads/740 BROADWAY_SHOWROOM_index_3.jpg
+  image: /images/uploads/740-BROADWAY_SHOWROOM_index_3.jpg
 infoObject:
   - description: 'Elevecture, Corning and View Glass'
     title: CLIENT

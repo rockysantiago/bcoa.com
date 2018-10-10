@@ -3,19 +3,6 @@ const customProperties = require('postcss-custom-properties');
 module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
-    {
-      resolve: `gatsby-plugin-postcss-sass`,
-      options: {
-        postCssPlugins: [
-          autoprefixer({
-            browsers: ['last 2 versions'],
-            grid: true,
-          }),
-          customProperties
-        ],
-        precision: 8
-      }
-    },
     `gatsby-plugin-netlify`,
     'gatsby-plugin-netlify-cache',
     "gatsby-link",
@@ -87,6 +74,19 @@ module.exports = {
       }
     },
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [
+          autoprefixer({
+            browsers: ['last 2 versions'],
+            grid: true,
+          }),
+          customProperties
+        ],
+        precision: 8
+      }
+    },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {

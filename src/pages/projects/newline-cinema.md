@@ -13,7 +13,7 @@ heroImage:
   portraitImage: /images/uploads/NEWLINE-CINEMA_PH_1500x20000.jpg
 headline: RETHINK THE “STANDARD” STANDARDS
 previewImage:
-  image: /images/uploads/NEW LINE CINEMA_index_1.jpg
+  image: /images/uploads/NEW-LINE-CINEMA_index_1.jpg
 infoObject:
   - description: New Line Cinema
     title: CLIENT
@@ -25,7 +25,7 @@ infoObject:
     title: ARCHITECT
 primaryImage:
   caption: 'Asymmetrical geometries relieve the monotony of a deep, narrow floor plate'
-  image: /images/uploads/NEW LINE CINEMA_ (1)_1820.jpg
+  image: /images/uploads/NEW-LINE-CINEMA_-(1)_1820.jpg
 projectGallery:
   - caption: '"Broken" clerestories atop offset partitions'
     colWidth: '6'
@@ -33,11 +33,11 @@ projectGallery:
     type: image
   - caption: Sheared and overlapped acoustic tile ceiling
     colWidth: '8'
-    image: /images/uploads/NEW LINE CINEMA_ (7)_1820.jpg
+    image: /images/uploads/NEW-LINE-CINEMA_-(7)_1820.jpg
     offsetWidth: '4'
     type: image
   - colWidth: '4'
-    image: /images/uploads/NEW LINE CINEMA_ (3)_1820.jpg
+    image: /images/uploads/NEW-LINE-CINEMA_-(3)_1820.jpg
     type: image
   - colWidth: '4'
     image: /images/uploads/new-line-cinema_-2-cropped_1820.jpg

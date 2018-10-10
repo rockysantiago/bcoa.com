@@ -1,17 +1,11 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Img from 'gatsby-image';
 import classnames from "classnames";
 
 const ProjectImage = (props) => {
-  console.log(props.imageData);
-  if (!props.imageData.image) return null;
   return (
     <figure key={props.i} className={props.classes}>
-      {props.imageData.image.childImageSharp ?
-        <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />
-        :
-        <img src={props.imageData.image} alt={props.imageData.alt} />
-      }
+      <Img sizes={props.imageData.image.childImageSharp.sizes} alt={props.imageData.alt} />
       {props.imageData.caption &&
         <div className="marginTop-1">
           –
@@ -23,8 +17,6 @@ const ProjectImage = (props) => {
 }
 
 export default (props) => {
-  console.log('props', props);
-  console.log('imageData', props.imageData);
   const classes = classnames(props.className, {
     'colSpan-1': (props.imageData.colWidth === '1'),
     'colSpan-2': (props.imageData.colWidth === '2'),

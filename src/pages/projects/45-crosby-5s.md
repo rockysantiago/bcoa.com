@@ -32,16 +32,16 @@ infoObject:
     title: PHOTOGRAPHY
 primaryImage:
   caption: Cabinetry hugs the original timber column of this form lightbulb factory
-  image: /images/uploads/45 CROSBY_5S_ (12)_1820.jpg
+  image: /images/uploads/45-CROSBY_5S_-(12)_1820.jpg
 projectGallery:
   - caption: >-
       Exposed brick and steel elements next to clean new surfaces concealing the
       infrastructure - sprinklers, lighting and ductwork
     colWidth: '10'
-    image: /images/uploads/45 CROSBY_5S_ (3)_1820.jpg
+    image: /images/uploads/45-CROSBY_5S_-(3)_1820.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/45 CROSBY_5S_ (7)_1820.jpg
+    image: /images/uploads/45-CROSBY_5S_-(7)_1820.jpg
     offsetWidth: '4'
     type: image
   - caption: >-
@@ -64,7 +64,7 @@ projectGallery:
     image: /images/uploads/45-crosby_5s_-17-_1160_cropped.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/45 CROSBY_5S_ (15)_1820.jpg
+    image: /images/uploads/45-CROSBY_5S_-(15)_1820.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '10'

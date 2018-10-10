@@ -13,7 +13,7 @@ heroImage:
   portraitImage: /images/uploads/ANKARA_PH_1500x2000.jpg
 headline: Stretching Stone Upward
 previewImage:
-  image: /images/uploads/ANKARA HOTEL_index_2.jpg
+  image: /images/uploads/ANKARA-HOTEL_index_2.jpg
 infoObject:
   - description: Private Developer
     title: CLIENT
@@ -35,13 +35,13 @@ primaryImage:
   caption: >-
     Vertical articulation rises high adjacent to Ankara's main artery into the
     city center.
-  image: /images/uploads/ANKARA HOTEL_ (15)_1820.jpg
+  image: /images/uploads/ANKARA-HOTEL_-(15)_1820.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/ANKARA HOTEL_ (3)_1820.jpg
+    image: /images/uploads/ANKARA-HOTEL_-(3)_1820.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/ANKARA HOTEL_ (22)_1820.jpg
+    image: /images/uploads/ANKARA-HOTEL_-(22)_1820.jpg
     offsetWidth: '2'
     type: image
   - colWidth: '4'
@@ -54,14 +54,14 @@ projectGallery:
     image: /images/uploads/ankara-hotel_-3new-_1160.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/ANKARA HOTEL_ (4)_1820.jpg
+    image: /images/uploads/ANKARA-HOTEL_-(4)_1820.jpg
     offsetWidth: '2'
     type: image
   - caption: >-
       The building slender form from certain angles conceals its actual bulk to
       achieve programmatic goals.
     colWidth: '12'
-    image: /images/uploads/ANKARA HOTEL_ (30)_1820.jpg
+    image: /images/uploads/ANKARA-HOTEL_-(30)_1820.jpg
     type: image
 ---
 The guest tower has been developed as an iconic form at the preeminent south-east corner of the property. The tower anchors the podium development and creates a strong monolithic element at the highway intersection with long distance visibility.

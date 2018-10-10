@@ -8,10 +8,10 @@ templateKey: project-page
 title: 58th Street
 type: residential
 heroImage:
-  image: /images/uploads/58TH ST_ PH.jpg
+  image: /images/uploads/58TH-ST_-PH.jpg
 headline: Collector's Apartment
 previewImage:
-  image: /images/uploads/58TH ST_ index.jpg
+  image: /images/uploads/58TH-ST_-index.jpg
 infoObject:
   - description: Private Owner
     title: Client
@@ -22,23 +22,23 @@ infoObject:
   - description: Raquel Perez Puig
     title: Photography
 primaryImage:
-  image: /images/uploads/58TH ST_ (14)_1820.jpg
+  image: /images/uploads/58TH-ST_-(14)_1820.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/58TH ST_ (4)_1820.jpg
+    image: /images/uploads/58TH-ST_-(4)_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/58TH ST_ (10)_1820.jpg
+    image: /images/uploads/58TH-ST_-(10)_1820.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/58TH ST_ (8)_1820.jpg
+    image: /images/uploads/58TH-ST_-(8)_1820.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/58TH ST_ (13)_1820.jpg
+    image: /images/uploads/58TH-ST_-(13)_1820.jpg
     offsetWidth: '4'
     type: image
   - colWidth: '12'
-    image: /images/uploads/58TH ST_PROMO PLAN_1820.jpg
+    image: /images/uploads/58TH-ST_PROMO-PLAN_1820.jpg
     type: image
 ---
 

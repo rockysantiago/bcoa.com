@@ -34,15 +34,15 @@ infoObject:
     title: Awards
 primaryImage:
   caption: View into a pod-style float suite
-  image: /images/uploads/LIFT_BROOKLYN_ (4)_1820.jpg
+  image: /images/uploads/LIFT_BROOKLYN_-(4)_1820.jpg
 projectGallery:
   - caption: An iconic blue glow as seen from Court Street
     colWidth: '12'
-    image: /images/uploads/LIFT_BROOKLYN_ (1)_1820.jpg
+    image: /images/uploads/LIFT_BROOKLYN_-(1)_1820.jpg
     type: image
   - caption: The spa entry with fir veneer plywood and industrial felt
     colWidth: '8'
-    image: /images/uploads/LIFT_BROOKLYN_ (9)_1820.jpg
+    image: /images/uploads/LIFT_BROOKLYN_-(9)_1820.jpg
     offsetWidth: '4'
     type: image
   - pullQuote: NYC's first of its kind dedicated flotation therapy spa
@@ -66,10 +66,10 @@ projectGallery:
     type: image
   - caption: ''
     colWidth: '8'
-    image: /images/uploads/LIFT_BROOKLYN_ (8)_1820.jpg
+    image: /images/uploads/LIFT_BROOKLYN_-(8)_1820.jpg
     type: image
   - colWidth: '10'
-    image: /images/uploads/LIFT_BROOKLYN_ (10)_1820.jpg
+    image: /images/uploads/LIFT_BROOKLYN_-(10)_1820.jpg
     offsetWidth: '0'
     type: image
 ---

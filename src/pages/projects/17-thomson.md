@@ -19,7 +19,7 @@ projectGallery:
     image: /images/uploads/17-thompson_-1-_1820_cropped.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/17 THOMPSON_ (2)_1820.jpg
+    image: /images/uploads/17-THOMPSON_-(2)_1820.jpg
     offsetWidth: '4'
     type: image
   - colWidth: '8'
@@ -38,7 +38,7 @@ projectGallery:
     offsetWidth: '4'
     type: image
   - colWidth: '10'
-    image: /images/uploads/17 THOMPSON_ (11)_1820.jpg
+    image: /images/uploads/17-THOMPSON_-(11)_1820.jpg
     type: image
 ---
 

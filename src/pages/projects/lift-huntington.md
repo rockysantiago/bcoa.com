@@ -26,10 +26,10 @@ projectGallery:
     image: /images/uploads/lift_huntington_-10-.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/LIFT_HUNTINGTON_ (13)_1820.jpg
+    image: /images/uploads/LIFT_HUNTINGTON_-(13)_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/LIFT_HUNTINGTON_ (16)_1820.jpg
+    image: /images/uploads/LIFT_HUNTINGTON_-(16)_1820.jpg
     type: image
   - colWidth: '12'
     image: /images/uploads/lifthuntington_newplan_3800.jpg

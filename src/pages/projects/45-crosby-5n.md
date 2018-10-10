@@ -20,7 +20,7 @@ featured:
     image: /images/uploads/45-crosby_5n_-14-_1160x1740.jpg
   isFeatured: true
 previewImage:
-  image: /images/uploads/45 CROSBY_5N_index.jpg
+  image: /images/uploads/45-CROSBY_5N_index.jpg
 infoObject:
   - description: Private owner
     title: Client
@@ -34,15 +34,15 @@ primaryImage:
   caption: >-
     A soft, tufted built-in bench contrasts the exposed brick and original tin
     ceilings
-  image: /images/uploads/45 CROSBY_5N_ (11)_1820.jpg
+  image: /images/uploads/45-CROSBY_5N_-(11)_1820.jpg
 projectGallery:
   - caption: Floating distressed bronze cabinets separate the public and private spaces
     colWidth: '6'
-    image: /images/uploads/45 CROSBY_5N_ (23)_1820.jpg
+    image: /images/uploads/45-CROSBY_5N_-(23)_1820.jpg
     type: image
   - caption: Cat / floor coordination = essential
     colWidth: '8'
-    image: /images/uploads/45 CROSBY_5N_ (20)_1820.jpg
+    image: /images/uploads/45-CROSBY_5N_-(20)_1820.jpg
     offsetWidth: '4'
     type: image
   - colWidth: '12'
@@ -58,15 +58,15 @@ projectGallery:
     offsetWidth: '0'
     type: image
   - colWidth: '6'
-    image: /images/uploads/45 CROSBY_5N_ (17)_1820.jpg
+    image: /images/uploads/45-CROSBY_5N_-(17)_1820.jpg
     type: image
   - caption: Living room view through to original fire door and timber column
     colWidth: '10'
-    image: /images/uploads/45 CROSBY_5N_ (8)_1820.jpg
+    image: /images/uploads/45-CROSBY_5N_-(8)_1820.jpg
     offsetWidth: '2'
     type: image
   - colWidth: '4'
-    image: /images/uploads/45 CROSBY_5N_ (15)_1820.jpg
+    image: /images/uploads/45-CROSBY_5N_-(15)_1820.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '4'

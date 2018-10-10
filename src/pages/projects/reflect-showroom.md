@@ -13,7 +13,7 @@ heroImage:
   portraitImage: /images/uploads/REFLECT-SHOWROOM_PH_1500x2000.jpg
 headline: REFLECT INNOVATION IN GLASS
 previewImage:
-  image: /images/uploads/REFLECT SHOWROOM_index_1.jpg
+  image: /images/uploads/REFLECT-SHOWROOM_index_1.jpg
 infoObject:
   - description: Private
     title: CLIENT
@@ -38,7 +38,7 @@ projectGallery:
       The mock elevator cab clad in Elevecture panels customized with a Paul
       Goldberger quote from the NY Times
     colWidth: '6'
-    image: /images/uploads/REFLECT SHOWROOM_ (7)_1820.jpg
+    image: /images/uploads/REFLECT-SHOWROOM_ (7)_1820.jpg
     offsetWidth: '6'
     type: image
   - colWidth: '12'

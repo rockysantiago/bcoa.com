@@ -45,7 +45,7 @@ projectGallery:
     type: image
   - caption: The micro-unit interior with kitchen and fold-down table
     colWidth: '9'
-    image: /images/uploads/STAIR-WELL_ (10)_1820.jpg
+    image: /images/uploads/STAIR-WELL_-(10)_1820.jpg
     offsetWidth: '3'
     type: image
   - colWidth: '12'
@@ -67,18 +67,18 @@ projectGallery:
     image: /images/uploads/stair-well_-13-cropped_1160.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/STAIR-WELL_ (15)_1820.jpg
+    image: /images/uploads/STAIR-WELL_-(15)_1820.jpg
     type: image
   - caption: >-
       Section perspective shows the alternating private interior vs public
       exterior
     colWidth: '10'
-    image: /images/uploads/STAIR-WELL_ (3)_1820.jpg
+    image: /images/uploads/STAIR-WELL_-(3)_1820.jpg
     offsetWidth: '2'
     type: image
   - caption: ''
     colWidth: '10'
-    image: /images/uploads/STAIR-WELL_ (6)_1820.jpg
+    image: /images/uploads/STAIR-WELL_-(6)_1820.jpg
     type: image
 ---
 Stair-Well Housing represents a concept for modular housing

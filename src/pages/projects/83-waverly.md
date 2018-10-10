@@ -5,12 +5,12 @@ seo:
   image: /images/uploads/placeholder.jpg
   title: Test title
 templateKey: project-page
-title: 83 Waverly
+title: 83-Waverly
 type: residential
 heroImage:
-  image: /images/uploads/83 WAVERLY_PH_1.jpg
+  image: /images/uploads/83-WAVERLY_PH_1.jpg
 previewImage:
-  image: /images/uploads/83 WAVERLY_index_1.jpg
+  image: /images/uploads/83-WAVERLY_index_1.jpg
 infoObject:
   - description: 'Private Owner, Brooklyn NY'
     title: CLIENT
@@ -19,22 +19,22 @@ infoObject:
   - description: Completed
     title: STATUS
 primaryImage:
-  image: /images/uploads/83 WAVERLY_ (8)_1820.jpg
+  image: /images/uploads/83-WAVERLY_-(8)_1820.jpg
 projectGallery:
   - colWidth: '6'
-    image: /images/uploads/83 WAVERLY_ (1)_1820.jpg
+    image: /images/uploads/83-WAVERLY_-(1)_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/83 WAVERLY_ ELEVATION1_1820.jpg
+    image: /images/uploads-83-WAVERLY_-ELEVATION1_1820.jpg
     type: image
   - colWidth: '6'
-    image: /images/uploads/83 WAVERLY_ ELEVATION2_1820.jpg
+    image: /images/uploads-83-WAVERLY_-ELEVATION2_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/83 WAVERLY_PROMO PLAN_1820.jpg
+    image: /images/uploads/83-WAVERLY_PROMO PLAN_1820.jpg
     type: image
   - colWidth: '8'
-    image: /images/uploads/83 WAVERLY_index_2.jpg
+    image: /images/uploads/83-WAVERLY_index_2.jpg
     offsetWidth: '2'
     type: image
 ---

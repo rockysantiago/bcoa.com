@@ -8,7 +8,7 @@ templateKey: project-page
 title: Good Apple
 type: commercial
 heroImage:
-  image: /images/uploads/GOOD APPLE_ (4)_1820.jpg
+  image: /images/uploads/GOOD APPLE_-(4)_1820.jpg
 previewImage:
   image: /images/uploads/good-apple_index_1.jpg
 primaryImage:

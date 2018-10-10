@@ -13,7 +13,7 @@ heroImage:
   portraitImage: /images/uploads/JUNGLEHOUSE-_PH_1500x2000.jpg
 headline: Lake View
 previewImage:
-  image: /images/uploads/JUNGLE HOUSE_index.jpg
+  image: /images/uploads/JUNGLE-HOUSE_index.jpg
 infoObject:
   - description: Private Owners
     title: Client
@@ -25,10 +25,10 @@ primaryImage:
   image: /images/uploads/jungle-house_-12-cropped_1820.jpg
 projectGallery:
   - colWidth: '8'
-    image: /images/uploads/JUNGLE HOUSE_ (10)_1820.jpg
+    image: /images/uploads/JUNGLE-HOUSE_-(10)_1820.jpg
     type: image
   - colWidth: '12'
-    image: /images/uploads/JUNGLE HOUSE_ (6)_1820.jpg
+    image: /images/uploads/JUNGLE-HOUSE_-(6)_1820.jpg
     type: image
   - colWidth: '10'
     image: /images/uploads/jungle-house_-14-.jpg

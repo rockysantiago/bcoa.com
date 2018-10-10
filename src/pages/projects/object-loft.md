@@ -24,7 +24,7 @@ infoObject:
   - description: Amy Barkow
     title: Photography
 primaryImage:
-  image: /images/uploads/OBJECT LOFT_ (14)_1820.jpg
+  image: /images/uploads/OBJECT-LOFT_-(14)_1820.jpg
 projectGallery:
   - colWidth: '6'
     image: /images/uploads/object-loft_-2-_1820_cropped.jpg
@@ -45,7 +45,7 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '12'
-    image: /images/uploads/OBJECT LOFT_ (17)_1820.jpg
+    image: /images/uploads/OBJECT-LOFT_-(17)_1820.jpg
     type: image
   - colWidth: '8'
     image: /images/uploads/object-loft_-20-_1820_cropped.jpg

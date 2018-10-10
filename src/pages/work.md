@@ -22,12 +22,15 @@ projects:
   - project: Lift Huntington
   - project: East Riverside Science Park
   - project: Lift Next Level Floats
+  - project: Newline Cinema
   - project: Jungle House
   - project: Micro Cabin
   - project: Elevecture Showroom I
+  - project: Barman
   - project: Riverside Kiosk for Harlem Public
   - project: Stair-Well Housing
   - project: Ward Road House
   - project: West 53rd Street
+  - project: Zhuhai Exhibition Center
 ---
 

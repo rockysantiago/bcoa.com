@@ -3,9 +3,23 @@ const customProperties = require('postcss-custom-properties');
 module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
-    "gatsby-link",
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [
+          autoprefixer({
+            browsers: ['last 2 versions'],
+            grid: true,
+          }),
+          customProperties
+        ],
+        precision: 8
+      }
+    },
     `gatsby-plugin-netlify`,
     'gatsby-plugin-netlify-cache',
+    "gatsby-link",
+    `gatsby-plugin-styled-components`,
     "gatsby-transformer-json",
     'gatsby-plugin-react-next',
     {
@@ -58,7 +72,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 1200,
+              maxWidth: 590,
             },
           },
         ],
@@ -72,19 +86,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
-    {
-      resolve: `gatsby-plugin-postcss-sass`,
-      options: {
-        postCssPlugins: [
-          autoprefixer({
-            browsers: ['last 2 versions'],
-            grid: true,
-          }),
-          customProperties
-        ],
-        precision: 8
-      }
-    },
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-favicon`,
       options: {

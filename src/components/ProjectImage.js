@@ -3,10 +3,8 @@ import Img from 'gatsby-image';
 import classnames from "classnames";
 
 const ProjectImage = (props) => {
-  // console.log(props.imageData)
-  // debugger;
   if(!props.imageData.image) {
-    debugger;
+    console.log(props.imageData);
   }
   return (
     <figure key={props.i} className={props.classes}>

@@ -7,7 +7,6 @@ import SEO from "../components/SEO";
 export default ({ data }) => {
   const post = data.markdownRemark;
   const fields = post.frontmatter;
-  console.log(fields);
   return (
     <div className="bp-2_marginBottom-15">
       <SEO

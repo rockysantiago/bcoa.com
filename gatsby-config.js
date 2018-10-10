@@ -3,10 +3,7 @@ const customProperties = require('postcss-custom-properties');
 module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
-    `gatsby-plugin-netlify`,
-    'gatsby-plugin-netlify-cache',
     "gatsby-link",
-    `gatsby-plugin-styled-components`,
     "gatsby-transformer-json",
     'gatsby-plugin-react-next',
     {
@@ -74,6 +71,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-netlify`,
+    // 'gatsby-plugin-netlify-cache',
     {
       resolve: `gatsby-plugin-postcss-sass`,
       options: {

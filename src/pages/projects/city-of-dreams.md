@@ -34,7 +34,7 @@ projectGallery:
   - pullQuote: quote
     type: quote
   - colWidth: '12'
-    image: /images/uploads/city-of-dreams_-3-.png
+    image: /images/uploads/city-of-dreams_-3.jpg
     type: image
 ---
 Play +be is an experiment in the creative reuse of available materials. Using exclusively salvaged materials we propose the construction of three distinct but related modular components. Meet Play, +, and Be. Play is a tall and sweeping wave-like structure designed to provide a small stage or seating area with an operable shading element made of standard metal folding chairs. A kiosk theater, this casual stage invites both planned and impromptu performances. Be is a two sided resting element with bleacher style seating on one side and a leaning surface on the other. + brings Play and Be together. The components can stand alone or can be arranged in any number of configurations in combination.

@@ -44,7 +44,7 @@ projectGallery:
       Approaching the design as clean insertions nested within the industrial
       loft elements
     colWidth: '8'
-    image: /images/uploads/45-crosby_5s_-18-.png
+    image: /images/uploads/45-crosby_5s_-18.jpg
     offsetWidth: '0'
     type: image
   - colWidth: '8'

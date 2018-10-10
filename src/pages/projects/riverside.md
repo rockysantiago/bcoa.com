@@ -35,7 +35,7 @@ projectGallery:
     type: image
   - caption: 'Historic pagoda, demolished in the 60''s'
     colWidth: '6'
-    image: /images/uploads/riverside_-1-.png
+    image: /images/uploads/riverside_-1.jpg
     offsetWidth: '6'
     type: image
   - colWidth: '12'

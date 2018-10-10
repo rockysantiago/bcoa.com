@@ -33,15 +33,19 @@ class Article extends Component {
             <div className="colSpan-1"></div>
             <Img
               sizes={article.frontmatter.image.image.childImageSharp.sizes}
+              alt={article.frontmatter.image.alt}
               outerWrapperClassName={"colSpan-4"}
               className=" marginBottom-5
-                          bp-2_marginBottom-6"/>
+                          bp-2_marginBottom-6"
+            />
           </div>
         :
           <Img
-          sizes={article.frontmatter.image.image.childImageSharp.sizes}
-          className=" marginBottom-5
-                      bp-2_marginBottom-6"/>
+            sizes={article.frontmatter.image.image.childImageSharp.sizes}
+            alt={article.frontmatter.image.alt}
+            className=" marginBottom-5
+                        bp-2_marginBottom-6"
+          />
         }
         
         
@@ -120,7 +124,7 @@ export const query = graphql`
               isPortrait
               image {
                 childImageSharp {
-                  sizes(maxWidth: 830) {
+                  sizes(maxWidth: 830, quality: 75) {
                     ...GatsbyImageSharpSizes_withWebp
                   }
                 }

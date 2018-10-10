@@ -72,6 +72,7 @@ export default class Work extends Component {
                         <Img
                           sizes={ project.frontmatter.previewImage.image.childImageSharp.sizes }
                           className="marginBottom-3"
+                          alt={project.frontmatter.previewImage.alt}
                         />
                       }
                       <h1 className="f-subhead">{ project.frontmatter.title }</h1>
@@ -125,7 +126,7 @@ export const query = graphql`
             previewImage {
               image {
                 childImageSharp {
-                  sizes(maxWidth: 768) {
+                  sizes(maxWidth: 768, quality: 75) {
                     ...GatsbyImageSharpSizes_withWebp
                   }
                 }

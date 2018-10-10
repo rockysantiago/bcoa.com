@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: Elevecture Showroom I
 workDescription: Exploring the world of smart surfaces

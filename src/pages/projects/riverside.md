@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: Riverside Kiosk for Harlem Public
 workDescription: Adaptive reuse at an iconic NYC parks arcade

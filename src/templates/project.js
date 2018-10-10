@@ -10,8 +10,14 @@ export default ({ data }) => {
   return (
     <div className="bp-2_marginBottom-15">
       <SEO
-        postImage={fields.seo.image ? fields.seo.image.childImageSharp.sizes.src : null}
-        postData={fields}
+        postImage={fields.seo && fields.seo.image ? fields.seo.image.childImageSharp.sizes.src : fields.heroImage.image.childImageSharp.sizes.srcSet.split(' ')[0]}
+        postData={{
+          slug: post.fields.slug,
+          seo: {
+            title: fields.seo && fields.seo.title ? fields.seo.title : fields.title,
+            description: fields.seo && fields.seo.description ? fields.seo.description : fields.headline
+          }
+        }}
       />
       <div className="container
                       bp-1_paddingTop-2 bp-2_paddingTop-5
@@ -25,11 +31,19 @@ export default ({ data }) => {
         {(matches) => {
           if (matches && fields.heroImage && fields.heroImage.portraitImage) {
             return (
-              <Img className="projectHero" sizes={ fields.heroImage.portraitImage.childImageSharp.sizes } />
+              <Img 
+                className="projectHero" 
+                sizes={ fields.heroImage.portraitImage.childImageSharp.sizes }
+                alt={fields.heroImage.alt}
+              />
             )
           } else if (fields.heroImage && fields.heroImage.image) {
             return (
-              <Img className="projectHero" sizes={ fields.heroImage.image.childImageSharp.sizes } />
+              <Img 
+                className="projectHero" 
+                sizes={ fields.heroImage.image.childImageSharp.sizes }
+                alt={fields.heroImage.alt} 
+              />
             )
           }
         }}
@@ -95,6 +109,9 @@ export default ({ data }) => {
 export const query = graphql`
   query ProjectPageQuery($slug: String!) {
     markdownRemark(fields: {slug: {eq: $slug } }) {
+      fields {
+        slug
+      }
       id
       html
       frontmatter {
@@ -118,14 +135,14 @@ export const query = graphql`
         heroImage {
           image {
             childImageSharp {
-              sizes(maxWidth: 3848) {
+              sizes(maxWidth: 3848, quality: 85) {
                 ...GatsbyImageSharpSizes_withWebp
               }
             }
           }
           portraitImage {
             childImageSharp {
-              sizes(maxWidth: 3848) {
+              sizes(maxWidth: 1500, quality: 85) {
                 ...GatsbyImageSharpSizes_withWebp
               }
             }
@@ -135,7 +152,7 @@ export const query = graphql`
         primaryImage {
           image {
             childImageSharp {
-              sizes(maxWidth: 1820) {
+              sizes(maxWidth: 1820, quality: 85) {
                 ...GatsbyImageSharpSizes_withWebp
               }
             }
@@ -147,7 +164,7 @@ export const query = graphql`
           type
           image {
             childImageSharp {
-              sizes(maxWidth: 3800) {
+              sizes(maxWidth: 3800, quality: 85) {
                 ...GatsbyImageSharpSizes_withWebp
               }
             }

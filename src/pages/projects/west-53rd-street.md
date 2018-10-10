@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: West 53rd Street
 type: residential

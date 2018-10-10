@@ -1,9 +1,5 @@
 ---
 isPublished: false
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test tile
 templateKey: project-page
 title: Good Apple
 type: commercial

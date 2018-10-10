@@ -1,9 +1,5 @@
 ---
 isPublished: false
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: 58th Street
 type: residential

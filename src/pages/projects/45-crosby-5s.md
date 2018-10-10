@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: ''
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: Crosby Loft I
 workDescription: ''

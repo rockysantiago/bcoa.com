@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: UWS Co-op
 workDescription: A pre-war apartment reno

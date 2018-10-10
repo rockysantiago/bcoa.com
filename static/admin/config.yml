@@ -172,7 +172,7 @@ collections:
         name: isPublished
         widget: boolean
         default: true
-      - label: SEO
+      - label: SEO Overrides
         name: seo
         widget: object
         required: false

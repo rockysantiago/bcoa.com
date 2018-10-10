@@ -21,7 +21,7 @@ export default ({ data }) => {
                       bp-2_paddingTop-17 bp-2_marginBottom-12">
         { pageFields.title }
       </h1>
-      <Img sizes={pageFields.heroImage.image.childImageSharp.sizes} />
+      <Img sizes={pageFields.heroImage.image.childImageSharp.sizes} alt={pageFields.heroImage.alt}/>
       <div className="marginBottom-6
                       bp-1_marginBottom-8
                       bp-2_marginBottom-15"
@@ -76,7 +76,7 @@ export const query = graphql`
         heroImage {
           image {
             childImageSharp {
-              sizes(maxWidth: 3800) {
+              sizes(maxWidth: 3800, quality: 75) {
                 ...GatsbyImageSharpSizes_withWebp
               }
             }

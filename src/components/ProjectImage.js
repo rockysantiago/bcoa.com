@@ -49,15 +49,15 @@ export default (props) => {
       ?
       <div className={`colSpan-12 grid-12col mobile-grid-none`}>
         <div className={`colSpan-${props.imageData.offsetWidth}`}></div>
-        <ProjectImage {...props} classes={classes} />
+        <ProjectImage {...props} classes={classes} alt={props.imageData.alt}/>
       </div>
       :
       props.index == 0
         ?
         <div className={`colSpan-12 grid-12col mobile-grid-none`}>
-          <ProjectImage {...props} classes={classes} />
+          <ProjectImage {...props} classes={classes} alt={props.imageData.alt}/>
         </div>
         :
-        <ProjectImage {...props} classes={classes} />
+        <ProjectImage {...props} classes={classes} alt={props.imageData.alt}/>
   )
 }

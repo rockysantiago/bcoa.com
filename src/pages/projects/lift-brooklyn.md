@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: Lift Next Level Floats
 workDescription: 'Boutique Sensory Deprivation Spa '

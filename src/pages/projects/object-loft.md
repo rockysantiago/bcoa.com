@@ -1,9 +1,5 @@
 ---
 isPublished: false
-seo:
-  description: Test description
-  image: /images/uploads/placeholder.jpg
-  title: Test title
 templateKey: project-page
 title: Object Loft
 workDescription: Work description text

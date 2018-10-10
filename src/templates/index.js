@@ -9,8 +9,8 @@ import smoothscroll from 'smoothscroll-polyfill';
 const FeaturedProjectImage = ({ image, className }) => {
   return (
     <Img
-    sizes={ image }
-    outerWrapperClassName={className}
+      sizes={ image }
+      outerWrapperClassName={className}
     />
   )
 }
@@ -30,10 +30,17 @@ const renderFeaturedProjects = (featuredProjects, projects) => {
           { project.frontmatter.featured.featuredImage.isPortrait ?
             <div className="nestedGrid-6-2">
               <div className="colSpan-1"></div>
-              <FeaturedProjectImage className="colSpan-4" image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
+              <FeaturedProjectImage 
+                className="colSpan-4" 
+                image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes }
+                alt={project.frontmatter.featured.featuredImage.alt}
+              />
             </div>
           :
-            <FeaturedProjectImage image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes } />
+            <FeaturedProjectImage 
+              image={ project.frontmatter.featured.featuredImage.image.childImageSharp.sizes }
+              alt={project.frontmatter.featured.featuredImage.alt} 
+            />
           }
             <div className="featured-info">
               <h1 className=" f-headline-d
@@ -176,7 +183,7 @@ export const query = graphql`
                 isPortrait
                 image {
                   childImageSharp {
-                    sizes(maxWidth: 1820) {
+                    sizes(maxWidth: 1820, quality: 75) {
                       ...GatsbyImageSharpSizes_withWebp
                     }
                   }

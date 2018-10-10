@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: SEO description
-  image: /images/uploads/placeholder.jpg
-  title: SEO title
 templateKey: project-page
 title: Boatbox
 type: commercial

@@ -85,7 +85,7 @@ export default class HeroSlider extends Component {
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
               </div>
-              <Img sizes={ slide.image.childImageSharp.sizes } />
+              <Img sizes={ slide.image.childImageSharp.sizes } alt={slide.image.alt}/>
             </div>
         })}
       </Slider>

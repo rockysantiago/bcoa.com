@@ -31,12 +31,12 @@ const getSchemaOrgJSONLD = ({
 
 const SEO = ({ postData, postImage }) => {
   const postMeta = postData || {};
-  const title = postMeta.seo.title || settings.siteTitle;
+  const title = postMeta.seo && postMeta.seo.title || settings.siteTitle;
   const description =
-    postMeta.seo.description || settings.siteDescription;
-  const image = `${settings.url}${postImage}` || settings.siteImage;
+    postMeta.seo && postMeta.seo.description || settings.siteDescription;
+  const image = postImage && `${settings.url}${postImage}` || settings.siteImage;
   const url = postMeta.slug
-    ? `${settings.url}${path.sep}${postMeta.slug}`
+    ? `${settings.url}${postMeta.slug}`
     : settings.url;
 
   const schemaOrgJSONLD = getSchemaOrgJSONLD({

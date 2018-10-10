@@ -1,9 +1,5 @@
 ---
 isPublished: true
-seo:
-  description: zhuhai description
-  image: /images/uploads/placeholder.jpg
-  title: zhuhai
 templateKey: project-page
 title: Zhuhai Exhibition Center
 type: commercial

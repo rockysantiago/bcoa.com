@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Img from 'gatsby-image';
 import ProjectImage from "../components/ProjectImage";
-import MediaQuery from 'react-responsive';
+// import MediaQuery from 'react-responsive';
 import SEO from "../components/SEO";
 
 export default ({ data }) => {
@@ -26,8 +26,12 @@ export default ({ data }) => {
           <h2 className='f-page-title'>{fields.title}</h2>
         </div>
       </div>
-      
-      <MediaQuery orientation={'portrait'} maxWidth={1224}>
+      <Img 
+        className="projectHero" 
+        sizes={ fields.heroImage.image.childImageSharp.sizes }
+        alt={fields.heroImage.alt} 
+      />
+      {/* <MediaQuery orientation={'portrait'} maxWidth={1224}>
         {(matches) => {
           if (matches && fields.heroImage && fields.heroImage.portraitImage) {
             return (
@@ -50,7 +54,7 @@ export default ({ data }) => {
             return null
           }
         }}
-      </MediaQuery>
+      </MediaQuery> */}
       
       <div className="container marginTop-5 bp-1_marginTop-10 bp-2_marginTop-30">
         <div className="bp-1_grid-12col">

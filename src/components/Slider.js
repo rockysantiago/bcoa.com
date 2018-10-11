@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
 import Img from 'gatsby-image';
-import MediaQuery from 'react-responsive'
+// import MediaQuery from 'react-responsive'
 import slugify from "slugify";
 import { icons } from "./Icons";
 
@@ -60,7 +60,8 @@ export default class HeroSlider extends Component {
                   <span>{i + 1}/{this.props.slides.length}</span>
                 </div>
               </div>
-              <MediaQuery orientation={'portrait'} maxWidth={1224}>
+              <Img sizes={ slide.image.childImageSharp.sizes } alt={slide.image.alt}/>
+              {/* <MediaQuery orientation={'portrait'} maxWidth={1224}>
                 {(matches) => {
                   if (matches && slide.portraitImage) {
                     return (
@@ -72,7 +73,7 @@ export default class HeroSlider extends Component {
                     )
                   }
                 }}
-              </MediaQuery>
+              </MediaQuery> */}
             </div>
             :
             <div className="slide c-white" key={`slide-${i}`}>
